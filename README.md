@@ -1,25 +1,26 @@
 # Título do Projeto
 
-`CURSO`
+'Análise e Desenvolvimento de Sistemas - PUC Minas'
 
-`DISCIPLINA`
+'Desenvolvimento de aplicação web front-end'
 
-`SEMESTRE`
+'1º Eixo/2024'
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo desse projeto, é desenvolver uma solução web de simplificado acesso e uso, para que qualquer pessoa que queira ir ao um evento, possa utilizar a ferramenta para se organizar, obter mais informações sobre esse evento e adiciona-lo a sua lista de desejo. Bem como, para que organizadores possam criar e divulgar eventos dentro da plataforma.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Alessandro Paulista Freitas 
+* André Santos Pedroso 
+* João Victor Kalil de Almeida Lapa 
+* Lucas Siqueira Ribeiro 
+* Mauricio Thales Alves de Azevedo Neto 
+* Tiago Salomé Rocha Silva 
+* Vitor Piana de Queiroz
 
 ## Orientador
 
-* Nome completo do professor
+* Joyce Christina de Paiva Carvalho
 
 # Documentação
 
