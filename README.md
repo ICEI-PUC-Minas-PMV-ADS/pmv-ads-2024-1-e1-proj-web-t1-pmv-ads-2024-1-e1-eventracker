@@ -1,10 +1,10 @@
 # Título do Projeto
 
-'Análise e Desenvolvimento de Sistemas - PUC Minas'
+' Análise e Desenvolvimento de Sistemas - PUC Minas '
 
-'Desenvolvimento de aplicação web front-end'
+' Desenvolvimento de aplicação web front-end '
 
-'1º Eixo/2024'
+' 1º Eixo/2024 '
 
 O objetivo desse projeto, é desenvolver uma solução web de simplificado acesso e uso, para que qualquer pessoa que queira ir ao um evento, possa utilizar a ferramenta para se organizar, obter mais informações sobre esse evento e adiciona-lo a sua lista de desejo. Bem como, para que organizadores possam criar e divulgar eventos dentro da plataforma.
 
