@@ -1,6 +1,36 @@
+***
+
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+[//]: # (Um planejamento organizado e eficiente seja na vida pessoal, profissional ou amorosa é)
+
+[//]: # (extremamente importante para que seja possível vivenciar todos os momentos com)
+
+[//]: # (qualidade. Isso não é diferente quando o assunto é cuidar do lazer ou participar de algo que)
+
+[//]: # (gostamos. Imagine esperar 1 semana, 1 mês ou até 1 ano para ir naquele show, peça ou)
+
+[//]: # (evento a muito aguardado, mas descobre que ele ocorrerá dias antes do previsto, ou que o)
+
+[//]: # (local do evento não é de fácil acesso e por isso não poderá comparecer.)
+
+[//]: # ()
+[//]: # (Esse tipo de erro de planejamento, em grande escala, pode afetar não só a qualidade de)
+
+[//]: # (vida das pessoas, mas também o retorno que os organizadores e incentivadores recebem)
+
+[//]: # (do investimento feito, o que pode causar a queda do engajamento para novos eventos.)
+
+[//]: # ()
+[//]: # (De tal modo, faz-se necessário um meio que auxilie nesse planejamento, o que promoverá)
+
+[//]: # (mais qualidade de vida e economia de tempo para quem busca participar e por outro lado)
+
+[//]: # (aumenta a captação e as chances de maiores investimentos por parte dos promovedores)
+
+[//]: # (dessas atividades)
+
+***
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]

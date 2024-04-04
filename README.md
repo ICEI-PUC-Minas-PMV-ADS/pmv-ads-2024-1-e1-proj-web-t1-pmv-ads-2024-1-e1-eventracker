@@ -1,13 +1,13 @@
+***
 # EvenTracker
 
-"Análise e Desenvolvimento de Sistemas - PUC Minas"
+> Análise e Desenvolvimento de Sistemas - PUC Minas
 
-"Desenvolvimento de aplicação web front-end"
+## Desenvolvimento de aplicação web front-end
 
-"1º Eixo/2024"
-
-O objetivo desse projeto, é desenvolver uma solução web de simplificado acesso e uso, para que qualquer pessoa que queira ir ao um evento, possa utilizar a ferramenta para se organizar, obter mais informações sobre esse evento e adiciona-lo a sua lista de desejo. Bem como, para que organizadores possam criar e divulgar eventos dentro da plataforma.
-
+### 1º Semestre - 2024.1
+> Este projeto visa confeccionar uma aplicação web que agregue informações sobre eventos ao público consoante o seu interesse e proporcione uma nova forma para que usuários organizem e divulguem suas próprias convenções, sejam elas de cunho social, cultural, corporativo, educacional, acadêmico, entre outras diversificadas classificações.
+***
 ## Integrantes
 
 * Alessandro Paulista Freitas 
@@ -21,9 +21,9 @@ O objetivo desse projeto, é desenvolver uma solução web de simplificado acess
 ## Orientador
 
 * Joyce Christina de Paiva Carvalho
+***
 
 # Documentação
-
 <ol>
 <li><a href="documentos/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 <li><a href="documentos/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
@@ -33,17 +33,22 @@ O objetivo desse projeto, é desenvolver uma solução web de simplificado acess
 <li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="documentos/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="documentos/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
+<li><a href="documentos/09-Referências Bibliográficas.md"> Referências Bibliográficas</a></li>
 </ol>
 
-# Hospedagem
+***
 
+# Hospedagem
 * Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
 
-# Código-Fonte
+***
 
+# Código-Fonte
 * <a href="codigo-fonte/README.md">Código Fonte</a>
 
-# Apresentação
+***
 
+# Apresentação
 * <a href="apresentacao/README.md">Apresentação do Projeto</a>
+
+***
