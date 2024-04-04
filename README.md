@@ -1,4 +1,3 @@
-***
 # EvenTracker
 
 > Análise e Desenvolvimento de Sistemas - PUC Minas
@@ -7,7 +6,7 @@
 
 ### 1º Semestre - 2024.1
 > Este projeto visa confeccionar uma aplicação web que agregue informações sobre eventos ao público consoante o seu interesse e proporcione uma nova forma para que usuários organizem e divulguem suas próprias convenções, sejam elas de cunho social, cultural, corporativo, educacional, acadêmico, entre outras diversificadas classificações.
-***
+
 ## Integrantes
 
 * Alessandro Paulista Freitas 
@@ -21,7 +20,6 @@
 ## Orientador
 
 * Joyce Christina de Paiva Carvalho
-***
 
 # Documentação
 <ol>
@@ -36,19 +34,13 @@
 <li><a href="documentos/09-Referências Bibliográficas.md"> Referências Bibliográficas</a></li>
 </ol>
 
-***
-
 # Hospedagem
 * Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
 
-***
 
 # Código-Fonte
 * <a href="codigo-fonte/README.md">Código Fonte</a>
 
-***
 
 # Apresentação
 * <a href="apresentacao/README.md">Apresentação do Projeto</a>
-
-***

@@ -1,5 +1,4 @@
 # Introdução
-***
 Já se faz presente no imaginário popular a importância da promoção e manutenção da sociabilidade
 e os benefícios causados por tal fator, portanto, seja na vida pessoal, profissional
 ou acadêmica, é de suma importância para a manutenção do estado de bem-estar social que sejam promovidos
@@ -25,7 +24,6 @@ disponibilizados a população, mas também irá proporcionar uma meio para que 
 publiquem suas convenções conforme as especificidades de cada público a ser alcançado.
 
 ## Problema
-***
 O problema que esse projeto visa solucionar é suprir a falta de uma ferramenta eficiente dedicada
 a auxiliar as pessoas no planejamento de seu momento de xxx, alinhado com
 seu interesse e gosto. A carência dessa solução resulta em planejamentos
@@ -36,7 +34,6 @@ investimento em eventos locais e comunitários.
 
 
 ## Objetivos
-***
 Esse projeto tem como principal objetivo oferecer aos usuários uma plataforma intuitiva e
 eficiente para organizar e acompanhar eventos de seu interesse. O sistema permitirá aos
 usuários explorarem uma ampla variedade de eventos em um único lugar.
@@ -49,7 +46,6 @@ do cenário de eventos locais, enriquecendo a experiência para ambos os lados.
 
 
 ## Justificativa
-***
 A presença de eventos faz parte do cotidiano de muitas pessoas, a sua realização bem
 planejada promove a participação de públicos diversos, movimentando a economia local,
 gerando empregos para os habitantes locais e renda para os comerciantes, além de
@@ -74,7 +70,6 @@ ajuda o mercado de trabalho e a economia da região que sedia o evento.
 
 
 ## Público-Alvo
-***
 À medida que a vida moderna se torna cada vez mais agitada, indivíduos de diversos perfis
 enfrentam desafios singulares ao tentarem conciliar suas agendas ocupadas com a busca
 por experiências significativas.
