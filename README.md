@@ -5,7 +5,7 @@
 ## Desenvolvimento de aplicação web front-end
 
 ### 1º Semestre - 2024.1
-> Este projeto visa confeccionar uma aplicação web que agregue informações sobre eventos ao público consoante o seu interesse e proporcione uma nova forma para que usuários organizem e divulguem suas próprias convenções, sejam elas de cunho social, cultural, corporativo, educacional, acadêmico, entre outras diversificadas classificações.
+> Este projeto visa realizar a confecção de uma aplicação web que agregue informações sobre eventos ao público consoante o seu interesse e proporcione uma nova forma para que usuários organizem e divulguem suas próprias convenções, sejam elas de cunho social, cultural, corporativo, educacional, acadêmico, entre outras diversificadas classificações.
 
 ## Integrantes
 
