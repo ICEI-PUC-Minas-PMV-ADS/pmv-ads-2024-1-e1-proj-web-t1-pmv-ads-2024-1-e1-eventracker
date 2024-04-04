@@ -25,55 +25,73 @@ publiquem suas convenções conforme as especificidades de cada público a ser a
 
 ## Problema
 O problema que esse projeto visa solucionar é suprir a falta de uma ferramenta eficiente dedicada
-a auxiliar as pessoas no planejamento de seu momento de xxx, alinhado com
+a auxiliar as pessoas no planejamento de seu momento de socialização, alinhado com
 seu interesse e gosto. A carência dessa solução resulta em planejamentos
 equivocados, podendo causar a perda de um evento relevante para aquele indivíduo, o
 desperdício de tempo, recursos, a dificuldade de gerenciar a agenda, a dificuldade em
 conectar pessoas com gostos compatíveis e pode afetar até o
-investimento em eventos locais e comunitários.
+investimento em eventos locais.
 
 
 ## Objetivos
 Esse projeto tem como principal objetivo oferecer aos usuários uma plataforma intuitiva e
-eficiente para organizar e acompanhar eventos de seu interesse. O sistema permitirá aos
-usuários explorarem uma ampla variedade de eventos em um único lugar.
+eficiente para organizar e acompanhar eventos de seu interesse. O sistema terá como função permitir aos
+que os suários explorem uma ampla variedade de eventos em um único lugar.
 
 Além disso, a aplicação também visa auxiliar organizadores de eventos, fornecendo-lhes
 ferramentas para gerenciar suas atividades com eficácia e, consequentemente, aumentar
-suas chances de sucesso por promoverem seus eventos com maior precisão. Dessa forma,
+suas chances de sucesso por promoverem seus eventos com maior precisão e alcance. Dessa forma,
 a aplicação facilitará não apenas a vida do usuário final, mas contribuirá para a dinamização
 do cenário de eventos locais, enriquecendo a experiência para ambos os lados.
 
 
 ## Justificativa
-A presença de eventos faz parte do cotidiano de muitas pessoas, a sua realização bem
+A presença de eventos faz parte do cotidiano popular, a sua realização bem
 planejada promove a participação de públicos diversos, movimentando a economia local,
-gerando empregos para os habitantes locais e renda para os comerciantes, além de
+gerando empregos para os habitantes e renda para os comerciantes, além de
 trazerem um bom retorno a cidade quando bem recebido pelo público, “os eventos
 realizados no Mineirão geraram impacto de R$ 1,16 bilhão na economia de Minas Gerais em 2022.
 Só em Belo Horizonte, foram R$ 1,04 bilhão.” (Rafaela Mansur, 2023, G1 Minas Gerais, parágrafo 1)
 
 A criação e promoção de novos eventos também ajuda no reconhecimento da cidade como
 um polo de festivais, shows e eventos de forma geral. Desta forma, aumentando a chance
-de atrair mais turistas, pessoas interessadas em ter novas experiência e fazer novas
+de atrair mais turistas, pessoas interessadas em ter novas experiências, fazer novas
 conexões e o incentivo a novos investidores.
 
 Tendo isto em mente, uma solução que organize estes eventos e possibilite uma fácil
-visualização deles é vital para que essa indústria se desenvolva cada vez mais. Entre outras
-razões, podemos ressaltar também que, a criação de uma aplicação que registra eventos,
+visualização e disseminação deles é vital para que essa indústria se desenvolva cada vez mais.
+Entre outras razões, podemos ressaltar também que, a criação de uma aplicação que registra eventos,
 os organiza, permite sua fácil visualização e possibilita uma comunicação entre potenciais
-participantes com os produtores de evento, é de suma importância para a execução de um
-festival bem-sucedido. Viabilizar, de maneira eficaz, novas experiências de vida e conexões
-compatíveis para as pessoas e maior engajamento e aprovação do público para
+participantes com os mantenedores do evento é de suma importância para a execução de um
+festival bem-sucedido. Viabilizar, de maneira eficaz, novas experiências de vida, conexões interpessoais
+compatíveis, maior engajamento e aprovação do público para
 organizadores e investidores, não só melhora a qualidade de vida das pessoas, como
 ajuda o mercado de trabalho e a economia da região que sedia o evento.
 
 
 ## Público-Alvo
 À medida que a vida moderna se torna cada vez mais agitada, indivíduos de diversos perfis
-enfrentam desafios singulares ao tentarem conciliar suas agendas ocupadas com a busca
+enfrentam desafios singulares ao tentarem conciliar suas agendas com a busca
 por experiências significativas.
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+O públicos-alvo inclui profissionais inseridos em ambientes corporativos
+dinâmicos, os quais, com agendas lotadas, buscam estratégias para otimizar seu tempo.
+Para isso, requerem um sistema de agendamento intuitivo, integrado facilmente à rotina e
+que permita o gerenciamento eficaz de eventos. Ademais, notificações automáticas são
+imprescindíveis para lembrá-los de compromissos iminentes. Dada sua familiaridade com
+aplicativos de calendário, preferem soluções simplificadas e diretas.
+
+Paralelamente, entusiastas de eventos culturais, constantemente à procura de novas
+experiências, almejam recomendações personalizadas para descobrir eventos relevantes.
+Detalhes minuciosos, como programação e localização são cruciais para planejar suas
+participações. Com experiência em aplicativos de recomendação de eventos, anseiam por
+interfaces intuitivas e recursos de personalização em suas experiências tecnológicas.
+
+Por fim, famílias, com diversidade de idades e interesses, necessitam de um sistema que
+possibilite a seleção de eventos adequados para todos os membros. Um filtro por faixa
+etária e informações sobre acessibilidade são essenciais. Apresentando alguma
+familiaridade com aplicativos de planejamento familiar, preferem soluções intuitivas e
+amigáveis, simplificando o processo de organização de eventos, enquanto priorizam uma
+experiência tranquila e descomplicada em seus dispositivos tecnológicos.
+
 
