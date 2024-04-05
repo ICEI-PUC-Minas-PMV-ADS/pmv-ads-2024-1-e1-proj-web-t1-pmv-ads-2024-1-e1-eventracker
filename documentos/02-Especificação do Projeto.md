@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 1: Organizador do Evento </th>
+<th colspan="2">Perfil 1: Organizador</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -33,7 +33,7 @@ listados.
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 2: Participante do Evento </th>
+<th colspan="2">Perfil 2: Participante</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>

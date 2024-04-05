@@ -7,11 +7,11 @@ variados eventos em diversas esferas da vida cotidiana.
 Deste modo, um planejamento organizado e eficiente é extremamente importante 
 para possibilitar que vivenciemos todos os momentos com o máximo de qualidade
 possível. Isso não é diferente quando o assunto é cuidar do lazer ou participar
-de algo que gostamos, por exemplo, imagine esperar uma semana, um mês ou até um
+de algo, por exemplo, imagine esperar uma semana, um mês ou até um
 ano para comparecer a um show, peça ou convenção aguardada e não se recordar da
 data de realização de tal evento em sua véspera. Isto posto, também é 
 possível imaginar o quão decepcionante pode ser perder a oportunidade de atender a
-uma convenção de seu interesse por não ficar ciente da realização da mesma.x    
+uma convenção de seu interesse por não ficar ciente da realização da mesma.    
 
 Esse tipo de erro de planejamento, em grande escala, pode afetar não só a qualidade
 de vida das pessoas, mas também o retorno que os mantenedores de eventos
