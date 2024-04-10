@@ -34,6 +34,8 @@ O quadro kanban do grupo no GitHub está disponível no link [https://github.com
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/114acaec-7919-4622-be15-0733f747e2e4)
 
+Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
+
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
