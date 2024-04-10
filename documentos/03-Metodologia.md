@@ -30,7 +30,9 @@ Desta forma, a equipe está organizada da seguinte maneira:
 - In progress: Listagem da starefas iniciadas. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues aos usuários.
 
-ADD link do Kanban
+O quadro kanban do grupo no GitHub está disponível no link [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002) e é apresentado, no estado atual, na figura abaixo:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/114acaec-7919-4622-be15-0733f747e2e4)
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
