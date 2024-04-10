@@ -59,7 +59,13 @@ Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas empregadas no projeto são:
+
+- Editor de código.
+- Ferramentas de comunicação
+- Ferramentas de desenho de tela (_wireframing_)
+
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se [ descrição do wireframe ]
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
