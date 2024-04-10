@@ -67,7 +67,7 @@ As ferramentas empregadas no projeto são:
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se [ descrição do wireframe ]
 
-Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Bootstrap(?). Seus respectivos propósitos são apresentada na tabela que se segue:
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Bootstrap(?). Seus respectivos propósitos são apresentados na tabela que se segue:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
