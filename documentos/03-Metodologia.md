@@ -29,7 +29,8 @@ As tarefas do projeto estão sendo sendo organizadas e distribuídas através do
 
 O quadro kanban do grupo no GitHub está disponível no link [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002) e é apresentado, no estado atual, na figura abaixo:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/b443fe67-897e-4f03-9141-8a9f28ef3f13)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/12a9a3e0-7131-4761-958e-6b5673a7a8a9)
+
 
 Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
