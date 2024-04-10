@@ -14,11 +14,6 @@ Desta forma, a equipe está organizada da seguinte maneira:
 - Equipe de Desenvolvimento: André Pedroso, Lucas Siqueira, João Victor
 - Equipe de Design: André Pedroso, Lucas Siqueira, João Victor
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
 As tarefas do projeto estão sendo sendo organizadas e distribuídas através do GitHub Project, cujas estruturas são:
@@ -33,13 +28,6 @@ O quadro kanban do grupo no GitHub está disponível no link [https://github.com
 
 
 Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
-
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
