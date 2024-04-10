@@ -26,9 +26,9 @@ Desta forma, a equipe está organizada da seguinte maneira:
 
 [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- In progress: Listagem da starefas iniciadas. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues aos usuários.
+- To Do: essa lista representa o Sprint Backlog, isto é, o sprint que está sendo trabalhado
+- In progress: listagem das tarefas iniciadas. 
+- Done: nessa lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues aos usuários.
 
 O quadro kanban do grupo no GitHub está disponível no link [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002) e é apresentado, no estado atual, na figura abaixo:
 
