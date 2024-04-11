@@ -18,7 +18,7 @@ realização de eventos
 <td>
 1 - Meio eficiente de veiculação e realização de marketing do evento,
 visando público compatível. <br>
-2 - Estimar lotação do evento de acordo com o número de
+2 - Estimar lotação do evento de conforme o número de
 interessados. <br>
 3 - Registrar dados de interessados e emitir tickets para eventos. <br>
 4 - Formas de engajar o público para comparecer aos eventos
@@ -37,20 +37,18 @@ listados.
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Estabelecimentos ou indivíduos que busquem registrar e divulgar a
-realização de eventos
+<td width="600px"> Interessados em comparecer a eventos
 </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1 - Meio eficiente de veiculação e realização de marketing do evento,
-visando público compatível. <br>
-2 - Estimar lotação do evento conforme o número de
-interessados. <br>
-3 - Registrar dados de interessados e emitir tickets para eventos. <br>
-4 - Formas de engajar o público para comparecer aos eventos
-listados
+1 - Fácil acesso à informação. <br>
+2 - Verificar acessibilidade de acesso por dados do evento. <br>
+3 - Oportunidades para socializar ou realizar networking <br>
+4 - Verificar opiniões sobre edições de eventos anteriores por meio das opiniões de
+outros usuários <br>
+5 - Receber indicações e notificações personalizadas dos eventos
 
 </td>
 </tr>
