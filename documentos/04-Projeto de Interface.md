@@ -3,14 +3,10 @@
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário na aplicação desenvolvida nesse projeto. Para visualiza-lo acesse o link a seguir: [https://www.figma.com/file/PKYDUEdWUNMlIp51B2VLpY/USERFLOW---EVENTRACKER?type=whiteboard&node-id=0%3A1&t=3MFmw1LvsrkfUc0X-1](https://www.figma.com/file/PKYDUEdWUNMlIp51B2VLpY/USERFLOW---EVENTRACKER?type=whiteboard&node-id=0%3A1&t=3MFmw1LvsrkfUc0X-1)
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
+<img width="3334" alt="USERFLOW - EVENTRACKER" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/4e1ce004-ba9f-43e2-b8c3-f732a9b5a16b">
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ## Protótipo
 
