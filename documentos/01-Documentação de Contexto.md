@@ -1,36 +1,32 @@
 # Introdução
 Já se faz presente no imaginário popular a importância da promoção e manutenção da sociabilidade
-e os benefícios causados por tal fator, portanto, seja na vida pessoal, profissional
-ou acadêmica, é de suma importância para a manutenção do estado de bem-estar social que sejam promovidos
-variados eventos em diversas esferas da vida cotidiana.
+e os benefícios causados por tal fator, portanto é de suma importância para a manutenção do estado de bem-estar social
+que sejam promovidos variados eventos em diversas esferas da vida cotidiana.
 
 Deste modo, um planejamento organizado e eficiente é extremamente importante 
-para possibilitar que vivenciemos todos os momentos com o máximo de qualidade
-possível. Isso não é diferente quando o assunto é cuidar do lazer ou participar
-de algo, por exemplo, imagine esperar uma semana, um mês ou até um
-ano para comparecer a um show, peça ou convenção aguardada e não se recordar da
-data de realização de tal evento em sua véspera. Isto posto, também é 
-possível imaginar o quão decepcionante pode ser perder a oportunidade de atender a
-uma convenção de seu interesse por não ficar ciente da realização da mesma.    
+para possibilitar que todos os eventos sejam vivenciados e realizados com o máximo de qualidade
+possível. Isto posto, é necessário promoção não só a facilidade de acessar informações sobre eventos a serem 
+atendidos, mas também uma forma de cadastrar e divulgar os mesmos.     
 
-Esse tipo de erro de planejamento, em grande escala, pode afetar não só a qualidade
+Erros de planejamento, em grande escala, podem afetar não só a qualidade
 de vida das pessoas, mas também o retorno que os mantenedores de eventos
-recebem do investimento feito, o que pode causar a queda de incentivo para promoção de novos eventos.
+recebem do investimento feito, o que pode ocasionar em queda de incentivos para promoção de novos eventos.
 
-De tal modo, faz-se mister que seja criado um meio que auxilie nesse planejamento, o que ocasionará 
+De tal modo, faz-se mister que seja criado um meio que auxilie nesse planejamento, o que ocasionará
 maior qualidade de vida ao corpo social uma vez que será promovida a sociabilidade em diversas escalas
-do cotidiano. Isto será realizado através da confecção de uma aplicação web que irá agregar não só dados acerca de eventos 
+do cotidiano, também servindo como forma de organização de mantenedores e apoiadores de eventos.
+Isto será realizado através da confecção de uma aplicação web que irá agregar não só dados acerca de eventos 
 disponibilizados a população, mas também irá proporcionar uma meio para que organizadores de eventos
 publiquem suas convenções conforme as especificidades de cada público a ser alcançado.
 
 ## Problema
 O problema que esse projeto visa solucionar é suprir a falta de uma ferramenta eficiente dedicada
-a auxiliar as pessoas no planejamento de seu momento de socialização, alinhado com
-seu interesse e gosto. A carência dessa solução resulta em planejamentos
+a auxiliar as pessoas no planejamento de seu momento de socialização alinhado com
+seu interesse e fornecer um meio de cadastro e divulgação acessível de convenções promovidas pelo público. 
+A carência dessa solução resulta em planejamentos
 equivocados, podendo causar a perda de um evento relevante para aquele indivíduo, o
 desperdício de tempo, recursos, a dificuldade de gerenciar a agenda, a dificuldade em
-conectar pessoas com gostos compatíveis e pode afetar até o
-investimento em eventos locais.
+conectar pessoas com gostos compatíveis, afetando também o investimento em eventos locais.
 
 
 ## Objetivos
@@ -49,9 +45,9 @@ do cenário de eventos locais, enriquecendo a experiência para ambos os lados.
 A presença de eventos faz parte do cotidiano popular, a sua realização bem
 planejada promove a participação de públicos diversos, movimentando a economia local,
 gerando empregos para os habitantes e renda para os comerciantes, além de
-trazerem um bom retorno a cidade quando bem recebido pelo público, “os eventos
-realizados no Mineirão geraram impacto de R$ 1,16 bilhão na economia de Minas Gerais em 2022.
-Só em Belo Horizonte, foram R$ 1,04 bilhão.” (Rafaela Mansur, 2023, G1 Minas Gerais, parágrafo 1)
+trazerem um bom retorno a cidade quando bem recebido pelo público. Temos como um exemplo os eventos
+realizados no Mineirão que geraram impacto de R$ 1,16 bilhão na economia de Minas Gerais em 2022,
+sendo só em Belo Horizonte, R$ 1,04 bilhão.
 
 A criação e promoção de novos eventos também ajuda no reconhecimento da cidade como
 um polo de festivais, shows e eventos de forma geral. Desta forma, aumentando a chance
@@ -87,11 +83,8 @@ Detalhes minuciosos, como programação e localização são cruciais para plane
 participações. Com experiência em aplicativos de recomendação de eventos, anseiam por
 interfaces intuitivas e recursos de personalização em suas experiências tecnológicas.
 
-Por fim, famílias, com diversidade de idades e interesses, necessitam de um sistema que
-possibilite a seleção de eventos adequados para todos os membros. Um filtro por faixa
-etária e informações sobre acessibilidade são essenciais. Apresentando alguma
-familiaridade com aplicativos de planejamento familiar, preferem soluções intuitivas e
-amigáveis, simplificando o processo de organização de eventos, enquanto priorizam uma
-experiência tranquila e descomplicada em seus dispositivos tecnológicos.
+Por fim, indivíduos ou corporações interessadas em cadastrar seus eventos de forma centralizada,
+alcançando assim um maior público através da divulgação passiva promovida pela plataforma uma vez
+que as suas convenções seriam ofertadas para o público interessado no tipo de evento ofertado.
 
 
