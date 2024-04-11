@@ -7,6 +7,7 @@ O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 
 <img width="3334" alt="USERFLOW - EVENTRACKER" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/4e1ce004-ba9f-43e2-b8c3-f732a9b5a16b">
 
+Figura 1 - Fluxograma de usuário
 
 ## Protótipo
 
