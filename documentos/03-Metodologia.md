@@ -63,7 +63,7 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Boo
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/README.md |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker |
-| Projeto de Interface                | Bootstrap(?)                       | http://....                            |
+| Projeto de Interface                | Figma                              | http://www.figma.com/team_invite/redeem/PQWJS4rufnAxX7KjSkSz45 |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002 |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
