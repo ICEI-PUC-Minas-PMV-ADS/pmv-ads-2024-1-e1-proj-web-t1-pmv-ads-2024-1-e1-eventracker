@@ -5,7 +5,8 @@
 
 O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário na aplicação desenvolvida nesse projeto. Para visualiza-lo acesse o link a seguir: [https://www.figma.com/file/PKYDUEdWUNMlIp51B2VLpY/USERFLOW---EVENTRACKER?type=whiteboard&node-id=0%3A1&t=3MFmw1LvsrkfUc0X-1](https://www.figma.com/file/PKYDUEdWUNMlIp51B2VLpY/USERFLOW---EVENTRACKER?type=whiteboard&node-id=0%3A1&t=3MFmw1LvsrkfUc0X-1)
 
-<img width="3334" alt="USERFLOW - EVENTRACKER" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/4e1ce004-ba9f-43e2-b8c3-f732a9b5a16b">
+<img width="3334" alt="USERFLOW - EVENTRACKER" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/e3834fcd-c164-4d59-a5a7-42b9d2a6cdd5">
+
 
 Figura 1 - Fluxograma de usuário
 
