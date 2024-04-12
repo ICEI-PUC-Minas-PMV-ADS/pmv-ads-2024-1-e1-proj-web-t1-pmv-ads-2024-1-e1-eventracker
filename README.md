@@ -13,9 +13,8 @@
 * André Santos Pedroso 
 * João Victor Kalil de Almeida Lapa 
 * Lucas Siqueira Ribeiro 
-* Mauricio Thales Alves de Azevedo Neto 
-* Tiago Salomé Rocha Silva 
-* Vitor Piana de Queiroz
+
+
 
 ## Orientador
 
