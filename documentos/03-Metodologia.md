@@ -52,13 +52,13 @@ O quadro kanban do grupo no GitHub está disponível no link [https://github.com
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
+- Editor de código: GitHub.
 - Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Ferramentas de desenho de tela (_wireframing_) : Figma
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se [ descrição do wireframe ]
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se o Figma dada a sua interface intuitiva para criação e por melhor captar as necessidades do projeto quanto a sua representação.
 
-Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Bootstrap(?). Seus respectivos propósitos são apresentados na tabela que se segue:
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma. Seus respectivos propósitos são apresentados na tabela que se segue:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
@@ -71,4 +71,4 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Boo
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte).
