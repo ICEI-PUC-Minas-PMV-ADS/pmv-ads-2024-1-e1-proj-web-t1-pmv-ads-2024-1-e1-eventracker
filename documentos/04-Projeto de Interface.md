@@ -117,6 +117,8 @@ A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website f
   ### Tela de Detalhe do Evento 
   A tela Detalhes do Evento possibilitará que o usuário verifique informações mais completas do evento, bem como o nome do evento, as imagens publicadas pelo organizador, o horário e data de realização, o local onde o evento ocorrerá, a descrição formada pelo próprio organizador, as atrações que comparecerão, se o evento fornece estrutura e apoio para PCD, o nome e contato do organizador e por fim o número de pessoas com presença confirmada. Além de permitir que o usuário adicione o evento a sua lista de favoritos e confirme sua presença.
 
+Conforme a Figura 9, terá os seguintes componentes:
+
  <em>· Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website;
  
  <em>· Detalhes do evento</em>: o usuário poderá verificar informações importantes para o seu planejamento bem como o montante de pessoas que comparecerão;
@@ -135,6 +137,8 @@ A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website f
 
   ### Tela de Cadastro de Eventos
   A Tela de Cadastro de eventos é destinada a criação que o usuário/Organizador fará de novos eventos. Nela terá um formulário em que o usuário irá informar: o nome do evento, as atrações do evento, a quais categorias esse evento se enquadra, a descrição desse evento, o local de realização, o horário de realização, qual tipo de apoio e estrutura o evento oferece a pessoa PCD, o nome do Organizador seja pessoa ou empresa, dados de contato do organizador e poderá adicionar imagens do evento, como imagem de divulgação, etc.
+
+  Conforme a Figura 10, terá os seguintes componentes:
 
  <em>· Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website;
 
