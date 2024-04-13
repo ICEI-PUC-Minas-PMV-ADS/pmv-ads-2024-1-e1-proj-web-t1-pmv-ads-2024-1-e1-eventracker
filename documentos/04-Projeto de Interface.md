@@ -9,7 +9,7 @@ O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 
 
 <figure>
-  <img src="img/Group 17.png"> <figcaption>Figura 3 -Demonstração do Fluxo do Usuário </figcaption>
+  <img src="img/Group 17.png.png"> <figcaption>Figura 3 -Demonstração do Fluxo do Usuário </figcaption>
 </figure>
 
 
@@ -80,20 +80,20 @@ A tela de cadastro do usuário solicitará as informações que são necessária
 
  <em>· Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website; 
 
-  <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e aqueles quais ele confirmou presença;
+  <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem;
   
- <em>· Barra de pesquisa</em>: aqui ele poderá pesquisar por eventos com um nome específico;
+ <em>· Barra de pesquisa</em>: aqui o usuário poderá pesquisar por eventos específicos;
  
   <em>· Botão Novo Evento</em>: ao realizar o click aqui, o usuário/organizador será direcionado a tela de formulário para criação de um novo evento;
 
    <em>· Botão Categorias</em>: aqui serão dispostas as categorias de divisão de eventos por gênero, bem como a categoria que mostra todos os eventos, os eventos favoritos e com presença confirmada, e categoria "Meus eventos" que trará os eventos criados pelo usuário;
 
-  <em>· Eventos</em>: o usuário poderá pré-visualizar informações do evento como nome, imagem adicionada pelo organizar e uma pequena descrição. Ao selecionar o evento desejado, o usuário é encaminhado para a tela de detalhes do evento;
+  <em>· Botão Evento</em>: o usuário poderá pré-visualizar informações do evento como nome, imagem adicionada pelo organizador e uma pequena descrição. Ao selecionar o evento desejado, o usuário é encaminhado para a tela de detalhes do evento;
 
   <em>·Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução;
 
 <figure>
-  <img src="img/paginaprincipal.png"> <figcaption>Figura 7 -Tela principal </figcaption>
+  <img src="img/telaprincipal2.png"> <figcaption>Figura 7 -Tela principal </figcaption>
 </figure>
 
 ### Sobre Nós
@@ -104,13 +104,15 @@ A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website f
 
 
    <em>· Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website;
+
+  <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem;
    
    <em>· Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução;
  
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
 
 <figure>
-  <img src="img/sobrenos.png"> <figcaption>Figura 8 -Sobre nós </figcaption>
+  <img src="img/sobrenos2.png"> <figcaption>Figura 8 -Sobre nós </figcaption>
 </figure>
 
 
@@ -120,6 +122,10 @@ A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website f
 Conforme a Figura 9, terá os seguintes componentes:
 
  <em>· Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website;
+
+<em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem;
+
+<em>· Barra de pesquisa</em>: aqui o usuário poderá pesquisar por eventos específicos;
  
  <em>· Detalhes do evento</em>: o usuário poderá verificar informações importantes para o seu planejamento bem como o montante de pessoas que comparecerão;
 
@@ -132,7 +138,7 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
  
 <figure>
-  <img src="img/detalhesdoevento.png"> <figcaption>Figura 9 -Tela de detalhes do eventos </figcaption>
+  <img src="img/teladetalhe2.png"> <figcaption>Figura 9 -Tela de detalhes do eventos </figcaption>
 </figure>
 
   ### Tela de Cadastro de Eventos
@@ -141,6 +147,8 @@ Conforme a Figura 9, terá os seguintes componentes:
   Conforme a Figura 10, terá os seguintes componentes:
 
  <em>· Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website;
+
+ <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem;
 
 <em>· Cadastro de novo evento:</em> será um formulário que deverá ser preenchido pelo usuário informando os dados: nome do evento, as atrações do evento, a quais categorias esse evento se enquadra, a descrição desse evento, o local de realização, o horário de realização, qual tipo de apoio e estrutura o evento oferece a pessoa PCD, o nome do Organizador seja pessoa ou empresa, dados de contato do organizador e poderá adicionar imagens do evento, como imagem de divulgação, etc;
 
@@ -151,5 +159,58 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
   
 <figure>
-  <img src="img/cadastronovaconta.png"> <figcaption>Figura 10 -Tela de cadastro de novo evento </figcaption>
+  <img src="img/telacadastroevento2.png"> <figcaption>Figura 10 -Tela de cadastro de novo evento </figcaption>
+</figure>
+
+ ### Tela de Menu 
+  A Tela de Menu do website é destinada a auxiliar na navegação do usuário por funcionalidades especificas da solução.
+
+  Conforme a Figura 11, terá os seguintes componentes:
+
+ <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem;
+ 
+ <em>· Botão Home</em>: ao realizar o click, o usuário será levado a tela da Página Principal do website;
+
+ <em>· Botão Cadastrar Novo Evento</em>: ao clicar nesse botão, o usuário será levado a Tela de cadastro de novo evento;
+
+ <em>· Botão Sobre Nós</em>: aqui o usuário será direcionado a tela Sobre Nós;
+
+ <em>· Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução;
+ 
+  <em>· Voltar:</em> permite que o usuário retorne a página anterior;
+  
+<figure>
+  <img src="img/menusite.jpeg"> <figcaption>Figura 11 -Tela de menu do site </figcaption>
+</figure>
+
+ ### Tela de Notificações
+  A Tela de Notificação será responsável por apresentar as notificações dos eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem.
+
+  Conforme a Figura 12, terá os seguintes componentes:
+
+  <em>· Notificações</em>: aqui serão apresentadas ao usuário a imagem do evento, o nome e uma mensagem indicando a data e hora de realização do evento;
+ 
+  <em>· Voltar:</em> permite que o usuário retorne a página anterior;
+  
+<figure>
+  <img src="img/telanotificacao.jpeg"> <figcaption>Figura 12 -Tela de Notificações de eventos </figcaption>
+</figure>
+
+ ### Tela de Pesquisa de eventos 
+  A Tela de Pesquisa de eventos será responsável por trazer os eventos correspondentes com as palavras digitadas pelo usuário na barra de pesquisa.
+
+  Conforme a Figura 13, terá os seguintes componentes:
+
+<em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença marcada pelo usuário que estão perto de ocorrerem;
+
+<em>· Barra de pesquisa</em>: aqui o usuário poderá pesquisar por eventos específicos;
+
+<em>· Resultados da pesquisa</em>: serão apresentados os eventos que correspondem as características pesquisadas pelo usuário, mostrando também a imagem do evento e sua breve descrição. Ao clicar no evento desejado o usuário será levado a tela de Detalhes do Evento.
+  
+ <em>· Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução;
+ 
+  <em>· Voltar:</em> permite que o usuário retorne a página anterior;
+  
+<figure>
+  <img src="img/barradepesquisa.jpeg"> <figcaption>Figura 13 -Tela de Pesquisa de eventos </figcaption>
 </figure>
