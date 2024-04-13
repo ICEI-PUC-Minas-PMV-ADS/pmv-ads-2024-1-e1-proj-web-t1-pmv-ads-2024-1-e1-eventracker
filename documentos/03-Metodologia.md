@@ -53,7 +53,6 @@ O quadro kanban do grupo no GitHub está disponível no link [https://github.com
 As ferramentas empregadas no projeto são:
 
 - Editor de código: GitHub.
-- Ferramentas de comunicação
 - Ferramentas de desenho de tela (_wireframing_) : Figma
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se o Figma dada a sua interface intuitiva para criação e por melhor captar as necessidades do projeto quanto a sua representação.
