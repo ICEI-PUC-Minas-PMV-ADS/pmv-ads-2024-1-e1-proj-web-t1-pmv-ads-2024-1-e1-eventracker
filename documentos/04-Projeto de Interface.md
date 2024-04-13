@@ -3,12 +3,14 @@
 
 ## User Flow
 
-O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário na aplicação desenvolvida nesse projeto. Para visualiza-lo acesse o link a seguir: [https://www.figma.com/file/PKYDUEdWUNMlIp51B2VLpY/USERFLOW---EVENTRACKER?type=whiteboard&node-id=0%3A1&t=3MFmw1LvsrkfUc0X-1](https://www.figma.com/file/PKYDUEdWUNMlIp51B2VLpY/USERFLOW---EVENTRACKER?type=whiteboard&node-id=0%3A1&t=3MFmw1LvsrkfUc0X-1)
-
-<img width="3334" alt="USERFLOW - EVENTRACKER" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/e3834fcd-c164-4d59-a5a7-42b9d2a6cdd5">
+O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário na aplicação desenvolvida nesse projeto. Para visualiza-lo acesse o link a seguir: 
 
 
-Figura 1 - Fluxograma de usuário
+
+<figure>
+  <img src="img/Group 17.png"> <figcaption>Figura 4 -Demonstração do Fluxo do Usuário </figcaption>
+</figure>
+
 
 ## Protótipo
 
@@ -23,6 +25,10 @@ Figura 1 - Fluxograma de usuário
 
   <em>•Usuários:</em>  possibilitará aos usuários fazer a escolha de entrar, seja Candidato ou Empresa e ao clicar serão direcionados ao fluxo da página web almejada;
 
+   <figure>
+  <img src="img/homepage.png"> <figcaption>Figura 5 -Homepage </figcaption>
+</figure>
+
 
 ### Login
  A tela de Login permitirá que o usuário acesse ao Sistema, faça o seu cadastrado com as informações solicitadas, as credenciais que foram registradas auxiliará na identificação do usuário no Sistema.
@@ -36,6 +42,9 @@ Figura 1 - Fluxograma de usuário
 
  <em>·Recuperar Senha:</em> caso o usuário esqueça de seu e-mail e senha registrados  através dessa interação irá recuperar a senha.
 
+ <figure>
+  <img src="img/login.png"> <figcaption>Figura 6 -Tela de Login </figcaption>
+</figure>
 
  ### Tela Cadastro
 
@@ -44,6 +53,9 @@ A tela de cadastro do usuário solicitará as informações que são necessária
  Conforme a Figura 06, a tela de Cadastro apresentará  formulários com as informaçōes pessoais do usuário como por exemplo: Nome, Idade, Cidade, Contato.
  A tela poderá ser acessada, após os usuários registrarem na tela de Login. 
 
+<figure>
+  <img src="img/criarconta.png"> <figcaption>Figura 7 -Tela de cadastro de novas contas </figcaption>
+</figure>
 
 ### Tela Principal
  A tela Principal guiará ao usuário, após ter sua conta cadastrada aos links que direcionará ao visitante para outras páginas do site. 
@@ -52,6 +64,9 @@ A tela de cadastro do usuário solicitará as informações que são necessária
 
  <em>·Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website. 
 
+<figure>
+  <img src="img/paginaprincipal.png"> <figcaption>Figura 8 -Tela principal </figcaption>
+</figure>
 
 ### Sobre Nós
 
@@ -63,10 +78,21 @@ A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website f
 
   <em>Rodapé:</em> informações da equipe desenvolveu o website e logo. 
 
+<figure>
+  <img src="img/sobrenos.png"> <figcaption>Figura 9 -Sobre nós </figcaption>
+</figure>
+
 
   ### Tela de Detalhe do Evento 
   figura 09
 
+<figure>
+  <img src="img/detalhesdoevento.png"> <figcaption>Figura 10 -Tela de detalhes do eventos </figcaption>
+</figure>
 
   ### Tela de Cadastro de Eventos
   figura 10 
+
+<figure>
+  <img src="img/cadastronovaconta.png"> <figcaption>Figura 11 -Tela de cadastro de novo evento </figcaption>
+</figure>
