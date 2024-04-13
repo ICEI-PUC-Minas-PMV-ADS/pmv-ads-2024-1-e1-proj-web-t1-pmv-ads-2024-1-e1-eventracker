@@ -12,22 +12,61 @@ Figura 1 - Fluxograma de usuário
 
 ## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+## Protótipo
 
 ### Protótipo de baixa fidelidade
-
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
-
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
-
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
+ Com o propósito da criação do design de interface, foi projetado o wireframe de baixa fidelidade para auxiliar na diagramação da página, com  o intuito de esboçar dessa forma o produto final. 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+ ### Home Page: 
+  A Home Page, ou seja a página principal no qual guiará o usuário como sua porta de entrada e irá direcioná-lo a outros setores do website.
+  Analisando-se os Requisitos Funcionais do Usuário conforme a etapa 1 do projeto, o Wire Frame foi criado com as seguintes  estruturas, na figura 4 observa-se o componente:
+
+  <em>•Usuários:</em>  possibilitará aos usuários fazer a escolha de entrar, seja Candidato ou Empresa e ao clicar serão direcionados ao fluxo da página web almejada;
 
 
+### Login
+ A tela de Login permitirá que o usuário acesse ao Sistema, faça o seu cadastrado com as informações solicitadas, as credenciais que foram registradas auxiliará na identificação do usuário no Sistema.
+ Conforme a Figura 5, os componentes são compostos por:
 
+ <em>· Login:</em> será uma caixa de formulário com o elemento input que permitirá o usuário colocar seus dados como E-mail e Senha;
+
+<em>·Entrar:</em>  após o usuário registrar seu email e senha, o botão Entrar permitirá que o usuário, faça o "click" e seja direcionado as outras interações do web site; 
+ 
+ <em>·Criar Conta:</em> o botão Criar Conta após ser clicado, permitirá ao usuário registrar suas informações para efetivar o seu cadastro;
+
+ <em>·Recuperar Senha:</em> caso o usuário esqueça de seu e-mail e senha registrados  através dessa interação irá recuperar a senha.
+
+
+ ### Tela Cadastro
+
+A tela de cadastro do usuário solicitará as informações que são necessárias para a criação de sua conta e senha, dessa forma, o visitante poderá ter acesso ao seu objetivo, que será o cadastro de seu portfólio profissional e candidatar nas vagas que interessarem.
+
+ Conforme a Figura 06, a tela de Cadastro apresentará  formulários com as informaçōes pessoais do usuário como por exemplo: Nome, Idade, Cidade, Contato.
+ A tela poderá ser acessada, após os usuários registrarem na tela de Login. 
+
+
+### Tela Principal
+ A tela Principal guiará ao usuário, após ter sua conta cadastrada aos links que direcionará ao visitante para outras páginas do site. 
+
+ · Conforme a  Figura 7, sera possível editar fotos de perfil, alterar nomes, botões de interações que direcionarão  especificamente ao fluxo de usuário pretendido.
+
+ <em>·Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website. 
+
+
+### Sobre Nós
+
+A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website foi criado e conhecer sobre a equipe que esta construindo o website. 
+
+  Na figura 08 terá os componentes:
+
+  <em>·Botão de Menu:</em> ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website.
+
+  <em>Rodapé:</em> informações da equipe desenvolveu o website e logo. 
+
+
+  ### Tela de Detalhe do Evento 
+  figura 09
+
+
+  ### Tela de Cadastro de Eventos
+  figura 10 
