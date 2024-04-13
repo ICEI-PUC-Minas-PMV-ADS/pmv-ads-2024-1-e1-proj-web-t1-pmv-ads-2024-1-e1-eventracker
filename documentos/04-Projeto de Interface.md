@@ -1,12 +1,11 @@
 
-# Projeto de Interface
+### Projeto de Interface
 
 ## User Flow
 
-Os user flows são ferramentas que auxiliam no mapeando do caminho que os usuários percorrem para concluir tarefas do web site.
-É de suma importância, pois auxiliam no planejamento do website e analisa as sequências de interações que ocorrerão ao longo do trajeto. 
-O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário na aplicação desenvolvida nesse projeto. 
-
+  Os user flows são ferramentas que auxiliam no mapeamento do caminho que os usuários percorrem para concluir as tarefas do web site.
+  É de suma importância, pois auxilia no planejamento do website e analisa as sequências de interações que ocorrerão ao longo do trajeto. 
+O Diagrama de Fluxo apresentado a seguir na figura 4 demonstra o fluxo que o usuário percorrerá na aplicação desenvolvida nesse website. 
 
 
 <figure>
@@ -14,14 +13,12 @@ O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 </figure>
 
 
-## Protótipo
+### Protótipo
 
-## Protótipo
-
-### Protótipo de baixa fidelidade
- Com o propósito da criação do design de interface, foi projetado o wireframe de baixa fidelidade para auxiliar na diagramação da página, com  o intuito de esboçar dessa forma o produto final. 
+## Protótipo de baixa fidelidade
+  Com o objetivo da criação do design de interface, foi planejado o wireframe de baixa fidelidade a fim de auxiliar na esquematização da página, com  o propósito de arquitetar dessa forma o produto final. 
  
- ### Home Page: 
+ ## Home Page: 
   A Home Page, ou seja a página principal no qual guiará o usuário como sua porta de entrada e irá direcioná-lo a outros setores do website, como por exemplo, tela princiapl de eventos, tela de cadastro de novos eventos e sobre nós.
   Analisando-se os Requisitos Funcionais do Usuário conforme a etapa 1 do projeto, o Wire Frame foi criado com as seguintes  estruturas, na figura 5 observa-se o componente:
 
@@ -32,73 +29,70 @@ O Diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 </figure>
 
 
-### Login
- A tela de Login permitirá que o usuário acesse ao Sistema, faça o seu cadastrado com as informações solicitadas, as credenciais que foram registradas auxiliará na identificação do usuário no Sistema.
+## Login
+   Observa-se que a tela de Login proporcionará que o usuário consiga ter acesse ao Sistema, realize o seu cadastrado com as informações requisitadas, as credenciais que foram registradas contruiburá na identificação do usuário no Sistema.
  Conforme a Figura 6, os componentes são compostos por:
 
  <em>· Login:</em> será uma caixa de formulário com o elemento input que permitirá o usuário colocar seus dados como E-mail e Senha;
 
-<em>·Entrar:</em>  após o usuário registrar seu email e senha, o botão Entrar permitirá que o usuário, faça o "click" e seja direcionado as outras interações do web site; 
+<em>·Entrar:</em>  após o usuário registrar seu email e senha, o botão Entrar concederá que o usuário, faça o "click" e seja encaminhado as outras interações de fluxo do web site; 
  
- <em>·Criar Conta:</em> o botão Criar Conta após ser clicado, permitirá ao usuário registrar suas informações para efetivar o seu cadastro;
+ <em>·Criar Conta:</em> o botão Criar Conta após ser clicado, concederá ao usuário registrar suas informações a fim de  efetuar o seu cadastro;
 
- <em>·Recuperar Senha:</em> caso o usuário esqueça de seu e-mail e senha registrados  através dessa interação irá recuperar a senha.
+ <em>·Recuperar Senha:</em> caso o usuário esqueça de seu e-mail e senha registrados mediante dessa interação será possível recuperar a senha.
 
- <em>·Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução.
+ <em>·Rodapé:</em> O rodapé fornecerá informações sobre a equipe que desenvolveu o produto.
  
- <em>·Voltar:</em> permite que o usuário retorne a págna anterior.
+ <em>·Voltar:</em> permitirá que o usuário regresse a págna anterior.
 
  <figure>
   <img src="img/login.png"> <figcaption>Figura 6 -Tela de Login </figcaption>
 </figure>
 
- ### Tela Cadastro
+ ## Tela Cadastro
 
-A tela de cadastro do usuário solicitará as informações que são necessárias para a criação de sua conta e senha, dessa forma, o visitante poderá ter acesso ao seu objetivo, que será a visualização e criação de eventos, bem como o acesso a página "Sobre nós" que aparesentará mais informações sobre a solução e a equipe que desenvolveu.
+  A Tela de Cadastro solicitará as informações que são essenciais para a criação de sua conta e senha do usuário, deste modo, o visitante poderá ter acesso ao seu propósito, que será a visualização dos eventos diários e da criação de novos eventos.
 
- Conforme a Figura 7, a tela de Cadastro apresentará  formulários com as informaçōes pessoais do usuário como por exemplo: Nome, Idade, Cidade, Contato.
+  Conforme a Figura 7, a tela de Cadastro mostrará formulários como as informaçōes pessoais do usuário como por exemplo: Nome, Idade, Cidade, Contato.
   
- <em>· Cadastro:</em> será um formulário que deverá ser preenchido pelo usuário informando os dados: Nome, Idade, Cidade, Contato.
+ <em>· Cadastro:</em> mostrará um formulário que necessitará ser preenchido pelo usuário informando os dados: Nome, Idade, Cidade, Contato.
  
-  <em>· Cadastrar:</em> após o usuário informar os dados do formulário, o botão cadastrar vai permitir a criação da conta e o usuário será levada para a tela principal do site.
+  <em>· Cadastrar:</em> após o usuário informar os dados do formulário, o botão cadastrar fornecerá a criação da conta e o usuário, posteriormente guiará para a tela principal do site.
   
-  <em>·Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução.
+  <em>·Rodapé:</em> O rodapé fornecerá informações sobre a equipe que desenvolveu o produto.  
   
-  <em>·Voltar:</em> permite que o usuário retorne a págna anterior.
-
+  <em>·Voltar:</em> permitirá que o usuário regresse a págna anterior.
 
 <figure>
   <img src="img/criarconta.png"> <figcaption>Figura 7 -Tela de cadastro de novas contas </figcaption>
 </figure>
 
-### Tela Principal
- A tela Principal guiará ao usuário, após ter sua conta cadastrada aos links que direcionará ao visitante para outras páginas do site. 
+## Tela Principal
 
- · Conforme a  Figura 8, sera possível editar fotos de perfil, alterar nomes, botões de interações que direcionarão  especificamente ao fluxo de usuário pretendido.
+   A tela Principal orientará ao usuário, após ter sua conta realizada aos links que conduzirá os inscritos para outras páginas do website. 
 
- <em>·Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website. 
+   <em>·Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário pretende interligar-se no website. 
 
 <figure>
   <img src="img/paginaprincipal.png"> <figcaption>Figura 8 -Tela principal </figcaption>
 </figure>
 
-### Sobre Nós
+## Sobre Nós
 
-A tela Sobre Nós permitirá ao usuário compreender por qual motivo o website foi criado e conhecer sobre a equipe que esta construindo o website. 
+  A tela Sobre Nós permitirá ao usuário compreender por qual razão o website foi criado e familiarizar-se sobre a equipe que desevnvolverá o website. 
 
-  Na figura 08 terá os componentes:
+  Na figura 08 terá os seguintes componentes:
 
-  <em>·Botão de Menu:</em> ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário deseja interagir no website.
-
-  <em>Rodapé:</em> informações da equipe desenvolveu o website e logo. 
-
+  <em>·Botão de Menu</em>: ao clicar no botão Menu, o usuário será apresentado as funcionalidades específicas que o usuário pretende interligar-se no website. 
+  
+   <em>·Rodapé:</em> O rodapé fornecerá informações sobre a equipe que desenvolveu o produto.
 <figure>
   <img src="img/sobrenos.png"> <figcaption>Figura 9 -Sobre nós </figcaption>
 </figure>
 
-
-  ### Tela de Detalhe do Evento 
-  figura 09
+## Tela de Detalhes do Evento 
+  
+  Na tela de Detalhes do Evento conforme a f
 
 <figure>
   <img src="img/detalhesdoevento.png"> <figcaption>Figura 10 -Tela de detalhes do eventos </figcaption>
