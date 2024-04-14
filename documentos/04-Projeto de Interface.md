@@ -105,7 +105,7 @@ A tela <i>Sobre Nós</i> permitirá ao usuário compreender por qual motivo o we
 
    <em>· Botão de Menu</em>: ao clicar no botão Menu, será apresentado ao usuário as funcionalidades específicas que ele deseja interagir no website;
 
-  <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença confirmada que estão próximos de ocorrerem;
+  <em>· Botão notificação</em>: ao clicar no botão (símbolo de notificação) o usuário poderá visualizar todas as notificações sobre os eventos favoritos e com presença confirmada que estão próximos de ocorrer;
    
    <em>· Rodapé:</em> fornecerá informações sobre a equipe que desenvolveu a solução;
  
