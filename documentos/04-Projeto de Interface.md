@@ -9,7 +9,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 
 
 <figure>
-  <img src="img/Group 17.png.png"> <figcaption>Figura 3 -Demonstração do Fluxo do Usuário </figcaption>
+  <img src="img/Group 17.png.png"> <figcaption>Figura 3 - Demonstração do Fluxo do Usuário </figcaption>
 </figure>
 
 
@@ -30,7 +30,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
    <em>• Cadastrar conta:</em> caso o usuário não tenha uma conta, ele será levado a tela de formulário de criação de nova conta;
 
    <figure>
-  <img src="img/homepage.png"> <figcaption>Figura 4 -Homepage </figcaption>
+  <img src="img/homepage.png"> <figcaption>Figura 4  -Homepage </figcaption>
 </figure>
 
 
@@ -51,7 +51,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
  <em>· Voltar:</em> permite que o usuário retorne a página anterior;
 
  <figure>
-  <img src="img/login.png"> <figcaption>Figura 5 -Tela de Login </figcaption>
+  <img src="img/login.png"> <figcaption>Figura 5 - Tela de Login </figcaption>
 </figure>
 
  ### Tela de Cadastro
@@ -93,7 +93,7 @@ A tela de cadastro do usuário solicitará as informações que são necessária
   <em>·Rodapé:</em> Fornecerá informações sobre a equipe que desenvolveu a solução;
 
 <figure>
-  <img src="img/telaprincipal2.png"> <figcaption>Figura 7 -Tela principal </figcaption>
+  <img src="img/telaprincipal2.png"> <figcaption>Figura 7 - Tela principal </figcaption>
 </figure>
 
 ### Sobre Nós
@@ -112,7 +112,7 @@ A tela <i>Sobre Nós</i> permitirá ao usuário compreender por qual motivo o we
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
 
 <figure>
-  <img src="img/sobrenos2.png"> <figcaption>Figura 8 -Sobre nós </figcaption>
+  <img src="img/sobrenos2.png"> <figcaption>Figura 8 - Sobre Nós </figcaption>
 </figure>
 
 
@@ -138,7 +138,7 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
  
 <figure>
-  <img src="img/teladetalhe2.png"> <figcaption>Figura 9 -Tela de detalhes do eventos </figcaption>
+  <img src="img/teladetalhe2.png"> <figcaption>Figura 9 - Tela de detalhes do eventos </figcaption>
 </figure>
 
   ### Tela de Cadastro de Eventos
@@ -159,7 +159,7 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
   
 <figure>
-  <img src="img/telacadastroevento2.png"> <figcaption>Figura 10 -Tela de cadastro de novo evento </figcaption>
+  <img src="img/telacadastroevento2.png"> <figcaption>Figura 10 - Tela de cadastro de novo evento </figcaption>
 </figure>
 
  ### Tela de Menu 
@@ -180,7 +180,7 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
   
 <figure>
-  <img src="img/menusite.jpeg"> <figcaption>Figura 11 -Tela de menu do site </figcaption>
+  <img src="img/menusite.jpeg"> <figcaption>Figura 11 - Tela de menu do site </figcaption>
 </figure>
 
  ### Tela de Notificações
@@ -193,7 +193,7 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
   
 <figure>
-  <img src="img/telanotificacao.jpeg"> <figcaption>Figura 12 -Tela de Notificações de eventos </figcaption>
+  <img src="img/telanotificacao.jpeg"> <figcaption>Figura 12 - Tela de Notificações de eventos </figcaption>
 </figure>
 
  ### Tela de Pesquisa de eventos 
@@ -212,5 +212,5 @@ Conforme a Figura 9, terá os seguintes componentes:
   <em>· Voltar:</em> permite que o usuário retorne a página anterior;
   
 <figure>
-  <img src="img/barradepesquisa.jpeg"> <figcaption>Figura 13 -Tela de Pesquisa de eventos </figcaption>
+  <img src="img/barradepesquisa.jpeg"> <figcaption>Figura 13 - Tela de Pesquisa de eventos </figcaption>
 </figure>
