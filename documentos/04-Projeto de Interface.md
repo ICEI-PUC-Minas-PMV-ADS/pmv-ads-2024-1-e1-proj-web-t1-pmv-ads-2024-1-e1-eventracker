@@ -20,7 +20,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
  Com o propósito da criação do design de interface, foi projetado o wireframe de baixa fidelidade para auxiliar na diagramação da página, com o intuito de esboçar, dessa forma, o produto final. 
  
  ### Home Page: 
-  A Home Page, ou seja a página principal no qual guiará o usuário como sua porta de entrada e irá direcioná-lo a outros setores do website, como por exemplo: <i>tela principal de eventos</i>, <i>tela de cadastro de novos eventos</i> e <i>sobre nós</i>.
+  A Home Page, é a página principal na qual o usuário será guiado e direcionado a outros setores do website, como por exemplo: <i>tela principal de eventos</i>, <i>tela de cadastro de novos eventos</i> e <i>sobre nós</i>.
   Analisando os Requisitos Funcionais do Usuário conforme a etapa 1 do projeto, o <i>wireframe</i> foi criado com as seguintes  estruturas, na figura 4 observa-se os componentes:
 
   <em>• Usuários:</em>  possibilitará aos usuários fazer a escolha de entrar, seja Participante ou Organizador e ao clicar serão direcionados ao fluxo da página web almejada;
@@ -30,7 +30,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
    <em>• Cadastrar conta:</em> caso o usuário não tenha uma conta, ele será levado a tela de formulário de criação de nova conta;
 
    <figure>
-  <img src="img/homepage.png"> <figcaption>Figura 4  -Homepage </figcaption>
+  <img src="img/homepage.png"> <figcaption>Figura 4 - Homepage </figcaption>
 </figure>
 
 
