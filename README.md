@@ -9,13 +9,13 @@
 
 ## Integrantes
 
-* Alessandro Paulista Freitas 
+
 * André Santos Pedroso 
-* João Victor Kalil de Almeida Lapa 
+* João Victor Kalil de Almeida Lapa
+* Juliana Monik Moraes Silva
 * Lucas Siqueira Ribeiro 
-* Mauricio Thales Alves de Azevedo Neto 
-* Tiago Salomé Rocha Silva 
-* Vitor Piana de Queiroz
+
+
 
 ## Orientador
 

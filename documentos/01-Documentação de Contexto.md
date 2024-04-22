@@ -31,8 +31,7 @@ conectar pessoas com gostos compatíveis, afetando também o investimento em eve
 
 ## Objetivos
 Esse projeto tem como principal objetivo oferecer aos usuários uma plataforma intuitiva e
-eficiente para organizar e acompanhar eventos de seu interesse. O sistema terá como função permitir aos
-que os suários explorem uma ampla variedade de eventos em um único lugar.
+eficiente para organizar e acompanhar eventos de seu interesse. O sistema terá como função permitir que os usuários explorem uma ampla variedade de eventos em um único lugar.
 
 Além disso, a aplicação também visa auxiliar organizadores de eventos, fornecendo-lhes
 ferramentas para gerenciar suas atividades com eficácia e, consequentemente, aumentar

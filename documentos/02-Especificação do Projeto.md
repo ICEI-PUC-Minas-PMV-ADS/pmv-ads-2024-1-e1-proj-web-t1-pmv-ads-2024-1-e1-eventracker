@@ -18,8 +18,8 @@ realização de eventos
 <td>
 1 - Meio eficiente de veiculação e realização de marketing do evento,
 visando público compatível. <br>
-2 - Estimar lotação do evento de conforme o número de
-interessados. <br>
+2 - Estimar lotação do evento conforme o número de
+presenças confirmadas. <br>
 3 - Registrar dados de interessados e emitir tickets para eventos. <br>
 4 - Formas de engajar o público para comparecer aos eventos
 listados.
@@ -67,13 +67,13 @@ Com base em análise acerca dos usuários, foram identificadas as seguintes nece
 | Participante do Evento | Pesquisar eventos com temas diversificados.                                                      | Expandir meu ciclo social com novos interesses                                                                 |
 | Participante do Evento | Confirmar presença nos eventos de acordo com o local desejado.                                   | Garantir ao máximo minha participação dos eventos durante minha estadia                                        |
 | Participante do Evento | Possuir uma conta para receber recomendações de eventos.                                         | Descobrir eventos que alinhem com minha vida social e cultural                                                 |
-
+| Participante do Evento | Saber se o evento possui uma estrutura acessível para mim, assim podendo desfrutar tranquilamente do meu momento de lazer.                                         | Descobrir eventos que priorizam a inclusão e a satisfação de todos durante todo o festival                                                |
 ## Requisitos do Projeto
 
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
+
 
 | ID    | Descrição                                                                                    | Prioridade |
 |-------|----------------------------------------------------------------------------------------------|------------|
@@ -82,12 +82,12 @@ Com base em análise acerca dos usuários, foram identificadas as seguintes nece
 | RF-03 | A aplicação deve possuir uma função de filtro/pesquisa de eventos                            | ALTA       |
 | RF-04 | A aplicação deve permitir ao organizador que crie seu próprio evento                         | ALTA       |
 | RF-05 | A aplicação deve permitir ao participante que coloque eventos em sua lista de “Favoritos”    | ALTA       |
-| RF-06 | A aplicação deve apresentar o dados acerca dos eventos                                       | ALTA       |
-| RF-07 | A aplicação deve permitir ao participante visualizar informações sobre o evento              | MÉDIA      |
+| RF-06 | A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.          | ALTA       |
+| RF-07 | A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado              | MÉDIA      |
 | RF-08 | A aplicação deve oferecer notificações ao usuário quando o evento estiver próximo            | MÉDIA      |
 | RF-09 | A aplicação deve separar os eventos por categorias                                           | MÉDIA      |
 | RF-10 | A aplicação deve permitir ao participante criar pastas para organizar seus eventos favoritos | MÉDIA      |
-| RF-11 | A aplicação deve informar sobre a acessibilidade do evento possui e sua estrutura            | MÉDIA      |
+| RF-11 | A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD            | MÉDIA      |
 | RF-12 | A aplicação deve conter informações de contato da organizadora do evento                     | BAIXA      |
 | RF-13 | A aplicação deve permitir ao participante que confirme presença no evento                    | BAIXA      |
 | RF-14 | A aplicação deve apresentar o número de presenças confirmadas nos eventos                    | BAIXA      |
@@ -97,7 +97,7 @@ Com base em análise acerca dos usuários, foram identificadas as seguintes nece
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
+
 
 | ID     | Descrição                                                                                                                                                                | Prioridade |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|

@@ -11,8 +11,8 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 Desta forma, a equipe está organizada da seguinte maneira:
 - Scrum Master: João Victor
 - Product Owner: André Pedroso
-- Equipe de Desenvolvimento: André Pedroso, Lucas Siqueira, João Victor
-- Equipe de Design: André Pedroso, Lucas Siqueira, João Victor
+- Equipe de Desenvolvimento: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik
+- Equipe de Design: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik
 
 ### Processo
 
@@ -25,10 +25,11 @@ As tarefas do projeto estão sendo sendo organizadas e distribuídas através do
 O quadro kanban do grupo no GitHub está disponível no link [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002) e é apresentado, no estado atual, na figura abaixo:
 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/9d4d6680-3ede-4831-97a7-8a53177d830d)
+<figure>
+  <img src="img/kanbanetapa2.jpeg"> <figcaption>Figura 1 - Tela do kanban no GitHub utilizada pelo grupo </figcaption>
+</figure>
 
 
-Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -44,30 +45,30 @@ Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: GitHub
+- Ferramentas de comunicação: Microsoft Teams
+- Ferramentas de desenho de tela (_wireframing_) : Figma
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se [ descrição do wireframe ]
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem facilidade de uso, além de serem completas. Por fim, para criar o projeto de interface utilizou-se o Figma dada a sua interface intuitiva para criação e por melhor captar as necessidades do projeto quanto a sua representação.
 
-Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Bootstrap(?). Seus respectivos propósitos são apresentados na tabela que se segue:
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma. Seus respectivos propósitos são apresentados na tabela que se segue:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/README.md |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker |
-| Projeto de Interface                | Figma                              | http://www.figma.com/team_invite/redeem/PQWJS4rufnAxX7KjSkSz45 |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/M7UCxAQdbR7fHpxgZzfzmc/Prot%C3%B3tipo-EvenTracker?type=design&node-id=180%3A599&mode=design&t=hHSRjsdps4lyWHtJ-1 |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002 |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte).
