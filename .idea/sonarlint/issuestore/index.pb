@@ -7,3 +7,13 @@
 +documentos/02-Especificação do Projeto.md,c\2\c2b535e97cc21b8b1833740658944c9c80e7667a
 ]
 -documentos/09-Referências Bibliográficas.md,a\c\acd30a4341cf9abc340160ef6301c1e0e33c6fe3
+F
+codigo-fonte/README.md,2\c\2c4d2421b924f19b7b1d41d8f3c45b2b6ed309a4
+�
+Q.idea/sonarlint/securityhotspotstore/2/c/2c4d2421b924f19b7b1d41d8f3c45b2b6ed309a4,2\1\219c553b4f08037492a6cc36b23d8b8d2fa52e3c
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+w
+G.idea/sonarlint/issuestore/2/c/2c4d2421b924f19b7b1d41d8f3c45b2b6ed309a4,1\6\1698d076752554a42e05e5b53511725de48d9674
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
