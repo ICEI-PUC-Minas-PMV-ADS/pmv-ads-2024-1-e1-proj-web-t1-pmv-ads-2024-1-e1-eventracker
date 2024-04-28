@@ -1,8 +1,9 @@
 # Template padrão da Aplicação
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+<em> O layout padrão de site utilizará o HTML (Linguagem de Marcação de Hiper Texto), com a finalidade de estilizar os elementos do website será utilizado o CSS (Cascading Style Sheet) além disso, auxiliará na características visuais e responsividade elementos inseridos. A linguagem de programação utilizada será em Java Script, que proporcionará as interatividades no site.</em>
 
-[Apresente a estrutura padrão da sua aplicação.]
+(colocar a figura do web site aqui) 
+
 
 > **Links Úteis**:
 >
