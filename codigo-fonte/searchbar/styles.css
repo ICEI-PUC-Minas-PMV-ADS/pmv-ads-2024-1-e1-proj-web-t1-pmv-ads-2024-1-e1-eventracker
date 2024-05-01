@@ -1,0 +1,164 @@
+/**
+ * This CSS file contains styles for a search bar and event container.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/**
+ * Styles for the header element.
+ */
+header {
+  background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 33%,
+  hsl(337deg 100% 43%) 44%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+  );
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**
+ * Styles for the search container.
+ */
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+/**
+ * Styles for the search input.
+ */
+
+input[type=text] {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+}
+
+/**
+ * Styles for the submit button.
+ */
+button[type=submit] {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/**
+ * Styles for the submit button icon.
+ */
+button[type=submit] i {
+  color: #fff;
+  font-size: 20px;
+}
+
+/**
+ * Styles for the submit button icon on hover.
+ */
+button[type=submit]:hover i {
+  color: #ccc;
+}
+
+/**
+ * Styles for the event container.
+ */
+.event-container {
+  margin-top: 20px;
+}
+
+/**
+ * Styles for the event element.
+ */
+.event {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/**
+ * Styles for the event image.
+ */
+.event img {
+  margin-bottom: 20px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+/**
+ * Styles for the event description.
+ */
+.event p {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  margin-left:10px;
+  cursor: pointer;
+}
+
+/**
+ * Styles for the hamburger button.
+ */
+.hamburger-btn {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/**
+ * Styles for the lines in the hamburger button.
+ */
+.line {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+}
+
+/**
+ * Styles for the bell icon.
+ */
+.fa-solid.fa-bell {
+  position: absolute;
+  top: 12px;
+  right: 70px;
+  font-size: 30px; 
+  cursor: pointer;
+  color: #333;
+}
