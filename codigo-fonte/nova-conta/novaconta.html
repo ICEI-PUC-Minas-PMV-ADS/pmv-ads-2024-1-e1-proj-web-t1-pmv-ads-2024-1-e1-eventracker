@@ -2,46 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Conta</title>
     <link rel="stylesheet" href="novaconta.css">
 </head>
 <body>
-    <!--CABEÇALHO-->
+    <!--CABEÇALHO DA PÁGINA-->
     <header>
-        <ul id="u1" class="uls">
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="#" title="Sobre">Cadastrar</a></li>
-            <li><a href="#" title="Serviços">Eventos</a></li>
-            <li><a href="#" title="Artigos">Sobre Nós</a></li>
-            <li><a href="#" title="Contato">Contato</a></li>
-        </ul>
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Sobre">Cadastrar</a></li>
+                <li><a href="#" title="Serviços">Eventos</a></li>
+                <li><a href="#" title="Artigos">Sobre Nós</a></li>
+                <li><a href="#" title="Contato">Contato</a></li>
+    
+            </ul>
 
     </header>
+    <!--MENU HAMBURGUER
+    -->
+    <div class="hamburguer-menu">
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
 
-    <!--FORMULARIO DE NOVA CONTA-->
-    <div class="formcontanova">
-    <h1>Cadastrar Nova Conta</h1>
-    <h2>Criar uma conta do Eventracker</h2> 
-    <ul id="form_1" class="forms"> 
-    <p>NOME COMPLETO</p>
-    <input type="text">
-    <p>E-MAIL</p>
-    <input type="text">
-    <p>CONTATO</p>
-    <input type="text">
-    <p>DATA DE NASCIMENTO</p>
-    <input type="text">
-    <p>ENDEREÇO</p>
-    <input type="text">
-    </ul>
+        <ul class="menu__box">
+
+            <li><a class="menu__item" href="#">Home</a></li>
+            <li><a class="menu__item" href="#">Cadastrar</a></li>
+            <li><a class="menu__item" href="#">Eventos</a></li>
+            <li><a class="menu__item" href="#">Sobre Nós</a></li>
+            <li><a class="menu__item" href="#">Contato</a></li>
+
+        </ul>
     </div>
 
+    <!--FORMULARIO DE NOVA CONTA-->
+    <div class="formnovaconta">
+        <div class="high">
+            <h1><span style="color: white;">Cadastrar Nova Conta</span></h1>
+            <p><span style="color: white;">Preencha o formulário a seguir com os seus dados para criar a sua conta EvenTracker</span></p>
+            <br>
+        </div>
+        <input type="text" placeholder="Nome">   
+        <input type="text" placeholder="Sobrenome">
+        <br>
+        <input type="text" placeholder="Data de nascimento">
+        <input type="text" placeholder="Estado e Pais">
+        <br>
+        <input type="email" placeholder="E-mail">
+        <input type="email" placeholder="Confirmar E-mail">
+        <br>
+        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Confirmar senha">
+        <br>
+        <div class="tipoConta">
+            <h4>Tipo de Conta</h4>
+            <p>
+                Participante pode visualizar e navegar entre eventos
+                <br><br>
+                Organizador pode criar novos eventos no EvenTracker
+                <br>
+            </p>
+            <div class="inputRadio">
+                <input type="radio" id="part" name="toggle_option" checked />
+                <input type="radio" id="org" name="toggle_option" />
 
+                <label for="part"><span>Participante</span></label>
+                <label for="org"><span>Organizador</span></label>
 
+                <div class="botao_slider"></div>
+            </div>
+            <br><br>
+        </div>
+        <button class="button">Cadastrar</button>
+    </div>
 
+    <!--RODAPÉ DA PÁGINA-->
+    <footer>
+        <div class="rodape">
+            <img src="assets/logoeventracker.svg" alt="Logo Even Tracker">
 
-    <!--Rodapé
-    <img src="assets/Logomarca.jpg" alt="Todos os direitos reservados 2024 LTDA." id="img_1" class="imagem"> -->
+            <div class="slogan">
+                <h3 class="raleway-fonte">
+                    O planejamento na palma da sua mão!
+                </h3>
+            </div>
+        </div>
+    </footer>
+
+    
 </body>
 </html>
