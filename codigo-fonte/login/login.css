@@ -1,0 +1,349 @@
+@font-face {
+    font-family: "Raleway Especial";
+    src: local(Raleway), url(../fonts/Raleway-Normal.ttf);
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #0d0707;
+    text-align: center;
+    font-family: 'Raleway';
+    margin: 0;
+    position: absolute;
+    font-family: 'Raleway';
+}
+
+
+
+ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(45deg,
+            hsl(10deg 100% 20%) 1%,
+            hsl(12deg 100% 23%) 43%,
+            hsl(15deg 100% 26%) 50%,
+            hsl(17deg 100% 29%) 51%,
+            hsl(19deg 100% 32%) 51%,
+            hsl(22deg 100% 36%) 49%,
+            hsl(24deg 100% 39%) 49%,
+            hsl(26deg 100% 42%) 50%,
+            hsl(29deg 100% 45%) 57%,
+            hsl(31deg 100% 48%) 99%);
+}
+
+
+
+@media all and (max-width: 480px) {
+
+    ul {
+        flex-direction: column;
+
+    }
+}
+
+
+
+ul a {
+
+    padding: 1em 2em;
+    position: relative;
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul a:hover {
+
+    background: #242424;
+    border-radius: 30px;
+}
+
+
+
+.boxLogin {
+    padding: 10%em 0;
+
+}
+
+.boxLogin .content {
+    padding: 0.2em;
+}
+
+.login {
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    display: inherit;
+    background-color: #f1ebeb;
+    border-radius: 4px;
+    box-shadow: 1px 0px 3px 0px #cbcbcb;
+    background-image: linear-gradient(50deg,
+            hsl(0deg 0% 0%) 31%,
+            hsl(32deg 100% 3%) 58%,
+            hsl(32deg 100% 6%) 66%,
+            hsl(31deg 100% 9%) 70%,
+            hsl(31deg 100% 12%) 72%,
+            hsl(31deg 100% 15%) 74%,
+            hsl(31deg 100% 18%) 75%,
+            hsl(31deg 100% 21%) 76%,
+            hsl(31deg 100% 24%) 78%,
+            hsl(31deg 100% 26%) 79%,
+            hsl(31deg 100% 29%) 81%,
+            hsl(31deg 100% 32%) 82%,
+            hsl(31deg 100% 35%) 84%,
+            hsl(31deg 100% 38%) 87%,
+            hsl(31deg 100% 41%) 90%,
+            hsl(31deg 100% 44%) 93%,
+            hsl(31deg 100% 47%) 96%,
+            hsl(31deg 100% 50%) 100%);
+
+}
+
+
+.login h1 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    border-bottom: 1px #6c6464 solid;
+    padding: 0.5em;
+
+    color: rgb(234, 223, 223);
+}
+
+.login .padding {
+    padding: 1.5em;
+    float: left;
+}
+
+.login label {
+    width: 100%;
+    float: left;
+    margin-bottom: 1em;
+}
+
+.login .campos {
+    border-top: 1px transparent solid;
+    border-left: 1px transparent solid;
+    border-bottom: 1px #eaeaea solid;
+    border-right: 1px transparent solid;
+    color: #554f4f;
+    font-family: 'open_sansregular';
+    font-size: 0.9em;
+    outline: none;
+    padding: 0.5em 0em;
+    transition: 0.4s;
+}
+
+.login .campos:focus {
+    border-top: 1px transparent solid;
+    border-left: 1px transparent solid;
+    border-bottom: 1px #575251 solid;
+    border-right: 1px transparent solid;
+    color: #0a0400;
+}
+
+.login .btn {
+    width: auto;
+    float: left;
+    padding: 0.4em 1.3em;
+    font-family: 'Raleway';
+    font-size: 1em;
+    background-color: #8601018d;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.login .btn:hover {
+    background-color: #4c4c4c;
+}
+
+.login .linksForm {
+    width: 100%;
+    float: left;
+    background-color: #f6f6f6;
+    border-top: 1px #e9e9e9 solid;
+    padding: 1em 1.5em;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.login .linksForm a {
+    float: left;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    font-size: 0.89em;
+    font-family: 'open_sansregular';
+    color: #0c0101;
+    margin-right: 10px;
+    border-right: 1px #d9d9d9 solid;
+    padding-right: 10px;
+    transition: 0.4s;
+}
+
+.login .linksForm a:last-child {
+    border-right: 0;
+    padding-right: 0px;
+}
+
+.login .linksForm a:hover {
+    color: #ffa700;
+}
+
+/*Responsivo*/
+/*480PX BREAKPOINT*/
+@media (min-width:30em) {
+    .login {
+        width: 50%;
+    }
+}
+
+/*768PX BREAKPOINT*/
+@media (min-width:48em) {
+    .login {
+        width: 35%;
+    }
+
+    .login .linksForm a {
+        font-size: 0.9em;
+    }
+}
+
+
+.rodape {
+
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    height: 170px;
+    margin: 0 px;
+    padding: 0px;
+    font-family: 'Raleway';
+    background-image: linear-gradient(45deg,
+            hsl(10deg 100% 20%) 1%,
+            hsl(12deg 100% 23%) 43%,
+            hsl(15deg 100% 26%) 50%,
+            hsl(17deg 100% 29%) 51%,
+            hsl(19deg 100% 32%) 51%,
+            hsl(22deg 100% 36%) 49%,
+            hsl(24deg 100% 39%) 49%,
+            hsl(26deg 100% 42%) 50%,
+            hsl(29deg 100% 45%) 57%,
+            hsl(31deg 100% 48%) 99%);
+
+
+}
+
+.logo {
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.slogan {
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/* Menu Hambúrguer */
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked+.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    left: 0 !important;
+}
+
+.menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #030202;
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(13, 0, 0, 0.4);
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #050000;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
