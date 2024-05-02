@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+
+
+        <ul>
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="#" title="Sobre">Cadastrar</a></li>
+            <li><a href="#" title="Serviços">Eventos</a></li>
+            <li><a href="#" title="Artigos">Sobre Nós</a></li>
+            <li><a href="#" title="Contato">Contato</a></li>
+
+        </ul>
+
+    </header>
+
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#">Home</a></li>
+            <li><a class="menu__item" href="#">Cadastrar</a></li>
+            <li><a class="menu__item" href="#">Eventos</a></li>
+            <li><a class="menu__item" href="#">Sobre Nós</a></li>
+            <li><a class="menu__item" href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    <!--formulário-->
+
+    <section class="boxLogin container">
+        <div class="content">
+
+            <form class="login" method="post" onsubmit="login(event)">
+                <h1><i class="icon icon-key-1"></i> LOGIN</h1>
+                <div class="padding">
+                    <label>
+                        <input type="text" class="campos" placeholder="E-mail" name="email">
+                    </label>
+                    <label>
+                        <input type="password" class="campos" placeholder="Password" name="senha">
+                    </label>
+                    <input type="submit" class="btn fade_8S" value="Entrar">
+
+                </div><!--padding-->
+                <div class="linksForm">
+                    <a href="#" class="fade_4S" title="Resgatar Senha"><i class="icon icon-forward-1"></i> Resgatar
+                        Senha</a>
+                    <a href="#" class="fade_4S" title="Cadastrar-se"><i class="icon icon-user-add"></i> Cadastrar</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Login-->
+
+
+    <!--rodape-->
+    <footer>
+        <div class="rodape">
+            <img src="logoeventracker.svg" alt="Logo Event Tracker">
+            <div class="slogan">
+                <h3 class="raleway-fonte">O planejamento na palma da sua mão!
+                </h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
