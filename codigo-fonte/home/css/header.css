@@ -56,3 +56,47 @@
 .logo a:hover::before{
     width: 0;
 }
+
+.input-logo {
+    width: 20px;
+    height: auto;
+}
+
+.input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+}
+
+.input::placeholder {
+    color: rgb(225, 227, 228);
+}
+
+.input:focus {
+    outline: none;
+}
+
+/*.search-bar {*/
+/*    border: 2px solid #2b292c;*/
+/*    border-radius: 25px;*/
+/*    padding: 10px;*/
+/*}*/
+
+.search-box {
+    position: absolute;
+    left: 250px;
+}
+
+.input[type="text"] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; /* Your desired font size */
+}
+
+/* Style for autofill */
+.input[type="text"]:-webkit-autofill {
+    -webkit-text-fill-color: inherit; /* Inherit text color */
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; /* Your desired font size */
+}
