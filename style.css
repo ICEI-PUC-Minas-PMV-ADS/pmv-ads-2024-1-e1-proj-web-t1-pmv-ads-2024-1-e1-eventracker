@@ -1,0 +1,75 @@
+   * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color:rgb(235, 121, 121);
+  display: flex;
+  justify-content: space-around;
+}
+
+.page li{
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.page li  a{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+
+
+}
+
+main {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.menu li{
+  display: flex;
+  margin: 30px;
+
+}
+
+.menu li  a{
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+
+
+}
+
+.pagina li a{
+  width: 200px;
+  height: 7px;
+  margin-top: 200px;
+  background-color: rgb(255, 255, 255);
+  font-size: 24px;
+  color: rgb(231, 231, 231);
+
+}
+
+.cadastrar li a{
+  padding: 5px;
+  padding-right: 40px;
+  background-color: rgb(255, 255, 255);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+
+}
+
+.sobre li a{
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(250, 250, 250);
+  font-size: 24px;
+  color: rgb(255, 250, 250);
+
+}

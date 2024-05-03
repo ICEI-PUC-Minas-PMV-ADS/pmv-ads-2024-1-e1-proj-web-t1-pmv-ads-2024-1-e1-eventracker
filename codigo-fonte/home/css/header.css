@@ -4,9 +4,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 1200px;
-    max-width: calc(100% - 20px);
-    padding: 20px 100px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
     background: rgb(172,105,38);
     background: linear-gradient(90deg, rgba(172,105,38,1) 0%, rgba(246,156,94,1) 0%, rgba(255,101,120,1) 100%, rgba(75,179,215,1) 100%, rgba(0,212,255,1) 100%);
     display: flex;
@@ -21,12 +22,16 @@
     font-weight: 500;
 }
 
+
 .logo-eventracker {
     width: 200px;
     height: auto;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .header a {
+    position: relative;
     font-size: 14px;
     color: rgb(225, 227, 228);
     font-weight: 400;
@@ -35,7 +40,63 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.profile-pic {
-    width: 40px;
+.header a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(225, 227, 228);
+    transition: .3s;
+}
+.header a:hover::before {
+    width: 100%;
+}
+.logo a:hover::before{
+    width: 0;
+}
+
+.input-logo {
+    width: 20px;
     height: auto;
+}
+
+.input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+}
+
+.input::placeholder {
+    color: rgb(225, 227, 228);
+}
+
+.input:focus {
+    outline: none;
+}
+
+/*.search-bar {*/
+/*    border: 2px solid #2b292c;*/
+/*    border-radius: 25px;*/
+/*    padding: 10px;*/
+/*}*/
+
+.search-box {
+    position: absolute;
+    left: 250px;
+}
+
+.input[type="text"] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; /* Your desired font size */
+}
+
+/* Style for autofill */
+.input[type="text"]:-webkit-autofill {
+    -webkit-text-fill-color: inherit; /* Inherit text color */
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; /* Your desired font size */
 }
