@@ -1,0 +1,9 @@
+body {
+    min-height: 100vh;
+    /*background-image: url('../img/solid-color-image.jpg');*/
+    background-color: rgb(43, 41, 44);
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+}
+

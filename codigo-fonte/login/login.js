@@ -10,10 +10,8 @@ function login(event) {
 
     if (email == "" || senha == "") {
         alert("Os campos email e senha são obrigatórios.");
-    } else if (email == "admin" && senha == "admin") {
-        alert("Login realizado com sucesso!");
     } else {
-        alert("Email ou senha incorreta");
+        alert("Login realizado com sucesso!");
     }
 
     //limpar campos senha e email aqui
