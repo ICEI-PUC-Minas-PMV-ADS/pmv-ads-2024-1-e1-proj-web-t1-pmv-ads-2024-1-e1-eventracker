@@ -145,6 +145,26 @@ textarea:focus{
     color: #0a0400;
 }
 
+.custom-file-upload {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2679d8;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #1b4e8a;
+}
+
+input[type="file"] {
+    display: none; /* Esconde o campo de seleção de arquivo */
+}
+
 .btn {
     padding: 20px 40px;
     font-size: 16px;
