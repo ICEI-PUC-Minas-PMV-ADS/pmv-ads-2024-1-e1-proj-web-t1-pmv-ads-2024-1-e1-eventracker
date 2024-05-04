@@ -1,40 +1,187 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>EvenTracker</title>
-        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header class="header">
-            <div class="logo">
-                <a href="." class="logo-img"> <img src="img/logoeventracker.svg" alt="Marca" class="logo-eventracker"> </a>
-            </div>
-            <div class="search-box">
-                <div class="search-bar">
-                    <label>
-                        <img src="img/search-svgrepo-com.svg" alt="search icon" class="input-logo">
-                        <input type="text" name="search" class="input" placeholder="Busque por Eventos!" autocomplete="off">
-                    </label>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenTracker</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+        <div class="container barra-navegacao">
+            <!--Botão Toggle-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Barra Lateral-->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!--Header da Sidebar-->
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+<!--                <form class="barra-pesquisa" role="search">-->
+<!--                    <input class="form-control me-2" type="search" placeholder="Busque por Eventos..." aria-label="Search">-->
+<!--                    <button class="btn btn-outline-success" type="submit">-->
+<!--                        <img src="img/search.svg" alt="pesquisar">-->
+<!--                    </button>-->
+<!--                </form>-->
+                <!-- Corpo da Sidebar -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="../nova-conta/novaconta.html">CADASTRE-SE</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href=".">HOME</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../login/login.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">CONTATO</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <nav class="navbar">
-                <a href="#">CRIE SEU EVENTO</a>
-                <a href="#">EVENTOS</a>
-                <a href="#">CADASTRE-SE</a>
-            </nav>
-        </header>
+            <!--Logo do Site-->
+            <a class="navbar-brand" href=".">
+                <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+            </a>
+        </div>
+    </nav>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
-    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random" alt="Random" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagem Aleatória</h5>
+                        <p class="card-text">mus persequeris inciderint persecuti luctus instructior fringilla sea adhuc nostrum potenti persius esse hendrerit aliquid fuisset expetendis morbi postulant tibique turpis ridens bibendum altera nullam eam quaeque facil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
 </html>

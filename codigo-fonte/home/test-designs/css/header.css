@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(172,105,38);
+    background: linear-gradient(90deg, rgba(172,105,38,1) 0%, rgba(246,156,94,1) 0%, rgba(255,101,120,1) 100%, rgba(75,179,215,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.logo-eventracker {
+    width: 200px;
+    height: auto;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.header a {
+    position: relative;
+    font-size: 12px;
+    color: rgb(225, 227, 228);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(225, 227, 228);
+    transition: .3s;
+}
+.header a:hover::before {
+    width: 100%;
+}
+.logo a:hover::before{
+    width: 0;
+}
+
+.input-logo {
+    width: 20px;
+    height: auto;
+}
+
+.input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+}
+
+.input::placeholder {
+    color: rgb(225, 227, 228);
+}
+
+.input:focus {
+    outline: none;
+}
+
+/*.search-bar {*/
+/*    border: 2px solid #2b292c;*/
+/*    border-radius: 25px;*/
+/*    padding: 10px;*/
+/*}*/
+
+.search-box {
+    position: absolute;
+    left: 230px;
+}
+
+.input[type="text"] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.input[type="text"]:-webkit-autofill {
+    -webkit-text-fill-color: inherit;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
