@@ -7,6 +7,7 @@
 /*CORPO DO HTML*/
 body{
     height: 100%;
+    width: 100%;
     background-color: #0d0707;;
     text-align: center;
     font-family: 'Raleway';
@@ -67,17 +68,100 @@ ul a:hover {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /*STYLE FORMULÁRIO*/
+.box_Newcount{
+    padding: 10%em 0;
+}
+
+.box_Newcount .fornewcount{
+    padding: 0.2em;
+}
+
+.newcount{
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    display: inherit;
+    background-color: #f1ebeb;
+    border-radius: 4px;
+    box-shadow: 1px 0px 3px 0px #cbcbcb;
+    background-image: linear-gradient(50deg,
+            hsl(0deg 0% 0%) 31%,
+            hsl(32deg 100% 3%) 58%,
+            hsl(32deg 100% 6%) 66%,
+            hsl(31deg 100% 9%) 70%,
+            hsl(31deg 100% 12%) 72%,
+            hsl(31deg 100% 15%) 74%,
+            hsl(31deg 100% 18%) 75%,
+            hsl(31deg 100% 21%) 76%,
+            hsl(31deg 100% 24%) 78%,
+            hsl(31deg 100% 26%) 79%,
+            hsl(31deg 100% 29%) 81%,
+            hsl(31deg 100% 32%) 82%,
+            hsl(31deg 100% 35%) 84%,
+            hsl(31deg 100% 38%) 87%,
+            hsl(31deg 100% 41%) 90%,
+            hsl(31deg 100% 44%) 93%,
+            hsl(31deg 100% 47%) 96%,
+            hsl(31deg 100% 50%) 100%);
+}
+
+.newcount h1{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    border-bottom: 1px #6c6464 solid;
+    padding: 0.5em;
+    color: rgb(234, 223, 223);
+}
+
+.newcount .padding{
+    padding: 1.5em;
+    float: left;
+}
+
+.newcount label{
+    width: 100%;
+
+}
+
+.newcount .campos{
+    border-top: 1px transparent solid;
+    border-left: 1px transparent solid;
+    border-bottom: 5px #000000 solid;
+    border-right: 1px transparent solid;
+    color: #554f4f;
+    font-family: 'open_sansregular';
+    font-size: 0.9em;
+    outline: none;
+    padding: 0.5em 2em;
+    transition: 0.4s;
+}
+
+.newcount .campos:focus{
+    border-top: 1px transparent solid;
+    border-left: 1px transparent solid;
+    border-bottom: 1px #575251 solid;
+    border-right: 1px transparent solid;
+    color: #0a0400;
+}
+
+.newcount .btn{
+    width: auto;
+    float: center;
+    padding: 0.4em 1.5em;
+    font-family: 'Raleway';
+    font-size: 1em;
+    background-color: #8601018d;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.4s;
+}
 
 .high{
     font-family: 'Raleway';
 }
-input{
-    padding: 10px;
-    font-family: 'Raleway';
-    border-radius: 30px;
-    outline: none;
-    font-size: 15px;
-}
+
 .tipoConta{
     color: white;
     font-family: 'Raleway';
