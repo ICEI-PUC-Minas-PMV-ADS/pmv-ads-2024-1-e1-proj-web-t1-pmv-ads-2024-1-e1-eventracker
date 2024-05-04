@@ -1,17 +1,24 @@
 @font-face {
-    font-family: "Raleway Especial";
+    font-family: "Raleway";
     src: local(Raleway), url(../fonts/Raleway-Normal.ttf);
 }
 
-
-body {
+body{
     height: 100%;
+    margin: 0;
+
+}
+
+main {
+    height: 100%;
+    position: absolute;
+    top: 50px;
     background-color: #0d0707;
     text-align: center;
     font-family: 'Raleway';
     margin: 0;
-    position: absolute;
-    font-family: 'Raleway';
+
+    
 }
 
 /* Header */
@@ -35,14 +42,46 @@ ul {
             hsl(31deg 100% 48%) 99%);
 }
 
+.nav{
+ display: flex;
+}
 
+.hamburguer-menu{
+    display:none;
+}
+
+.menu__btn{
+    display: none;
+}
 
 @media all and (max-width: 480px) {
 
+    .hamburguer-menu{
+        display:flex;
+    }
+
     ul {
         flex-direction: column;
+        height: 52px;
+        z-index: 3;
 
     }
+    .nav{
+        display: none; 
+    }
+    
+    .menu__btn {
+        display:flex;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 4;
+    
+    }
+
 }
 
 
@@ -64,8 +103,6 @@ ul a:hover {
     background: #242424;
     border-radius: 30px;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 #circle-shape-example {
@@ -102,16 +139,13 @@ ul a:hover {
 
 }
 
-
 .rodape {
-    position: absolute;
-    bottom: 0%;
     width: 100%;
     display: flex;
     height: 170px;
-    margin: 0 px;
-    padding: 0px;
-    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+   /* font-family: 'Raleway';*/
     background-image: linear-gradient(45deg,
             hsl(10deg 100% 20%) 1%,
             hsl(12deg 100% 23%) 43%,
@@ -129,7 +163,6 @@ ul a:hover {
 
 .logo {
     width: 480px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 
@@ -168,16 +201,6 @@ ul a:hover {
 
 #menu__toggle:checked~.menu__box {
     left: 0 !important;
-}
-
-.menu__btn {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
 }
 
 .menu__btn>span,
@@ -229,4 +252,18 @@ ul a:hover {
 
 .menu__item:hover {
     background-color: #CFD8DC;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2; 
 }
