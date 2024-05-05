@@ -12,74 +12,35 @@
 
 <body>
 
+    <div class="div_main">
+        <div class="div_central">
+            <div class="div_logo">
+                <img src="logoeventracker.svg" alt="Descrição da imagem SVG" class="img_logo">
+            </div>
 
-    <header>
+            <div class="div_card">
+                <div class="div_login_content">
+                    <h1 class="title_login">LOGIN</h1>
 
+                    <input type="text" placeholder="E-mail" class="input_login" name="email">
 
-        <ul>
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="#" title="Sobre">Cadastrar</a></li>
-            <li><a href="#" title="Serviços">Eventos</a></li>
-            <li><a href="#" title="Artigos">Sobre Nós</a></li>
-            <li><a href="#" title="Contato">Contato</a></li>
+                    <input type="password" placeholder="Senha" class="input_login" name="senha">
 
-        </ul>
+                    <input type="button" value="Entrar" class="button_login" onclick="login(event)">
 
-    </header>
+                    <a href="#">Resgatar Senha</a>
 
-    <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-            <span></span>
-        </label>
+                    <a href="#">Cadastrar-se</a>
 
-        <ul class="menu__box">
-            <li><a class="menu__item" href="#">Home</a></li>
-            <li><a class="menu__item" href="#">Cadastrar</a></li>
-            <li><a class="menu__item" href="#">Eventos</a></li>
-            <li><a class="menu__item" href="#">Sobre Nós</a></li>
-            <li><a class="menu__item" href="#">Contato</a></li>
-        </ul>
-    </div>
-
-    <!--formulário-->
-
-    <section class="boxLogin container">
-        <div class="content">
-
-            <form class="login" method="post" onsubmit="login(event)">
-                <h1><i class="icon icon-key-1"></i> LOGIN</h1>
-                <div class="padding">
-                    <label>
-                        <input type="text" class="campos" placeholder="E-mail" name="email">
-                    </label>
-                    <label>
-                        <input type="password" class="campos" placeholder="Password" name="senha">
-                    </label>
-                    <input type="submit" class="btn fade_8S" value="Entrar">
-
-                </div><!--padding-->
-                <div class="linksForm">
-                    <a href="#" class="fade_4S" title="Resgatar Senha"><i class="icon icon-forward-1"></i> Resgatar
-                        Senha</a>
-                    <a href="#" class="fade_4S" title="Cadastrar-se"><i class="icon icon-user-add"></i> Cadastrar</a>
                 </div>
-            </form>
-        </div>
-    </section>
-    <!--Login-->
 
-
-    <!--rodape-->
-    <footer>
-        <div class="rodape">
-            <img src="logoeventracker.svg" alt="Logo Event Tracker">
-            <div class="slogan">
-                <h3 class="raleway-fonte">O planejamento na palma da sua mão!
-                </h3>
+                <div class="div_login_image">
+                    <img src="sloganeven.svg" alt="Descrição da imagem SVG" class="img_slogan">
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
+
 </body>
 
 </html>

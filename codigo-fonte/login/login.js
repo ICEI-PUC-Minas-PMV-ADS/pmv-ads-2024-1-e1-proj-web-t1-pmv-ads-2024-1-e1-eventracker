@@ -1,7 +1,7 @@
 function login(event) {
     event.preventDefault();
     console.log("entrou na funcao login");
-    
+
     const email = document.getElementsByName("email")[0].value
     console.log("O email ingressado é " + email);
 
