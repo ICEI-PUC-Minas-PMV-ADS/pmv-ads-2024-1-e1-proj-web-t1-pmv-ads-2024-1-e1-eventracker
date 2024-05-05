@@ -6,21 +6,59 @@
 
 header {
   width: 100%;
-  background-color:rgb(235, 121, 121);
+  background-color:rgb(255, 0, 0);
   display: flex;
   justify-content: space-around;
+  padding: 30px;
 }
 
-.page li{
+
+
+.logo img {
+ width: 200px;
+ height: 100px;
+ background-color:rgb(255, 0, 0);
+ position: absolute;
+ left: 1%;
+ top: 1%;
+}
+
+.procurar {
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  background-color: aliceblue;
+  border-radius: 20px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+.procurar input {
+ border: none;
+ background: none;
+ outline: none;
+ padding: 0;
+ color: #fff;
+ font-size: 16px;
+ 
+}
+
+
+
+
+.texto li{
   display: inline-block;
   margin: 10px;
 
 }
 
-.page li  a{
+.texto li  a{
   font-size: 24px;
   text-decoration: none;
-  color: white;
+  color: rgb(8, 8, 8);
 
 
 }

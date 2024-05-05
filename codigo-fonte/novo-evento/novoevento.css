@@ -1,0 +1,315 @@
+/*DEFINIÇÃO DA FONTE DO CORPO HTML*/
+
+/*CORPO DO HTML*/
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    text-align: center;
+    font-family: 'Helvetica';
+    margin: 0;
+    position: absolute;
+}
+
+/*HEADER*/
+
+ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(225deg,
+            hsl(22deg 94% 56%) 0%,
+            hsl(20deg 93% 52%) 14%,
+            hsl(17deg 93% 49%) 29%,
+            hsl(14deg 92% 45%) 43%,
+            hsl(11deg 93% 43%) 57%,
+            hsl(7deg 95% 41%) 71%,
+            hsl(4deg 98% 38%) 86%,
+            hsl(0deg 100% 36%) 100%);
+}
+
+/*Responsividade*/
+@media all and (max-width: 480px) {
+
+    ul {
+        flex-direction: column;
+
+    }
+}
+
+/*STYLE CABEÇALHO*/
+
+ul a {
+    padding: 1em 2em;
+    position: relative;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul a:hover {
+
+    background: #242424;
+    border-radius: 8px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*STYLE FORMULÁRIO*/
+.box_Newcount{
+    padding: 10%em 0;
+}
+
+.box_Newcount .fornewcount{
+    padding: 0.5em;
+}
+
+.newcount{
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+    display: inherit;
+    background-color: #fafafa;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 1px #cbcbcb;
+    background-image: #fafafa;
+}
+
+.newcount h1{
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.5em;
+    border-bottom: 2px #ccd0d5 solid;
+    padding: 0.7em;
+    color: #1f292b;
+}
+
+.newcount .padding{
+    padding: 2.0em;
+    float: none;
+}
+
+.newcount label{
+    width: 100%;
+
+}
+
+.newcount .campos{
+    width: 500px;
+    border-top: 2px #ccd0d5 solid;
+    border-left: 2px #ccd0d5 solid;
+    border-bottom: 2px #ccd0d5 solid;
+    border-right: 2px #ccd0d5 solid;
+    border-radius: 6px;
+    color: #1f292b;
+    font-family: inherit;
+    font-size: 1.0em;
+    outline: none;
+    padding: 1.0em;
+    transition: 0.4s;
+}
+
+.newcount .campos:focus{
+    border-top: 1px #1f292b  solid;
+    border-left: 1px #1f292b  solid;
+    border-bottom: 1px #1f292b  solid;
+    border-right: 1px #1f292b  solid;
+    color: #0a0400;
+}
+
+textarea{
+    width: 100%; /* Faz a textarea ocupar toda a largura do container */
+    height: 100px; /* Altura inicial da textarea */
+    padding: 8px;
+    border: 2px #ccd0d5 solid;
+    border-radius: 6px;
+    color: #1f292b;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical; /* Permite ao usuário redimensionar a textarea apenas verticalmente */
+    box-sizing: border-box; /* Garante que padding e borda estejam inclusos na largura definida */
+    outline: none;
+    transition: 0.1s;
+}
+
+textarea:focus{
+    border-top: 1px #1f292b  solid;
+    border-left: 1px #1f292b  solid;
+    border-bottom: 1px #1f292b  solid;
+    border-right: 1px #1f292b  solid;
+    color: #0a0400;
+}
+
+.custom-file-upload {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2679d8;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #1b4e8a;
+}
+
+input[type="file"] {
+    display: none; /* Esconde o campo de seleção de arquivo */
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 16px;
+    background-color: #3dc241;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    box-shadow: 1px 1px 5px 1px #cbcbcb;
+}
+
+.btn:hover {
+    background-color: #1c611f;
+}
+
+/*STYLE RODAPE*/
+
+.rodape {
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    margin: 0 px;
+    padding: 0px;
+    font-family: inherit;
+    background-image: linear-gradient(225deg,
+            hsl(22deg 94% 56%) 0%,
+            hsl(20deg 93% 52%) 14%,
+            hsl(17deg 93% 49%) 29%,
+            hsl(14deg 92% 45%) 43%,
+            hsl(11deg 93% 43%) 57%,
+            hsl(7deg 95% 41%) 71%,
+            hsl(4deg 98% 38%) 86%,
+            hsl(0deg 100% 36%) 100%);
+
+
+}
+
+.logo {
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.slogan {
+    width: 80%;
+    padding: 15px;
+    text-align: right;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+
+/*STYLE MENU HAMBURGUER*/
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked+.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    left: 0 !important;
+}
+
+.menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #030202;
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(13, 0, 0, 0.4);
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #050000;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
