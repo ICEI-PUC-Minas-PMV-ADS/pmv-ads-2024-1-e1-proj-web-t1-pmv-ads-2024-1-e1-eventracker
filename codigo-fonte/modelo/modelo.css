@@ -164,9 +164,7 @@ body {
 ul a:hover {
 
     background: #460000;
-    border: 100px;
-    padding: 5px;
-    border-radius: 15px;
+    border-radius: 100%;
 
 }
 
