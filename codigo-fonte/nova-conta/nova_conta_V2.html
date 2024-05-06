@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Conta</title>
+    <link rel="stylesheet" href="nova_conta_V2.css ">
+</head>
+<body>
+    <img src="assets/logoeventracker.svg" alt="Logo do EvenTracker" class="imgevent">
+    <!--FORMULARIO DE NOVA CONTA-->
+
+<section class="box_Newcount container">
+    <div class="fornewcount">
+        <form class="newcount" method="post">
+            <div class="high">
+                <h1><i class="icon icon-key-1"></i> CADASTRAR NOVA CONTA</h1>
+                <br>
+            </div>
+            <div class="padding">
+                <label>
+                    <input type="text" class="campos" placeholder="Nome" name="nome" >   
+                </label>
+                <label> 
+                    <input type="text" class="campos" placeholder="Sobrenome" name="sobrenome">
+                </label>
+                <br>
+                <label>
+                    <input type="date" class="nasc" placeholder="Data de nascimento">
+                </label>
+                <label>
+                    <input type="text" class="campos" placeholder="Estado e Pais" name="adress">
+                </label>
+                <br>
+                <label>
+                    <input type="email" class="campos" placeholder="E-mail" name="email">
+                </label>
+                <label>
+                    <input type="email" class="campos" placeholder="Confirmar E-mail" name="confemail">
+                </label>
+                <br>
+                <label>
+                    <input type="password" class="campos" placeholder="Senha" name="senha">
+                </label>
+                <label>
+                    <input type="password" class="campos"  placeholder="Confirmar senha" name="confsenha">
+                </label>
+                <br>
+            </div>
+        <div class="tipoConta">
+            <h4>Tipo de Conta</h4>
+            <p>
+                * Participante pode visualizar e navegar entre eventos
+                <br><br>
+                * Organizador pode criar novos eventos no EvenTracker
+                <br>
+            </p>
+            <div class="inputRadio">
+                <input type="radio" id="part" name="toggle_option" checked />''
+                <input type="radio" id="org" name="toggle_option" />
+
+                <label for="part"><span>Participante</span></label>
+                <label for="org"><span>Organizador</span></label>
+
+                <div class="botao_slider"></div>
+            </div>
+                <br><br>
+            </div class="submit_count">
+            <input type="submit" class="btn fade_8S" value="Cadastrar">
+         </div>
+        </form>
+</section>
+</body>
+</html>

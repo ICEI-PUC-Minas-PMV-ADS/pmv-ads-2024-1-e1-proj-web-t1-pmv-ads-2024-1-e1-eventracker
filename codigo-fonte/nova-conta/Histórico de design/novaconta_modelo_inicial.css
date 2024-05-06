@@ -8,7 +8,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: #0d0707;;
+    background-color: rgb(43, 41, 44);
     text-align: center;
     font-family: 'Raleway';
     margin: 0;
@@ -36,7 +36,6 @@ ul {
             hsl(29deg 100% 45%) 57%,
             hsl(31deg 100% 48%) 99%);
 }
-
 /*Responsividade*/
 @media all and (max-width: 480px) {
 
@@ -70,6 +69,8 @@ ul a:hover {
 /*STYLE FORMULÁRIO*/
 .box_Newcount{
     padding: 10%em 0;
+    position: relative;
+    top: 140px;
 }
 
 .box_Newcount .fornewcount{
@@ -84,25 +85,17 @@ ul a:hover {
     background-color: #f1ebeb;
     border-radius: 4px;
     box-shadow: 1px 0px 3px 0px #cbcbcb;
-    background-image: linear-gradient(50deg,
-            hsl(0deg 0% 0%) 31%,
-            hsl(32deg 100% 3%) 58%,
-            hsl(32deg 100% 6%) 66%,
-            hsl(31deg 100% 9%) 70%,
-            hsl(31deg 100% 12%) 72%,
-            hsl(31deg 100% 15%) 74%,
-            hsl(31deg 100% 18%) 75%,
-            hsl(31deg 100% 21%) 76%,
-            hsl(31deg 100% 24%) 78%,
-            hsl(31deg 100% 26%) 79%,
-            hsl(31deg 100% 29%) 81%,
-            hsl(31deg 100% 32%) 82%,
-            hsl(31deg 100% 35%) 84%,
-            hsl(31deg 100% 38%) 87%,
-            hsl(31deg 100% 41%) 90%,
-            hsl(31deg 100% 44%) 93%,
-            hsl(31deg 100% 47%) 96%,
-            hsl(31deg 100% 50%) 100%);
+    background-image: linear-gradient(45deg,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,        
+            hsl(10deg 100% 20%) 50%, 
+            hsl(10deg 100% 20%) 50%, 
+            hsl(10deg 100% 20%) 90%, 
+            hsl(31deg 100% 48%) 99%);
 }
 
 .newcount h1{
@@ -110,8 +103,9 @@ ul a:hover {
     font-family: 'Raleway';
     font-size: 1.5em;
     border-bottom: 1px #6c6464 solid;
-    padding: 0.5em;
+    : 0.5em;
     color: rgb(234, 223, 223);
+    : ;
 }
 
 .newcount .padding{
@@ -145,17 +139,21 @@ ul a:hover {
     color: #0a0400;
 }
 
+/*STILO BOTÃO DE CADASTRAR*/
 .newcount .btn{
     width: auto;
+    position: relative; 
+    top: -50px;
     float: center;
-    padding: 0.4em 1.5em;
+    padding: 0.70em 2em;
     font-family: 'Raleway';
     font-size: 1em;
-    background-color: #8601018d;
+    background-color: hsl(31deg 100% 48%);
     color: #fff;
     border: 0;
     border-radius: 4px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .high{
@@ -166,6 +164,8 @@ ul a:hover {
     color: white;
     font-family: 'Raleway';
 }
+
+/*STILO SLIDER DE TIPO DE CONTA*/
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
@@ -191,7 +191,7 @@ ul a:hover {
     font-family: "Source Sans Pro";
     font-size: 16px;
     width: calc(100% / 3);
-    padding: 15px;
+    padding: 20px;
     color: #000000;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -201,8 +201,8 @@ ul a:hover {
 
 .botao_slider{
     position: absolute;
-    background: rgba(219, 129, 11, 0.4);
-    top: 3px;
+    background: rgba(244, 5, 5, 0.4);
+    top: 1.5px;
     width: 90px;
     height: 25px;
     padding: 0 10px;
@@ -214,12 +214,14 @@ ul a:hover {
 }
 
 #part:checked ~ .botao_slider{
-    left: 46px;
+    left: 45px;
 }
 
 #org:checked ~ .botao_slider{
-    left: 155px;
+    left: 170px;
 }
+
+
 
 
 
