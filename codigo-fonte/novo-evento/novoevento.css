@@ -12,7 +12,6 @@ body{
 }
 
 /*HEADER*/
-
 ul {
     list-style: none;
     justify-content: center;
@@ -41,24 +40,66 @@ ul {
 
 /*STYLE CABEÇALHO*/
 
-ul a {
-    padding: 1em 2em;
-    position: relative;
-    display: inline-block;
-    font-family: inherit;
-    font-weight: bold;
-    color: #ffffff;
+.navbar {
+    background-image: linear-gradient(225deg,
+            hsl(22deg 94% 56%) 0%,
+            hsl(20deg 93% 52%) 14%,
+            hsl(17deg 93% 49%) 29%,
+            hsl(14deg 92% 45%) 43%,
+            hsl(11deg 93% 43%) 57%,
+            hsl(7deg 95% 41%) 71%,
+            hsl(4deg 98% 38%) 86%,
+            hsl(0deg 100% 36%) 100%);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-buttons a {
+    color: #fafafa;
     text-decoration: none;
-    transition: 0.3s;
+    padding: 5px 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: Roboto;
 }
 
-ul a:hover {
-
-    background: #242424;
-    border-radius: 8px;
+.btn-create-event {
+    background-color: transparent;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn-create-event:hover {
+    color: #1f292b;
+    transition: color 0.4s;
+}
+
+.btn-login {
+    background-color: transparent;
+}
+
+.btn-login:hover {
+    color: #1f292b;
+    transition: color 0.4s;
+}
+
+.btn-register {
+    background-color: transparent;
+    border-top: 2px #fafafa solid;
+    border-left: 2px #fafafa solid;
+    border-bottom: 2px #fafafa solid;
+    border-right: 2px #fafafa solid;
+}
+
+.btn-register:hover {
+    color: #fafafa;
+    background-color: #1f292b;
+    border-top: 2px #fafafa solid;
+    border-left: 2px #fafafa solid;
+    border-bottom: 2px #fafafa solid;
+    border-right: 2px #fafafa solid;
+    transition: background-color 0.4s;
+}
 
 /*STYLE FORMULÁRIO*/
 .box_Newcount{
@@ -185,7 +226,6 @@ input[type="file"] {
 }
 
 /*STYLE RODAPE*/
-
 .rodape {
     position: relative;
     bottom: 0%;
@@ -204,8 +244,6 @@ input[type="file"] {
             hsl(7deg 95% 41%) 71%,
             hsl(4deg 98% 38%) 86%,
             hsl(0deg 100% 36%) 100%);
-
-
 }
 
 .logo {
@@ -215,7 +253,6 @@ input[type="file"] {
     margin-right: auto;
 
 }
-
 
 .slogan {
     width: 80%;
@@ -228,9 +265,7 @@ input[type="file"] {
 
 }
 
-
 /*STYLE MENU HAMBURGUER*/
-
 #menu__toggle {
     opacity: 0;
 }
@@ -254,8 +289,8 @@ input[type="file"] {
 }
 
 .menu__btn {
-    position: fixed;
-    top: 20px;
+    position: absolute;
+    top: 70px;
     left: 20px;
     width: 26px;
     height: 26px;
@@ -285,23 +320,25 @@ input[type="file"] {
 
 .menu__box {
     display: block;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 50px;
     left: -100%;
     width: 300px;
     height: 100%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ECEFF1;
+    background-color: #1f292b;
     box-shadow: 2px 2px 6px rgba(13, 0, 0, 0.4);
     transition-duration: .25s;
 }
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
-    color: #050000;
+    padding: 15px 10px;
+    color: #ffffff;
+    border-top: 1px #fafafa solid;
+    border-bottom: 1px #fafafa solid;
     font-family: inherit;
     font-size: 20px;
     font-weight: 600;
@@ -311,5 +348,5 @@ input[type="file"] {
 }
 
 .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: #242424;
 }
