@@ -12,7 +12,6 @@ body{
 }
 
 /*HEADER*/
-
 ul {
     list-style: none;
     justify-content: center;
@@ -227,7 +226,6 @@ input[type="file"] {
 }
 
 /*STYLE RODAPE*/
-
 .rodape {
     position: relative;
     bottom: 0%;
@@ -246,8 +244,6 @@ input[type="file"] {
             hsl(7deg 95% 41%) 71%,
             hsl(4deg 98% 38%) 86%,
             hsl(0deg 100% 36%) 100%);
-
-
 }
 
 .logo {
@@ -257,7 +253,6 @@ input[type="file"] {
     margin-right: auto;
 
 }
-
 
 .slogan {
     width: 80%;
@@ -270,9 +265,7 @@ input[type="file"] {
 
 }
 
-
 /*STYLE MENU HAMBURGUER*/
-
 #menu__toggle {
     opacity: 0;
 }
@@ -296,8 +289,8 @@ input[type="file"] {
 }
 
 .menu__btn {
-    position: fixed;
-    top: 20px;
+    position: absolute;
+    top: 70px;
     left: 20px;
     width: 26px;
     height: 26px;
@@ -327,23 +320,25 @@ input[type="file"] {
 
 .menu__box {
     display: block;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 50px;
     left: -100%;
     width: 300px;
     height: 100%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ECEFF1;
+    background-color: #1f292b;
     box-shadow: 2px 2px 6px rgba(13, 0, 0, 0.4);
     transition-duration: .25s;
 }
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
-    color: #050000;
+    padding: 15px 10px;
+    color: #ffffff;
+    border-top: 1px #fafafa solid;
+    border-bottom: 1px #fafafa solid;
     font-family: inherit;
     font-size: 20px;
     font-weight: 600;
@@ -353,5 +348,5 @@ input[type="file"] {
 }
 
 .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: #242424;
 }
