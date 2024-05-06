@@ -41,24 +41,66 @@ ul {
 
 /*STYLE CABEÇALHO*/
 
-ul a {
-    padding: 1em 2em;
-    position: relative;
-    display: inline-block;
-    font-family: inherit;
-    font-weight: bold;
-    color: #ffffff;
+.navbar {
+    background-image: linear-gradient(225deg,
+            hsl(22deg 94% 56%) 0%,
+            hsl(20deg 93% 52%) 14%,
+            hsl(17deg 93% 49%) 29%,
+            hsl(14deg 92% 45%) 43%,
+            hsl(11deg 93% 43%) 57%,
+            hsl(7deg 95% 41%) 71%,
+            hsl(4deg 98% 38%) 86%,
+            hsl(0deg 100% 36%) 100%);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-buttons a {
+    color: #fafafa;
     text-decoration: none;
-    transition: 0.3s;
+    padding: 5px 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: Roboto;
 }
 
-ul a:hover {
-
-    background: #242424;
-    border-radius: 8px;
+.btn-create-event {
+    background-color: transparent;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn-create-event:hover {
+    color: #1f292b;
+    transition: color 0.4s;
+}
+
+.btn-login {
+    background-color: transparent;
+}
+
+.btn-login:hover {
+    color: #1f292b;
+    transition: color 0.4s;
+}
+
+.btn-register {
+    background-color: transparent;
+    border-top: 2px #fafafa solid;
+    border-left: 2px #fafafa solid;
+    border-bottom: 2px #fafafa solid;
+    border-right: 2px #fafafa solid;
+}
+
+.btn-register:hover {
+    color: #fafafa;
+    background-color: #1f292b;
+    border-top: 2px #fafafa solid;
+    border-left: 2px #fafafa solid;
+    border-bottom: 2px #fafafa solid;
+    border-right: 2px #fafafa solid;
+    transition: background-color 0.4s;
+}
 
 /*STYLE FORMULÁRIO*/
 .box_Newcount{
