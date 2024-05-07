@@ -7,7 +7,7 @@
 /*STYLE IMAGEM ENCIMA DO FORMULÁRIO*/
 .imgevent{
     position: relative;
-    top: -30px  ;
+    top: -40px  ;
     width: 500px;
     
 }
@@ -30,7 +30,7 @@ body{
 .box_Newcount{
     padding: 10%em 0;
     position: relative;
-    top: -100px;
+    top: -130px;
 }
 
 .box_Newcount .fornewcount{
@@ -63,14 +63,14 @@ body{
     font-family: 'Raleway';
     font-size: 1.5em;
     border-bottom: 1px #6c6464 solid;
-    : 0.5em;
+    padding: 0.5em;
     color: rgb(234, 223, 223);
-    : ;
+    
 }
 
 .newcount .padding{
     padding: 1.5em;
-    float: left;
+    float: center;
 }
 
 .newcount label{
@@ -139,6 +139,7 @@ body{
     font-family: 'Raleway';
 }
 
+
 /*STILO SLIDER DE TIPO DE CONTA*/
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -194,3 +195,7 @@ body{
 #org:checked ~ .botao_slider{
     left: 170px;
 }
+
+
+/*AJUSTAR RESPONSIVIDADE*/
+

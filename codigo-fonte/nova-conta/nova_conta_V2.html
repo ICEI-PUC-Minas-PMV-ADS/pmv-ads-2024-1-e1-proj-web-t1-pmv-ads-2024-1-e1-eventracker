@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="nova_conta_V2.css ">
 </head>
 <body>
-    <img src="assets/logoeventracker.svg" alt="Logo do EvenTracker" class="imgevent">
+    <img src="assets/Logo Eventracker OFC.svg" alt="Logo do EvenTracker" class="imgevent">
     <!--FORMULARIO DE NOVA CONTA-->
 
 <section class="box_Newcount container">
@@ -20,7 +20,7 @@
             </div>
             <div class="padding">
                 <label>
-                    <input type="text" class="campos" placeholder="Nome" name="nome" >   
+                    <input type="text" class="campos" placeholder="Nome/Empresa Organizadora" name="nome" >   
                 </label>
                 <label> 
                     <input type="text" class="campos" placeholder="Sobrenome" name="sobrenome">
@@ -30,7 +30,7 @@
                     <input type="date" class="nasc" placeholder="Data de nascimento">
                 </label>
                 <label>
-                    <input type="text" class="campos" placeholder="Estado e Pais" name="adress">
+                    <input type="text" class="campos" placeholder="Cidade e Estado" name="adress">
                 </label>
                 <br>
                 <label>
@@ -48,27 +48,28 @@
                 </label>
                 <br>
             </div>
-        <div class="tipoConta">
-            <h4>Tipo de Conta</h4>
-            <p>
-                * Participante pode visualizar e navegar entre eventos
-                <br><br>
-                * Organizador pode criar novos eventos no EvenTracker
-                <br>
-            </p>
-            <div class="inputRadio">
-                <input type="radio" id="part" name="toggle_option" checked />''
-                <input type="radio" id="org" name="toggle_option" />
+            <div class="tipoConta">
+                <h4>Tipo de Conta</h4>
+                <p>
+                    * Participante pode visualizar e navegar entre eventos
+                    <br><br>
+                    * Organizador pode criar novos eventos no EvenTracker
+                    <br>
+                </p>
+                <div class="inputRadio">
+                    <input type="radio" id="part" name="toggle_option" checked />''
+                    <input type="radio" id="org" name="toggle_option" />
 
-                <label for="part"><span>Participante</span></label>
-                <label for="org"><span>Organizador</span></label>
+                    <label for="part"><span>Participante</span></label>
+                        <label for="org"><span>Organizador</span></label>
 
                 <div class="botao_slider"></div>
-            </div>
+                </div>
                 <br><br>
-            </div class="submit_count">
-            <input type="submit" class="btn fade_8S" value="Cadastrar">
-         </div>
+                </div class="submit_count">
+                    <input type="submit" class="btn fade_8S" value="Cadastrar">
+                </div>
+            </div>
         </form>
 </section>
 </body>
