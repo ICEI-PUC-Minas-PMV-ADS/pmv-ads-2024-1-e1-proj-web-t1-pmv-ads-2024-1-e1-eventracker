@@ -114,7 +114,7 @@ body {
 }
 
 .img_logo {
-    height: 100px;
+    height: 80px;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -165,17 +165,11 @@ ul a:hover {
 
     background: #460000;
     border-radius: 100%;
+    padding: 5px;
+    border-radius: 15px;
 
 }
 
-.img_conteudo{
-    height: auto;
-    border-radius: 70%;
-    -webkit-shape-outside: circle();
-    shape-outside: circle();
-    max-width: 80%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    max-height: 80%;
-}
-        
+
     
     
