@@ -14,12 +14,17 @@
 
     <div class="main_div">
         <div class="header_div">
+
+            <div class="hamburguer_div" onclick="openDrawer()">
+                <img src="menu_hambuger.svg" alt="Descrição da imagem SVG" class="hamburguer_img">
+            </div>
+
             <div class="header_space_div">
                 <!--Cria um espaco, empurrando o nav a direita -->
             </div>
             <div class="header_nav_div">
                 <ul class="nav_ul">
-                    <li><a href="../home/index.html" target="_blank" >Home</a></li>
+                    <li><a href="../home/index.html" target="_blank">Home</a></li>
                     <li><a href="#" title="Sobre">Cadastrar</a></li>
                     <li><a href="#" title="Serviços">Eventos</a></li>
                     <li><a href="#" title="Artigos">Sobre Nós</a></li>
@@ -70,7 +75,19 @@
         </div>
     </div>
 
+    <div class="nav_drawer_div" id="nav_drawer">
+        <div class="close_icon_div">
+            <img src="close_icon.svg" alt="Descrição da imagem SVG" class="close_icon" onclick="closeDrawer()">
+        </div>
 
+        <ul class="nav_ul">
+            <li><a href="../home/index.html" target="_blank">Home</a></li>
+            <li><a href="#" title="Sobre">Cadastrar</a></li>
+            <li><a href="#" title="Serviços">Eventos</a></li>
+            <li><a href="#" title="Artigos">Sobre Nós</a></li>
+            <li><a href="#" title="Contato">Contato</a></li>
+        </ul>
+    </div>
 
 
 </body>
