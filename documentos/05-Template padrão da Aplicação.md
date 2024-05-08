@@ -6,7 +6,7 @@
   <img src="img/tela_even.png"> <figcaption> Figura 14 - Demonstração Tela Even Tracker</figcaption>
 </figure>
 
-(colocar a figura do web site aqui e numeracao da figura) 
+
 
   Observa-se que as páginas possuirão os elementos correspondentes ao protótipo de baixa fidelidade realizado no Projeto de Interface na etapa anterior, visando dessa forma desenvolver o website promovendo acessibilidade aos usuários.
   Nota-se as seguintes estruturas : <br>
