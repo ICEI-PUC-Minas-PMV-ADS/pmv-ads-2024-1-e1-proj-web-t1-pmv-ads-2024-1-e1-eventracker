@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Evento</title>
+    <link rel="stylesheet" href="novoevento_dark.css">
+</head>
+<body>
+    <!--CABEÇALHO DA PÁGINA-->
+    <nav class="navbar">
+        <div class="navbar-buttons">
+            <a href="#" class="btn-create-event">Criar evento</a>
+            <a href="#" class="btn-login">Acessar conta</a>
+            <a href="#" class="btn-register">Cadastre-se</a>
+        </div>
+    </nav>
+
+    <!--MENU HAMBURGUER-->
+    <input id="menu__toggle" type="checkbox">
+    <label class="menu__btn" for="menu__toggle">
+        <span></span>
+    </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#">Página Inicial</a></li>
+            <li><a class="menu__item" href="#">Buscar</a></li>
+            <li><a class="menu__item" href="#">Meus Eventos</a></li>
+            <li><a class="menu__item" href="#">Meus Favoritos</a></li>           
+            <li><a class="menu__item" href="#">Sobre Nós</a></li>      
+            <li><a class="menu__item" href="#">Contato</a></li>
+        </ul>
+
+    <!--FORMULARIO DE NOVO EVENTO-->
+<section class="box_Newcount container">
+    <div class="fornewcount">
+        <form class="newcount" method="post">
+            <div class="high">
+                <h1><i class="icon icon-key-1"></i>Criar novo evento</h1>
+            </div>
+            <div class="padding">
+                <label>
+                    <input type="text" class="campos" placeholder="Nome do evento" name="nome" >   
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="text" class="campos" placeholder="Endereço" name="adress">
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="date" class="campos" placeholder="Data do evento" name="eventdate">
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="time" class="campos"  placeholder="Horário do evento" name="eventtime">
+                </label>
+                <br>
+                <br>
+                <label> 
+                    <textarea id="message" name="message" placeholder="Descrição do evento"></textarea>
+                </label>
+                <br>
+                <br>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox1" class="checkbox-input">
+                    <label for="checkbox1" class="checkbox-label">Acessibilidade para cadeirantes?</label>
+                </div>
+            
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox2" class="checkbox-input">
+                    <label for="checkbox2" class="checkbox-label">Intérprete de Libras disponível?</label>
+                </div>
+            
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox3" class="checkbox-input">
+                    <label for="checkbox3" class="checkbox-label">Sistema de áudio descritivo?</label>
+                </div>
+                <br>
+                <div class="form-field"></div>
+                <label for="file-upload" class="custom-file-upload">Selecionar imagem</label>
+                <input type="file" id="file-upload" name="image" accept="image/png, image/jpeg">
+                <div id="file-name"></div>
+                </div>
+            </div>
+        </div class="submit_count">
+               <br>
+            <input type="submit" class="btn" value="Criar">
+               <br>
+               <br>
+        </div>
+    </form>
+</section>
+
+    <!--RODAPÉ DA PÁGINA-->
+    <footer>
+        <div class="rodape">
+            <img src="assets/logoeventracker.svg" alt="Logo Even Tracker">
+
+            <div class="slogan">
+                <h3 class="fonte">
+                    Seu planejamento na palma da sua mão!
+                </h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
