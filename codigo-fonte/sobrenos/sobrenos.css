@@ -124,7 +124,7 @@ body {
     margin-left: 1.25rem;
     padding-top: 1.75rem;
     font-family: Raleway;
-    font-size: 1.5625rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: aliceblue;
 }
@@ -180,4 +180,28 @@ ul a:hover {
 }
         
     
+@media all and (max-width: 680px) {
     
+    .middle_div {
+        flex-direction: column-reverse;
+    }
+
+    .left_div {
+        width: 100%;
+    }
+
+    .right_div {
+        width: 100%;
+    }
+
+    .img_conteudo{
+        height: auto;
+        max-width: 50%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+        max-height: 50%;
+        margin-top: 1rem;
+    }
+
+    .phrase_slogan {
+        font-size: 1.0rem;
+    }
+}    
