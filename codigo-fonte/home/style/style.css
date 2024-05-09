@@ -91,6 +91,7 @@ body {
 .card {
     border-radius: 30px;
     box-shadow: rgb(17, 17, 16) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;;
+    max-width: 400px !important;
 }
 
 .card-body {
@@ -109,10 +110,23 @@ body {
     background-color: orange;
 }
 
-h1,h2 {
+h1,h2,h4 {
     color: rgba(230, 230, 221, 1);
 }
 
 h3 {
     color: orange;
 }
+
+.card {
+    max-width: 100%; /* Ensure the card never exceeds its parent's width */
+}
+.card-img {
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    height: 100%; /* Fill the height of the card */
+}
+
+.icn-notificacao {
+    width: 20px;
+}
+
