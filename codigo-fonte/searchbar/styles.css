@@ -3,44 +3,65 @@
  */
 
 body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
 }
 
-/**
- * Styles for the header element.
- */
-header {
-  background-image: linear-gradient(
-  45deg,
-  hsl(240deg 100% 20%) 0%,
-  hsl(289deg 100% 21%) 11%,
-  hsl(315deg 100% 27%) 22%,
-  hsl(329deg 100% 36%) 33%,
-  hsl(337deg 100% 43%) 44%,
-  hsl(357deg 91% 59%) 56%,
-  hsl(17deg 100% 59%) 67%,
-  hsl(34deg 100% 53%) 78%,
-  hsl(45deg 100% 50%) 89%,
-  hsl(55deg 100% 50%) 100%
-  );
-  color: #fff;
-  padding: 10px 0;
+.main_div {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
+
+.header_div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex: 0 0 auto;
+  /* Não se expande, tamanho baseado no conteúdo */
+  background-image: linear-gradient(45deg,
+          hsl(10deg 100% 20%) 1%,
+          hsl(12deg 100% 23%) 43%,
+          hsl(15deg 100% 26%) 50%,
+          hsl(17deg 100% 29%) 51%,
+          hsl(19deg 100% 32%) 51%,
+          hsl(22deg 100% 36%) 49%,
+          hsl(24deg 100% 39%) 49%,
+          hsl(26deg 100% 42%) 50%,
+          hsl(29deg 100% 45%) 57%,
+          hsl(31deg 100% 48%) 99%);
+}
+
+.middle_div {
+  flex: 1 1 auto;
+  /* Se expande para preencher o espaço restante */
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(43, 41, 44);
+}
+
 
 /**
  * Styles for the search container.
  */
 .search-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 600px;
+  position: absolute;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
 }
 
 /**
@@ -50,7 +71,7 @@ header {
 input[type=text] {
   padding: 10px;
   margin-left: 10px;
-  border: none;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   box-sizing: border-box;
   width: 100%;
@@ -64,14 +85,16 @@ button[type=submit] {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  
 }
 
 /**
  * Styles for the submit button icon.
  */
 button[type=submit] i {
-  color: #fff;
+  color: #000000;
   font-size: 20px;
+  
 }
 
 /**
@@ -85,7 +108,23 @@ button[type=submit]:hover i {
  * Styles for the event container.
  */
 .event-container {
-  margin-top: 20px;
+  width: 80%;
+  margin-top: 100px;;
+  transform: translate(10%, 0%);
+  background-image: linear-gradient(45deg,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,        
+            hsl(10deg 100% 20%) 50%, 
+            hsl(10deg 100% 20%) 50%, 
+            hsl(10deg 100% 20%) 90%, 
+            hsl(31deg 100% 48%) 99%);
+  box-shadow: 1px 0px 3px 0px #cbcbcb;
+  border-radius: 4px;
+  border: 2px solid hsl(0, 0%, 0%);
 }
 
 /**
@@ -99,12 +138,14 @@ button[type=submit]:hover i {
   border-radius: 5px;
   overflow: hidden;
 }
-
+.first-event{
+  margin-top: 10px;
+}
 /**
  * Styles for the event image.
  */
 .event img {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 140px;
   height: 140px;
   object-fit: cover;
@@ -113,52 +154,267 @@ button[type=submit]:hover i {
   cursor: pointer;
 }
 
+.event-details{
+  flex: 1;
+}
+
 /**
  * Styles for the event description.
  */
 .event p {
   padding: 10px;
   font-size: 14px;
-  color: #333;
-  margin-left:10px;
+  color: #000000;
   cursor: pointer;
 }
 
-/**
- * Styles for the hamburger button.
- */
-.hamburger-btn {
-  position: absolute;
-  top: 12px;
-  right: 10px;
+.event h1 {
+  padding: 10px;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+
+.footer_div {
+  width: 100%;
+  flex: 0 0 auto;
+  /* Não se expande, tamanho baseado no conteúdo */
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
-  width: 40px;
-  height: 30px;
-  background: transparent;
+  background-image: linear-gradient(45deg,
+          hsl(10deg 100% 20%) 1%,
+          hsl(12deg 100% 23%) 43%,
+          hsl(15deg 100% 26%) 50%,
+          hsl(17deg 100% 29%) 51%,
+          hsl(19deg 100% 32%) 51%,
+          hsl(22deg 100% 36%) 49%,
+          hsl(24deg 100% 39%) 49%,
+          hsl(26deg 100% 42%) 50%,
+          hsl(29deg 100% 45%) 57%,
+          hsl(31deg 100% 48%) 99%);
+}
+
+
+.filter-icon {
+  background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-/**
- * Styles for the lines in the hamburger button.
- */
-.line {
-  width: 30px;
-  height: 4px;
-  background-color: #333;
+.filter-icon i {
+  color: #000000;
+  font-size: 20px;
 }
 
-/**
- * Styles for the bell icon.
- */
-.fa-solid.fa-bell {
+.filter-icon:hover i {
+  color: #ccc;
+}
+
+
+
+.left_div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /*Centraliza horizontal e verticalmente o conteudo do div*/
+  justify-content: center;
+  align-items: center;
+  /*background-color: coral;*/
+}
+
+.right_div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /*Centraliza horizontal e verticalmente o conteudo do div*/
+  justify-content: center;
+  align-items: center;
+ /* background-color: rgb(150, 3, 3);*/
+}
+
+.contentleft_div {
+  width: 80%;
+ /* background-color: rgb(241, 25, 61);*/
+}
+
+.contentright_div {
+  display: flex;
+  /*Centraliza horizontal e verticalmente o conteudo do div*/
+  justify-content: center;
+  align-items: center;
+ /*  background-color: deeppink;*/
+}
+
+.letter_title {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(248, 244, 241);
+}
+
+.letter {
+  font-family: Raleway;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+
+.img_logo {
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.phrase_slogan {
+  margin-left: 20px;
+  padding-top: 28px;
+  font-family: Raleway;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.header_nav_div {
+  flex: 0 0 auto;
+}
+
+.header_space_div {
+  height: 50px;
+  width: 50px;
+  flex: 1 1 auto;
+  /* Se expande para preencher o espaço restante */
+}
+
+.nav_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+  
+}
+
+.nav_ul li {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.nav_ul li a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+.nav-item:hover{
+
+  background: #460000;
+  border-radius: 100%;
+
+}
+
+.img_conteudo{
+  height: auto;
+  border-radius: 70%;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  max-width: 80%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  max-height: 80%;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked+.menu__btn>span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+  left: 0 !important;
+}
+
+.menu__btn {
   position: absolute;
-  top: 12px;
-  right: 70px;
-  font-size: 30px; 
+  top: 36px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
   cursor: pointer;
-  color: #333;
+  z-index: 100;
+}
+
+.menu__btn>span,
+.menu__btn>span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fafafa;
+  transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+  content: '';
+  top: -8px;
+}
+
+.menu__btn>span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  box-shadow: 2px 2px 6px rgba(13, 0, 0, 0.4);
+  background-color: #1f292b;
+  transition-duration: .25s;
+  z-index: 10;
+}
+
+.menu__item {
+  display: block;
+  position: relative;
+  top: 20px;
+  padding: 15px 10px;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px #fafafa solid;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+
+}
+
+.menu__item:last-child {
+  border-bottom: none;
+}
+
+.menu__item:hover {
+  background-color: #242424;
 }

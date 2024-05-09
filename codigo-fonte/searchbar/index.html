@@ -6,38 +6,128 @@
     <title>Event Search</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" />
 </head>
 <body>
-    <header>
+  <div class="main_div">
+    <div class="header_div">
+        <div class="header_space_div">
+            <!--Cria um espaco, empurrando o nav a direita -->
+        </div>
+        <div class="header_nav_div">
+          <ul class="nav_ul">
+            <li><a href="" target="_blank" class="nav-item">Home</a></li>
+            <li><a href="#" title="Sobre" class="nav-item">Cadastrar</a></li>
+            <li><a href="#" title="Serviços" class="nav-item">Eventos</a></li>
+            <li><a href="#" title="Artigos" class="nav-item">Sobre Nós</a></li>
+            <li><a href="#" title="Contato" class="nav-item">Contato</a></li>
+          </ul>
+        </div>
+
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">Página Inicial</a></li>
+                <li><a class="menu__item" href="#">Buscar</a></li>
+                <li><a class="menu__item" href="#">Meus Eventos</a></li>
+                <li><a class="menu__item" href="#">Meus Favoritos</a></li>           
+                <li><a class="menu__item" href="#">Sobre Nós</a></li>      
+                <li><a class="menu__item" href="#">Contato</a></li>
+            </ul>
+    </div>
+    <div class="middle_div">
       <div class="search-container">
         <button type="submit"><span class="search-icon"><i class="fa fa-search"></i></span></button>
         <input type="text" class="search-bar" placeholder="Faça sua pesquisa...">
-        <i class="fa-solid fa-bell"></i>
-      </div>
-    </header>
-    <div class="event-container">
-        <div class="event">
-          <img src="Party1.jpg" alt="Event 1">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
-            exercitationem
-            maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
-            placeat
-            rerum architecto optio eum.</p>
+        <button type="submit" class="filter-icon"><i class="fa fa-filter"></i></button> 
         </div>
-        <div class="event">
-          <img src="Party2.jpg" alt="Event 2">
-          <p>Descrição do evento</p>
+      <div class="event-container">
+        <div class="event first-event">
+          <img src="Party1.jpg" alt="Event 1">
+          <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>
+      </div>
+          <div class="event">
+            <img src="Party2.jpg" alt="Event 2">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>
+          </div>
+          <div class="event">
+            <img src="Party3.jpg" alt="Event 3">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>
+          </div>
+          <div class="event">
+            <img src="Party3.jpg" alt="Event 3">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>
+          </div>
+          <div class="event">
+            <img src="Party3.jpg" alt="Event 3">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>          
+        </div>
+          <div class="event">
+            <img src="Party3.jpg" alt="Event 3">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>          
+        </div>
+          <div class="event">
+            <img src="Party3.jpg" alt="Event 3">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>          
         </div>
         <div class="event">
           <img src="Party3.jpg" alt="Event 3">
-          <p>Descrição do evento</p>
-        </div>
+          <div class="event-details">
+            <h1>Titulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+            exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+            placeat rerum architecto optio eum.</p>
+        </div>          
       </div>
-      <button class="hamburger-btn">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </button>
+        </div>
+        <!-- conteudo vai aqui -->
+    </div>
+    <div class="footer_div">
+        <img src="logoeventracker.svg" alt="Descrição da imagem SVG" class="img_logo">
+
+        <h3 class="phrase_slogan">
+            O planejamento na palma da sua mão!
+        </h3>
+
+    </div>
+</div>
 </body>
 </html>
 
