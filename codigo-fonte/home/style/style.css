@@ -130,3 +130,16 @@ h3 {
     width: 20px;
 }
 
+.footer-color {
+    background-image: linear-gradient(45deg,
+    hsl(10deg 100% 20%) 1%,
+    hsl(12deg 100% 23%) 43%,
+    hsl(15deg 100% 26%) 50%,
+    hsl(17deg 100% 29%) 51%,
+    hsl(19deg 100% 32%) 51%,
+    hsl(22deg 100% 36%) 49%,
+    hsl(24deg 100% 39%) 49%,
+    hsl(26deg 100% 42%) 50%,
+    hsl(29deg 100% 45%) 57%,
+    hsl(31deg 100% 48%) 99%);) !important;
+}
