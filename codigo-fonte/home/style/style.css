@@ -11,7 +11,6 @@
     hsl(26deg 100% 42%) 50%,
     hsl(29deg 100% 45%) 57%,
     hsl(31deg 100% 48%) 99%);) !important;
-
 }
 /*.offcanvas.show {*/
 /*    background-image: linear-gradient(45deg,*/
@@ -53,7 +52,8 @@
 }
 
 body {
-    background-color: rgb(43, 41, 44);
+    background-color: #2d2a2e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
 }
 
 @media(max-width: 991px) {
@@ -72,6 +72,7 @@ body {
         /*backdrop-filter: opacity();*/
     }
 }
+
 
 .fonte-corpo-barra {
     font-weight: 600;
@@ -102,16 +103,18 @@ body {
 .btn-primary {
     border-radius: 50px;
     width: 120px;
-    background-color: rgb(43, 41, 44);
+    background-color: #751700;
     border-color: transparent;
 }
 
 .btn-primary:hover {
-    background-color: orange;
+    background-color: #ea7400;
+    border-color: transparent;
 }
 
 h1,h2,h4 {
     color: rgba(230, 230, 221, 1);
+    text-decoration: none;
 }
 
 h3 {
@@ -142,4 +145,44 @@ h3 {
     hsl(26deg 100% 42%) 50%,
     hsl(29deg 100% 45%) 57%,
     hsl(31deg 100% 48%) 99%);) !important;
+}
+
+.logo-footer {
+    width: 120px;
+}
+
+.cor-card {
+    background-color: rgb(45, 42, 46);
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    transition: all 0.2s ease-in 0s;
+    padding: 12px 16px;
+}
+
+.card-title {
+    color: rgba(230, 230, 221, 1);
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+}
+
+h1, h4 {
+    padding-bottom: 45px;
+}
+
+hr {
+    background-color: rgba(230, 230, 221, 1);
 }
