@@ -10,10 +10,12 @@
 ## Integrantes
 
 
-* André Santos Pedroso 
+* André Santos Pedroso
+* Alessandro Paulista Freitas
 * João Victor Kalil de Almeida Lapa
 * Juliana Monik Moraes Silva
-* Lucas Siqueira Ribeiro 
+* Lucas Siqueira Ribeiro
+* Mauricio Thales Alves de Azevedo Neto
 
 
 
