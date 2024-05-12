@@ -15,6 +15,7 @@
                                    <em> • menu de navegação;</em> <br>
                                    <em> • menu hamburguer;</em> <br>
                                    <em> • Fonte: Open Sans, sans-serif;</em> <br>
+                                   <em> • Font-size: 12px;</em> <br>
   
 
 
