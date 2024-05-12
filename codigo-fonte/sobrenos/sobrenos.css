@@ -22,7 +22,7 @@ body {
     align-items: center;
     width: 100%;
     /* Não se expande, tamanho baseado no conteúdo */
-    background-color: blue;
+    background-color: rgb(1, 10, 66);
     background-image: linear-gradient(45deg,
             hsl(10deg 100% 20%) 1%,
             hsl(12deg 100% 23%) 43%,
@@ -140,6 +140,10 @@ body {
     color: aliceblue;
 }
 
+.color_link{
+    color:aliceblue;
+}
+
 .header_nav_div {
     /*background-color: yellow;*/
 }
@@ -167,6 +171,7 @@ body {
 .login_link {
     padding-left: 1rem;
     padding-right: 1rem;
+    color:aliceblue;
 }
 
 .bell_icon_img {
@@ -178,7 +183,7 @@ body {
 .login_button {
     border-radius: 2rem; 
     padding: 0.5rem 1rem;
-    background-color: #4CAF50;
+    background-color: #9d2200;
     color: white; /* Cor do texto */
     border: none; 
     text-decoration: none;
@@ -297,6 +302,7 @@ ul a:hover {
 
     .phrase_slogan {
         font-size: 1.0rem;
+        color:white;
     }
 
     .hamburguer_div {
