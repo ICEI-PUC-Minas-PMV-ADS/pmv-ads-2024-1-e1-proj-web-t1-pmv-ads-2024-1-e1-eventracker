@@ -2,40 +2,67 @@
  * This CSS file contains styles for a search bar and event container.
  */
 
-body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-
-.main_div {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.header_div {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  flex: 0 0 auto;
-  /* Não se expande, tamanho baseado no conteúdo */
+ .barra-navegacao {
   background-image: linear-gradient(45deg,
-          hsl(10deg 100% 20%) 1%,
-          hsl(12deg 100% 23%) 43%,
-          hsl(15deg 100% 26%) 50%,
-          hsl(17deg 100% 29%) 51%,
-          hsl(19deg 100% 32%) 51%,
-          hsl(22deg 100% 36%) 49%,
-          hsl(24deg 100% 39%) 49%,
-          hsl(26deg 100% 42%) 50%,
-          hsl(29deg 100% 45%) 57%,
-          hsl(31deg 100% 48%) 99%);
+  hsl(10deg 100% 20%) 1%,
+  hsl(12deg 100% 23%) 43%,
+  hsl(15deg 100% 26%) 50%,
+  hsl(17deg 100% 29%) 51%,
+  hsl(19deg 100% 32%) 51%,
+  hsl(22deg 100% 36%) 49%,
+  hsl(24deg 100% 39%) 49%,
+  hsl(26deg 100% 42%) 50%,
+  hsl(29deg 100% 45%) 57%,
+  hsl(31deg 100% 48%) 99%);) !important;
 }
+
+.navbar {
+  border: none;
+  margin: 0;
+  background-color: rgb(43, 41, 44) !important;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.logomarca {
+  width: 200px;
+}
+
+.barra-pesquisa {
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 20px auto 0;
+  height: auto;
+  padding-right: 100px;
+  display: flex;
+}
+
+body {
+  background-color: #2d2a2e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+@media(max-width: 991px) {
+  .sidebar {
+      background-image: linear-gradient(45deg,
+      hsl(10deg 100% 20%) 1%,
+      hsl(12deg 100% 23%) 43%,
+      hsl(15deg 100% 26%) 50%,
+      hsl(17deg 100% 29%) 51%,
+      hsl(19deg 100% 32%) 51%,
+      hsl(22deg 100% 36%) 49%,
+      hsl(24deg 100% 39%) 49%,
+      hsl(26deg 100% 42%) 50%,
+      hsl(29deg 100% 45%) 57%,
+      hsl(31deg 100% 48%) 99%) !important;
+      /*backdrop-filter: opacity();*/
+  }
+}
+
 
 .middle_div {
   flex: 1 1 auto;
@@ -56,7 +83,7 @@ body {
   width: 100%;
   max-width: 600px;
   position: absolute;
-  top: 100px;
+  top: 140px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -176,25 +203,20 @@ button[type=submit]:hover i {
 }
 
 
-.footer_div {
-  width: 100%;
-  flex: 0 0 auto;
-  /* Não se expande, tamanho baseado no conteúdo */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.footer-color {
   background-image: linear-gradient(45deg,
-          hsl(10deg 100% 20%) 1%,
-          hsl(12deg 100% 23%) 43%,
-          hsl(15deg 100% 26%) 50%,
-          hsl(17deg 100% 29%) 51%,
-          hsl(19deg 100% 32%) 51%,
-          hsl(22deg 100% 36%) 49%,
-          hsl(24deg 100% 39%) 49%,
-          hsl(26deg 100% 42%) 50%,
-          hsl(29deg 100% 45%) 57%,
-          hsl(31deg 100% 48%) 99%);
+  hsl(10deg 100% 20%) 1%,
+  hsl(12deg 100% 23%) 43%,
+  hsl(15deg 100% 26%) 50%,
+  hsl(17deg 100% 29%) 51%,
+  hsl(19deg 100% 32%) 51%,
+  hsl(22deg 100% 36%) 49%,
+  hsl(24deg 100% 39%) 49%,
+  hsl(26deg 100% 42%) 50%,
+  hsl(29deg 100% 45%) 57%,
+  hsl(31deg 100% 48%) 99%);) !important;
 }
+
 
 
 .filter-icon {
@@ -417,4 +439,26 @@ button[type=submit]:hover i {
 
 .menu__item:hover {
   background-color: #242424;
+}
+
+.icn-notificacao {
+  width: 20px;
+}
+
+.footer-color {
+  background-image: linear-gradient(45deg,
+  hsl(10deg 100% 20%) 1%,
+  hsl(12deg 100% 23%) 43%,
+  hsl(15deg 100% 26%) 50%,
+  hsl(17deg 100% 29%) 51%,
+  hsl(19deg 100% 32%) 51%,
+  hsl(22deg 100% 36%) 49%,
+  hsl(24deg 100% 39%) 49%,
+  hsl(26deg 100% 42%) 50%,
+  hsl(29deg 100% 45%) 57%,
+  hsl(31deg 100% 48%) 99%) !important;
+}
+
+.logo-footer {
+  width: 120px;
 }

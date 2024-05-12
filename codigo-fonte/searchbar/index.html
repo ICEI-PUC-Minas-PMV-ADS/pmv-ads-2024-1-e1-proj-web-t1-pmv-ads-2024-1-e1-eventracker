@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Search</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EvenTracker</title>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="style/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" />
 </head>
 <body>
-  <div class="main_div">
-    <div class="header_div">
-        <div class="header_space_div">
-            <!--Cria um espaco, empurrando o nav a direita -->
+  <nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+    <div class="container barra-navegacao">
+        <!--Botão Toggle-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Logo do Site-->
+        <a class="navbar-brand" href=".">
+            <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+        </a>
+        <!--Barra Lateral-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!--Header da Sidebar-->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- Corpo da barra -->
+            <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+                <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href=".">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../novo-evento/novoevento.html">CRIE SEU EVENTO </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                    </li><li class="nav-item mx-2">
+                    <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                </li>
+                </ul>
+                <!--Link Login e Cadastre-se-->
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/novaconta.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="..."><img src="img/bell.svg" class="icn-notificacao"></a>
+                </div>
+            </div>
         </div>
-        <div class="header_nav_div">
-          <ul class="nav_ul">
-            <li><a href="" target="_blank" class="nav-item">Home</a></li>
-            <li><a href="#" title="Sobre" class="nav-item">Cadastrar</a></li>
-            <li><a href="#" title="Serviços" class="nav-item">Eventos</a></li>
-            <li><a href="#" title="Artigos" class="nav-item">Sobre Nós</a></li>
-            <li><a href="#" title="Contato" class="nav-item">Contato</a></li>
-          </ul>
-        </div>
-
-        <input id="menu__toggle" type="checkbox">
-        <label class="menu__btn" for="menu__toggle">
-            <span></span>
-        </label>
-            <ul class="menu__box">
-                <li><a class="menu__item" href="#">Página Inicial</a></li>
-                <li><a class="menu__item" href="#">Buscar</a></li>
-                <li><a class="menu__item" href="#">Meus Eventos</a></li>
-                <li><a class="menu__item" href="#">Meus Favoritos</a></li>           
-                <li><a class="menu__item" href="#">Sobre Nós</a></li>      
-                <li><a class="menu__item" href="#">Contato</a></li>
-            </ul>
     </div>
+</nav>
     <div class="middle_div">
       <div class="search-container">
         <button type="submit"><span class="search-icon"><i class="fa fa-search"></i></span></button>
@@ -45,7 +62,7 @@
         </div>
       <div class="event-container">
         <div class="event first-event">
-          <img src="Party1.jpg" alt="Event 1">
+          <img src="/img/Party1.jpg" alt="Event 1">
           <div class="event-details">
               <h1>Titulo</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -54,7 +71,7 @@
           </div>
       </div>
           <div class="event">
-            <img src="Party2.jpg" alt="Event 2">
+            <img src="/img/Party2.jpg" alt="Event 2">
             <div class="event-details">
               <h1>Titulo</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -63,7 +80,7 @@
           </div>
           </div>
           <div class="event">
-            <img src="Party3.jpg" alt="Event 3">
+            <img src="/img/Party3.jpg" alt="Event 3">
             <div class="event-details">
               <h1>Titulo</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -72,7 +89,7 @@
           </div>
           </div>
           <div class="event">
-            <img src="Party3.jpg" alt="Event 3">
+            <img src="/img/Party3.jpg" alt="Event 3">
             <div class="event-details">
               <h1>Titulo</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -81,16 +98,7 @@
           </div>
           </div>
           <div class="event">
-            <img src="Party3.jpg" alt="Event 3">
-            <div class="event-details">
-              <h1>Titulo</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
-              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
-              placeat rerum architecto optio eum.</p>
-          </div>          
-        </div>
-          <div class="event">
-            <img src="Party3.jpg" alt="Event 3">
+            <img src="/img/Party3.jpg" alt="Event 3">
             <div class="event-details">
               <h1>Titulo</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -99,7 +107,16 @@
           </div>          
         </div>
           <div class="event">
-            <img src="Party3.jpg" alt="Event 3">
+            <img src="/img/Party3.jpg" alt="Event 3">
+            <div class="event-details">
+              <h1>Titulo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
+              exercitationem maxime impedit pariatur doloremque blanditiis similique, quia inventore facilis, porro quos deserunt
+              placeat rerum architecto optio eum.</p>
+          </div>          
+        </div>
+          <div class="event">
+            <img src="/img/Party3.jpg" alt="Event 3">
             <div class="event-details">
               <h1>Titulo</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -108,7 +125,7 @@
           </div>          
         </div>
         <div class="event">
-          <img src="Party3.jpg" alt="Event 3">
+          <img src="/img/Party3.jpg" alt="Event 3">
           <div class="event-details">
             <h1>Titulo</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cupiditate omnis quaerat
@@ -119,16 +136,17 @@
         </div>
         <!-- conteudo vai aqui -->
     </div>
-    <div class="footer_div">
-        <img src="logoeventracker.svg" alt="Descrição da imagem SVG" class="img_logo">
-
-        <h3 class="phrase_slogan">
-            O planejamento na palma da sua mão!
-        </h3>
-
-    </div>
-</div>
-</body>
-</html>
+    <footer class="text-center text-lg-start footer-color">
+      <div class="text-start text-white p-3">
+          <h6><img src="img/logoeventracker.svg" alt="logomarca" class="logo-footer"> O planejamento na palma da sua mão!</h6>
+      </div>
+  </footer>
+  
+  
+  
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  </body>
+  </html>
 
 
