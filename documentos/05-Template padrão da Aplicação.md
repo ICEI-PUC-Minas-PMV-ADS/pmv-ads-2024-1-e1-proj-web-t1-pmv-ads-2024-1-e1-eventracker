@@ -3,7 +3,7 @@
  O layout padrão de site utilizará o HTML (Linguagem de Marcação de Hiper Texto), com a finalidade de estilizar os elementos do website será utilizado o CSS (Cascading Style Sheet) além disso, auxiliará nas características visuais e responsividade elementos inseridos. A linguagem de programação utilizada será em Java Script, que proporcionará as interatividades no site.
 
 <figure>
-  <img src="img/tela_even.png"> <figcaption> Figura 14 - Demonstração Tela Even Tracker</figcaption>
+  <img src="img/TAMPLATE PADRÃO 2.0.png"> <figcaption> Figura 14 - Demonstração Tela Even Tracker</figcaption>
 </figure>
 
 
@@ -14,6 +14,7 @@
                                    <em> • rodapé; </em> <br> 
                                    <em> • menu de navegação;</em> <br>
                                    <em> • menu hamburguer;</em> <br>
+                                   <em> • Fonte: Open Sans, sans-serif;</em> <br>
   
 
 
@@ -23,21 +24,3 @@
   <figure>
   <img src="img/logoeventracker.svg"> <figcaption> Figura 15 - Logotipo Even Tracker </figcaption>
 </figure>
-
-
-
-
-
-
-
-
-
-
-
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
