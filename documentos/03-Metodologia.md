@@ -11,8 +11,9 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 Desta forma, a equipe está organizada da seguinte maneira:
 - Scrum Master: João Victor
 - Product Owner: André Pedroso
-- Equipe de Desenvolvimento: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik
-- Equipe de Design: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik
+- Equipe de Desenvolvimento: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik, Mauricio Thales Alves de Azevedo Neto, Alessandro Paulista Freitas
+- Equipe de Design: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik, Alessandro Paulista Freitas, Mauricio Thales Alves de Azevedo Neto
+
 
 ### Processo
 
