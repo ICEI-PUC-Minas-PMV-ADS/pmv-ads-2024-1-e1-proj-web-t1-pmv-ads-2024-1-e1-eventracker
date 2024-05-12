@@ -3,7 +3,7 @@
  O layout padrão de site utilizará o HTML (Linguagem de Marcação de Hiper Texto), com a finalidade de estilizar os elementos do website será utilizado o CSS (Cascading Style Sheet) além disso, auxiliará nas características visuais e responsividade elementos inseridos. A linguagem de programação utilizada será em Java Script, que proporcionará as interatividades no site.
 
 <figure>
-  <img src="img/TAMPLATE PADRÃO 2.0.png"> <figcaption> Figura 14 - Demonstração Tela Even Tracker</figcaption>
+  <img src="img/TEMPLATE PADRÃO 2.0.png"> <figcaption> Figura 14 - Demonstração Tela Even Tracker</figcaption>
 </figure>
 
 
