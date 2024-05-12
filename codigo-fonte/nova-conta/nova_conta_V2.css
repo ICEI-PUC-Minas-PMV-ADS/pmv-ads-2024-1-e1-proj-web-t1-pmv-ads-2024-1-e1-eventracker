@@ -125,7 +125,7 @@ body{
     background-color: hsl(31deg 100% 48%);
     color: #fff;
     border: 0;
-    border-radius: 4px;
+    border-radius: 20px;
     transition: 0.4s;
     cursor: pointer;
 }
