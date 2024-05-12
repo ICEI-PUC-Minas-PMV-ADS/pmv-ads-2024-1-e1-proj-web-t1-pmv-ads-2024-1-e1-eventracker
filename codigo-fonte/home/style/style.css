@@ -12,19 +12,6 @@
     hsl(29deg 100% 45%) 57%,
     hsl(31deg 100% 48%) 99%);) !important;
 }
-/*.offcanvas.show {*/
-/*    background-image: linear-gradient(45deg,*/
-/*    hsl(10deg 100% 20%) 1%,*/
-/*    hsl(12deg 100% 23%) 43%,*/
-/*    hsl(15deg 100% 26%) 50%,*/
-/*    hsl(17deg 100% 29%) 51%,*/
-/*    hsl(19deg 100% 32%) 51%,*/
-/*    hsl(22deg 100% 36%) 49%,*/
-/*    hsl(24deg 100% 39%) 49%,*/
-/*    hsl(26deg 100% 42%) 50%,*/
-/*    hsl(29deg 100% 45%) 57%,*/
-/*    hsl(31deg 100% 48%) 99%);) !important;*/
-/*}*/
 
 .navbar {
     border: none;
@@ -185,4 +172,41 @@ h1, h4 {
 
 hr {
     background-color: rgba(230, 230, 221, 1);
+}
+
+.card {
+    height: 100%;
+    position: relative;
+}
+.card-body {
+    flex: 1;
+}
+.btn-container {
+    margin-top: auto;
+}
+
+.card {
+    height: 100%; /* Altura do card */
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    flex: 1;
+}
+.btn-container {
+    margin-top: auto;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(111, 21, 0) !important;
+}
+
+.bg-primary:hover {
+    background-color: black !important;
+}
+.card-footer {
+    padding: 20px;
 }
