@@ -45,3 +45,7 @@ X
 (codigo-fonte/novo-evento/novoevento.html,d\0\d0942a6c4e52eb09f78e0aa7ee03f1b5f1d34825
 T
 $codigo-fonte/home/template-home.html,8\f\8f64ca3f5e4c5865eec055b913a71b863d22a07c
+M
+codigo-fonte/login/login.html,b\b\bb5d4710ae6b6e3bce5bca2bce671f8cadd55922
+Z
+*codigo-fonte/nova-conta/nova_conta_V2.html,d\b\db62137ec3a42dc6b3bddff6544d66691f96c5d0
