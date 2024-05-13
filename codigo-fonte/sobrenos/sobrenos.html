@@ -31,7 +31,7 @@
                 </ul>
             </div>
             <div class="header_buttons_div">
-                <a href="../login/login.html" class="login_link">LOGIN</a>
+                <input type="button" class="login_button" value="LOGIN" onclick="goToLogin()">
                 <input type="button" value="CADASTRE-SE" class="login_button">
                 <img src="bell_icon.svg" alt="Notificações" class="bell_icon_img">
             </div>
@@ -91,16 +91,29 @@
 
     <div class="nav_drawer_div" id="nav_drawer">
         <div class="close_icon_div">
+            <div class="nav_drawer_title">
+                <h2 class="nav_drawer_text">MENU</h2>
+            </div>
             <img src="close_icon.svg" alt="Descrição da imagem SVG" class="close_icon" onclick="closeDrawer()">
         </div>
 
-        <ul class="nav_ul">
-            <li><a href="../home/index.html" target="_blank">Home</a></li>
-            <li><a href="#" title="Sobre">Cadastrar</a></li>
-            <li><a href="#" title="Serviços">Eventos</a></li>
-            <li><a href="#" title="Artigos">Sobre Nós</a></li>
-            <li><a href="#" title="Contato">Contato</a></li>
-        </ul>
+        <div class="nav_divider"></div>
+
+        <div class="nav_options_div">
+            <ul class="nav_ul">
+                <li><a href="../home/index.html" target="_blank">Home</a></li>
+                <li><a href="#" title="Sobre">Cadastrar</a></li>
+                <li><a href="#" title="Serviços">Eventos</a></li>
+                <li><a href="#" title="Artigos">Sobre Nós</a></li>
+                <li><a href="#" title="Contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="nav_buttons_div">
+            <input type="button" class="login_button" value="LOGIN" onclick="goToLogin()">
+            <input type="button" value="CADASTRE-SE" class="login_button">
+            <img src="bell_icon.svg" alt="Notificações" class="bell_icon_img">
+        </div>
     </div>
 
 

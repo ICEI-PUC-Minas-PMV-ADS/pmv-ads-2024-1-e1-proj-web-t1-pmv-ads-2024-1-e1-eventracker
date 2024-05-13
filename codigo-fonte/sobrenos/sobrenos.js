@@ -17,3 +17,8 @@ function closeDrawer() {
 
     drawer.style.display = 'none';
 }
+
+function goToLogin() {
+    console.log("clicou no botao login");
+    window.location.href = "../login/login.html";
+}

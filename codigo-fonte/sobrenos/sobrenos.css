@@ -185,11 +185,17 @@ body {
     height: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .login_button {
     border-radius: 1rem;
     padding: 0.5rem 1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT';
     border: none;
     text-decoration: none;
@@ -206,7 +212,6 @@ body {
     align-items: center;
     list-style: none;
     padding: 0.600rem 1.10rem;
-
 }
 
 .nav_ul li {
@@ -222,15 +227,12 @@ body {
     font-size: 1, 25rem;
     line-height: 1.5;
     color: aliceblue;
+    padding: 0.3125rem;
+    transition: color 0.5s;
 }
 
 ul a:hover {
-
-    background: #3c0000;
-    border: 6.25rem;
-    padding: 0.3125rem;
-    border-radius: 0.9375rem;
-
+    color: black;
 }
 
 .img_conteudo {
@@ -260,6 +262,9 @@ ul a:hover {
 }
 
 .nav_drawer_div {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
     height: 100%;
     position: absolute;
     top: 0px;
@@ -280,15 +285,50 @@ ul a:hover {
 }
 
 .close_icon_div {
-    text-align: right;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav_drawer_title {
+    flex: 1 1 auto;
+    /*background-color: blue;*/
 }
 
 .close_icon {
-    margin-top: 1rem;
+    margin-left: 1rem;
     margin-right: 1rem;
     cursor: pointer;
+    width: 2rem;
+    height: 2rem;
 }
 
+.nav_drawer_text {
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.nav_divider {
+    width: 100%;
+    height: 0.01rem;
+    background-color: white;
+}
+
+.nav_options_div {
+    width: 100%;
+    flex: 1 1 auto;
+    /*background-color: green;*/
+}
+
+.nav_buttons_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /*background-color: blue;*/
+}
 
 @media all and (max-width: 680px) {
 
