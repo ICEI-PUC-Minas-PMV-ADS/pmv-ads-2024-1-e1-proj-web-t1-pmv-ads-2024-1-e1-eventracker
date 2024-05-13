@@ -35,16 +35,12 @@ P
  codigo-fonte/home/img/search.svg,b\6\b60f8fe80b0f1d029b9677c50679e6a1e368e05f
 R
 "codigo-fonte/sobrenos/sobrenos.css,4\0\4085090f0e5f3ec932c49744c2339e68354981c6
-T
-$codigo-fonte/tela-do-menu/index.html,6\8\68e35e6f81b15f1a6e2db5bc0f4f9b8b052744d2
 Q
 !codigo-fonte/searchbar/index.html,5\4\543417c74fd208bd720d7a111e6ba113ce6acef4
 K
 codigo-fonte/home/js/app.js,8\0\809761ca2462d0831906205c4bc22ee7dd3f8d9e
 X
 (codigo-fonte/novo-evento/novoevento.html,d\0\d0942a6c4e52eb09f78e0aa7ee03f1b5f1d34825
-T
-$codigo-fonte/home/template-home.html,8\f\8f64ca3f5e4c5865eec055b913a71b863d22a07c
 M
 codigo-fonte/login/login.html,b\b\bb5d4710ae6b6e3bce5bca2bce671f8cadd55922
 Z
