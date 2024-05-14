@@ -11,6 +11,7 @@
     hsl(26deg 100% 42%) 50%,
     hsl(29deg 100% 45%) 57%,
     hsl(31deg 100% 48%) 99%);) !important;
+    margin-inside: 0;
 }
 
 .navbar {
@@ -78,7 +79,7 @@ body {
 
 .card {
     border-radius: 30px;
-    box-shadow: rgb(17, 17, 16) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;;
+    box-shadow: rgb(17, 17, 16) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;;
     max-width: 400px !important;
 }
 
