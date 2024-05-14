@@ -22,10 +22,10 @@
   background-color: rgb(43, 41, 44) !important;
 }
 
-.bg-body-tertiary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
-}
+/*.bg-body-tertiary {*/
+/*  --bs-bg-opacity: 1;*/
+/*  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;*/
+/*}*/
 
 .logomarca {
   width: 200px;
@@ -88,7 +88,7 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
-  
+
 }
 
 /**
@@ -112,7 +112,7 @@ button[type=submit] {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  
+
 }
 
 /**
@@ -121,7 +121,7 @@ button[type=submit] {
 button[type=submit] i {
   color: #000000;
   font-size: 20px;
-  
+
 }
 
 /**
@@ -144,10 +144,10 @@ button[type=submit]:hover i {
             hsl(10deg 100% 20%) 50%,
             hsl(10deg 100% 20%) 50%,
             hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,        
-            hsl(10deg 100% 20%) 50%, 
-            hsl(10deg 100% 20%) 50%, 
-            hsl(10deg 100% 20%) 90%, 
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 50%,
+            hsl(10deg 100% 20%) 90%,
             hsl(31deg 100% 48%) 99%);
   box-shadow: 1px 0px 3px 0px #cbcbcb;
   border-radius: 4px;
@@ -316,7 +316,7 @@ button[type=submit]:hover i {
   align-items: center;
   list-style: none;
   padding: 10px 20px;
-  
+
 }
 
 .nav_ul li {

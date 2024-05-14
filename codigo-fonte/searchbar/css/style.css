@@ -1,0 +1,212 @@
+
+.barra-navegacao {
+    background-image: linear-gradient(45deg,
+    hsl(10deg 100% 20%) 1%,
+    hsl(12deg 100% 23%) 43%,
+    hsl(15deg 100% 26%) 50%,
+    hsl(17deg 100% 29%) 51%,
+    hsl(19deg 100% 32%) 51%,
+    hsl(22deg 100% 36%) 49%,
+    hsl(24deg 100% 39%) 49%,
+    hsl(26deg 100% 42%) 50%,
+    hsl(29deg 100% 45%) 57%,
+    hsl(31deg 100% 48%) 99%);) !important;
+}
+
+.navbar {
+    border: none;
+    margin: 0;
+    background-color: rgb(43, 41, 44) !important;
+}
+
+/*.bg-body-tertiary {*/
+/*    --bs-bg-opacity: 1;*/
+/*    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;*/
+/*}*/
+
+.logomarca {
+    width: 200px;
+}
+
+.barra-pesquisa {
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 20px auto 0;
+    height: auto;
+    padding-right: 100px;
+    display: flex;
+}
+
+body {
+    background-color: #2d2a2e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-image: linear-gradient(45deg,
+        hsl(10deg 100% 20%) 1%,
+        hsl(12deg 100% 23%) 43%,
+        hsl(15deg 100% 26%) 50%,
+        hsl(17deg 100% 29%) 51%,
+        hsl(19deg 100% 32%) 51%,
+        hsl(22deg 100% 36%) 49%,
+        hsl(24deg 100% 39%) 49%,
+        hsl(26deg 100% 42%) 50%,
+        hsl(29deg 100% 45%) 57%,
+        hsl(31deg 100% 48%) 99%);) !important;
+        /*backdrop-filter: opacity();*/
+    }
+}
+
+
+.fonte-corpo-barra {
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    transition: all 0.2s ease-in 0s;
+    cursor: pointer;
+    padding: 12px 16px;
+}
+
+.card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgb(17, 17, 16) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;;
+    max-width: 400px !important;
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    width: 120px;
+    background-color: #751700;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #ea7400;
+    border-color: transparent;
+}
+
+h1,h2,h4 {
+    color: rgba(230, 230, 221, 1);
+    text-decoration: none;
+}
+
+h3 {
+    color: orange;
+}
+
+.card {
+    max-width: 100%; /* Ensure the card never exceeds its parent's width */
+}
+.card-img {
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    height: 100%; /* Fill the height of the card */
+}
+
+.icn-notificacao {
+    width: 20px;
+}
+
+.footer-color {
+    background-image: linear-gradient(45deg,
+    hsl(10deg 100% 20%) 1%,
+    hsl(12deg 100% 23%) 43%,
+    hsl(15deg 100% 26%) 50%,
+    hsl(17deg 100% 29%) 51%,
+    hsl(19deg 100% 32%) 51%,
+    hsl(22deg 100% 36%) 49%,
+    hsl(24deg 100% 39%) 49%,
+    hsl(26deg 100% 42%) 50%,
+    hsl(29deg 100% 45%) 57%,
+    hsl(31deg 100% 48%) 99%);) !important;
+}
+
+.logo-footer {
+    width: 120px;
+}
+
+.cor-card {
+    background-color: rgb(45, 42, 46);
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    transition: all 0.2s ease-in 0s;
+    padding: 12px 16px;
+}
+
+.card-title {
+    color: rgba(230, 230, 221, 1);
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+}
+
+h1, h4 {
+    padding-bottom: 45px;
+}
+
+hr {
+    background-color: rgba(230, 230, 221, 1);
+}
+
+.card {
+    height: 100%;
+    position: relative;
+}
+.card-body {
+    flex: 1;
+}
+.btn-container {
+    margin-top: auto;
+}
+
+.card {
+    height: 100%; /* Altura do card */
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    flex: 1;
+}
+.btn-container {
+    margin-top: auto;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(111, 21, 0) !important;
+}
+
+.bg-primary:hover {
+    background-color: black !important;
+}
+.card-footer {
+    padding: 20px;
+}
