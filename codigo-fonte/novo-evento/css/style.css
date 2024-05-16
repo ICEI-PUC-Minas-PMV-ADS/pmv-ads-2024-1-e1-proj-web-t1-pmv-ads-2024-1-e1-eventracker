@@ -24,6 +24,10 @@
     background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
+body {
+    background-color: rgb(45, 42, 46);
+}
+
 .logomarca {
     width: 200px;
 }
