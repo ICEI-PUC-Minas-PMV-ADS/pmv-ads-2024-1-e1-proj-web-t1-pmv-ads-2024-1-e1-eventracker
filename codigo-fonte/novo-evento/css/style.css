@@ -13,6 +13,10 @@
     hsl(31deg 100% 48%) 99%);) !important;
 }
 
+body {
+    background-color: #2d2a2e !important;
+}
+
 .navbar {
     border: none;
     margin: 0;
