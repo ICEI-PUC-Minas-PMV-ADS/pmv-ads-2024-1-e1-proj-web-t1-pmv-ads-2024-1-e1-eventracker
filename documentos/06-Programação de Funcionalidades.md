@@ -34,9 +34,9 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 [Adicione nome do responsável pelo desenvolvimento da funcionalidade]
 
 
-# Programação de Funcionalidades
+# Programação de Funcionalidades:
 
-<p> A tela login poderá ser executada através do button “ Entrar”, após o usuário digitar o e-mail e senha cadastrada.
+<p> A tela login poderá ser executada através do button “Entrar”, após o usuário digitar o e-mail e senha cadastrada.
  Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website.</p>
 
 
@@ -49,11 +49,12 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 #### Requisito atendido:
 
 <b>RF-2:</b> A aplicação deve permitir que o usuário faça login na sua conta cadastrada.
+<b>RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 
 #### Artefatos da funcionalidade:
-<p>-login.html</p>
-<p>-login.css</p>
-<p>-login.js</p>
+<p>- login.html</p>
+<p>- login.css</p>
+<p>- login.js</p>
 
 #### Estrutura de Dados:
 
@@ -61,6 +62,7 @@ verificar prof.
 
 
 #### Instruções de acesso:
+
 <em>O usuário deverá abrir um navegador de Internet e informar a seguinte URL:<em>
 
 https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/login/login.html
@@ -69,7 +71,44 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 <p>Juliana M.</p>
 
+<hr>
 
+<p> A tela Sobre Nós será direcionada após o usuário clicar no  button “ Sobre Nós” que esta no cabeçalho do website. 
+ Deste modo, o usuário poderá compreender por qual o projeto EvenTracker foi desenvolvido.</p>
+<p> Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website.</p>
+
+ ### Tela Sobre Nós:
+
+<figure>
+  <img src="img/tela_sobrenos.png"> <figcaption> Figura X - Tela Sobre Nós </figcaption>
+</figure>
+
+#### Requisito atendido:
+
+<b>RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+
+#### Artefatos da funcionalidade:
+
+<p>- sobrenos.html</p>
+<p>- sobrenos.css</p>
+<p>- sobrenos.js</p>
+
+#### Estrutura de Dados:
+
+verificar prof.
+
+
+#### Instruções de acesso:
+
+<em> O usuário deverá abrir um navegador de Internet e informar a seguinte URL:<em>
+
+https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/sobrenos/sobrenos.html
+
+#### Responsável:
+
+<p>Juliana M.</p>
+
+<hr>
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
