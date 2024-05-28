@@ -48,8 +48,9 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido:
 
-<b>RF-2:</b> A aplicação deve permitir que o usuário faça login na sua conta cadastrada.
-<b>RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+<b>•RF-2:</b> A aplicação deve permitir que o usuário faça login na sua conta cadastrada.
+<br>
+<b>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 
 #### Artefatos da funcionalidade:
 <p>- login.html</p>
@@ -58,7 +59,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Estrutura de Dados:
 
-verificar prof.
+Não se aplica.
 
 
 #### Instruções de acesso:
@@ -85,7 +86,9 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 #### Requisito atendido:
 
-<b>RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+<b> •RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+<br>
+<b> •RNF-04: </b> A aplicação deve ter bom nível de contraste entre os elementos da tela.
 
 #### Artefatos da funcionalidade:
 
@@ -95,7 +98,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 #### Estrutura de Dados:
 
-verificar prof.
+Não se aplica.
 
 
 #### Instruções de acesso:
