@@ -129,23 +129,30 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 
       #### Adicionado:
      
-     - codigo-fonte\modelo
-     - codigo-fonte/modelo/modelo.html
-     - codigo-fonte/modelo/modelo.css
+  - codigo-fonte\modelo
+  - codigo-fonte/modelo/modelo.html
+  - codigo-fonte/modelo/modelo.css
 
-          ### [0.1.7] - 09/05/2024
+       ### [0.1.7] - 09/05/2024
        
      #### Removido:
        
-      - codigo-fonte/modelo
-      - codigo-fonte/modelo/modelo.html
-      - codigo-fonte/modelo/modelo.css
+ - codigo-fonte/modelo
+ - codigo-fonte/modelo/modelo.html
+ - codigo-fonte/modelo/modelo.css
 
-         ### [0.1.8] - 11/05/2024
+     ### [0.1.8] - 11/05/2024
 
-     #### Acrescentado
-       
-     - codigo-fonte\home\template-home
-     - codigo-fonte/home/template-home.html
+     #### Acrescentado:
+
+  - codigo-fonte\home\template-home
+  - codigo-fonte/home/template-home.html
  
-                        
+  ### [0.1.9] - 13/05/2024
+
+  #### Acrescentado:
+
+ - codigo-fonte\paginamodelosembootstrap
+ - codigo-fonte/paginamodelosembootstrap/modelo.html
+ - codigo-fonte/paginamodelosembootstrap/modelo.css
+ - codigo-fonte/paginamodelosembootstrap/modelo.js
