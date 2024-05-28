@@ -3,61 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Eventraker</title>
     <link rel="stylesheet" href="tela-do-menu.css" />
     <script defer src="app.js"></script>
   </head>
   <body>
-
     <!-- Cabeçalho -->
     <header class="header">
       <nav class="nav">
+        <!-- Logo -->
+        <img src="img/logo.svg" class="logo" />
 
-       <!-- Logo -->
-          <img src="img/logo.svg" class="logo"/>
-
-          <!-- Botão hamburguer -->
-          <button class="hamburguer"> </button>
+        <!-- <button class="hamburguer"></button> -->
 
         <ul class="lista">
-          <li><a href="#" >Home</a></li>
+          <li><a href="'#'">Home</a></li>
           <li><a href="#">Sobre Nós</a></li>
           <li><a href="#">Eventos</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Cadastrar</a></li>
         </ul>
-          
-          <!-- <div class="acão">
-            <div class="perfil" onclick=" menudoperfilToggle();">
-              <img src="img/perifldousuario.svg" alt="Perfil">
-            </div>
-    
-            <div class="menudoperfil">
-              <ul>
-                <li> <a href="#"> Login</a></li>
-                <li> <a href="#"> Cadastrar </a></li>
-              </ul>
-            </div>
-          </div>
-    
-          <script>
-            function menudoperfilToggle() {
-              const toggleMenudoperfil = document.querySelector('.menudoperfil');
-              toggleMenudoperfil.classList.toggle('active')
-            }
-    
-          </script>
-        </ul> -->
 
-      
+        <div class="login">
+          <button class="cadastrar">Cadastre-se</button>
+          <button>Login</button>
+        </div>
       </nav>
     </header>
 
     <!-- Menu -->
-    <main></main>
+    <main>
+      <div class="menu">
+        <h1>Não perca nenhum momento especial!</h1>
+        <p>
+          Descubra todos os eventos incríveis conosco e garanta sua presença nas
+          melhores experiências da sua vida! Desde shows espetaculares a festas
+          exclusivos, temos algo para todos. Fique por dentro e aproveite ao
+          máximo cada oportunidade."
+        </p>
+      </div>
+      <img src="img/menu2.png" />
+    </main>
 
     <!-- Rodapé -->
-    <footer></footer>
-
+    <footer>
+      <h3>O planejamento na palma da sua mão!</h3>
+      <div class="rodape">
+        <div class="conteudo">
+          <a href="#">Politica Privada</a>
+          <a href="#">Cooperação</a>
+          <a href="#">Contatos</a>
+        </div>
+        <div class="social">
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-facebook-square"></i>
+        </div>
+        <!-- <p>Copyright © 2024 AsmrProg, All Rights Reserved.</p> -->
+      </div>
+    </footer>
   </body>
 </html>

@@ -221,3 +221,6 @@ hr {
     flex-direction: column;
 }
 
+.slogan-footer {
+    font-size: smaller;
+}
