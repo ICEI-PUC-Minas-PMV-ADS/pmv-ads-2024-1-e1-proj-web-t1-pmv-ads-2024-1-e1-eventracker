@@ -67,3 +67,5 @@ a
 1codigo-fonte/paginamodelosembootstrap/modelo.html,c\a\ca9e388b4c616febfd560230309135cc437a8840
 `
 0codigo-fonte/paginamodelosembootstrap/modelo.css,a\9\a9b7dadc9a40495869e794d0aef2eb859dfbb592
+a
+1documentos/06-Programação de Funcionalidades.md,f\3\f3e8d10de25f6535fa5fd021b5a39a9af087bd76

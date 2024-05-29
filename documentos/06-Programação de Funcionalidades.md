@@ -119,3 +119,49 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
+### Home Page:
+
+
+<figure>
+    <img src="img/home-1.png" alt="page description">
+    <figcaption> Tela Principal</figcaption>
+</figure>
+
+
+#### Requisitos atendidos:
+
+**RF-09:** A aplicação deve separar os eventos por categorias.
+
+**RF-07:** A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado
+
+
+#### Artefatos da funcionalidade:
+
+- index.html
+
+- style.css
+
+- bootstrap.min.css
+
+- bootstrap.min.js
+
+#### Estrutura de Dados:
+
+Não se aplica.
+
+
+#### Instruções de acesso:
+
+Acesso de forma local:
+
+O usuário deverá clonar o repositório localmente e navegar até o diretório em ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/home/ e executar o arquivo index.html em seu navegador de preferência.
+
+Forma de acesso via URL:
+
+O usuário deverá abrir um navegador de Internet e informar a seguinte URL: https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/home/index.html
+
+
+
+#### Responsável:
+
+Author: Lucas Ribeiro @ https://github.com/lsrdot
