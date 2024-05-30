@@ -38,7 +38,7 @@
 }
 
 body {
-    background-color: #2d2a2e;
+    background-color: #2d2a2e !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
 }
 
