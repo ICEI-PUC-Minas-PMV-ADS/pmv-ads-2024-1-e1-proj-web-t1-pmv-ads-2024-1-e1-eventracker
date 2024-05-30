@@ -224,3 +224,23 @@ hr {
 .slogan-footer {
     font-size: smaller;
 }
+
+footer {
+    padding-top: 50px;
+}
+
+.copyright {
+    padding-bottom: 25px;
+}
+
+.c-text {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    font-size: 20px;
+}
+
+.c-link {
+    text-decoration: none;
+    color: rgb(230, 230, 221);
+    font-size: 20px;
+}
