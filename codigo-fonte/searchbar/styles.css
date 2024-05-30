@@ -90,7 +90,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(43, 41, 44);
-  height: 200vh;
 }
 
 
@@ -166,6 +165,7 @@ button[type=submit] i {
   flex-direction: column; /* Ensure events stack vertically */
   padding-bottom: 2px;
   border:1px solid #ddd; /* Gray separator line */
+  margin-bottom: 5vh;
 
 }
 
