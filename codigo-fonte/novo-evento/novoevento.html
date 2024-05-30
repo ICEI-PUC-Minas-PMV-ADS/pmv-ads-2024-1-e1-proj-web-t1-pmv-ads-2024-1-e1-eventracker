@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenTracker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+    <div class="container barra-navegacao">
+        <!--Botão Toggle-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Logo do Site-->
+        <a class="navbar-brand" href=".">
+            <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+        </a>
+        <!--Barra Lateral-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!--Header da Sidebar-->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- Corpo da barra -->
+            <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+                <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href=".">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../novo-evento/novoevento.html">CRIE SEU EVENTO </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                    </li><li class="nav-item mx-2">
+                    <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                </li>
+                </ul>
+                <!--Link Login e Cadastre-se-->
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/novaconta.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="..."><img src="img/bell.svg" class="icn-notificacao"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="box_Newcount container">
+    <div class="fornewcount">
+        <form class="newcount" method="post">
+            <div class="high">
+                <h1><i class="icon icon-key-1"></i>Criar novo evento</h1>
+            </div>
+            <div class="padding">
+                <label>
+                    <input type="text" class="campos" placeholder="Nome do evento" name="nome" >   
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="text" class="campos" placeholder="Endereço" name="adress">
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="date" class="campos" placeholder="Data do evento" name="eventdate">
+                </label>
+                <br>
+                <br>
+                <label>
+                    <input type="time" class="campos"  placeholder="Horário do evento" name="eventtime">
+                </label>
+                <br>
+                <br>
+                <label> 
+                    <textarea id="message" name="message" placeholder="Descrição do evento"></textarea>
+                </label>
+                <br>
+                <br>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox1" class="checkbox-input">
+                    <label for="checkbox1" class="checkbox-label">Acessibilidade para cadeirantes?</label>
+                </div>
+            
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox2" class="checkbox-input">
+                    <label for="checkbox2" class="checkbox-label">Intérprete de Libras disponível?</label>
+                </div>
+            
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox3" class="checkbox-input">
+                    <label for="checkbox3" class="checkbox-label">Sistema de áudio descritivo?</label>
+                </div>
+                <br>
+                <div class="form-field">
+                <label for="file-upload" class="custom-file-upload">Selecionar imagem</label>
+                <input type="file" id="file-upload" name="image" accept="image/png, image/jpeg">
+                </div>
+                </div>
+            </div>
+        <div class="submit_count">
+               <br>
+            <input type="submit" class="submit_btn" value="Criar">
+               <br>
+               <br>
+        </div>
+    </form>
+</section>
+
+<footer class="text-center text-lg-start footer-color">
+    <div class="text-start text-white p-3">
+        <h6><img src="img/logoeventracker.svg" alt="logomarca" class="logo-footer"> O planejamento na palma da sua mão!</h6>
+    </div>
+</footer>
+
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script defer src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
