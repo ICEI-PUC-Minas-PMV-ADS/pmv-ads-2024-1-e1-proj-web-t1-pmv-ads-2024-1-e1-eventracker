@@ -13,7 +13,27 @@
   hsl(24deg 100% 39%) 49%,
   hsl(26deg 100% 42%) 50%,
   hsl(29deg 100% 45%) 57%,
-  hsl(31deg 100% 48%) 99%);) !important;
+    hsl(31deg 100% 48%) 99%) !important;
+}
+
+.fonte-corpo-barra {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(230, 230, 221);
+  transition: all 0.2s ease-in 0s;
+  cursor: pointer;
+  padding: 12px 16px;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(45, 42, 46) !important;
+
+}
+
+.bg-primary:hover {
+  background-color: black !important;
 }
 
 .navbar {
@@ -22,10 +42,10 @@
   background-color: rgb(43, 41, 44) !important;
 }
 
-/*.bg-body-tertiary {*/
-/*  --bs-bg-opacity: 1;*/
-/*  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;*/
-/*}*/
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
 
 .logomarca {
   width: 200px;
@@ -68,9 +88,11 @@ body {
   flex: 1 1 auto;
   /* Se expande para preencher o espaço restante */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: rgb(43, 41, 44);
+  height: 200vh;
 }
+
 
 
 /**
@@ -88,8 +110,13 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
-
+  
 }
+
+.page-link{
+ margin-top: 20px;
+}
+
 
 /**
  * Styles for the search input.
@@ -112,7 +139,7 @@ button[type=submit] {
   background-color: transparent;
   border: none;
   cursor: pointer;
-
+  
 }
 
 /**
@@ -121,7 +148,7 @@ button[type=submit] {
 button[type=submit] i {
   color: #000000;
   font-size: 20px;
-
+  
 }
 
 /**
@@ -138,21 +165,13 @@ button[type=submit]:hover i {
   width: 80%;
   margin-top: 100px;;
   transform: translate(10%, 0%);
-  background-image: linear-gradient(45deg,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 50%,
-            hsl(10deg 100% 20%) 90%,
-            hsl(31deg 100% 48%) 99%);
-  box-shadow: 1px 0px 3px 0px #cbcbcb;
-  border-radius: 4px;
-  border: 2px solid hsl(0, 0%, 0%);
+  background-color: white;
+  border-radius: 20px;
+  border: 4px solid hsl(0, 0%, 0%);
+  display: flex;
+  flex-direction: column; /* Ensure events stack vertically */
 }
+
 
 /**
  * Styles for the event element.
@@ -164,10 +183,14 @@ button[type=submit]:hover i {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow: hidden;
-}
-.first-event{
   margin-top: 10px;
+  align-items: center; /* Ensure the items are centered vertically */
 }
+
+.hidden {
+  display: none; /* CSS class to hide elements */
+}
+
 /**
  * Styles for the event image.
  */
@@ -203,19 +226,6 @@ button[type=submit]:hover i {
 }
 
 
-.footer-color {
-  background-image: linear-gradient(45deg,
-  hsl(10deg 100% 20%) 1%,
-  hsl(12deg 100% 23%) 43%,
-  hsl(15deg 100% 26%) 50%,
-  hsl(17deg 100% 29%) 51%,
-  hsl(19deg 100% 32%) 51%,
-  hsl(22deg 100% 36%) 49%,
-  hsl(24deg 100% 39%) 49%,
-  hsl(26deg 100% 42%) 50%,
-  hsl(29deg 100% 45%) 57%,
-  hsl(31deg 100% 48%) 99%);) !important;
-}
 
 
 
@@ -316,7 +326,7 @@ button[type=submit]:hover i {
   align-items: center;
   list-style: none;
   padding: 10px 20px;
-
+  
 }
 
 .nav_ul li {
@@ -332,12 +342,7 @@ button[type=submit]:hover i {
   color: aliceblue;
 }
 
-.nav-item:hover{
 
-  background: #460000;
-  border-radius: 100%;
-
-}
 
 .img_conteudo{
   height: auto;
@@ -462,3 +467,4 @@ button[type=submit]:hover i {
 .logo-footer {
   width: 120px;
 }
+
