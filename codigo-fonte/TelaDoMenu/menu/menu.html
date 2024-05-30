@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <script type="text/javascript" src="menu.js"></script>
+    <title>Sobre Nós</title>
+</head>
+
+<body>
+
+    <div class="main_div">
+        <div class="header_div">
+
+            <div class="hamburguer_div" onclick="openDrawer()">
+                <img src="img/menu_hambuger.svg" alt="Descrição da imagem SVG" class="hamburguer_img">
+            </div>
+
+            <div class="header_space_div">
+                <img src="img/logoeventracker.svg" alt="Descrição da imagem SVG" class="img_logo_header">
+            </div>
+            <div class="header_nav_div">
+                <ul class="nav_ul">
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">Crie seu Evento</a></li>
+                    <li><a href="#" title="Artigos">Sobre Nós</a></li>
+                    <li><a href="#" title="Buscar Eventos">Buscar Eventos</a></li>
+                </ul>
+            </div>
+            <div class="header_buttons_div">
+                <input type="button" class="login_button" value="LOGIN" onclick="goToLogin()">
+                <input type="button" value="CADASTRE-SE" class="login_button">
+                <img src="img/bell_icon.svg" alt="Notificações" class="bell_icon_img">
+            </div>
+        </div>
+       
+        <div class="footer_div">
+
+            <div class="footer_container_div">
+
+                <div class="footer_img_div">
+                    <img src="img/logoeventracker.svg" alt="Descrição da imagem SVG" class="img_logo">
+
+                </div>
+
+
+                <div class="footer_copy_div">
+                    <p style= "position:absolute; left:240px;color:white;"> O Planejamento na palma da sua mão!</p>
+
+                    <h3 class="phrase_slogan">© 2024 Copyright: <a class="color_link" href=""
+                            target="_blank">EvenTracker.com</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nav_drawer_div" id="nav_drawer">
+        <div class="close_icon_div">
+            <div class="nav_drawer_title">
+                <h2 class="nav_drawer_text">MENU</h2>
+            </div>
+            <img src="img/close_icon.svg" alt="Descrição da imagem SVG" class="close_icon" onclick="closeDrawer()">
+        </div>
+
+        <div class="nav_divider"></div>
+
+        <div class="nav_options_div">
+            <ul class="nav_ul">
+                <li><a href="../home/index.html" target="_blank">Home</a></li>
+                <li><a href="#" title="Sobre">Cadastrar</a></li>
+                <li><a href="#" title="Serviços">Eventos</a></li>
+                <li><a href="#" title="Artigos">Sobre Nós</a></li>
+                <li><a href="#" title="Contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="nav_buttons_div">
+            <input type="button" class="login_button" value="LOGIN" onclick="goToLogin()">
+            <input type="button" value="CADASTRE-SE" class="login_button">
+            <img src="img/bell_icon.svg" alt="Notificações" class="bell_icon_img">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
