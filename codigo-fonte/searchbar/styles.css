@@ -125,10 +125,10 @@ body {
 input[type=text] {
   padding: 10px;
   margin-left: 10px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   background-color: #fff;
 }
 
@@ -146,17 +146,11 @@ button[type=submit] {
  * Styles for the submit button icon.
  */
 button[type=submit] i {
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
   
 }
 
-/**
- * Styles for the submit button icon on hover.
- */
-button[type=submit]:hover i {
-  color: #ccc;
-}
 
 /**
  * Styles for the event container.
@@ -167,9 +161,12 @@ button[type=submit]:hover i {
   transform: translate(10%, 0%);
   background-color: white;
   border-radius: 20px;
-  border: 4px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 0%, 0%);
   display: flex;
   flex-direction: column; /* Ensure events stack vertically */
+  padding-bottom: 2px;
+  border:1px solid #ddd; /* Gray separator line */
+
 }
 
 
@@ -208,17 +205,19 @@ button[type=submit]:hover i {
   flex: 1;
 }
 
+
 /**
  * Styles for the event description.
  */
 .event p {
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
   cursor: pointer;
 }
 
 .event h1 {
+  text-align: center;
   padding: 10px;
   font-size: 20px;
   color: #000000;
@@ -300,12 +299,16 @@ button[type=submit]:hover i {
   margin-bottom: 20px;
 }
 
+.color_link {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
 .phrase_slogan {
-  margin-left: 20px;
-  padding-top: 28px;
+  text-align: center;
+  padding-top: 5rem;
   font-family: Raleway;
-  font-size: 25px;
-  text-transform: uppercase;
+  font-size: 1rem;
   color: aliceblue;
 }
 
