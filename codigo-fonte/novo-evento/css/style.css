@@ -15,12 +15,12 @@
 .navbar {
     border: none;
     margin: 0;
-    background-color: rgb(43, 41, 44);
+    background-color: rgb(43, 41, 44) !important;
 }
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .logomarca {
@@ -38,7 +38,7 @@
 }
 
 body {
-    background-color: #2d2a2e !important;
+    background-color: #2d2a2e;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
 }
 
@@ -57,6 +57,16 @@ body {
         hsl(31deg 100% 48%) 99%);
         /*backdrop-filter: opacity();*/
     }
+}
+
+.fonte-corpo-barra {
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    transition: all 0.2s ease-in 0s;
+    cursor: pointer;
+    padding: 12px 16px;
 }
 
 /*STYLE FORMULÁRIO*/
