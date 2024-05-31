@@ -63,14 +63,14 @@ body {
 .footer_container_div {
     position: relative;
     width: 100%;
-    height: 8.5rem;
+    height: 5.5rem;
 }
 
 .footer_img_div {
     position: absolute;
     left: 0;
     bottom: 28px;
-    
+
 }
 
 .footer_copy_div {
@@ -117,12 +117,12 @@ body {
 
 .letter_title {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(248, 244, 241);
 }
 
 .letter {
-    font-family: Raleway;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.125rem;
     word-spacing: 0.25rem;
     line-height: 1.5;
@@ -137,7 +137,7 @@ body {
 }
 
 .phrase_slogan {
-    padding-top: 5rem;
+    padding-top: 2rem;
     font-family: Raleway;
     font-size: 1rem;
     color: aliceblue;
@@ -179,7 +179,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: aliceblue;
     background-color: #661701;
 }
@@ -199,7 +199,7 @@ body {
     margin-left: 0.25rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-family: "Open Sans", sans-serif;
     border: none;
     text-decoration: none;
     cursor: pointer;
@@ -225,7 +225,7 @@ body {
 }
 
 .nav_ul li a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-decoration: none;
     font-size: 1, 25rem;
     line-height: 1.5;
@@ -310,8 +310,8 @@ ul a:hover {
 
 .nav_drawer_text {
     margin-left: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.0rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.5rem;
     color: white;
 }
 
