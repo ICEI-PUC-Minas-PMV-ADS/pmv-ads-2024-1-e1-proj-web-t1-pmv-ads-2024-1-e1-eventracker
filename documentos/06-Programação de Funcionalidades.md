@@ -75,13 +75,13 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 <hr>
 
 <p> A tela Sobre Nós será direcionada após o usuário clicar no  button “ Sobre Nós” que esta no cabeçalho do website. 
- Deste modo, o usuário poderá compreender por qual o projeto EvenTracker foi desenvolvido.</p>
+ Deste modo, o usuário poderá compreender por qual motivo o projeto EvenTracker foi desenvolvido.</p>
 <p> Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website.</p>
 
  ### Tela Sobre Nós:
 
 <figure>
-  <img src="img/tela_sobrenos.png"> <figcaption> Figura X - Tela Sobre Nós </figcaption>
+  <img src="img/tela_sobre_nos.png" <figcaption> Figura X - Tela Sobre Nós </figcaption>
 </figure>
 
 #### Requisito atendido:
