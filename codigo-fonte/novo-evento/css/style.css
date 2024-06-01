@@ -1,3 +1,4 @@
+
 .barra-navegacao {
     background-image: linear-gradient(45deg,
     hsl(10deg 100% 20%) 1%,
@@ -9,7 +10,8 @@
     hsl(24deg 100% 39%) 49%,
     hsl(26deg 100% 42%) 50%,
     hsl(29deg 100% 45%) 57%,
-    hsl(31deg 100% 48%) 99%);
+    hsl(31deg 100% 48%) 99%);) !important;
+    margin-inside: 0;
 }
 
 .navbar {
@@ -38,7 +40,7 @@
 }
 
 body {
-    background-color: #2d2a2e !important;
+    background-color: #2d2a2e;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
 }
 
@@ -54,206 +56,11 @@ body {
         hsl(24deg 100% 39%) 49%,
         hsl(26deg 100% 42%) 50%,
         hsl(29deg 100% 45%) 57%,
-        hsl(31deg 100% 48%) 99%);
+        hsl(31deg 100% 48%) 99%);) !important;
         /*backdrop-filter: opacity();*/
     }
 }
 
-.fonte-corpo-barra {
-    font-weight: 600;
-    font-size: 12px;
-    font-family: "Open Sans", sans-serif;
-    color: rgb(230, 230, 221);
-    transition: all 0.2s ease-in 0s;
-    cursor: pointer;
-    padding: 12px 16px;
-}
-
-/*STYLE FORMULÁRIO*/
-
-.box_Newcount{
-    padding: 10%em 0;
-}
-
-.box_Newcount .fornewcount{
-    padding: 0.5em;
-}
-
-.newcount{
-    width: 60%;
-    overflow: hidden;
-    margin: auto;
-    display: inherit;
-    background-color: #1f1f1f;
-    border-radius: 6px;
-    box-shadow: 1px 1px 5px 1px #121212;
-    background-image: #1f1f1f;
-}
-
-.newcount h1{
-    text-align: center;
-    font-family: inherit;
-    font-size: 1.5em;
-    border-bottom: 2px #121212 solid;
-    padding: 0.7em;
-    color: #fafafa;
-}
-
-.newcount .padding{
-    padding: 2.0em;
-    float: none;
-}
-
-.newcount label{
-    width: 100%;
-
-}
-
-.newcount .campos{
-    width: 500px;
-    border-top: 2px #1f292b solid;
-    border-left: 2px #1f292b solid;
-    border-bottom: 2px #1f292b solid;
-    border-right: 2px #1f292b solid;
-    border-radius: 6px;
-    background-color: #242424;
-    color: #fafafa;
-    font-family: inherit;
-    font-size: 1.0em;
-    outline: none;
-    padding: 1.0em;
-    transition: 0.4s;
-}
-
-.newcount .campos:focus{
-    border-top: 1px #fafafa  solid;
-    border-left: 1px #fafafa  solid;
-    border-bottom: 1px #fafafa  solid;
-    border-right: 1px #fafafa  solid;
-    color: #fafafa;
-}
-
-textarea{
-    width: 100%; /* Faz a textarea ocupar toda a largura do container */
-    height: 100px; /* Altura inicial da textarea */
-    padding: 8px;
-    border: 2px #1f292b solid;
-    border-radius: 6px;
-    color: #fafafa;
-    background-color: #242424;
-    font-size: 16px;
-    font-family: inherit;
-    resize: vertical; /* Permite ao usuário redimensionar a textarea apenas verticalmente */
-    box-sizing: border-box; /* Garante que padding e borda estejam inclusos na largura definida */
-    outline: none;
-    transition: 0.1s;
-}
-
-textarea:focus{
-    border-top: 1px #fafafa  solid;
-    border-left: 1px #fafafa  solid;
-    border-bottom: 1px #fafafa  solid;
-    border-right: 1px #fafafa  solid;
-    color: #fafafa;
-}
-
-/*BOTÕES CLICÁVEIS*/
-
-.form-field { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.custom-file-upload {
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #2679d8;
-    color: white;
-    border: none;
-    font-family: inherit;
-    font-weight: bold;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.custom-file-upload:hover {
-    background-color: #1b4e8a;
-}
-
-input[type="file"] {
-    display: none; /* Esconde o campo de seleção de arquivo */
-}
-
-.submit_count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-}
-
-.submit_btn {
-    padding: 15px 30px;
-    font-size: 16px;
-    background-color: #3dc241;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 24px;
-    transition: background-color 0.3s;
-    box-shadow: 1px 1px 5px 1px #242424;
-}
-
-#file-name {
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-.submit_btn:hover {
-    background-color: #1c611f;
-}
-
-/*CHECKBOX DO FORM*/ 
-
-.checkbox-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.checkbox-label {
-    position: relative;
-    margin-left: 10px;
-    font-size: 16px;
-    color: #fafafa;
-    text-align: left;
-}
-
-.checkbox-input {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #fafafa;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.checkbox-input:checked {
-    background-color: #fafafa;
-}
-
-.checkbox-input:checked::after {
-    content: '\2713';
-    font-size: 16px;
-    color: #fff;
-    position: absolute;
-    top: 1px;
-    left: 5px;
-}
 
 .fonte-corpo-barra {
     font-weight: 600;
@@ -263,6 +70,51 @@ input[type="file"] {
     transition: all 0.2s ease-in 0s;
     cursor: pointer;
     padding: 12px 16px;
+}
+
+.card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgb(17, 17, 16) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;;
+    max-width: 400px !important;
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    width: 120px;
+    background-color: #751700;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #ea7400;
+    border-color: transparent;
+}
+
+h1,h2,h4 {
+    color: rgba(230, 230, 221, 1);
+    text-decoration: none;
+}
+
+h3 {
+    color: orange;
+}
+
+.card {
+    max-width: 100%; /* Ensure the card never exceeds its parent's width */
+}
+.card-img {
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    height: 100%; /* Fill the height of the card */
 }
 
 .icn-notificacao {
@@ -280,9 +132,185 @@ input[type="file"] {
     hsl(24deg 100% 39%) 49%,
     hsl(26deg 100% 42%) 50%,
     hsl(29deg 100% 45%) 57%,
-    hsl(31deg 100% 48%) 99%);
+    hsl(31deg 100% 48%) 99%);) !important;
 }
 
 .logo-footer {
     width: 120px;
+}
+
+.cor-card {
+    background-color: rgb(45, 42, 46);
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    transition: all 0.2s ease-in 0s;
+    padding: 12px 16px;
+}
+
+.card-title {
+    color: rgba(230, 230, 221, 1);
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+}
+
+h1, h4 {
+    padding-bottom: 45px;
+}
+
+hr {
+    background-color: rgba(230, 230, 221, 1);
+}
+
+.card {
+    height: 100%;
+    position: relative;
+}
+.card-body {
+    flex: 1;
+}
+.btn-container {
+    margin-top: auto;
+}
+
+.card {
+    height: 100%;
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    flex: 1;
+}
+.btn-container {
+    margin-top: auto;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(45, 42, 46) !important;
+}
+
+.bg-primary:hover {
+    background-color: black !important;
+}
+.card-footer {
+    padding: 20px;
+}
+
+.card-text-wrapper {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.card-footer {
+    flex-direction: column;
+}
+
+.slogan-footer {
+    font-size: smaller;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.copyright {
+    padding-bottom: 25px;
+}
+
+.c-text {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+    font-size: 20px;
+}
+
+.c-link {
+    text-decoration: none;
+    color: rgb(230, 230, 221);
+    font-size: 20px;
+}
+
+.card-cadastro {
+    margin: 40px auto;
+    background-color: #2d2a2e;!important;
+}
+
+.event-description {
+    margin-bottom: 30px;
+}
+
+.btn-criar {
+    margin: auto;
+    display: flex;
+    justify-content: center; !important;
+    align-items: center; !important;
+    background-color: rgb(112, 21, 0);
+
+}
+
+.btn-criar:hover {
+    background-color: rgb(232, 114, 0);
+}
+
+.full-width-card {
+    width: 100%; !important;
+    max-width: 100%; !important;
+}
+
+.card-header {
+    color: rgb(230, 230, 221);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.form-control {
+    font-family: "Open Sans", sans-serif;
+}
+
+label {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 230, 221);
+}
+
+@media (min-width: 576px) {
+    .card-cadastro {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-cadastro {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-cadastro {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-cadastro {
+        width: 60%;
+    }
+}
+
+.space-input {
+    margin-bottom: 23px;
 }
