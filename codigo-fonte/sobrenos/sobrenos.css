@@ -227,7 +227,8 @@ body {
 .nav_ul li a {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
-    font-size: 1, 25rem;
+    font-size: 0.80rem;
+    font-weight: bold;
     line-height: 1.5;
     color: aliceblue;
     padding: 0.3125rem;
@@ -311,7 +312,7 @@ ul a:hover {
 .nav_drawer_text {
     margin-left: 1.5rem;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.5rem;
+    font-size: 1.0rem;
     color: white;
 }
 
