@@ -2,10 +2,25 @@
 
 ## Estratégia de Organização de Codificação 
 
-Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
-- Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Aluna X.
-- Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: Aluno Y.
-- Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Aluna Z.
+Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. 
+
+<p>• Pasta src (root do projeto) - codigo-fonte: home.html, home.css, home.js - Desenvolvedor responsável:Lucas</p>
+
+<p>• Pasta src\detalheevento: index.html, style.css - Desenvolvedor responsável: João </p>
+
+<p>• Pasta src\novaconta: index.html, style.css  - Desenvolvedor responsável: João </p>
+
+<p>• Pasta src\sobrenos: sobrenos.html, sobrenos.css, sobrenos.js  - Desenvolvedora responsável:Juliana</p>
+
+<p>• Pasta src\searchbar: index.html, style.css, app.js  - Desenvolvedor responsável: Maurício </p>
+
+<p>• Pasta src\login: login.html, login.css, login.js  - Desenvolvedora responsável: Juliana </p>
+
+<p>• Pasta src\novoevento: index.html, style.css - Desenvolvedora responsável: André </p>
+
+<p>• Pasta src\login: login.html, login.css, login.js  - Desenvolvedora responsável: Juliana </p>
+
+<p>• Pasta src\TelaDoMenu: tela-do-menu.html, tela-do-menu.css, app.js - Desenvoledor responsável: Alessandro</p>
 
 ## Instalação do Site
 
