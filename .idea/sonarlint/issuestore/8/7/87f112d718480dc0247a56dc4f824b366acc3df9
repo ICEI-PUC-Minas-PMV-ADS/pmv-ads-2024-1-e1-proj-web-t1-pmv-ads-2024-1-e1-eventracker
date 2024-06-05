@@ -1,0 +1,13 @@
+
+~,Web:MouseEventWithoutKeyboardEquivalentCheck"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <div> tag.(õê”Þþÿÿÿÿ
+Ý	Web:S6848"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(õê”Þþÿÿÿÿ
+^	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ôÈ¹ì
+^	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ÎîÇ€
+w,Web:MouseEventWithoutKeyboardEquivalentCheckC"?Add a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <a> tag.(µÈ¯±
+s	Web:S6819C"^Use <button> or <input> instead of the button role to ensure accessibility across all devices.(µÈ¯±
+w,Web:MouseEventWithoutKeyboardEquivalentCheckH"?Add a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <a> tag.(Ïì©Ž
+s	Web:S6819H"^Use <button> or <input> instead of the button role to ensure accessibility across all devices.(Ïì©Ž
+d	Web:S6851“"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ÃÔ±ãüÿÿÿÿ
+,Web:MouseEventWithoutKeyboardEquivalentCheckª"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <img> tag.(Úé¹äøÿÿÿÿ
+d	Web:S6851ª"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(Úé¹äøÿÿÿÿ
+m	Web:S6847ª"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Úé¹äøÿÿÿÿ

@@ -47,20 +47,12 @@ Z
 *codigo-fonte/nova-conta/nova_conta_V2.html,d\b\db62137ec3a42dc6b3bddff6544d66691f96c5d0
 Q
 !codigo-fonte/searchbar/styles.css,8\4\844f6a35319974e4de9a213ef460409f43f2bd34
-[
-+codigo-fonte/novo-evento/novoevento_v2.html,0\f\0fbbe1ee272a10f7c4fe9a021e7ed4fe76570865
-]
--codigo-fonte/novo-evento/novoevento_dark.html,3\3\33bfd4077c709fac93fd564abbe04e655363ac63
-\
-,codigo-fonte/searchbar/css/bootstrap.min.css,a\a\aa3649224e75a9ec9b489fab31661ebe8cd00be9
 a
 1codigo-fonte/searchbar/js/bootstrap.bundle.min.js,e\4\e422553c03ec8e80d40e1e8c7db8f1e7a1987e29
 c
 3codigo-fonte/novo-evento/js/bootstrap.bundle.min.js,b\c\bc6a4ab9c9c5aa4451186dda8a756167faf756cb
 ^
 .codigo-fonte/novo-evento/css/bootstrap.min.css,c\3\c39b519d409cf4e916c299da53e99476b049ea79
-\
-,codigo-fonte/novo-evento/novoevento_dark.css,a\7\a7d8865ab921a942c1c134706ca0d01ef59f25af
 F
 apresentacao/README.md,d\f\df3aa2fb5a791e9ea2d39af3a032aa858010fead
 a
@@ -69,3 +61,11 @@ a
 0codigo-fonte/paginamodelosembootstrap/modelo.css,a\9\a9b7dadc9a40495869e794d0aef2eb859dfbb592
 a
 1documentos/06-Programação de Funcionalidades.md,f\3\f3e8d10de25f6535fa5fd021b5a39a9af087bd76
+S
+#codigo-fonte/novo-evento/index.html,d\9\d95aed544657f23a11a8edcbe45e4e04e6f5f624
+V
+&codigo-fonte/novo-evento/css/style.css,c\b\cbc1e0e325806dfb9e12d543bfb166f272c9fc23
+^
+.codigo-fonte/detalhe-evento/detalheevento.html,d\9\d99e30c2e2003f436063e1780fb160e3960344f6
+W
+'codigo-fonte/detalhes_ideia/modelo.html,8\7\87f112d718480dc0247a56dc4f824b366acc3df9
