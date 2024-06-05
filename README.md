@@ -37,8 +37,7 @@
 </ol>
 
 # Hospedagem
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
-
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/home
 
 # Código-Fonte
 * <a href="codigo-fonte/README.md">Código Fonte</a>
