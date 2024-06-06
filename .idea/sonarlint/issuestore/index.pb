@@ -69,3 +69,5 @@ V
 .codigo-fonte/detalhe-evento/detalheevento.html,d\9\d99e30c2e2003f436063e1780fb160e3960344f6
 W
 'codigo-fonte/detalhes_ideia/modelo.html,8\7\87f112d718480dc0247a56dc4f824b366acc3df9
+T
+$codigo-fonte/novo-evento/js/index.js,f\e\fec8cba04f0f5c213621381956b7e08080b30d3b

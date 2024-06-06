@@ -7,6 +7,8 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
 </head>
 
 <body>
@@ -67,26 +69,31 @@
             CADASTRE SEU EVENTO
         </div>
         <div class="card-body">
-            <form>
+            <form id="form">
                 <div class="form-group">
-                    <label></label>
-                    <input type="text" class="form-control" placeholder="Nome do Evento">
+                    <label for="nomeEvento">Nome do Evento</label>
+                    <input type="text" id="nomeEvento" class="form-control" placeholder="Ex: Festa da Luz">
+                    <div class="error"></div>
                 </div>
                 <div class="form-group">
-                    <label></label>
-                    <input type="text" class="form-control" placeholder="Endereço do Evento">
+                    <label for="enderecoEvento">Endereço do Evento</label>
+                    <input type="text" id="enderecoEvento" class="form-control" placeholder="Ex: Avenida Afonso Pena, 1212 - Centro - BH">
+                    <div class="error"></div>
                 </div>
                 <div class="form-group">
-                    <label></label>
-                    <input type="date" class="form-control" placeholder="ex: 01/01/2000">
+                    <label for="dataEvento">Data do Evento</label>
+                    <input type="date" id="dataEvento" class="form-control" placeholder="placeholder= dd/mm/aaaa">
+                    <div class="error"></div>
                 </div>
                 <div class="form-group">
-                    <label></label>
-                    <input type="time" class="form-control">
+                    <label for="horario">Horário do Evento</label>
+                    <input type="time" id="horario" class="form-control">
+                    <div class="error"></div>
                 </div>
                 <div class="form-group event-description">
-                    <label></label>
-                    <textarea class="form-control" placeholder="Descrição do Evento"></textarea>
+                    <label for="descricao">Descrição do Evento</label>
+                    <textarea class="form-control" id="descricao" placeholder='Ex: A Conferência Anual de Tecnologia é um evento imperdível para entusiastas da tecnologia, profissionais do setor, estudantes e empresas inovadoras. Este ano, a conferência terá como tema central "O Futuro da Inteligência Artificial e Automação", abordando as mais recentes tendências, desafios e oportunidades na área de tecnologia. O evento terá como atração principal...'></textarea>
+                    <div class="error"></div>
                 </div>
                 <div class="form-group">
                     <input type="checkbox" class="form-check-input">
@@ -101,8 +108,9 @@
                     <label>Sistema de áudio descritivo?</label>
                 </div>
                 <div class="form-group">
-                    <label>Selecione a Imagem do Evento:</label>
-                    <input type="file" class="form-control">
+                    <label for="imagemEvento">Selecione a Imagem do Evento:</label>
+                    <input type="file" id="imagemEvento" class="form-control" accept="image/png, image/jpeg, image/jpg, image/gif">
+                    <div class="error"></div>
                 </div>
                 <div class="card-footer justify-content-center d-flex">
                     <button type="submit" class="btn btn-primary btn-criar">Criar</button>
@@ -119,7 +127,5 @@
     </div>
 </footer>
 
-
-<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
