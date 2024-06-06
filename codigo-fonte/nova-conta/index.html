@@ -40,7 +40,7 @@
                         <a class="nav-link fonte-corpo-barra" href="../home/index.html">HOME</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link fonte-corpo-barra" href=".">CRIE SEU
+                        <a class="nav-link fonte-corpo-barra" href="../novo-evento/index.html">CRIE SEU
                             EVENTO </a>
                     </li>
                     <li class="nav-item mx-2">
@@ -66,54 +66,42 @@
 <div class="container d-flex justify-content-center align-items-center">
     <div class="card card-cadastro d-flex full-width-card">
         <div class="card-header text-center">
-            CADASTRE SEU EVENTO
+            CADASTRE-SE
         </div>
         <div class="card-body">
             <form id="form">
                 <div class="form-group">
-                    <label for="nomeEvento">Nome do Evento</label>
-                    <input type="text" id="nomeEvento" class="form-control" placeholder="Ex: Festa da Luz">
+                    <label for="nomeCompleto">Nome Completo:</label>
+                    <input type="text" id="nomeCompleto" class="form-control" placeholder="Nome/Organizador">
                     <div class="error"></div>
                 </div>
                 <div class="form-group">
-                    <label for="enderecoEvento">Endereço do Evento</label>
-                    <input type="text" id="enderecoEvento" class="form-control" placeholder="Ex: Av. Afonso Pena, 1212 - Centro - BH">
+                    <label for="email">Endereço de e-mail:</label>
+                    <input type="email" id="email" class="form-control" placeholder="exemplo@exemplo.com">
                     <div class="error"></div>
                 </div>
                 <div class="form-group">
-                    <label for="dataEvento">Data do Evento</label>
-                    <input type="date" id="dataEvento" class="form-control" placeholder="placeholder= dd/mm/aaaa">
+                    <label for="confirmarEmail">Confirmar e-mail:</label>
+                    <input type="email" id="confirmarEmail" class="form-control" placeholder="exemplo@exemplo.com">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group ">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" class="form-control" placeholder="************">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group ">
+                    <label for="confirmarSenha">Confirmar senha:</label>
+                    <input type="password" id="confirmarSenha" class="form-control" placeholder="************">
                     <div class="error"></div>
                 </div>
                 <div class="form-group">
-                    <label for="horario">Horário do Evento</label>
-                    <input type="time" id="horario" class="form-control">
-                    <div class="error"></div>
-                </div>
-                <div class="form-group event-description">
-                    <label for="descricao">Descrição do Evento</label>
-                    <textarea class="form-control" id="descricao" placeholder='Ex: A Conferência Anual de Tecnologia é um evento imperdível para entusiastas da tecnologia, profissionais do setor, estudantes e empresas inovadoras. Este ano, a conferência terá como tema central "O Futuro da Inteligência Artificial e Automação", abordando as mais recentes tendências, desafios e oportunidades na área de tecnologia. O evento terá como atração principal...'></textarea>
-                    <div class="error"></div>
-                </div>
-                <div class="form-group">
-                    <input type="checkbox" class="form-check-input">
-                    <label>Acessibilidade para cadeirantes?</label>
-                </div>
-                <div class="form-group">
-                    <input type="checkbox" class="form-check-input">
-                    <label>Intérprete de Libras disponível?</label>
-                </div>
-                <div class="form-group space-input">
-                    <input type="checkbox" class="form-check-input">
-                    <label>Sistema de áudio descritivo?</label>
-                </div>
-                <div class="form-group">
-                    <label for="imagemEvento">Selecione a Imagem do Evento:</label>
-                    <input type="file" id="imagemEvento" class="form-control" accept="image/png, image/jpeg, image/jpg, image/gif">
+                    <label for="telefone">Telefone para contato:</label>
+                    <input type="tel" id="telefone" class="form-control" placeholder="ex: 319999999999">
                     <div class="error"></div>
                 </div>
                 <div class="card-footer justify-content-center d-flex">
-                    <button type="submit" class="btn btn-primary btn-criar">Criar</button>
+                    <button type="submit" class="btn btn-primary btn-criar">Cadastrar</button>
                 </div>
             </form>
         </div>

@@ -37,10 +37,6 @@ R
 "codigo-fonte/sobrenos/sobrenos.css,4\0\4085090f0e5f3ec932c49744c2339e68354981c6
 Q
 !codigo-fonte/searchbar/index.html,5\4\543417c74fd208bd720d7a111e6ba113ce6acef4
-K
-codigo-fonte/home/js/app.js,8\0\809761ca2462d0831906205c4bc22ee7dd3f8d9e
-X
-(codigo-fonte/novo-evento/novoevento.html,d\0\d0942a6c4e52eb09f78e0aa7ee03f1b5f1d34825
 M
 codigo-fonte/login/login.html,b\b\bb5d4710ae6b6e3bce5bca2bce671f8cadd55922
 Z
@@ -71,3 +67,17 @@ W
 'codigo-fonte/detalhes_ideia/modelo.html,8\7\87f112d718480dc0247a56dc4f824b366acc3df9
 T
 $codigo-fonte/novo-evento/js/index.js,f\e\fec8cba04f0f5c213621381956b7e08080b30d3b
+Y
+)codigo-fonte/TelaDoMenu/tela-do-menu.html,0\e\0ea309d178ce7c6bc8857ab7ba29cba00d793ac4
+R
+"codigo-fonte/nova-conta/scripts.js,4\d\4d2dbb2e53f1fbadd91618537ce03f041a944386
+U
+%codigo-fonte/nova-conta/nova_conta.js,f\5\f523d077ea162bf12946a2d75dad14ea980dcccc
+g
+7codigo-fonte/nova-conta/assets/Logo Eventracker OFC.svg,5\a\5abc07b3b1bfd1d33b84e091f8bc9aa160239061
+n
+>codigo-fonte/nova-conta/assets/scripts/bootstrap.bundle.min.js,b\d\bd8f2e33047aedca17b3aa469423ba9260022254
+R
+"codigo-fonte/nova-conta/index.html,4\e\4ebfc58719e8bc489abf33a0b726cf5efe87f94d
+S
+#codigo-fonte/nova-conta/js/index.js,d\d\dd358ac0d23ce07ec3e787ffeb73c9fa7f2085e8

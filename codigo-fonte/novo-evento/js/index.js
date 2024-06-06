@@ -55,7 +55,6 @@ function validarFormulario() {
     }
 
     if (eValido) {
-        // Submissão do formulário ou outra lógica
         console.log('Formulário válido.');
     }
 }
