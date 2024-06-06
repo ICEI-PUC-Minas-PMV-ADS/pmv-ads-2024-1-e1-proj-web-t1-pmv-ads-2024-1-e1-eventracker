@@ -68,7 +68,7 @@ Não se aplica.
 
 <em>O usuário deverá abrir um navegador de Internet e informar a seguinte URL:<em>
 
-https://alessandropfreitas.github.io/TelaDoMenu/tela-do-menu.html
+https://alessandropfreitas.github.io/TelaMenu/tela-de-menu.html
 
 
 #### Responsável
