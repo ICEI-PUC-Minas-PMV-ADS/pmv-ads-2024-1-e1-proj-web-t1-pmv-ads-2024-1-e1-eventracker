@@ -1,44 +1,63 @@
-document.querySelector('.search-bar').addEventListener('input', searchEvents);
-document.querySelector('.filter-icon').addEventListener('click', filterEvents);
-
-function searchEvents() {
-  const searchTerm = document.querySelector('.search-bar').value.toLowerCase();
-  const events = document.querySelectorAll('.event');
-  events.forEach(event => {
-    const title = event.querySelector('h1').textContent.toLowerCase();
-    const description = event.querySelector('p').textContent.toLowerCase();
-    if (title.includes(searchTerm) || description.includes(searchTerm)) {
-      event.classList.remove('hidden');
-    } else {
-      event.classList.add('hidden');
+/*
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.search-icon').addEventListener('click', applyCombinedFilters);
+  document.querySelector('.search-bar').addEventListener('keyup', function(event) {
+    if (event.key === 'Enter') {
+      applyCombinedFilters();
     }
   });
-}
 
-function filterEvents() {
-  const filterType = prompt("Enter filter characteristic (e.g., music, food):");
-  const events = document.querySelectorAll('.event');
+  document.querySelector('#applyFilters').addEventListener('click', applyCombinedFilters);
 
-  if (filterType === null || filterType.trim() === "") {
+  function applyCombinedFilters() {
+    const searchTerm = document.querySelector('.search-bar').value.toLowerCase();
+    const selectedCategory = document.querySelector('#eventType').value.toLowerCase();
+    const accessible = document.querySelector('#accessible').checked;
+    const events = document.querySelectorAll('.event');
+
     events.forEach(event => {
-      event.classList.remove('hidden');
-    });
-    return;
-  }
+      const title = event.querySelector('h1').textContent.toLowerCase();
+      const description = event.querySelector('p').textContent.toLowerCase();
+      const category = event.getAttribute('data-caracteristica').toLowerCase();
+      const isAccessible = event.getAttribute('data-accessible') === 'true';
 
-  events.forEach(event => {
-    if (event.dataset.characteristic.toLowerCase() === filterType.toLowerCase()) {
-      event.classList.remove('hidden');
-    } else {
-      event.classList.add('hidden');
+      const matchesSearchTerm = (title.includes(searchTerm) || description.includes(searchTerm));
+      const matchesCategory = (selectedCategory === '' || category === selectedCategory);
+      const matchesAccessibility = (!accessible || (accessible && isAccessible));
+
+      if (matchesSearchTerm && matchesCategory && matchesAccessibility) {
+        event.classList.remove('hidden');
+      } else {
+        event.classList.add('hidden');
+      }
+    });
+  }
+});
+*/
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.search-icon').addEventListener('click', applySearchFilter);
+  document.querySelector('.search-bar').addEventListener('keyup', function(event) {
+    if (event.key === 'Enter') {
+      applySearchFilter();
     }
   });
-}
 
-function showAllEvents() {
-  const events = document.querySelectorAll('.event');
-  events.forEach(event => {
-    event.classList.remove('hidden');
-  });
-}
+  function applySearchFilter() {
+    const searchTerm = document.querySelector('.search-bar').value.toLowerCase();
+    const events = document.querySelectorAll('.event');
 
+    events.forEach(event => {
+      const title = event.querySelector('h1').textContent.toLowerCase();
+      const description = event.querySelector('p').textContent.toLowerCase();
+
+      const matchesSearchTerm = (title.includes(searchTerm) || description.includes(searchTerm));
+
+      if (matchesSearchTerm) {
+        event.classList.remove('hidden');
+      } else {
+        event.classList.add('hidden');
+      }
+    });
+  }
+});
