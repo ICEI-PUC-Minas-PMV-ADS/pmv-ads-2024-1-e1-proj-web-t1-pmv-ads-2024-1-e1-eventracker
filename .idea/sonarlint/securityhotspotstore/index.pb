@@ -81,3 +81,5 @@ R
 "codigo-fonte/nova-conta/index.html,4\e\4ebfc58719e8bc489abf33a0b726cf5efe87f94d
 S
 #codigo-fonte/nova-conta/js/index.js,d\d\dd358ac0d23ce07ec3e787ffeb73c9fa7f2085e8
+V
+&codigo-fonte/searchbar/style/style.css,3\4\34628b92f56819e5cfb1f6f409f152fabed97c24
