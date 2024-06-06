@@ -46,7 +46,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido
 
-<b>RF-12: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
+<b>•RF-12: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
 <br>
 <b>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 
