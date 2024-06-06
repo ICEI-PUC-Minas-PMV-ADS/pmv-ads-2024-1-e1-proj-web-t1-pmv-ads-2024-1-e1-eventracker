@@ -1,20 +1,4 @@
-/**
- * This CSS file contains css for a search bar and event container.
- */
 
- .barra-navegacao {
-  background-image: linear-gradient(45deg,
-  hsl(10deg 100% 20%) 1%,
-  hsl(12deg 100% 23%) 43%,
-  hsl(15deg 100% 26%) 50%,
-  hsl(17deg 100% 29%) 51%,
-  hsl(19deg 100% 32%) 51%,
-  hsl(22deg 100% 36%) 49%,
-  hsl(24deg 100% 39%) 49%,
-  hsl(26deg 100% 42%) 50%,
-  hsl(29deg 100% 45%) 57%,
-    hsl(31deg 100% 48%) 99%) !important;
-}
 
 .fonte-corpo-barra {
   font-weight: 600;
@@ -26,10 +10,32 @@
   padding: 12px 16px;
 }
 
+.btn-login,.btn-cadastro {
+  background-color: #2D2A2E;
+  color: #ffffff; /* cor de texto branco */
+  border: none;
+  border-radius: 14px;
+  padding: 10px 20px;
+}
+
+.btn-login:hover,.btn-cadastro:hover {
+  background-color: #000000; /* cor de fundo azul escuro */
+  color: #ffffff; /* cor de texto branco */
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgb(45, 42, 46) !important;
-
+  background-image: linear-gradient(45deg,
+  hsl(10deg 100% 20%) 1%,
+  hsl(12deg 100% 23%) 43%,
+  hsl(15deg 100% 26%) 50%,
+  hsl(17deg 100% 29%) 51%,
+  hsl(19deg 100% 32%) 51%,
+  hsl(22deg 100% 36%) 49%,
+  hsl(24deg 100% 39%) 49%,
+  hsl(26deg 100% 42%) 50%,
+  hsl(29deg 100% 45%) 57%,
+    hsl(31deg 100% 48%) 99%);
 }
 
 .bg-primary:hover {
@@ -39,7 +45,7 @@
 .navbar {
   border: none;
   margin: 0;
-  background-color: rgb(43, 41, 44) !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 
 .bg-body-tertiary {
@@ -62,6 +68,7 @@
 }
 
 body {
+  position: relative;
   background-color: #2d2a2e;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
 }
@@ -142,7 +149,7 @@ button[type=submit] {
 }
 
 /**
- * Styles for the submit button icon.
+  Styles for the submit button icon.
  */
 button[type=submit] i {
   color: #ffffff;
@@ -150,6 +157,13 @@ button[type=submit] i {
   
 }
 
+button[type=submit]:hover i {
+  color: #ccc;
+}
+
+.event-container .event:nth-child(n+2) h1 {
+  margin-top: -10px; 
+}
 
 /**
  * Styles for the event container.
@@ -165,7 +179,7 @@ button[type=submit] i {
   flex-direction: column; /* Ensure events stack vertically */
   padding-bottom: 2px;
   border:1px solid #ddd; /* Gray separator line */
-  margin-bottom: 5vh;
+  margin-bottom: 25vh;
 
 }
 
@@ -192,7 +206,6 @@ button[type=submit] i {
  * Styles for the event image.
  */
 .event img {
-  margin-bottom: 10px;
   width: 140px;
   height: 140px;
   object-fit: cover;
@@ -203,6 +216,9 @@ button[type=submit] i {
 
 .event-details{
   flex: 1;
+  overflow-y: auto;
+  max-height: 200px; 
+
 }
 
 
@@ -235,7 +251,7 @@ button[type=submit] i {
 }
 
 .filter-icon i {
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -453,7 +469,12 @@ button[type=submit] i {
   width: 20px;
 }
 
+
 .footer-color {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-image: linear-gradient(45deg,
   hsl(10deg 100% 20%) 1%,
   hsl(12deg 100% 23%) 43%,
@@ -470,4 +491,5 @@ button[type=submit] i {
 .logo-footer {
   width: 120px;
 }
+
 
