@@ -36,6 +36,47 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 # Programação de Funcionalidades:
 
+<p>A tela do menu foi criada com a finalidade de servir como uma apresentação do nosso site. Seu principal objetivo é atrair a atenção dos usuários, despertando o interesse deles pelo conteúdo oferecido, e incentivando sua utilização para obter informações relevantes. Foram utilizados HTML, CSS, JavaScript.</p>
+
+### Tela Do Menu:
+
+<figure>
+  <img src="img/Tela-Do-Menu.png"> <figcaption> Figura X - Tela Do Menu </figcaption>
+</figure>
+
+#### Requisito atendido
+
+<b>RF-12: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
+<b>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+
+
+
+#### Artefatos da funcionalidade
+
+<p>- tela-do-menu.html</p>
+<p>- tela-do-menu.css</p>
+<p>- app.js</p>
+
+
+#### Estrutura de Dados
+
+Não se aplica.
+
+
+#### Instruções de acesso
+
+<em>O usuário deverá abrir um navegador de Internet e informar a seguinte URL:<em>
+
+https://alessandropfreitas.github.io/TelaDoMenu/tela-do-menu.html
+
+
+#### Responsável
+
+<p>Alessandro</p>
+
+<hr>
+
+
 <p> A tela login poderá ser executada através do button “Entrar”, após o usuário digitar o e-mail e senha cadastrada.
  Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website.</p>
 
