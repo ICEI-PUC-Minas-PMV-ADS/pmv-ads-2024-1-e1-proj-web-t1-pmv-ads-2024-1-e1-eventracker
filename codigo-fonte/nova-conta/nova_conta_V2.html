@@ -6,71 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Conta</title>
     <link rel="stylesheet" href="nova_conta_V2.css ">
+    <script type="text/javascript" src="nova_conta.js"></script>
 </head>
 <body>
-    <img src="assets/Logo Eventracker OFC.svg" alt="Logo do EvenTracker" class="imgevent">
+    
     <!--FORMULARIO DE NOVA CONTA-->
 
-<section class="box_Newcount container">
-    <div class="fornewcount">
-        <form class="newcount" method="post">
-            <div class="high">
-                <h1><i class="icon icon-key-1"></i> CADASTRAR NOVA CONTA</h1>
-                <br>
-            </div>
-            <div class="padding">
-                <label>
-                    <input type="text" class="campos" placeholder="Nome/Empresa Organizadora" name="nome" >   
-                </label>
-                <label> 
-                    <input type="text" class="campos" placeholder="Sobrenome" name="sobrenome">
-                </label>
-                <br>
-                <label>
-                    <input type="date" class="nasc" placeholder="Data de nascimento">
-                </label>
-                <label>
-                    <input type="text" class="campos" placeholder="Cidade e Estado" name="adress">
-                </label>
-                <br>
-                <label>
-                    <input type="email" class="campos" placeholder="E-mail" name="email">
-                </label>
-                <label>
-                    <input type="email" class="campos" placeholder="Confirmar E-mail" name="confemail">
-                </label>
-                <br>
-                <label>
-                    <input type="password" class="campos" placeholder="Senha" name="senha">
-                </label>
-                <label>
-                    <input type="password" class="campos"  placeholder="Confirmar senha" name="confsenha">
-                </label>
-                <br>
-            </div>
-            <div class="tipoConta">
-                <h4>Tipo de Conta</h4>
-                <p>
-                    * Participante pode visualizar e navegar entre eventos
-                    <br><br>
-                    * Organizador pode criar novos eventos no EvenTracker
-                    <br>
-                </p>
-                <div class="inputRadio">
-                    <input type="radio" id="part" name="toggle_option" checked />''
-                    <input type="radio" id="org" name="toggle_option" />
+            <div class="div_main">
 
-                    <label for="part"><span>Participante</span></label>
-                        <label for="org"><span>Organizador</span></label>
 
-                <div class="botao_slider"></div>
+
+                <!--Formulário de criação de nova conta-->
+                <div class="div_central">
+
+                        <!--Imagem superior da criação de nova conta-->
+                    <div class = "div_logonewact">
+                        <img src="logoeventracker.svg" alt="Logo do EvenTracker" class="img_event">
+                    </div>
+                    <div class="div_card">
+                        <div class="div_newact_content">
+
+                            <h1><i class="Create_New_Acount"> CADASTRAR NOVA CONTA</h1>
+                            <label>
+                                <input type="text" class="campos" placeholder="Nome/Empresa Organizadora" name="nome" >   
+                            </label>
+                            <label> 
+                                <input type="text" class="campos" placeholder="Sobrenome" name="sobrenome">
+                            </label>
+                            <br>
+                            <label>
+                                <input type="date" class="campos" placeholder="Data de nascimento">
+                            </label>
+                            <label>
+                                <input type="text" class="campos" placeholder="Cidade e Estado" name="adress">
+                            </label>
+                            <br>
+                            <label>
+                                <input type="email" class="campos" placeholder="E-mail" name="email">
+                            </label>
+                            <label>
+                                <input type="email" class="campos" placeholder="Confirmar E-mail" name="confemail">
+                            </label>
+                            <br>
+                            <label>
+                                <input type="password" class="campos" placeholder="Senha" name="senha">
+                            </label>
+                            <label>
+                                <input type="password" class="campos"  placeholder="Confirmar senha" name="confsenha">
+                            </label>
+                            <input type="button" class="button_create" value="Cadastrar" onclick="create(event)">
+                            <br>
+                            <a href="#" class="link_login">Tenho uma conta</a>
+                            
+                        </div>
+                    </div>
                 </div>
-                <br><br>
-                </div class="submit_count">
-                    <input type="submit" class="btn fade_8S" value="Cadastrar">
-                </div>
+
+
+
+
+
             </div>
-        </form>
-</section>
+       
+
 </body>
 </html>
