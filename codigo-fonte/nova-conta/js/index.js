@@ -29,13 +29,13 @@ function validarFormulario() {
         eValido = false;
     }
 
-    if (EMAIL.value.trim() !== CONFIRMAR_EMAIL.value.trim()) {
+    if ((EMAIL.value.trim() !== CONFIRMAR_EMAIL.value.trim()) || (EMAIL.trim() === '') || (CONFIRMAR_EMAIL.trim() === '')) {
         setError(EMAIL, 'E-mail inválido ou os campos não correspondem.');
         setError(CONFIRMAR_EMAIL, 'E-mail inválido ou os campos não correspondem.');
         eValido = false;
     }
 
-    if (SENHA.value.trim() !== CONFIRMAR_SENHA.value.trim()) {
+    if ((SENHA.value.trim() !== CONFIRMAR_SENHA.value.trim()) || (SENHA.trim() === '') || (CONFIRMAR_SENHA.trim() === '')) {
         setError(SENHA, 'As senhas não correspondem.');
         setError(CONFIRMAR_SENHA, 'As senhas não correspondem.');
         eValido = false;
