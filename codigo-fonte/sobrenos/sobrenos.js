@@ -21,4 +21,10 @@ function closeDrawer() {
 function goToLogin() {
     console.log("clicou no botao login");
     window.location.href = "../login/login.html";
+   
+}
+
+function goToCadastro(){
+    console.log("clicou no botao cadastro");
+    window.location.href = "../nova-conta/index.html";
 }
