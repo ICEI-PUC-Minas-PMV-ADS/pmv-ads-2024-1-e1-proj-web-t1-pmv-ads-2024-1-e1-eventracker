@@ -73,7 +73,7 @@ https://alessandropfreitas.github.io/TelaMenu/tela-de-menu.html
 
 #### Responsável
 
-<p>Alessandro</p>
+<p>Alessandro Paulista</p>
 
 <hr>
 

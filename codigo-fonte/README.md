@@ -4,23 +4,21 @@
 
 Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. 
 
-<p>• Pasta src (root do projeto) - codigo-fonte: home.html, home.css, home.js - Desenvolvedor responsável:Lucas</p>
+<p>• Pasta  codigo-fonte\home: home.html, home.css, home.js - Desenvolvedor responsável:Lucas</p>
 
-<p>• Pasta src\detalheevento: index.html, style.css - Desenvolvedor responsável: João </p>
+<p>• Pasta codigo-fonte\detalheevento: index.html, style.css - Desenvolvedor responsável: João </p>
 
-<p>• Pasta src\novaconta: index.html, style.css  - Desenvolvedor responsável: João </p>
+<p>• Pasta codigo-fonte\novaconta: index.html, style.css  - Desenvolvedor responsável: João </p>
 
-<p>• Pasta src\sobrenos: sobrenos.html, sobrenos.css, sobrenos.js  - Desenvolvedora responsável:Juliana</p>
+<p>• Pasta codigo-fonte\sobrenos: sobrenos.html, sobrenos.css, sobrenos.js  - Desenvolvedora responsável:Juliana</p>
 
-<p>• Pasta src\searchbar: index.html, style.css, app.js  - Desenvolvedor responsável: Maurício </p>
+<p>• Pasta codigo-fonte\searchbar: index.html, style.css, app.js  - Desenvolvedor responsável: Maurício </p>
 
-<p>• Pasta src\login: login.html, login.css, login.js  - Desenvolvedora responsável: Juliana </p>
+<p>• Pasta codigo-fonte\login: login.html, login.css, login.js  - Desenvolvedora responsável: Juliana </p>
 
-<p>• Pasta src\novoevento: index.html, style.css - Desenvolvedora responsável: André </p>
+<p>• Pasta codigo-fonte\novoevento: index.html, style.css - Desenvolvedora responsável: André </p>
 
-<p>• Pasta src\login: login.html, login.css, login.js  - Desenvolvedora responsável: Juliana </p>
-
-<p>• Pasta src\TelaDoMenu: tela-do-menu.html, tela-do-menu.css, app.js - Desenvoledor responsável: Alessandro</p>
+<p>• Pasta codigo-fonte\TelaDoMenu: tela-do-menu.html, tela-do-menu.css, app.js - Desenvolvedor responsável: Alessandro</p>
 
 ## Instalação do Site
 
