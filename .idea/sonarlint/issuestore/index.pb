@@ -81,3 +81,7 @@ P
  codigo-fonte/TelaMenu/index.html,c\2\c21f5ff3b67842ce6ae6d1d42d38949c9d5c2f6b
 S
 #codigo-fonte/TelaMenu/css/style.css,5\f\5f28374d403fa1ef5cc7adf692756ba2f4fcc8f0
+Y
+)codigo-fonte/home/saiba-mais/sapucai.html,0\e\0e81d7c492ffd5fb1afa71a38130dc20be8ec3bd
+Y
+)codigo-fonte/home/saiba-mais/detalhes.css,6\f\6fc7082821d7472eeda4a8f67b7fd965e6878161
