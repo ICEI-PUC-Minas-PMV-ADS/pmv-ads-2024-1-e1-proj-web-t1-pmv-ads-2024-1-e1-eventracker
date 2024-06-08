@@ -41,7 +41,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 ### Tela Do Menu:
 
 <figure>
-  <img src="img/Tela-Do-Menu.png"> <figcaption> Figura X - Tela Do Menu </figcaption>
+  <img src="img/Tela-Do-Menu.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
 </figure>
 
 #### Requisito atendido
@@ -85,7 +85,7 @@ https://alessandropfreitas.github.io/TelaMenu/tela-de-menu.html
 ### Tela Login:
 
 <figure>
-  <img src="img/tela_login.png"> <figcaption> Figura X - Tela Login </figcaption>
+  <img src="img/tela_login.png"> <figcaption> Figura 17 - Tela Login </figcaption>
 </figure>
 
 #### Requisito atendido:
@@ -123,7 +123,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
  ### Tela Sobre Nós:
 
 <figure>
-  <img src="img/tela_sobre_nos.png" <figcaption> Figura X - Tela Sobre Nós </figcaption>
+  <img src="img/tela_sobre_nos.png" <figcaption> Figura 18 - Tela Sobre Nós </figcaption>
 </figure>
 
 #### Requisito atendido:
@@ -155,18 +155,13 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 <hr>
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
 ### Home Page:
 
 
 <figure>
     <img src="img/home-1.png" alt="page description">
-    <figcaption> Tela Principal</figcaption>
+    <figcaption> Figura - 19 Tela Principal</figcaption>
 </figure>
 
 
@@ -207,3 +202,11 @@ O usuário deverá abrir um navegador de Internet e informar a seguinte URL: htt
 #### Responsável:
 
 Author: Lucas Ribeiro @ https://github.com/lsrdot
+
+
+
+> **Links Úteis**:
+> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
+> - [JSON Tutorial](https://www.w3resource.com/JSON)
+> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
+> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
