@@ -56,6 +56,29 @@ function validarFormulario() {
 
     if (eValido) {
         console.log('Formulário válido.');
+
+        const file = imagemEvento.files[0];
+        const scanner = new FileReader();
+
+        scanner.onload = function(e) {
+            const strBase64 = e.target.result;
+
+            const dadosCadastrados = {
+                evento: nomeEvento.value,
+                endereco: enderecoEvento.value,
+                data: dataEvento.value,
+                h: horario.value,
+                description: descricao.value,
+                img: strBase64
+            };
+
+            const dadosStr = JSON.stringify(dadosCadastrados);
+            localStorage.setItem('evento', dadosStr);
+
+            console.log('Dados salvos no local storage:', dadosCadastrados);
+        };
+
+        scanner.readAsDataURL(file);
     }
 }
 

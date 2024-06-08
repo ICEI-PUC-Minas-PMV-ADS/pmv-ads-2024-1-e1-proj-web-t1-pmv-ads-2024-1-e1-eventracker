@@ -61,3 +61,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const eventosStr = localStorage.getItem('eventos');
+  if (!eventosStr) {
+    localStorage.setItem('eventos', '[]');
+  }
+  const eventos = JSON.parse(localStorage.getItem('eventos'));
+  const dadosStr = localStorage.getItem('evento');
+  if (dadosStr) {
+    const dadosCadastrados = JSON.parse(dadosStr);
+    const eventoAlreadyExists = eventos.find(evento => evento.evento === dadosCadastrados.evento);
+    if (!eventoAlreadyExists) {
+      eventos.push(dadosCadastrados);
+      localStorage.setItem('eventos', JSON.stringify(eventos));
+    }
+  }
+  eventos.forEach(evento => {
+    const eventoHTML = `
+      <div class="event">
+        <img src="${evento.img}" alt="${evento.evento}">
+        <div class="event-details">
+          <h1>${evento.evento}</h1>
+          <p>${evento.description}</p>
+        </div>
+      </div>
+    `;
+    document.querySelector('.event-container').insertAdjacentHTML('beforeend', eventoHTML);
+  });
+});
