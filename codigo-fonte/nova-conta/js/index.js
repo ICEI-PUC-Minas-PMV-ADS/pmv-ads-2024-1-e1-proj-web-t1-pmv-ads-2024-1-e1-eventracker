@@ -5,7 +5,7 @@ const SENHA = document.getElementById('senha');
 const CONFIRMAR_SENHA = document.getElementById('confirmarSenha');
 const TELEFONE = document.getElementById('telefone');
 
-document.getElementById('form').addEventListener('submit', function(e) {
+document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
     validarFormulario();
 });
@@ -29,13 +29,13 @@ function validarFormulario() {
         eValido = false;
     }
 
-    if ((EMAIL.value.trim() !== CONFIRMAR_EMAIL.value.trim()) || (EMAIL.trim() === '') || (CONFIRMAR_EMAIL.trim() === '')) {
+    if ((EMAIL.value.trim() !== CONFIRMAR_EMAIL.value.trim()) || EMAIL.value.trim() === '' || CONFIRMAR_EMAIL.value.trim() === '') {
         setError(EMAIL, 'E-mail inválido ou os campos não correspondem.');
         setError(CONFIRMAR_EMAIL, 'E-mail inválido ou os campos não correspondem.');
         eValido = false;
     }
 
-    if ((SENHA.value.trim() !== CONFIRMAR_SENHA.value.trim()) || (SENHA.trim() === '') || (CONFIRMAR_SENHA.trim() === '')) {
+    if ((SENHA.value.trim() !== CONFIRMAR_SENHA.value.trim()) || SENHA.value.trim() === '' || CONFIRMAR_SENHA.value.trim() === '') {
         setError(SENHA, 'As senhas não correspondem.');
         setError(CONFIRMAR_SENHA, 'As senhas não correspondem.');
         eValido = false;
@@ -48,5 +48,17 @@ function validarFormulario() {
 
     if (eValido) {
         console.log('Formulário válido.');
+
+        const novaConta = {
+            nome: NOME.value,
+            email: EMAIL.value,
+            senha: SENHA.value,
+            telefone: TELEFONE.value
+        };
+
+        const strNovaConta = JSON.stringify(novaConta);
+        localStorage.setItem('novaConta', strNovaConta);
+
+        console.log('String armazenada no localStorage:', localStorage.getItem('novaConta'));
     }
 }
