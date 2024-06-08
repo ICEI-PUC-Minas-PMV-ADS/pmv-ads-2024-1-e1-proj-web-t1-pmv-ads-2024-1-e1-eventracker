@@ -1,10 +1,0 @@
-
-LWeb:ImgWithoutAltCheck"%Add an "alt" attribute to this image.(ùˆ¬°ýÿÿÿÿ
-~,Web:MouseEventWithoutKeyboardEquivalentCheck#"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <div> tag.(õê”Þþÿÿÿÿ
-Ý	Web:S6848#"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(õê”Þþÿÿÿÿ
-c	Web:S6851$"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(îÌ”­úÿÿÿÿ
-~,Web:MouseEventWithoutKeyboardEquivalentCheck,"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <img> tag.(­‰ŽŸøÿÿÿÿ
-c	Web:S6851,"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(­‰ŽŸøÿÿÿÿ
-l	Web:S6847,"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(­‰ŽŸøÿÿÿÿ
-NWeb:AvoidCommentedOutCodeCheck;"Remove this commented out code.(Æ‰›Àþÿÿÿÿ
-IWeb:AvoidCommentedOutCodeCheckO"Remove this commented out code.(Î‚¥ü

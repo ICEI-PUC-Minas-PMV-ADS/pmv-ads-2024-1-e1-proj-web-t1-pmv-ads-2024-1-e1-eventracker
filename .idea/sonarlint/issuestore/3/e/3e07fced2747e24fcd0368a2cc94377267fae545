@@ -1,0 +1,10 @@
+
+rWeb:ImgWithoutAltCheck"%Add an "alt" attribute to this image.(ùˆ¬°ýÿÿÿÿJ$d9437400-eeaf-4648-8f16-71ee80ba07ee
+¤,Web:MouseEventWithoutKeyboardEquivalentCheck#"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <div> tag.(õê”ÞþÿÿÿÿJ$860f3842-968d-4cac-917a-1577ba48e8ee
+ƒ	Web:S6848#"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(õê”ÞþÿÿÿÿJ$ed84039a-fdf0-481f-9bfd-493c5ad1cc33
+‰	Web:S6851$"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(îÌ”­úÿÿÿÿJ$eb398b2d-75a0-450d-b5f5-d74388f6064c
+¤,Web:MouseEventWithoutKeyboardEquivalentCheck,"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <img> tag.(­‰ŽŸøÿÿÿÿJ$4f0422c6-b31e-4381-ac8f-7f148058f757
+‰	Web:S6851,"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(­‰ŽŸøÿÿÿÿJ$705ff608-2aba-4aff-b0c3-33cee59a6221
+’	Web:S6847,"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(­‰ŽŸøÿÿÿÿJ$88046ca9-4c09-4427-b1e3-dc99ff8f8aaa
+tWeb:AvoidCommentedOutCodeCheck;"Remove this commented out code.(Æ‰›ÀþÿÿÿÿJ$89edfd8d-2506-4032-8f43-ee6687a5c84f
+oWeb:AvoidCommentedOutCodeCheckO"Remove this commented out code.(Î‚¥üJ$57d1fd18-0176-4ce4-a9b4-4b96fb7230f4
