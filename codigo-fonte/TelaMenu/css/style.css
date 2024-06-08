@@ -40,8 +40,12 @@
 }
 
 body {
-    background-color: #2d2a2e;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Shadow effect */
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
 }
 
 @media(max-width: 991px) {
@@ -313,4 +317,23 @@ label {
 
 .space-input {
     margin-bottom: 23px;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+.titulo {
+    margin-top: 100px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0) !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.landing-msg {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }

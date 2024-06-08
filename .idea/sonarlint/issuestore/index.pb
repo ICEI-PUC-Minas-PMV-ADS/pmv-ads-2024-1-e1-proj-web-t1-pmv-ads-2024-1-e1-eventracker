@@ -79,3 +79,5 @@ P
  codigo-fonte/searchbar/js/app.js,5\7\5753d5c3664d5412ccc0ec67b9e5a595455adc14
 P
  codigo-fonte/TelaMenu/index.html,c\2\c21f5ff3b67842ce6ae6d1d42d38949c9d5c2f6b
+S
+#codigo-fonte/TelaMenu/css/style.css,5\f\5f28374d403fa1ef5cc7adf692756ba2f4fcc8f0

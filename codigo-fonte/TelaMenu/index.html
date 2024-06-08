@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenTracker</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
 </head>
+
 <body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+    <div class="container">
+        <!--Botão Toggle-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Logo do Site-->
+        <a class="navbar-brand" href=".">
+            <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+        </a>
+        <!--Barra Lateral-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+             aria-labelledby="offcanvasNavbarLabel">
+            <!--Header da Sidebar-->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+            </div>
+            <!-- Corpo da barra -->
+            <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+                <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                    </li>
+                </ul>
+                <!--Link Login e Cadastre-se-->
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../login/login.html"
+                       class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/index.html"
+                       class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <div class="menu container">
+        <div class="container">
+            <h1 class="titulo text-start text-center align-content-center">Não perca nenhum momento especial!</h1>
+        </div>
+        <div class="container">
+            <p class="landing-msg text-center align-content-center">
+                Descubra todos os eventos incríveis conosco e garanta sua presença nas
+                melhores experiências da sua vida! Desde shows espetaculares a festas
+                exclusivas, temos algo para todos. Fique por dentro e aproveite ao
+                máximo cada oportunidade.
+            </p>
+        </div>
+    </div>
+<!--     <img src="img/menu2.png" />-->
+</main>
+
+<footer class="text-center text-lg-start footer-color">
+    <div class="container justify-content-center align-items-center d-flex copyright">
+        <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="#">EvenTracker.com</a></h3>
+    </div>
+</footer>
 
 </body>
 </html>
