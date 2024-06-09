@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forrózim de Segunda</title>
+    <title>Novo Evento</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
-    <style>p .info {
-        font-weight: bold;
-    }</style>
-    <script defer src="notificacao.js"></script>
-</head>
+    <link href="style/modal.css">
 
+</head>
 <body>
 <!--navbar-->
 <nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
@@ -73,34 +70,8 @@
     </div>
 </nav>
 
-<div class="container">
-    <h1 class="text-center titulo-detalhe">Forrózim de Segunda</h1>
-    <div class="d-flex justify-content-center">
-        <img src="img/forrozin.jpg" alt="pessoas dançando forró" class="img-fluid rounded shadow">
-    </div>
-    <div class="container align-content-center align-items-center">
-        <p class="txt-padrao"><span class="info">Data:</span> 15/07/2024</p>
-        <p class="txt-padrao"><span class="info">Endereço:</span> R. Sapucaí, 303 - Floresta, Belo Horizonte - MG,
-            30150-050</p>
-        <p class="txt-padrao"><span class="info">Horário de início:</span> 18h00</p>
-        <p class="txt-padrao"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-        <p class="txt-padrao"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-        <p class="txt-padrao"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-        <br>
-        <p class="txt-padrao">
-            <span class="info"></span>Venha participar do Forrózim, um evento de forró imperdível que acontece toda
-            segunda-feira! Prepare-se para uma noite repleta de música contagiante, dança animada e muita diversão.
-            No Forrózim, você terá a oportunidade de se soltar na pista ao som dos melhores ritmos do forró, com DJs e
-            bandas ao vivo que garantem uma experiência inesquecível. Seja você um dançarino experiente ou um iniciante,
-            nosso evento é aberto para todos os níveis. Venha sozinho, com amigos ou traga aquela pessoa especial para
-            aproveitar juntos.
-            Além de dançar, você poderá desfrutar de uma atmosfera acolhedora e conhecer novas pessoas que compartilham
-            o mesmo amor pelo forró. Temos um espaço amplo e confortável, preparado para garantir a melhor experiência
-            possível. E claro, não faltarão bebidas refrescantes e petiscos deliciosos para completar a sua noite.
-    </div>
-    <div class="container d-flex justify-content-center align-items-center botao">
-        <a href="#" class="btn btn-primary confirmar-presenca">Confirmar Presença</a>
-    </div>
+<div class="container" id="novoEventoDiv">
+
 </div>
 
 <footer class="text-center text-lg-start footer-color">
@@ -109,8 +80,8 @@
     </div>
 </footer>
 
-
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="script/app.js"></script>
+<script src="novo-evento.js"></script>
 </body>
 </html>
