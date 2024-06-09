@@ -5,7 +5,7 @@ const horario = document.getElementById('horario');
 const descricao = document.getElementById('descricao');
 const imagemEvento = document.getElementById('imagemEvento');
 
-document.getElementById('form').addEventListener('submit', function(e)  {
+document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
     validarFormulario();
 });
@@ -59,8 +59,11 @@ function validarFormulario() {
 
         const file = imagemEvento.files[0];
         const scanner = new FileReader();
+        const acCadeirantes = document.getElementById('acessibilidadeCadeirantes').checked;
+        const interprete = document.getElementById('interpreteLibras').checked;
+        const audioDescritivo = document.getElementById('audioDescritivo').checked;
 
-        scanner.onload = function(e) {
+        scanner.onload = function (e) {
             const strBase64 = e.target.result;
 
             const dadosCadastrados = {
@@ -69,7 +72,10 @@ function validarFormulario() {
                 data: dataEvento.value,
                 h: horario.value,
                 description: descricao.value,
-                img: strBase64
+                img: strBase64,
+                acessibilidade: acCadeirantes,
+                interprete: interprete,
+                audio: audioDescritivo
             };
 
             const dadosStr = JSON.stringify(dadosCadastrados);
