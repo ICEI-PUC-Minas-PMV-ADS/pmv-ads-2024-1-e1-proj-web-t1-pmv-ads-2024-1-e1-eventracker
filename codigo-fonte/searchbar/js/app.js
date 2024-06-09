@@ -83,8 +83,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="event">
         <img src="${evento.img}" alt="${evento.evento}">
         <div class="event-details">
-          <h1>${evento.evento}</h1>
-          <p>${evento.description}</p>
+        <h1>${evento.evento}</h1>
+        <p>Data: ${evento.data}<br>
+        Endereço: ${evento.endereco}<br>
+        Horário de início: ${evento.h}<br>
+        <p>${evento.description}</p>
         </div>
       </div>
     `;
