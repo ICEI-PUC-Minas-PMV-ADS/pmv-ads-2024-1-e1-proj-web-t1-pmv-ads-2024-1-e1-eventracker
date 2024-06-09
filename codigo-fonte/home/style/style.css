@@ -270,3 +270,7 @@ p.txt-padrao > span.info  {
 .botao {
     margin-bottom: 20px;
 }
+
+.titulo-detalhe {
+    margin-top: 20px;
+}
