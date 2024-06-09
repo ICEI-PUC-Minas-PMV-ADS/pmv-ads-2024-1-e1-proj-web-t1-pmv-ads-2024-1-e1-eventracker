@@ -85,3 +85,7 @@ O
 codigo-fonte/home/forrozim.html,0\6\06dfeade612e74b59d6090054ec41637295c5949
 O
 codigo-fonte/home/script/app.js,6\7\671ffabe9e24d2e0a617252aefb6c07616a47239
+X
+(codigo-fonte/home/style/novo-evento.html,f\7\f78afa31f49c39c992bfeb9c72b93801f6a14be2
+R
+"codigo-fonte/home/novo-evento.html,f\8\f892eef6439c70cc6d1ad0db32bcd13819be6c31

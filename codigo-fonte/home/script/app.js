@@ -17,12 +17,13 @@ const novoCardEvento = `
                     <br>
                 </div>
                 <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                    <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    <a href="novo-evento.html" class="btn btn-primary mt-auto">Saiba Mais</a>
                 </div>
             </div>
         </div>
     </div>
 `;
 
-// Adicionando o novo card ao final da div corpo
+
 corpo.insertAdjacentHTML('beforeend', novoCardEvento);
+
