@@ -34,7 +34,7 @@ Pré-requisitos:
    
 </table>
 
-<br>
+<hr>
 
 <table border="1">
     <col>
@@ -52,9 +52,7 @@ Pré-requisitos:
     <td><p> 01) Deve-se abrir o web site, os campos de formulário e-mail e senha deve ser preechido, dessa forma deve-se analisar ao preencher se aparecerá a mensagem: "Login realizado com Sucesso". </p>
     <p> 02) Deve-se abrir o web site, preencher apenas o campo de formulário "email" ou apenas a "senha" e outro deverá ficar em branco. Dessa forma, ao clicar no button "Entrar" deve-se visualizar a mensagem: "Os campos de e-mail e senha são obrigatórios" </p>
     <p> 03) Deve-se se clicar no button "Cadastrar-se e avaliar se a página será direcionada para a página de Cadastro </p>
-  
-   
-</td>
+     </td>
     <td> <p>• O web site deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
      <p>· O button "Cadastrar-se" deve direcionar a página almejada.</p>
     </td>  
@@ -63,7 +61,7 @@ Pré-requisitos:
    </td> 
 </table>
 
-<br>
+<hr>
 
 <table border="1">
     <col>
@@ -95,7 +93,7 @@ Pré-requisitos:
    <td>CT-04:Verificar o funcionamento do filtro de pesquisa</td>
     <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
     <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
-    <td>• 
+    <td> 
      <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
      <p>02)Digitar o endereço do site.</p>
      <p>03)Visualizar a página "Home".</p>
@@ -122,19 +120,18 @@ Pré-requisitos:
   </tr>
     <td>CT-05: Verificar  a página de cadastro dos usuários</td>
     <td>RF-01: A aplicação deve permitir ao organizador cadastrar uma conta.</td>
-     </td>
-    <td>• 
-     <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
+     <td> Avaliar se a página Cadastre-se esta em conformidade com o objetivo funcional almejado</td>
+   <td>
+       <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
      <p>02)Digitar o endereço do site.</p>
      <p>03)Visualizar a página "Cadastre-se".</p>
      <p>04)Clicar no button "Cadastre-se" no cabeçalho para ser direcionado na página almejada. </p>
      <p>05)Preencher todas  as informações do formulário  e clicar no button “Cadastrar”</p>
-     <p> 06) Não preencher todas as informações pedidas e analisar se será mostrado alguma mensagem informando sobre o campo de formulário em branco ou preencheido incorretamente. </p>
-    </td>
-    <td>As informações digitadas pelo usuário no momento do cadastro devem estar disponibilizadas e caso seja escrito incorretamente ou alguma informaçao fique em branco, uma mensagem deve ser mostrada para orientar ao usuário.</td>  
- <td>• A combinar. (próxima etapa)</td>     
-  <tr>
-   </td>
+     <p> 06) Não preencher todas as informações pedidas e analisar se será mostrado alguma mensagem informando sobre 
+      o campo de formulário em branco ou preencheido incorretamente. </p>
+   </td>      
+     <td> As informações devem de preenchimento devem esta disponíveis ao usuário e caso algum campo não seja preenchido deve-se ter uma mensagem orientado ao usuário para preencher </td>
+     <td> A combinar (proxima etapa) </td>
 </table>
 
    <hr>
