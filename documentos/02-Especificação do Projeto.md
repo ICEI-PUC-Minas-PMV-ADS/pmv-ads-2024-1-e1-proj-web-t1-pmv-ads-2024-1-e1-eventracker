@@ -59,15 +59,15 @@ outros usuários <br>
 
 Com base em análise acerca dos usuários, foram identificadas as seguintes necessidades dos usurários dispostos.
 
-| EU COMO... `QUEM`      | QUERO/PRECISO ... `O QUE`                                                                        | PARA ... `PORQUE`                                                                                              |
-|------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Organizador do Evento  | Agendar/Cadastrar Eventos facilmente e com antecedência, com opções de lembretes e notificações. | Otimizar meu tempo e garantir que não perca eventos importante para minha carreira.                            |
-| Participante do Evento | Ter acesso a informações sobre o evento juntamente com as informações do criador.                | Evitar imprevistos de última hora e me planejar de forma correta                                               |
-| Participante do Evento | Criar um perfil de usuário para deixar salvo meus eventos favoritos.                             | Facilitar meu acesso aos temas de eventos que mais me agradam                                                  |
-| Participante do Evento | Pesquisar eventos com temas diversificados.                                                      | Expandir meu ciclo social com novos interesses                                                                 |
-| Participante do Evento | Confirmar presença nos eventos de acordo com o local desejado.                                   | Garantir ao máximo minha participação dos eventos durante minha estadia                                        |
-| Participante do Evento | Possuir uma conta para receber recomendações de eventos.                                         | Descobrir eventos que alinhem com minha vida social e cultural                                                 |
-| Participante do Evento | Saber se o evento possui uma estrutura acessível para mim, assim podendo desfrutar tranquilamente do meu momento de lazer.                                         | Descobrir eventos que priorizam a inclusão e a satisfação de todos durante todo o festival                                                |
+| EU COMO... `QUEM`      | QUERO/PRECISO ... `O QUE`                                                                                                  | PARA ... `PORQUE`                                                                          |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Organizador do Evento  | Agendar/Cadastrar Eventos facilmente e com antecedência, com opções de lembretes e notificações.                           | Otimizar meu tempo e garantir que não perca eventos importante para minha carreira.        |
+| Participante do Evento | Ter acesso a informações sobre o evento juntamente com as informações do criador.                                          | Evitar imprevistos de última hora e me planejar de forma correta                           |
+| Participante do Evento | Criar um perfil de usuário para deixar salvo meus eventos favoritos.                                                       | Facilitar meu acesso aos temas de eventos que mais me agradam                              |
+| Participante do Evento | Pesquisar eventos com temas diversificados.                                                                                | Expandir meu ciclo social com novos interesses                                             |
+| Participante do Evento | Confirmar presença nos eventos de acordo com o local desejado.                                                             | Garantir ao máximo minha participação dos eventos durante minha estadia                    |
+| Participante do Evento | Possuir uma conta para receber recomendações de eventos.                                                                   | Descobrir eventos que alinhem com minha vida social e cultural                             |
+| Participante do Evento | Saber se o evento possui uma estrutura acessível para mim, assim podendo desfrutar tranquilamente do meu momento de lazer. | Descobrir eventos que priorizam a inclusão e a satisfação de todos durante todo o festival |
 ## Requisitos do Projeto
 
 
@@ -75,22 +75,20 @@ Com base em análise acerca dos usuários, foram identificadas as seguintes nece
 
 
 
-| ID    | Descrição                                                                                    | Prioridade |
-|-------|----------------------------------------------------------------------------------------------|------------|
-| RF-01 | A aplicação deve permitir ao organizador cadastrar uma conta.                                | ALTA       | 
-| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta                              | ALTA       |
-| RF-03 | A aplicação deve possuir uma função de filtro/pesquisa de eventos                            | ALTA       |
-| RF-04 | A aplicação deve permitir ao organizador que crie seu próprio evento                         | ALTA       |
-| RF-05 | A aplicação deve permitir ao participante que coloque eventos em sua lista de “Favoritos”    | ALTA       |
-| RF-06 | A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.          | ALTA       |
-| RF-07 | A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado              | MÉDIA      |
-| RF-08 | A aplicação deve oferecer notificações ao usuário quando o evento estiver próximo            | MÉDIA      |
-| RF-09 | A aplicação deve separar os eventos por categorias                                           | MÉDIA      |
-| RF-10 | A aplicação deve permitir ao participante criar pastas para organizar seus eventos favoritos | MÉDIA      |
-| RF-11 | A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD            | MÉDIA      |
-| RF-12 | A aplicação deve conter informações de contato da organizadora do evento                     | BAIXA      |
-| RF-13 | A aplicação deve permitir ao participante que confirme presença no evento                    | BAIXA      |
-| RF-14 | A aplicação deve apresentar o número de presenças confirmadas nos eventos                    | BAIXA      |
+| ID    | Descrição                                                                                                                                                                                                        | Prioridade |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RF-01 | A aplicação deve permitir ao organizador cadastrar uma conta.                                                                                                                                                    | ALTA       | 
+| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta.                                                                                                                                                 | ALTA       |
+| RF-03 | A aplicação deve possuir uma função de pesquisa de eventos.                                                                                                                                                      | ALTA       |
+| RF-04 | A aplicação deve permitir ao usuário que crie seu próprio evento.                                                                                                                                                | ALTA       |
+| RF-05 | A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.                                                                                                          | ALTA       |
+| RF-06 | A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado | MÉDIA      |
+| RF-07 | A aplicação deve oferecer notificações ao usuário quando o evento estiver próximo                                                                                                                                | MÉDIA      |
+| RF-08 | A aplicação deve separar os eventos por categorias                                                                                                                                                               | MÉDIA      |
+| RF-09 | A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD                                                                                                                                | MÉDIA      |
+| RF-10 | A aplicação deve conter informações de contato da organizadora do evento                                                                                                                                         | BAIXA      |
+| RF-11 | A aplicação deve permitir ao participante que confirme presença no evento                                                                                                                                        | BAIXA      |
+| RF-12 | A aplicação deve apresentar o número de presenças confirmadas nos eventos                                                                                                                                        | BAIXA      |
 
 
 **Prioridade: Alta / Média / Baixa. 
