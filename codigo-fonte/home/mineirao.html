@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlético x Cruzeiro</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <style>p .info { font-weight: bold; }</style>
+</head>
+
+<body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+    <div class="container">
+        <!--Botão Toggle-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Logo do Site-->
+        <a class="navbar-brand" href=".">
+            <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+        </a>
+        <!--Barra Lateral-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!--Header da Sidebar-->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- Corpo da barra -->
+            <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+                <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href=".">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../novo-evento/index.html">CRIE SEU EVENTO </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                    </li><li class="nav-item mx-2">
+                    <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                </li>
+                </ul>
+                <!--Link Login e Cadastre-se-->
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/index.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="text-center titulo-detalhe">Atlético x Cruzeiro</h1>
+    <div class="d-flex justify-content-center">
+        <img src="img/camxcruz.jpg" alt="lojas e movimentação no mercado central" class="img-fluid rounded shadow">
+    </div>
+    <div class="container align-content-center align-items-center">
+        <p class="txt-padrao"><span class="info">Data:</span> 10/08/2024</p>
+        <p class="txt-padrao"><span class="info">Endereço:</span> Av. Antônio Abrahão Caram, 1001 - São José, Belo Horizonte - MG, 31275-000</p>
+        <p class="txt-padrao"><span class="info">Horário de início:</span> 16h00</p>
+        <p class="txt-padrao"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+        <p class="txt-padrao"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+        <p class="txt-padrao"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+        <br>
+        <p class="txt-padrao">
+            <span class="info"></span>Se preparem para a emoção e rivalidade intensa, pois o grande clássico do futebol brasileiro
+            está de volta ao Mineirão! No próximo fim de semana, o estádio será palco do tão aguardado confronto entre Cruzeiro e
+            Atlético, dois gigantes do futebol mineiro. Com uma atmosfera eletrizante e torcidas apaixonadas, este jogo promete ser
+            uma batalha épica pelo domínio do campo e pela vitória. Os craques entrarão em campo determinados a dar o seu melhor e
+            conquistar os três pontos para suas equipes, enquanto os torcedores criarão uma atmosfera ensurdecedora, vibrando a cada
+            lance e apoiando incansavelmente seus times do primeiro ao último minuto. Prepare-se para uma tarde de pura adrenalina,
+            onde cada chute, cada defesa e cada gol serão dignos de um espetáculo inesquecível. Venha fazer parte desta história e
+            testemunhe o clássico que vai parar a cidade de Belo Horizonte e agitar o coração dos apaixonados por futebol!
+            </div>
+    <div class="container d-flex justify-content-center align-items-center botao">
+        <a href="#" class="btn btn-primary">Confirmar Presença</a>
+    </div>
+</div>
+
+<footer class="text-center text-lg-start footer-color">
+    <div class="container justify-content-center align-items-center d-flex copyright">
+        <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="index.html">EvenTracker.com</a></h3>
+    </div>
+</footer>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script/app.js"></script>
+</body>
+</html>
