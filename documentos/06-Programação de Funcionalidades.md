@@ -1,19 +1,18 @@
 
 # Programação de Funcionalidades:
 
-<p>A tela do menu foi criada com a finalidade de servir como uma apresentação do nosso site. Seu principal objetivo é atrair a atenção dos usuários, despertando o interesse deles pelo conteúdo oferecido, e incentivando sua utilização para obter informações relevantes. Foram utilizados HTML, CSS, JavaScript.</p>
+<p>A tela do menu foi criada para servir como uma apresentação do nosso site. Seu principal objetivo é atrair a atenção dos usuários, despertando o interesse deles pelo conteúdo oferecido, e incentivando sua utilização para obter informações relevantes. Foram utilizados HTML, CSS, JavaScript.</p>
 
 ### Tela Do Menu:
 
 <figure>
-  <img src="img/pagina_home.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
-</figure>
+  <img src="img/landing-page.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
 
 #### Requisito atendido
 
-<b>•RF-12: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
+<b>• RF-12: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
 <br>
-<b>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+<b>• RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 
 
 
