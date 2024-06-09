@@ -85,3 +85,7 @@ Y
 )codigo-fonte/home/saiba-mais/sapucai.html,0\e\0e81d7c492ffd5fb1afa71a38130dc20be8ec3bd
 Y
 )codigo-fonte/home/saiba-mais/detalhes.css,6\f\6fc7082821d7472eeda4a8f67b7fd965e6878161
+U
+%codigo-fonte/home/style/forrozim.html,f\1\f16878e5a5117ba40a2ea2edba539ea3d641200a
+O
+codigo-fonte/home/forrozim.html,0\6\06dfeade612e74b59d6090054ec41637295c5949

@@ -251,3 +251,22 @@ footer {
     font-size: 14px;
 
 }
+
+.txt-padrao {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(230, 230, 221, 1);
+    font-size: 20px;
+}
+
+p.txt-padrao > span.info  {
+    text-weight: bold;
+    font-size: 25px;
+}
+
+.img-fluid {
+    margin-bottom: 30px;
+}
+
+.botao {
+    margin-bottom: 20px;
+}
