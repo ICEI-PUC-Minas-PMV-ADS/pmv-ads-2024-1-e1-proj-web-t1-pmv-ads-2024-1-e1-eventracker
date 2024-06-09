@@ -7,7 +7,10 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
-    <style>p .info { font-weight: bold; }</style>
+    <style>p .info {
+        font-weight: bold;
+    }</style>
+    <script defer src="notificacao.js"></script>
 </head>
 
 <body>
@@ -15,7 +18,8 @@
 <nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
     <div class="container">
         <!--Botão Toggle-->
-        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!--Logo do Site-->
@@ -23,11 +27,13 @@
             <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
         </a>
         <!--Barra Lateral-->
-        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+             aria-labelledby="offcanvasNavbarLabel">
             <!--Header da Sidebar-->
             <div class="offcanvas-header text-white border-bottom">
                 <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
-                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
             </div>
             <!-- Corpo da barra -->
             <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
@@ -40,15 +46,27 @@
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
-                    </li><li class="nav-item mx-2">
-                    <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
-                </li>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                    </li>
+                    <div class="modal-notificacao">
+                        <dialog class="borda-arredondada">
+                            <h2>Notificações</h2>
+                            <p class="mensagem-modal">
+                                Não há notificações no momento.
+                            </p>
+                            <button id="fechar-dialog">Fechar</button>
+                        </dialog>
+                    </div>
                 </ul>
                 <!--Link Login e Cadastre-se-->
                 <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                    <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
-                    <a href="../nova-conta/index.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
-                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
+                    <a href="../login/login.html"
+                       class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/index.html"
+                       class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao" id="notificacao"></a>
                 </div>
             </div>
         </div>
@@ -62,19 +80,26 @@
     </div>
     <div class="container align-content-center align-items-center">
         <p class="txt-padrao"><span class="info">Data:</span> 15/07/2024</p>
-        <p class="txt-padrao"><span class="info">Endereço:</span> R. Sapucaí, 303 - Floresta, Belo Horizonte - MG, 30150-050</p>
+        <p class="txt-padrao"><span class="info">Endereço:</span> R. Sapucaí, 303 - Floresta, Belo Horizonte - MG,
+            30150-050</p>
         <p class="txt-padrao"><span class="info">Horário de início:</span> 18h00</p>
         <p class="txt-padrao"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
         <p class="txt-padrao"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
         <p class="txt-padrao"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
         <br>
         <p class="txt-padrao">
-            <span class="info"></span>Venha participar do Forrózim, um evento de forró imperdível que acontece toda segunda-feira! Prepare-se para uma noite repleta de música contagiante, dança animada e muita diversão.
-            No Forrózim, você terá a oportunidade de se soltar na pista ao som dos melhores ritmos do forró, com DJs e bandas ao vivo que garantem uma experiência inesquecível. Seja você um dançarino experiente ou um iniciante, nosso evento é aberto para todos os níveis. Venha sozinho, com amigos ou traga aquela pessoa especial para aproveitar juntos.
-            Além de dançar, você poderá desfrutar de uma atmosfera acolhedora e conhecer novas pessoas que compartilham o mesmo amor pelo forró. Temos um espaço amplo e confortável, preparado para garantir a melhor experiência possível. E claro, não faltarão bebidas refrescantes e petiscos deliciosos para completar a sua noite.
+            <span class="info"></span>Venha participar do Forrózim, um evento de forró imperdível que acontece toda
+            segunda-feira! Prepare-se para uma noite repleta de música contagiante, dança animada e muita diversão.
+            No Forrózim, você terá a oportunidade de se soltar na pista ao som dos melhores ritmos do forró, com DJs e
+            bandas ao vivo que garantem uma experiência inesquecível. Seja você um dançarino experiente ou um iniciante,
+            nosso evento é aberto para todos os níveis. Venha sozinho, com amigos ou traga aquela pessoa especial para
+            aproveitar juntos.
+            Além de dançar, você poderá desfrutar de uma atmosfera acolhedora e conhecer novas pessoas que compartilham
+            o mesmo amor pelo forró. Temos um espaço amplo e confortável, preparado para garantir a melhor experiência
+            possível. E claro, não faltarão bebidas refrescantes e petiscos deliciosos para completar a sua noite.
     </div>
     <div class="container d-flex justify-content-center align-items-center botao">
-        <a href="#" class="btn btn-primary">Confirmar Presença</a>
+        <a href="#" class="btn btn-primary confirmar-presenca">Confirmar Presença</a>
     </div>
 </div>
 
@@ -83,7 +108,6 @@
         <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="index.html">EvenTracker.com</a></h3>
     </div>
 </footer>
-
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

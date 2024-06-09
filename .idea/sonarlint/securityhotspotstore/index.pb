@@ -95,3 +95,9 @@ U
 %codigo-fonte/nova-conta/css/style.css,4\1\41d9b533bede25a31f1a1717a19a05994e032957
 V
 &codigo-fonte/home/style/notificacao.js,1\9\19f89cc97f84c407e66369777745391555efdd12
+P
+ codigo-fonte/home/notificacao.js,f\b\fbfbf83fc7f608858fc12145bc03825d3fb44363
+P
+ codigo-fonte/home/novo-evento.js,c\3\c3a4a0aa17bd7a1c6940381f8e1dfa26608dc9c1
+Q
+!codigo-fonte/home/style/modal.css,d\3\d3b304712c7c3540aabfde7370289c18795ff4b8
