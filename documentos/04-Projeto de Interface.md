@@ -2,8 +2,8 @@
 
 ## User Flow
 
-Os user flows são ferramentas que auxiliam no mapeamento do caminho que os usuários percorrem para concluir tarefas do website.
-São de suma importância pois auxiliam na elaboração do website e examinam as séries de interações que acontecerão durante a jornada. 
+O user flows são ferramentas que auxiliam no mapeamento do caminho que os usuários percorrem para concluir tarefas do website.
+São de suma importância, pois auxiliam na elaboração do website e examinam as séries de interações que acontecerão durante a jornada. 
 O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário na aplicação desenvolvida nesse projeto. 
 
 
@@ -40,7 +40,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 
  <em>· Login:</em> será uma caixa de formulário com o elemento input que permitirá o usuário colocar seus dados como e-mail e senha;
 
-<em>· Entrar:</em>  após o usuário registrar seu e-mail e senha, o botão Entrar permitirá que o usuário faça o "click" e seja direcionado às outras interações do website; 
+<em>· Entrar:</em> após o usuário registrar seu e-mail e senha, o botão Entrar permitirá que o usuário faça o "click" e seja direcionado às outras interações do website; 
  
  <em>· Criar Conta:</em> o botão Criar Conta após ser clicado, permitirá ao usuário registrar suas informações para efetivar o seu cadastro;
 
@@ -56,7 +56,7 @@ O diagrama de fluxo apresentado a seguir demonstra o fluxo seguido pelo usuário
 
  ### Tela de Cadastro
 
-A tela de cadastro do usuário solicitará as informações que são necessárias para a criação de sua conta e senha. Dessa forma, o visitante poderá ter acesso ao seu objetivo, que será a visualização e criação de eventos, bem como o acesso a página "Sobre nós" que aparesentará mais informações sobre a solução e a equipe que desenvolveu.
+A tela de cadastro do usuário solicitará as informações necessárias para a criação de sua conta e senha. Dessa forma, o visitante poderá ter acesso ao seu objetivo, que será a visualização e criação de eventos, bem como o acesso a página "Sobre nós" que aparesentará mais informações sobre a solução e a equipe que desenvolveu.
 
  Conforme a Figura 6, a tela de Cadastro apresentará formulários com as informaçōes pessoais do usuário como por exemplo: Nome, Idade, Cidade, Contato.
   
@@ -142,7 +142,7 @@ Conforme a Figura 9, terá os seguintes componentes:
 </figure>
 
   ### Tela de Cadastro de Eventos
-  A Tela de Cadastro de eventos é destinada a criação que o usuário/Organizador fará de novos eventos. Nela terá um formulário em que o usuário irá informar: o nome do evento, as atrações do evento, a quais categorias esse evento se enquadra, a descrição desse evento, o local de realização, o horário de realização, qual tipo de apoio e estrutura o evento oferece a pessoa PCD, o nome do Organizador seja pessoa ou empresa, dados de contato do organizador e poderá adicionar imagens do evento, como imagem de divulgação, etc.
+  A Tela de Cadastro de eventos é destinada à criação que o usuário/Organizador fará de novos eventos. Nela terá um formulário em que o usuário irá informar: o nome do evento, as atrações do evento, a quais categorias esse evento se enquadra, a descrição desse evento, o local de realização, o horário de realização, qual tipo de apoio e estrutura o evento oferece a pessoa PCD, o nome do Organizador seja pessoa ou empresa, dados de contato do organizador e poderá adicionar imagens do evento, como imagem de divulgação, etc.
 
   Conforme a Figura 10, terá os seguintes componentes:
 
