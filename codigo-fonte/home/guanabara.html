@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Guanabara - Tour Completo</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <style>p .info { font-weight: bold; }</style>
+</head>
+
+<body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+    <div class="container">
+        <!--Botão Toggle-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Logo do Site-->
+        <a class="navbar-brand" href=".">
+            <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+        </a>
+        <!--Barra Lateral-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!--Header da Sidebar-->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- Corpo da barra -->
+            <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+                <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href=".">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../novo-evento/index.html">CRIE SEU EVENTO </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                    </li><li class="nav-item mx-2">
+                    <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                </li>
+                </ul>
+                <!--Link Login e Cadastre-se-->
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/index.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="text-center titulo-detalhe">Parque Guanabara - Tour Completo</h1>
+    <div class="d-flex justify-content-center">
+        <img src="img/mercadocentral2.jpg" alt="lojas e movimentação no mercado central" class="img-fluid rounded shadow">
+    </div>
+    <div class="container align-content-center align-items-center">
+        <p class="txt-padrao"><span class="info">Data:</span> 10/07/2024</p>
+        <p class="txt-padrao"><span class="info">Endereço:</span> Av. Expedicionário Benvindo Belém de Lima, 15 - São Luiz, Belo Horizonte - MG, 31310-040</p>
+        <p class="txt-padrao"><span class="info">Horário de início:</span> 09h00</p>
+        <p class="txt-padrao"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+        <p class="txt-padrao"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+        <p class="txt-padrao"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+        <br>
+        <p class="txt-padrao">
+            <span class="info"></span>Bem-vindos a uma aventura mágica pelo Parque Guanabara, um oásis de diversão e
+            encantamento no coração de Belo Horizonte! Este não é apenas um passeio, mas uma jornada emocionante para todas as
+            idades, especialmente para as crianças que buscam aventura durante as férias escolares. Aqui, os pequenos
+            exploradores serão recebidos por uma atmosfera vibrante, repleta de cores, sons e atividades que estimularão a
+            imaginação e a criatividade. Desde emocionantes brinquedos, como a roda-gigante e o carrossel, até áreas de
+            recreação ao ar livre, com playgrounds e espaços para piquenique, há diversão garantida para todos os gostos. Além
+            disso, o parque oferece uma variedade de atrações especiais, como espetáculos teatrais, contação de histórias e
+            oficinas de artes, que transportarão os visitantes para um mundo de fantasia e aventura. Não perca a oportunidade de
+            fazer parte dessa experiência única e criar memórias inesquecíveis com sua família e amigos. Venha viver a magia do
+            Parque Guanabara e deixe sua imaginação voar alto!
+            </div>
+    <div class="container d-flex justify-content-center align-items-center botao">
+        <a href="#" class="btn btn-primary">Confirmar Presença</a>
+    </div>
+</div>
+
+<footer class="text-center text-lg-start footer-color">
+    <div class="container justify-content-center align-items-center d-flex copyright">
+        <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="index.html">EvenTracker.com</a></h3>
+    </div>
+</footer>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script/app.js"></script>
+</body>
+</html>
