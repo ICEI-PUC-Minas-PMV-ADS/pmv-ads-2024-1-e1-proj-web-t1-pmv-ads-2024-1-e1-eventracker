@@ -76,13 +76,16 @@ function validarFormulario() {
                 img: strBase64,
                 acessibilidade: acCadeirantes,
                 interprete: interprete,
-                audio: audioDescritivo
+                audio: audioDescritivo,
+                eventoCadastrado: eValido
             };
 
             const dadosStr = JSON.stringify(dadosCadastrados);
             localStorage.setItem('evento', dadosStr);
 
             console.log('Dados salvos no local storage:', dadosCadastrados);
+
+            alert('Evento cadastrado com sucesso!');
         };
 
         scanner.readAsDataURL(file);

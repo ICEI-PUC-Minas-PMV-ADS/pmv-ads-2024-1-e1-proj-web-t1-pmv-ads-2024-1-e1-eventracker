@@ -93,3 +93,5 @@ _
 /codigo-fonte/template-padrao/template-home.html,c\f\cfa090f6fcd4532b0747e8be98e13d5c4e367686
 U
 %codigo-fonte/nova-conta/css/style.css,4\1\41d9b533bede25a31f1a1717a19a05994e032957
+V
+&codigo-fonte/home/style/notificacao.js,1\9\19f89cc97f84c407e66369777745391555efdd12
