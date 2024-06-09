@@ -37,8 +37,7 @@
 </ol>
 
 # Hospedagem
-* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/home
-
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/TelaMenu/index.html
 # Código-Fonte
 * <a href="codigo-fonte/README.md">Código Fonte</a>
 
