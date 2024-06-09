@@ -11,13 +11,13 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 Desta forma, a equipe está organizada da seguinte maneira:
 - Scrum Master: João Victor
 - Product Owner: André Pedroso
-- Equipe de Desenvolvimento: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik, Mauricio Thales Alves de Azevedo Neto, Alessandro Paulista Freitas
-- Equipe de Design: André Pedroso, Lucas Siqueira, João Victor, Juliana Monik, Alessandro Paulista Freitas, Mauricio Thales Alves de Azevedo Neto
+- Equipe de Desenvolvimento: André Pedroso, Lucas Ribeiro, Juliana Monik, Mauricio Thales Alves de Azevedo Neto, Alessandro Paulista Freitas
+- Equipe de Design: André Pedroso, Lucas Siqueira, Juliana Monik, Alessandro Paulista Freitas, Mauricio Thales Alves de Azevedo Neto
 
 
 ### Processo
 
-As tarefas do projeto estão sendo sendo organizadas e distribuídas através do GitHub Project, cujas estruturas são:
+As tarefas do projeto estão sendo organizadas e distribuídas através do GitHub Project, cujas estruturas são:
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: essa lista representa o Sprint Backlog, isto é, o sprint que está sendo trabalhado
 - In progress: listagem das tarefas iniciadas. 
@@ -61,13 +61,13 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 
 Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma. Seus respectivos propósitos são apresentados na tabela que se segue:
 
-| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
-|-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/README.md |
-| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker |
-| Projeto de Interface                | Figma                              | https://www.figma.com/file/M7UCxAQdbR7fHpxgZzfzmc/Prot%C3%B3tipo-EvenTracker?type=design&node-id=180%3A599&mode=design&t=hHSRjsdps4lyWHtJ-1 |
-| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002 |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| AMBIENTE                    | PLATAFORMA      | LINK DE ACESSO                                                                                                                              |
+|-----------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Repositório de código fonte | GitHub          | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/README.md      |
+| Documentos do projeto       | GitHub          | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker                                       |
+| Projeto de Interface        | Figma           | https://www.figma.com/file/M7UCxAQdbR7fHpxgZzfzmc/Prot%C3%B3tipo-EvenTracker?type=design&node-id=180%3A599&mode=design&t=hHSRjsdps4lyWHtJ-1 |
+| Gerenciamento do Projeto    | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1002                                                                                |
+| Hospedagem                  | GitHub Pages    | http://....                                                                                                                                 |
 
 
 ### Estratégia de Organização de Codificação 

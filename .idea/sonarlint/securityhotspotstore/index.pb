@@ -101,3 +101,5 @@ P
  codigo-fonte/home/novo-evento.js,c\3\c3a4a0aa17bd7a1c6940381f8e1dfa26608dc9c1
 Q
 !codigo-fonte/home/style/modal.css,d\3\d3b304712c7c3540aabfde7370289c18795ff4b8
+L
+documentos/03-Metodologia.md,d\d\dd9719919ae3aabeee7c6d7be57c74236058f92f
