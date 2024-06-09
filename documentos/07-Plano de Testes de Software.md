@@ -89,7 +89,9 @@ Pré-requisitos:
  <td>• A combinar. (próxima etapa)</td>     
   <tr>
    </td>
-
+  
+<hr>
+    
    <td>CT-04:Verificar o funcionamento do filtro de pesquisa</td>
     <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
     <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
@@ -118,7 +120,7 @@ Pré-requisitos:
    <th>Critérios de Êxito</th>  
    <th>Responsável</th>  
   </tr>
-    <td>CT-04: Verificar  a página de cadastro dos usuários</td>
+    <td>CT-05: Verificar  a página de cadastro dos usuários</td>
     <td>RF-01: A aplicação deve permitir ao organizador cadastrar uma conta.</td>
      </td>
     <td>• 
@@ -137,7 +139,7 @@ Pré-requisitos:
 
    <hr>
 <table>
-   <td>CT-05:Verificar o funcionamento do filtro de pesquisa</td>
+   <td>CT-06:Verificar o funcionamento do filtro de pesquisa</td>
     <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
     <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
     <td>
