@@ -203,6 +203,59 @@ O usuário deverá abrir um navegador de Internet e informar a seguinte URL: htt
 
 Author: Lucas Ribeiro @ https://github.com/lsrdot
 
+<hr>
+
+
+### Tela de Novo Evento:
+
+
+<figure>
+    <img src="img/tela_novoevento.PNG" alt="page description">
+    <figcaption> Figura - 20 Tela de Novo Evento</figcaption>
+</figure>
+
+
+#### Requisitos atendidos:
+
+**RF-04:** A aplicação deve permitir ao organizador que crie seu próprio evento.
+
+**RF-06:** A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.
+
+**RF-11:** A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD
+
+
+#### Artefatos da funcionalidade:
+
+- index.html
+
+- style.css
+
+- bootstrap.min.css
+
+- bootstrap.min.js
+
+#### Estrutura de Dados:
+
+Não se aplica.
+
+
+#### Instruções de acesso:
+
+Acesso de forma local:
+
+O usuário deverá clonar o repositório localmente e navegar até o diretório em ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/novo-evento/ e executar o arquivo index.html em seu navegador de preferência.
+
+Forma de acesso via URL:
+
+O usuário deverá abrir um navegador de Internet e informar a seguinte URL: https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/novo-evento/index.html
+
+
+#### Responsável:
+
+André Pedroso @ https://github.com/andrespedroso
+
+<hr>
+
 
 ### Tela Cadastro
 <p> A tela Cadastro será direcionada após o usuário clicar no  button “ Cadastre-se” que esta no cabeçalho do website. 
