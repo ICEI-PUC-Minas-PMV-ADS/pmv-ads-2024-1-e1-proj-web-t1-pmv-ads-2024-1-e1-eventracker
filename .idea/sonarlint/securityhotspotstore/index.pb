@@ -105,3 +105,5 @@ L
 documentos/03-Metodologia.md,d\d\dd9719919ae3aabeee7c6d7be57c74236058f92f
 U
 %documentos/04-Projeto de Interface.md,e\1\e1f7991189deaf34b1db220b0a82005676b1803b
+`
+0documentos/05-Template padrão da Aplicação.md,3\2\32bceebcbdad77eb9e2cbeb7343a4f67a9fe4bfb
