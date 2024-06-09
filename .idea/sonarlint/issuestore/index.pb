@@ -89,3 +89,5 @@ X
 (codigo-fonte/home/style/novo-evento.html,f\7\f78afa31f49c39c992bfeb9c72b93801f6a14be2
 R
 "codigo-fonte/home/novo-evento.html,f\8\f892eef6439c70cc6d1ad0db32bcd13819be6c31
+_
+/codigo-fonte/template-padrao/template-home.html,c\f\cfa090f6fcd4532b0747e8be98e13d5c4e367686
