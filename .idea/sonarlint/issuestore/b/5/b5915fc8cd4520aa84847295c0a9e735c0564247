@@ -1,9 +1,9 @@
 
-«,Web:MouseEventWithoutKeyboardEquivalentCheck"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <div> tag.(υκ”ήώÿÿÿÿ8΅φωτÿ1J$a86e446d-fcc3-4dc4-9d05-2dab8a78c8c8
-	Web:S6848"ΒAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(υκ”ήώÿÿÿÿ8£φωτÿ1J$3b189ade-9208-478c-88ed-d1971df156c2
-‹	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(σ―ΘΊ8¤φωτÿ1J$ecd51fdb-8a56-4822-8f11-5d465420aa44
-‹	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ΞξΗ€8¦φωτÿ1J$d143405f-aa86-493d-a862-097e1a4ecd09
-	Web:S6851C"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ΐ¤Ξ»ϊÿÿÿÿ8§φωτÿ1J$cb5e8938-2c77-4633-9100-b17bd0e1a703
-«,Web:MouseEventWithoutKeyboardEquivalentCheck["AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <img> tag.(ΪιΉδψÿÿÿÿ8©φωτÿ1J$4f43113a-4a82-4390-9260-978860bdf32a
-	Web:S6851["IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ΪιΉδψÿÿÿÿ8ªφωτÿ1J$3c94acfa-f0cf-4269-a25b-5d66773c1dc9
-™	Web:S6847["RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ΪιΉδψÿÿÿÿ8¬φωτÿ1J$24b57ca8-1559-4fb9-9fd2-829b050e9141
+«,Web:MouseEventWithoutKeyboardEquivalentCheck"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <div> tag.(υκ”ήώÿÿÿÿ8΅φωτÿ1J$3b9b92c1-c0de-4819-83e4-1315ec537149
+	Web:S6848"ΒAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(υκ”ήώÿÿÿÿ8£φωτÿ1J$578299aa-e98e-4619-a793-045abecf5c1c
+‹	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(σ―ΘΊ8¤φωτÿ1J$ec222c18-fb32-4bb0-ba86-a076f523d1c4
+‹	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ΞξΗ€8¦φωτÿ1J$ecc697f2-7a2b-4931-ab08-697cfe9fb659
+	Web:S6851C"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ΐ¤Ξ»ϊÿÿÿÿ8§φωτÿ1J$2f1c97a5-70fb-4a26-ba16-ed806b30d5b6
+«,Web:MouseEventWithoutKeyboardEquivalentCheck["AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <img> tag.(ΪιΉδψÿÿÿÿ8©φωτÿ1J$0cb1c15b-773e-475e-87dd-ebc36c038c96
+	Web:S6851["IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ΪιΉδψÿÿÿÿ8ªφωτÿ1J$7907ea30-685b-4ddb-adb7-7e18a6dc3c36
+™	Web:S6847["RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ΪιΉδψÿÿÿÿ8¬φωτÿ1J$11c17e27-9aaf-4ee7-a9ed-9607e68c514f
