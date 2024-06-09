@@ -51,7 +51,8 @@ Pré-requisitos:
     <td> <p>• Certificar se o button "Entrar" da página login esta funcionando corretamente e o button Cadastrar-se direciona o usuário na página Cadastrar.</p></td>
     <td><p> 01) Deve-se abrir o web site, os campos de formulário e-mail e senha deve ser preechido, dessa forma deve-se analisar ao preencher se aparecerá a mensagem: "Login realizado com Sucesso". </p>
     <p> 02) Deve-se abrir o web site, preencher apenas o campo de formulário "email" ou apenas a "senha" e outro deverá ficar em branco. Dessa forma, ao clicar no button "Entrar" deve-se visualizar a mensagem: "Os campos de e-mail e senha são obrigatórios" </p>
-    <p>03) Deve-se se clicar no button "Cadastrar-se e avaliar se a página será direcionada para a página de Cadastro </p>
+    <p> 03) Deve-se se clicar no button "Cadastrar-se e avaliar se a página será direcionada para a página de Cadastro </p>
+  
    
 </td>
     <td> <p>• O web site deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
@@ -82,13 +83,15 @@ Pré-requisitos:
      <p>02)Digitar o endereço do site.</p>
      <p>03)Visualizar a página "Home".</p>
      <p>04)Clicar no button "Buscar Eventos" para ser direcionado na página almejada. </p>
-      <p>05)Digitar no filtro de pesquisa algum elemento específico da página "Buscar Eventos" e verificar se o resultado é exibido na página.</p>
+      <p>05)Digitar no filtro de pesquisa algum elemento específico da página "Buscar Eventos" e verificar se o resultado é exibido na página.</p> 
     </td>
     <td> Os elementos digitados no filtro de pesquisa devem mostrar aonde tem a informação na página referida.</td>  
  <td>• A combinar. (próxima etapa)</td>     
   <tr>
    </td>
-
+  
+<hr>
+    
    <td>CT-04:Verificar o funcionamento do filtro de pesquisa</td>
     <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
     <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
@@ -105,10 +108,50 @@ Pré-requisitos:
    </td>   
 </table>
 
+<hr>
 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<table border="1">
+    <col>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivos dos Testes</th>
+   <th>Passos</th>
+   <th>Critérios de Êxito</th>  
+   <th>Responsável</th>  
+  </tr>
+    <td>CT-05: Verificar  a página de cadastro dos usuários</td>
+    <td>RF-01: A aplicação deve permitir ao organizador cadastrar uma conta.</td>
+     </td>
+    <td>• 
+     <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
+     <p>02)Digitar o endereço do site.</p>
+     <p>03)Visualizar a página "Cadastre-se".</p>
+     <p>04)Clicar no button "Cadastre-se" no cabeçalho para ser direcionado na página almejada. </p>
+     <p>05)Preencher todas  as informações do formulário  e clicar no button “Cadastrar”</p>
+     <p> 06) Não preencher todas as informações pedidas e analisar se será mostrado alguma mensagem informando sobre o campo de formulário em branco ou preencheido incorretamente. </p>
+    </td>
+    <td>As informações digitadas pelo usuário no momento do cadastro devem estar disponibilizadas e caso seja escrito incorretamente ou alguma informaçao fique em branco, uma mensagem deve ser mostrada para orientar ao usuário.</td>  
+ <td>• A combinar. (próxima etapa)</td>     
+  <tr>
+   </td>
+</table>
+
+   <hr>
+<table>
+   <td>CT-06:Verificar o funcionamento do filtro de pesquisa</td>
+    <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
+    <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
+    <td>
+     <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
+     <p>02)Digitar o endereço do site.</p>
+     <p>03)Visualizar a página "Home".</p>
+     <p>04)Clicar no button "Buscar Eventos" para ser direcionado na página almejada. </p>
+      <p>05)Digitar no filtro de pesquisa algum elemento específico da página "Buscar Eventos" e verificar se o resultado é exibido na página.</p>
+    </td>
+    <td> Os elementos digitados no filtro de pesquisa devem mostrar aonde tem a informação na página referida.</td>  
+ <td>• A combinar. (próxima etapa)</td>     
+  <tr>
+   </td>   
+</table>
+<hr>

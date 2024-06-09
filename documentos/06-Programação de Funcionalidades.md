@@ -1,38 +1,3 @@
-# Programação de Funcionalidades
-
-Implementação da aplicação descritas por meio dos requisitos codificados. 
-
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
-
-#### Requisito atendido
-
-[RF-X: adicione a descrição do requisito atendido]
-
-
-#### Artefatos da funcionalidade
-
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
 
 # Programação de Funcionalidades:
 
@@ -41,7 +6,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 ### Tela Do Menu:
 
 <figure>
-  <img src="img/Tela-Do-Menu.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
+  <img src="img/pagina_home.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
 </figure>
 
 #### Requisito atendido
@@ -160,7 +125,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 
 <figure>
-    <img src="img/home-1.png" alt="page description">
+    <img src="img/detalhes_eventos.png" alt="page description">
     <figcaption> Figura - 19 Tela Principal</figcaption>
 </figure>
 
@@ -263,7 +228,7 @@ André Pedroso @ https://github.com/andrespedroso
 <p> Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website e a biblioteca bootstrap.</p>
 
 <figure>
-  <img src="img/pagina_cadastro.png"> <figcaption> Figura 17 - Tela Cadastro</figcaption>
+  <img src="img/pagina_cadastro.png"> <figcaption> Figura 21 - Tela Cadastro</figcaption>
 </figure>
 
 #### Requisito atendido
@@ -297,12 +262,45 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 
 
+<hr>
+
+### Tela Buscar Eventos 
+
+<figure>
+  <img src="img/tela_buscareventos.png"> <figcaption> Figura 22 - Tela Buscar Eventos</figcaption>
+</figure>
+<p> A Tela Buscar Eventos será direcionada após o usuário clicar no button "Buscar Eventos" que encontra-se no cabeçalho do website.
+  Desta forma, o usuário conseguirá pesquisar no filtro de pesquisa digitando a palavra almejada. Os elementos digitados no filtro de pesquisa irá mostrar aonde tem a informação na página referida.</p>
+  <p> Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website e a biblioteca bootstrap.</p>
+  
+#### Requisito atendido:
+
+<p>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</p>
+<p>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.</p>
+
+#### Artefatos da funcionalidade
+
+<p>- index.html</p>
+<p>- bootstrap.bundle.min.js</p>
+<p>- index.js</p>
+<p>- styles.css</p>
+<p>- app.js </p>
+
+
+#### Estrutura de Dados
+
+Não se aplica.
+
+
+#### Instruções de acesso:
+
+<em>O usuário deverá abrir um navegador de Internet e informar a seguinte URL:<em>
+
+https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/searchbar/index.html
+
+#### Responsável:
+
+<p> Mauricio</p>
 
 
 
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
