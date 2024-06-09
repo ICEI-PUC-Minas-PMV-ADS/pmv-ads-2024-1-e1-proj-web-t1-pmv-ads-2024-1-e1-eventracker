@@ -166,20 +166,18 @@ button[type=submit]:hover i {
 /**
  * Styles for the event container.
  */
-.event-container {
+ .event-container {
   width: 80%;
-  margin-top: 100px;
-  transform: translate(10%, 0%);
-  background-color: white;
+  margin: 100px auto 25vh auto; /* Centraliza horizontalmente e define margem superior e inferior */
+  background-color: rgb(45, 42, 46);
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  border: 3px solid hsl(0, 0%, 0%);
+  border: 1px solid hsl(0, 0%, 0%);
+  box-shadow: rgb(17, 17, 16) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
   display: flex;
   flex-direction: column; /* Ensure events stack vertically */
   padding-bottom: 2px;
-  border:1px solid #ddd; /* Gray separator line */
-  margin-bottom: 25vh;
 }
 
 
@@ -215,9 +213,13 @@ button[type=submit]:hover i {
 
 .event-details{
   flex: 1;
-  overflow-y: auto;
-  max-height: 200px; 
-
+  overflow-y: scroll;
+  max-height: 200px;
+  -webkit-scrollbar: none; 
+  scrollbar-width: none; 
+}
+.event-details::-webkit-scrollbar {
+  display: none; 
 }
 
 
@@ -229,14 +231,15 @@ button[type=submit]:hover i {
   font-size: 16px;
   color: #000000;
   cursor: pointer;
+  color: rgb(230, 230, 221);
 }
 
 .event h1 {
   text-align: center;
   padding: 10px;
   font-size: 20px;
-  color: #000000;
   cursor: pointer;
+  color: rgb(230, 230, 221);
 }
 
 
