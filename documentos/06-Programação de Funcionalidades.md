@@ -6,7 +6,7 @@
 ### Tela Do Menu:
 
 <figure>
-  <img src="img/Tela-Do-Menu.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
+  <img src="img/pagina_home.png"> <figcaption> Figura 16 - Tela Do Menu </figcaption>
 </figure>
 
 #### Requisito atendido
@@ -125,7 +125,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 
 <figure>
-    <img src="img/home-1.png" alt="page description">
+    <img src="img/detalhes_eventos.png" alt="page description">
     <figcaption> Figura - 19 Tela Principal</figcaption>
 </figure>
 
