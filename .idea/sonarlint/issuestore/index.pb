@@ -91,3 +91,5 @@ R
 "codigo-fonte/home/novo-evento.html,f\8\f892eef6439c70cc6d1ad0db32bcd13819be6c31
 _
 /codigo-fonte/template-padrao/template-home.html,c\f\cfa090f6fcd4532b0747e8be98e13d5c4e367686
+U
+%codigo-fonte/nova-conta/css/style.css,4\1\41d9b533bede25a31f1a1717a19a05994e032957

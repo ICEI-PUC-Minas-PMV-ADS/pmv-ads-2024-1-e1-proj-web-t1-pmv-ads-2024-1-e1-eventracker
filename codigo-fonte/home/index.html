@@ -12,369 +12,387 @@
 </head>
 
 <body>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
-        <div class="container">
-            <!--Botão Toggle-->
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Logo do Site-->
-            <a class="navbar-brand" href=".">
-                <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
-            </a>
-            <!--Barra Lateral-->
-            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <!--Header da Sidebar-->
-                <div class="offcanvas-header text-white border-bottom">
-                    <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
-                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg  bg-primary barra-navegacao bg-transparent">
+    <div class="container">
+        <!--Botão Toggle-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Logo do Site-->
+        <a class="navbar-brand" href=".">
+            <img src="img/logoeventracker.svg" alt="logomarca" class="logomarca">
+        </a>
+        <!--Barra Lateral-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+             aria-labelledby="offcanvasNavbarLabel">
+            <!--Header da Sidebar-->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title fonte-corpo-barra" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+            </div>
+            <!-- Corpo da barra -->
+            <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+                <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href=".">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../novo-evento/index.html">CRIE SEU EVENTO </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                    </li>
+                    <div class="modal-notificacao">
+                        <dialog class="borda-arredondada">
+                            <h2>Notificações</h2>
+                            <p class="mensagem-modal">
+                                Não há notificações no momento.
+                            </p>
+                            <button id="fechar-dialog">Fechar</button>
+                        </dialog>
+                    </div>
+                </ul>
+                <!--Link Login e Cadastre-se-->
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../login/login.html"
+                       class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
+                    <a href="../nova-conta/index.html"
+                       class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
+                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"
+                                     id="notificacao"></a>
                 </div>
-                <!-- Corpo da barra -->
-                <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
-                    <ul class="navbar-nav justify-content-center align-content-center fs-5 flex-grow-1 pe-3">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link fonte-corpo-barra" href=".">HOME</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link fonte-corpo-barra" href="../novo-evento/index.html">CRIE SEU EVENTO </a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
-                        </li><li class="nav-item mx-2">
-                            <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
-                        </li>
-                        <div class="modal-notificacao">
-                            <dialog class="borda-arredondada">
-                                <h2>Notificações</h2>
-                                    <p class="mensagem-modal">
-                                        Mensagem aqui.
-                                    </p>
-                                <button id="fechar-dialog">Fechar</button>
-                            </dialog>
-                        </div>
-                    </ul>
-                    <!--Link Login e Cadastre-se-->
-                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                        <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
-                        <a href="../nova-conta/index.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
-                        <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao" id="notificacao"></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container py-5">
+    <h1 class="text-center">EVENTOS EM DESTAQUE</h1>
+    <hr>
+    <div class="row justify-content-center card-container">
+        <div class="col-10 col-md-4 mb-4">
+            <div class="card cor-card">
+                <img src="img/casasapucai.jpg" alt="Visão de cima do local" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Forrózim de Segunda</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 15/07/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> R. Sapucaí, 303 - Floresta, Belo
+                            Horizonte - MG, 30150-050</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 18h00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text">-->
+                        <!--                                <span class="info">Descrição: </span>Venha dançar e se divertir na Noite de Forró-->
+                        <!--                                de segunda! Prepare-se para uma noite animada com muita música, dança e alegria.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="forrozim.html" class="btn btn-primary mt-auto">Saiba Mais</a>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
-
-
-    <div class="container py-5">
-        <h1 class="text-center">EVENTOS EM DESTAQUE</h1>
-        <hr>
-        <div class="row justify-content-center card-container">
-            <div class="col-10 col-md-4 mb-4">
-                <div class="card cor-card">
-                    <img src="img/casasapucai.jpg" alt="Visão de cima do local" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Forrózim de Segunda</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 15/07/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> R. Sapucaí, 303 - Floresta, Belo Horizonte - MG, 30150-050</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 18h00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text">-->
-<!--                                <span class="info">Descrição: </span>Venha dançar e se divertir na Noite de Forró-->
-<!--                                de segunda! Prepare-se para uma noite animada com muita música, dança e alegria.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="forrozim.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
+        <div class="col-10 col-md-4 mb-4">
+            <div class="card cor-card">
+                <img src="img/MCN.jpg" alt="Fóssil disposto no museu" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Férias no Museu PUC Minas</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 20/07/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> R. Dom José Gaspar, 290 - Coração
+                            Eucarístico, Belo Horizonte - MG, 30535-901</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 08h00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
+                        <br>
+                        <!--                            <p class="card-text">-->
+                        <!--                                O Museu de Ciências Naturais da PUC Minas é uma instituição dedicada à divulgação e ao estudo das ciências naturais. Localizado no campus da Pontifícia Universidade Católica de Minas Gerais, em Belo Horizonte, este museu oferece uma jornada fascinante através da história natural e da diversidade do mundo ao nosso redor.-->
+                        <!--                                Com exposições interativas e educativas, o museu proporciona uma experiência imersiva para visitantes de todas as idades. Desde fósseis de animais pré-históricos até réplicas de ecossistemas, passando por experimentos científicos práticos, há algo para despertar a curiosidade de todos.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="museupuc.html" class="btn btn-primary mt-auto">Saiba Mais</a>
                     </div>
                 </div>
             </div>
-            <div class="col-10 col-md-4 mb-4">
-                <div class="card cor-card">
-                    <img src="img/MCN.jpg" alt="Fóssil disposto no museu" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Férias no Museu PUC Minas</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 20/07/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> R. Dom José Gaspar, 290 - Coração Eucarístico, Belo Horizonte - MG, 30535-901</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 08h00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
-                            <br>
-<!--                            <p class="card-text">-->
-<!--                                O Museu de Ciências Naturais da PUC Minas é uma instituição dedicada à divulgação e ao estudo das ciências naturais. Localizado no campus da Pontifícia Universidade Católica de Minas Gerais, em Belo Horizonte, este museu oferece uma jornada fascinante através da história natural e da diversidade do mundo ao nosso redor.-->
-<!--                                Com exposições interativas e educativas, o museu proporciona uma experiência imersiva para visitantes de todas as idades. Desde fósseis de animais pré-históricos até réplicas de ecossistemas, passando por experimentos científicos práticos, há algo para despertar a curiosidade de todos.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="museupuc.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
+        </div>
+        <div class="col-10 col-md-4 mb-4">
+            <div class="card cor-card">
+                <img src="img/palaciodasartes.jpg" alt="vista de fora do palácio" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Exposição - Arte Cibernética</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 12/07/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Av. Afonso Pena, 1537 - Centro, Belo
+                            Horizonte - MG, 30130-004</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 09h30</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
+                        <br>
+                        <!--                            <p class="card-text">O Palácio das Artes é um icônico centro cultural localizado em Belo Horizonte, Minas Gerais, Brasil. É uma das principais instituições culturais da cidade e um importante ponto de encontro para os amantes das artes em suas diversas formas.-->
+                        <!--                                Inaugurado em 1970, o Palácio das Artes é uma obra arquitetônica marcante, projetada por Oscar Niemeyer, um dos mais renomados arquitetos brasileiros. Sua estrutura abriga diversas salas e espaços dedicados à música, teatro, dança, artes visuais e literatura.-->
+                        <!--                                Entre os espaços notáveis do Palácio das Artes, estão o Grande Teatro, com capacidade para receber grandes produções teatrais, óperas e concertos sinfônicos; o Teatro João Ceschiatti, um espaço mais intimista voltado para apresentações de música de câmara, recitais e peças teatrais mais experimentais; e a Galeria Alberto da Veiga Guignard, que expõe obras de artistas locais e nacionais, além de sediar diversas exposições temporárias ao longo do ano.-->
+                        <!--                            </p>-->
                     </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-4">
-                <div class="card cor-card">
-                    <img src="img/palaciodasartes.jpg" alt="vista de fora do palácio" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Exposição - Arte Cibernética</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 12/07/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Av. Afonso Pena, 1537 - Centro, Belo Horizonte - MG, 30130-004</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 09h30</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
-                            <br>
-<!--                            <p class="card-text">O Palácio das Artes é um icônico centro cultural localizado em Belo Horizonte, Minas Gerais, Brasil. É uma das principais instituições culturais da cidade e um importante ponto de encontro para os amantes das artes em suas diversas formas.-->
-<!--                                Inaugurado em 1970, o Palácio das Artes é uma obra arquitetônica marcante, projetada por Oscar Niemeyer, um dos mais renomados arquitetos brasileiros. Sua estrutura abriga diversas salas e espaços dedicados à música, teatro, dança, artes visuais e literatura.-->
-<!--                                Entre os espaços notáveis do Palácio das Artes, estão o Grande Teatro, com capacidade para receber grandes produções teatrais, óperas e concertos sinfônicos; o Teatro João Ceschiatti, um espaço mais intimista voltado para apresentações de música de câmara, recitais e peças teatrais mais experimentais; e a Galeria Alberto da Veiga Guignard, que expõe obras de artistas locais e nacionais, além de sediar diversas exposições temporárias ao longo do ano.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="cyberart.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="cyberart.html" class="btn btn-primary mt-auto">Saiba Mais</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="container py-5">
-        <h4 class="text-start">EVENTOS POPULARES</h4>
-        <hr>
-        <div class="row justify-content-center" id="mainDiv">
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/casabaile.jpg" alt="visão com jardins do local" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Simpósio - História da Arquitetura</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 30/06/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Av. Otacílio Negrão de Lima, 751 - Pampulha, Belo Horizonte - MG, 31365-450</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 11h30</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text">Descubra a Casa do Baile, uma obra-prima arquitetônica situada na deslumbrante região da Pampulha, em Belo Horizonte. Projetada por Oscar Niemeyer e inaugurada em 1943, esta joia modernista oferece uma experiência única de beleza e história.-->
-<!--                                Explore seus espaços envolventes, admire os traços curvos que se harmonizam com a natureza da Lagoa da Pampulha e mergulhe na atmosfera tranquila de seus jardins desenhados por Burle Marx.-->
-<!--                                Além de sua beleza arquitetônica, a Casa do Baile abriga exposições e eventos culturais que celebram a arte e a cultura brasileira. Venha se encantar e se inspirar neste ícone de Belo Horizonte.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="casabaile.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
+<div class="container py-5">
+    <h4 class="text-start">EVENTOS POPULARES</h4>
+    <hr>
+    <div class="row justify-content-center" id="mainDiv">
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/casabaile.jpg" alt="visão com jardins do local" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Simpósio - História da Arquitetura</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 30/06/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Av. Otacílio Negrão de Lima, 751 -
+                            Pampulha, Belo Horizonte - MG, 31365-450</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 11h30</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text">Descubra a Casa do Baile, uma obra-prima arquitetônica situada na deslumbrante região da Pampulha, em Belo Horizonte. Projetada por Oscar Niemeyer e inaugurada em 1943, esta joia modernista oferece uma experiência única de beleza e história.-->
+                        <!--                                Explore seus espaços envolventes, admire os traços curvos que se harmonizam com a natureza da Lagoa da Pampulha e mergulhe na atmosfera tranquila de seus jardins desenhados por Burle Marx.-->
+                        <!--                                Além de sua beleza arquitetônica, a Casa do Baile abriga exposições e eventos culturais que celebram a arte e a cultura brasileira. Venha se encantar e se inspirar neste ícone de Belo Horizonte.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="casabaile.html" class="btn btn-primary mt-auto">Saiba Mais</a>
                     </div>
                 </div>
             </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/CCBB.jpg" alt="Visão de fora do local" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Exposição - Arte Afro-Brasileira</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 30/06/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Praça da Liberdade, 450 - Funcionários, Belo Horizonte - MG, 30140-010</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 14h00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
-                            <br>
-<!--                            <p class="card-text">-->
-<!--                                Explore o CCBB, uma referência cultural em Belo Horizonte. Com uma história rica e uma arquitetura impressionante, este Centro Cultural oferece uma variedade de exposições, eventos e atividades culturais para todos os gostos.-->
-<!--                                Localizado em um edifício histórico renovado, o CCBB oferece uma atmosfera única para explorar arte, cinema, música e muito mais. Venha descobrir este espaço dinâmico onde a arte e a cultura se encontram, proporcionando experiências enriquecedoras e inspiradoras para todos os visitantes.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="afrobr.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/mercadocentral.jpg" alt="visão de fora do mercado" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Aniversário 96 anos - Mercado Central</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 07/09/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Av. Augusto de Lima, 744 - Centro, Belo Horizonte - MG, 30190-922</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 08h00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text">Bem-vindo ao Mercado Central de Belo Horizonte, um ícone da cultura e gastronomia mineira! Neste vibrante centro comercial, você encontrará uma infinidade de produtos locais, desde artesanatos tradicionais até iguarias culinárias típicas da região.-->
-<!--                                Ao percorrer os corredores do Mercado Central, você será envolvido pelos aromas irresistíveis de queijos, doces, temperos e quitandas frescas, proporcionando uma experiência sensorial única. Não deixe de explorar as barracas de produtos regionais, onde você pode provar e adquirir delícias como queijos minas, pimentas, cachaças artesanais e muito mais.-->
-<!--                                Além disso, o Mercado Central é um local de encontro e convívio social, onde moradores locais e visitantes se reúnem para desfrutar de uma boa conversa e de uma autêntica experiência mineira. Não se esqueça de visitar os restaurantes e bares do mercado, onde você pode saborear pratos tradicionais da culinária mineira, como o famoso feijão tropeiro e o frango com quiabo.-->
-<!--                                Com sua atmosfera animada e sua grande variedade de produtos e sabores, o Mercado Central é um destino imperdível para quem deseja vivenciar o verdadeiro espírito de Minas Gerais. Venha explorar este tesouro cultural e gastronômico e mergulhe na riqueza da tradição e da hospitalidade mineira.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="mercadocentral.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/mineirao.jpg" alt="visao exterior do estadio" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Atlético x Cruzeiro</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 10/08/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Av. Antônio Abrahão Caram, 1001 - São José, Belo Horizonte - MG, 31275-000</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 16h00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text">-->
-<!--                                Venha sentir a energia do Mineirão! Um ícone do futebol brasileiro e palco de grandes emoções. Construído em 1965, o Mineirão é muito mais do que um simples estádio. É um templo onde milhões de torcedores já celebraram vitórias memoráveis e compartilharam emoções únicas. Além de sediar partidas de futebol de alto nível, o Mineirão também é palco de grandes eventos culturais e musicais, atraindo multidões de todas as partes do país.-->
-<!--                                Ao visitar o Mineirão, você terá a oportunidade de explorar suas instalações, conhecer a história do futebol mineiro em seu museu e sentir a energia contagiante de um dos estádios mais importantes do Brasil. Seja para assistir a um jogo emocionante, participar de um concerto inesquecível ou simplesmente absorver a atmosfera única deste local icônico, o Mineirão oferece uma experiência imperdível para todos os amantes do esporte e da cultura.-->
-<!--                                Venha fazer parte dessa história e deixe-se envolver pelo espírito apaixonado do futebol brasileiro no Mineirão, onde cada visita é uma celebração da tradição, da rivalidade e da camaradagem.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="mineirao.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/guanabara.jpg" alt="visão da roda gigante no local" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Parque Guanabara - Tour Completo</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 10/07/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Av. Expedicionário Benvindo Belém de Lima, 15 - São Luiz, Belo Horizonte - MG, 31310-040</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 09h00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text">-->
-<!--                                Venha se aventurar no Parque Guanabara, uma verdadeira pérola de lazer e diversão em Belo Horizonte! Situado em uma área verde exuberante, este parque oferece uma variedade de atrações para todas as idades. Dos emocionantes brinquedos de parque de diversões às áreas tranquilas para relaxar, há algo para todos aqui.-->
-<!--                                Os visitantes podem desfrutar de montanhas-russas emocionantes, carrosséis clássicos, roda-gigante com vistas panorâmicas da cidade e uma infinidade de jogos e atividades interativas. Além disso, o Parque Guanabara oferece espaços para piqueniques, caminhadas tranquilas e áreas de recreação para as crianças.-->
-<!--                                Com uma atmosfera animada e acolhedora, este é o local perfeito para passar um dia divertido com amigos e família. E não se esqueça dos eventos especiais que o parque organiza regularmente, como shows ao vivo e festivais temáticos.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="guanabara.html" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/municipal.jpg" alt="visão aérea do lago" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Aniversário - Parque Municipal</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 26/09/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Av. Afonso Pena, 1377 - Centro, Belo Horizonte - MG, 30130-000</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 08:00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text">O Parque Municipal de Belo Horizonte é um tesouro verde em meio à agitação da cidade. Com mais de 180 mil metros quadrados, oferece uma variedade incrível de experiências ao ar livre. Se você é apaixonado por natureza, vai se encantar com suas trilhas cercadas por árvores majestosas, onde é possível avistar pássaros e outros animais silvestres. Os jardins cuidadosamente planejados proporcionam um cenário relaxante para um passeio contemplativo ou para simplesmente sentar e apreciar a tranquilidade.-->
-<!--                                O lago do parque é outro destaque, onde você pode alugar pedalinhos e desfrutar de uma vista panorâmica cercada pela beleza natural. Além disso, o Parque Municipal oferece espaços para prática esportiva, áreas de lazer para crianças e uma rica diversidade de flora e fauna para explorar.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/mercadonovo.jpg" alt="retrato das escadarias do local" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Mercado Novo - Música ao vivo</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 01/07/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> R. Rio Grande do Sul, 499 - Centro, Belo Horizonte - MG, 30180-916</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 19:00</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
-                            <br>
-<!--                            <p class="card-text text-start">-->
-<!--                                Explore o mercado novo em Belo Horizonte e mergulhe em um mundo de sabores, cultura e diversão! Localizado no coração da cidade, este mercado é um verdadeiro tesouro para os amantes da gastronomia e da vida urbana. Com uma ampla variedade de barracas e lojas, você pode saborear desde os mais autênticos pratos mineiros até iguarias internacionais, tudo em um ambiente animado e acolhedor.-->
-<!--                                Além da incrível oferta gastronômica, o mercado novo também oferece uma programação cultural vibrante, com eventos regulares que incluem apresentações musicais, exposições de arte e workshops temáticos. É o lugar perfeito para experimentar novos sabores, descobrir produtos artesanais e se conectar com a comunidade local.Descubra o Mercado Novo em Belo Horizonte! Um local vibrante, repleto de sabores e cores da cultura mineira. Explore corredores cheios de barracas oferecendo uma variedade incrível de produtos frescos, especiarias e iguarias locais. De queijos artesanais a frutas tropicais, você encontrará de tudo um pouco neste mercado tradicional. Venha experimentar o autêntico sabor de Minas no Mercado Novo!-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 col-md-4 mb-5">
-                <div class="card cor-card">
-                    <img src="img/inhotim.jpg" alt="visão externa do local" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Inhotim - Exposição de Arte</h5>
-                        <div class="card-text-wrapper">
-                            <p class="card-text"><span class="info">Data:</span> 20/07/2024</p>
-                            <p class="card-text"><span class="info">Endereço:</span> Rua B, 20 Fazenda Inhotim, Brumadinho - MG, 35460-000</p>
-                            <p class="card-text"><span class="info">Horário de início:</span> 09:30</p>
-                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
-                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
-                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
-                            <br>
-<!--                            <p class="card-text">-->
-<!--                                No coração pulsante de Belo Horizonte, o Espaço do Conhecimento da UFMG é um verdadeiro tesouro para aqueles que buscam explorar os vastos territórios do conhecimento humano. Aqui, ciência, cultura e história se entrelaçam de maneira harmoniosa, oferecendo uma experiência imersiva que cativa a mente e o coração.-->
-<!--                                As exposições do Espaço do Conhecimento são verdadeiras obras de arte em si mesmas, transformando conceitos complexos em experiências tangíveis e acessíveis. Desde as profundezas do universo até a complexidade da vida microscópica, cada espaço é uma jornada fascinante que desafia os visitantes a questionar e compreender o mundo ao seu redor.-->
-<!--                            </p>-->
-                        </div>
-                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">
-                            <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-<!--            <div class="col-10 col-md-4 mb-5">-->
-<!--                <div class="card cor-card" id="novoCard">-->
-<!--                    <img src="img/ecufmg.jpg" alt="visão observatório" class="card-img-top">-->
-<!--                    <div class="card-body">-->
-<!--                        <h5 class="card-title">EC - UFMG</h5>-->
-<!--                        <div class="card-text-wrapper">-->
-<!--                            <p class="card-text"><span class="info">Data:</span> 20/07/2024</p>-->
-<!--                            <p class="card-text"><span class="info">Endereço:</span> Rua B, 20 Fazenda Inhotim, Brumadinho - MG, 35460-000</p>-->
-<!--                            <p class="card-text"><span class="info">Horário de início:</span> 09:30</p>-->
-<!--                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>-->
-<!--                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>-->
-<!--                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>-->
-<!--                            <br>-->
-<!--                            <p class="card-text">-->
-<!--                                No coração pulsante de Belo Horizonte, o Espaço do Conhecimento da UFMG é um verdadeiro tesouro para aqueles que buscam explorar os vastos territórios do conhecimento humano. Aqui, ciência, cultura e história se entrelaçam de maneira harmoniosa, oferecendo uma experiência imersiva que cativa a mente e o coração.-->
-<!--                                As exposições do Espaço do Conhecimento são verdadeiras obras de arte em si mesmas, transformando conceitos complexos em experiências tangíveis e acessíveis. Desde as profundezas do universo até a complexidade da vida microscópica, cada espaço é uma jornada fascinante que desafia os visitantes a questionar e compreender o mundo ao seu redor.-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">-->
-<!--                            <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/CCBB.jpg" alt="Visão de fora do local" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Exposição - Arte Afro-Brasileira</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 30/06/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Praça da Liberdade, 450 - Funcionários,
+                            Belo Horizonte - MG, 30140-010</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 14h00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> SIM</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
+                        <br>
+                        <!--                            <p class="card-text">-->
+                        <!--                                Explore o CCBB, uma referência cultural em Belo Horizonte. Com uma história rica e uma arquitetura impressionante, este Centro Cultural oferece uma variedade de exposições, eventos e atividades culturais para todos os gostos.-->
+                        <!--                                Localizado em um edifício histórico renovado, o CCBB oferece uma atmosfera única para explorar arte, cinema, música e muito mais. Venha descobrir este espaço dinâmico onde a arte e a cultura se encontram, proporcionando experiências enriquecedoras e inspiradoras para todos os visitantes.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="afrobr.html" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/mercadocentral.jpg" alt="visão de fora do mercado" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Aniversário 96 anos - Mercado Central</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 07/09/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Av. Augusto de Lima, 744 - Centro, Belo
+                            Horizonte - MG, 30190-922</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 08h00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text">Bem-vindo ao Mercado Central de Belo Horizonte, um ícone da cultura e gastronomia mineira! Neste vibrante centro comercial, você encontrará uma infinidade de produtos locais, desde artesanatos tradicionais até iguarias culinárias típicas da região.-->
+                        <!--                                Ao percorrer os corredores do Mercado Central, você será envolvido pelos aromas irresistíveis de queijos, doces, temperos e quitandas frescas, proporcionando uma experiência sensorial única. Não deixe de explorar as barracas de produtos regionais, onde você pode provar e adquirir delícias como queijos minas, pimentas, cachaças artesanais e muito mais.-->
+                        <!--                                Além disso, o Mercado Central é um local de encontro e convívio social, onde moradores locais e visitantes se reúnem para desfrutar de uma boa conversa e de uma autêntica experiência mineira. Não se esqueça de visitar os restaurantes e bares do mercado, onde você pode saborear pratos tradicionais da culinária mineira, como o famoso feijão tropeiro e o frango com quiabo.-->
+                        <!--                                Com sua atmosfera animada e sua grande variedade de produtos e sabores, o Mercado Central é um destino imperdível para quem deseja vivenciar o verdadeiro espírito de Minas Gerais. Venha explorar este tesouro cultural e gastronômico e mergulhe na riqueza da tradição e da hospitalidade mineira.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="mercadocentral.html" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/mineirao.jpg" alt="visao exterior do estadio" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Atlético x Cruzeiro</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 10/08/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Av. Antônio Abrahão Caram, 1001 - São
+                            José, Belo Horizonte - MG, 31275-000</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 16h00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text">-->
+                        <!--                                Venha sentir a energia do Mineirão! Um ícone do futebol brasileiro e palco de grandes emoções. Construído em 1965, o Mineirão é muito mais do que um simples estádio. É um templo onde milhões de torcedores já celebraram vitórias memoráveis e compartilharam emoções únicas. Além de sediar partidas de futebol de alto nível, o Mineirão também é palco de grandes eventos culturais e musicais, atraindo multidões de todas as partes do país.-->
+                        <!--                                Ao visitar o Mineirão, você terá a oportunidade de explorar suas instalações, conhecer a história do futebol mineiro em seu museu e sentir a energia contagiante de um dos estádios mais importantes do Brasil. Seja para assistir a um jogo emocionante, participar de um concerto inesquecível ou simplesmente absorver a atmosfera única deste local icônico, o Mineirão oferece uma experiência imperdível para todos os amantes do esporte e da cultura.-->
+                        <!--                                Venha fazer parte dessa história e deixe-se envolver pelo espírito apaixonado do futebol brasileiro no Mineirão, onde cada visita é uma celebração da tradição, da rivalidade e da camaradagem.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="mineirao.html" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/guanabara.jpg" alt="visão da roda gigante no local" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Parque Guanabara - Tour Completo</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 10/07/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Av. Expedicionário Benvindo Belém de
+                            Lima, 15 - São Luiz, Belo Horizonte - MG, 31310-040</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 09h00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text">-->
+                        <!--                                Venha se aventurar no Parque Guanabara, uma verdadeira pérola de lazer e diversão em Belo Horizonte! Situado em uma área verde exuberante, este parque oferece uma variedade de atrações para todas as idades. Dos emocionantes brinquedos de parque de diversões às áreas tranquilas para relaxar, há algo para todos aqui.-->
+                        <!--                                Os visitantes podem desfrutar de montanhas-russas emocionantes, carrosséis clássicos, roda-gigante com vistas panorâmicas da cidade e uma infinidade de jogos e atividades interativas. Além disso, o Parque Guanabara oferece espaços para piqueniques, caminhadas tranquilas e áreas de recreação para as crianças.-->
+                        <!--                                Com uma atmosfera animada e acolhedora, este é o local perfeito para passar um dia divertido com amigos e família. E não se esqueça dos eventos especiais que o parque organiza regularmente, como shows ao vivo e festivais temáticos.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="guanabara.html" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/municipal.jpg" alt="visão aérea do lago" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Aniversário - Parque Municipal</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 26/09/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Av. Afonso Pena, 1377 - Centro, Belo
+                            Horizonte - MG, 30130-000</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 08:00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text">O Parque Municipal de Belo Horizonte é um tesouro verde em meio à agitação da cidade. Com mais de 180 mil metros quadrados, oferece uma variedade incrível de experiências ao ar livre. Se você é apaixonado por natureza, vai se encantar com suas trilhas cercadas por árvores majestosas, onde é possível avistar pássaros e outros animais silvestres. Os jardins cuidadosamente planejados proporcionam um cenário relaxante para um passeio contemplativo ou para simplesmente sentar e apreciar a tranquilidade.-->
+                        <!--                                O lago do parque é outro destaque, onde você pode alugar pedalinhos e desfrutar de uma vista panorâmica cercada pela beleza natural. Além disso, o Parque Municipal oferece espaços para prática esportiva, áreas de lazer para crianças e uma rica diversidade de flora e fauna para explorar.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/mercadonovo.jpg" alt="retrato das escadarias do local" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Mercado Novo - Música ao vivo</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 01/07/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> R. Rio Grande do Sul, 499 - Centro,
+                            Belo Horizonte - MG, 30180-916</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 19:00</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> NÃO</p>
+                        <br>
+                        <!--                            <p class="card-text text-start">-->
+                        <!--                                Explore o mercado novo em Belo Horizonte e mergulhe em um mundo de sabores, cultura e diversão! Localizado no coração da cidade, este mercado é um verdadeiro tesouro para os amantes da gastronomia e da vida urbana. Com uma ampla variedade de barracas e lojas, você pode saborear desde os mais autênticos pratos mineiros até iguarias internacionais, tudo em um ambiente animado e acolhedor.-->
+                        <!--                                Além da incrível oferta gastronômica, o mercado novo também oferece uma programação cultural vibrante, com eventos regulares que incluem apresentações musicais, exposições de arte e workshops temáticos. É o lugar perfeito para experimentar novos sabores, descobrir produtos artesanais e se conectar com a comunidade local.Descubra o Mercado Novo em Belo Horizonte! Um local vibrante, repleto de sabores e cores da cultura mineira. Explore corredores cheios de barracas oferecendo uma variedade incrível de produtos frescos, especiarias e iguarias locais. De queijos artesanais a frutas tropicais, você encontrará de tudo um pouco neste mercado tradicional. Venha experimentar o autêntico sabor de Minas no Mercado Novo!-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-4 mb-5">
+            <div class="card cor-card">
+                <img src="img/inhotim.jpg" alt="visão externa do local" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Inhotim - Exposição de Arte</h5>
+                    <div class="card-text-wrapper">
+                        <p class="card-text"><span class="info">Data:</span> 20/07/2024</p>
+                        <p class="card-text"><span class="info">Endereço:</span> Rua B, 20 Fazenda Inhotim, Brumadinho -
+                            MG, 35460-000</p>
+                        <p class="card-text"><span class="info">Horário de início:</span> 09:30</p>
+                        <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>
+                        <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>
+                        <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>
+                        <br>
+                        <!--                            <p class="card-text">-->
+                        <!--                                No coração pulsante de Belo Horizonte, o Espaço do Conhecimento da UFMG é um verdadeiro tesouro para aqueles que buscam explorar os vastos territórios do conhecimento humano. Aqui, ciência, cultura e história se entrelaçam de maneira harmoniosa, oferecendo uma experiência imersiva que cativa a mente e o coração.-->
+                        <!--                                As exposições do Espaço do Conhecimento são verdadeiras obras de arte em si mesmas, transformando conceitos complexos em experiências tangíveis e acessíveis. Desde as profundezas do universo até a complexidade da vida microscópica, cada espaço é uma jornada fascinante que desafia os visitantes a questionar e compreender o mundo ao seu redor.-->
+                        <!--                            </p>-->
+                    </div>
+                    <div class="card-footer d-flex justify-content-center btn-container align-content-end">
+                        <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--            <div class="col-10 col-md-4 mb-5">-->
+        <!--                <div class="card cor-card" id="novoCard">-->
+        <!--                    <img src="img/ecufmg.jpg" alt="visão observatório" class="card-img-top">-->
+        <!--                    <div class="card-body">-->
+        <!--                        <h5 class="card-title">EC - UFMG</h5>-->
+        <!--                        <div class="card-text-wrapper">-->
+        <!--                            <p class="card-text"><span class="info">Data:</span> 20/07/2024</p>-->
+        <!--                            <p class="card-text"><span class="info">Endereço:</span> Rua B, 20 Fazenda Inhotim, Brumadinho - MG, 35460-000</p>-->
+        <!--                            <p class="card-text"><span class="info">Horário de início:</span> 09:30</p>-->
+        <!--                            <p class="card-text"><span class="info">Acessibilidade para cadeirantes:</span> SIM</p>-->
+        <!--                            <p class="card-text"><span class="info">Intérprete de Libras disponível:</span> NÃO</p>-->
+        <!--                            <p class="card-text"><span class="info">Sistema de áudio descritivo:</span> SIM</p>-->
+        <!--                            <br>-->
+        <!--                            <p class="card-text">-->
+        <!--                                No coração pulsante de Belo Horizonte, o Espaço do Conhecimento da UFMG é um verdadeiro tesouro para aqueles que buscam explorar os vastos territórios do conhecimento humano. Aqui, ciência, cultura e história se entrelaçam de maneira harmoniosa, oferecendo uma experiência imersiva que cativa a mente e o coração.-->
+        <!--                                As exposições do Espaço do Conhecimento são verdadeiras obras de arte em si mesmas, transformando conceitos complexos em experiências tangíveis e acessíveis. Desde as profundezas do universo até a complexidade da vida microscópica, cada espaço é uma jornada fascinante que desafia os visitantes a questionar e compreender o mundo ao seu redor.-->
+        <!--                            </p>-->
+        <!--                        </div>-->
+        <!--                        <div class="card-footer d-flex justify-content-center btn-container align-content-end">-->
+        <!--                            <a href="#" class="btn btn-primary mt-auto">Saiba Mais</a>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
     </div>
+</div>
 
-    <footer class="text-center text-lg-start footer-color">
-        <div class="container justify-content-center align-items-center d-flex copyright">
-            <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="#">EvenTracker.com</a></h3>
-        </div>
-    </footer>
+<footer class="text-center text-lg-start footer-color">
+    <div class="container justify-content-center align-items-center d-flex copyright">
+        <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="#">EvenTracker.com</a></h3>
+    </div>
+</footer>
 
 
 </body>
