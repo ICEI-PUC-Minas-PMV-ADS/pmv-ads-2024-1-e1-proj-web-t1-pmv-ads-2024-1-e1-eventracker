@@ -136,17 +136,30 @@ Pré-requisitos:
 
    <hr>
 <table>
-   <td>CT-06:Verificar o funcionamento do filtro de pesquisa</td>
-    <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
-    <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
+<table border="1">
+    <col>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivos dos Testes</th>
+   <th>Passos</th>
+   <th>Critérios de Êxito</th>  
+   <th>Responsável</th>  
+  </tr>
+   <td>CT-06:Verificar se a página "Detalhes de Eventos" contém informações claras aos usuários.</td>
+    <td><p> RF-06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
+        <p> RF-07:A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado</p>
+        <p> RF:06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
+    </td>
+  <td>• Avaliar se a página "Detalhes de Eventos irá fornecer informações precisas quando o usuário clicar no button "Saiba Mais </td>
     <td>
      <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
      <p>02)Digitar o endereço do site.</p>
      <p>03)Visualizar a página "Home".</p>
-     <p>04)Clicar no button "Buscar Eventos" para ser direcionado na página almejada. </p>
-      <p>05)Digitar no filtro de pesquisa algum elemento específico da página "Buscar Eventos" e verificar se o resultado é exibido na página.</p>
+     <p>04)Clicar no button "Home" para ser direcionado na página almejada. </p>
+    <p>05) Deve-se ler os eventos descritos e clicar no button "Saiba Mais", dessa forma o usuário deverá ser direcionado as informações sobre cada evento descrito.</p>
     </td>
-    <td> Os elementos digitados no filtro de pesquisa devem mostrar aonde tem a informação na página referida.</td>  
+    <td>· O button "Saiba Mais" deve direcionar na descrição dos eventos referidos com as informações necessárias ao usuário e na pagina "Home" deve-se ter informações como por exemplo Nome, Data, Acessibilidade para Cadeirantes, Intérprete de Libras Disponíveis e  </td>  
  <td>• A combinar. (próxima etapa)</td>     
   <tr>
    </td>   
