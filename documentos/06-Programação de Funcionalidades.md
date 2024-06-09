@@ -204,6 +204,49 @@ O usuário deverá abrir um navegador de Internet e informar a seguinte URL: htt
 Author: Lucas Ribeiro @ https://github.com/lsrdot
 
 
+### Tela Cadastro
+<p> A tela Cadastro será direcionada após o usuário clicar no  button “ Cadastre-se” que esta no cabeçalho do website. 
+ Deste modo, o usuário poderá se Cadastrar preenchendo as informações requisitadas como por exemplo Nome, Endereço de E-mail, criação de senha, ao finalizar o preenchimento dos dados deve-se finalizar clicando no button "Cadastrar".</p>
+<p> Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website e a biblioteca bootstrap.</p>
+
+<figure>
+  <img src="img/pagina_cadastro.png"> <figcaption> Figura 17 - Tela Cadastro</figcaption>
+</figure>
+
+#### Requisito atendido
+
+<p>•RF-01: A aplicação deve permitir ao organizador cadastrar uma conta.</p>
+
+<p>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.</p>
+
+
+
+#### Artefatos da funcionalidade
+
+<p>- index.html</p>
+<p>- bootstrap.bundle.min.js</p>
+<p>- index.js</p>
+<p>- style.css</p>
+
+
+#### Estrutura de Dados
+
+Não se aplica.
+
+
+#### Instruções de acesso
+
+<em>O usuário deverá abrir um navegador de Internet e informar a seguinte URL:<em>
+
+https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/nova-conta/index.html
+
+
+
+
+
+
+
+
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
