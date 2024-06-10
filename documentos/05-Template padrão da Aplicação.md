@@ -21,9 +21,10 @@
 <p> - As imagens e iconografia utilizados para a construção do web site podem ser visualizadas: <a href= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/tree/main/documentos/img">clique aqui</a>. </p>
 
  <p> Na criação do logotipo foi utilizado o círculo cromático, no qual é uma ferramenta que possui a função de auxiliar sobre a  combinação de diversas cores e suas propriedades. Dessa maneira, é possível desenvolver uma paleta de cores harmônica no desenvolvimento do website.</p>
-  
+
+ 
   <figure>
-  <img src="img/logoeventracker.svg"> <figcaption> Figura 15 - Logotipo Even Tracker </figcaption>
+  <img src="img/logoeventracker.svg", width="350" > <figcaption> Figura 15 - Logotipo Even Tracker </figcaption>
 </figure>
   
   
