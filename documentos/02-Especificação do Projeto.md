@@ -75,20 +75,19 @@ Com base em análise acerca dos usuários, foram identificadas as seguintes nece
 
 
 
-| ID    | Descrição                                                                                                                                                                                                        | Prioridade |
-|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-01 | A aplicação deve permitir ao organizador cadastrar uma conta.                                                                                                                                                    | ALTA       | 
-| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta.                                                                                                                                                 | ALTA       |
-| RF-03 | A aplicação deve possuir uma função de pesquisa de eventos.                                                                                                                                                      | ALTA       |
-| RF-04 | A aplicação deve permitir ao usuário que crie seu próprio evento.                                                                                                                                                | ALTA       |
-| RF-05 | A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.                                                                                                          | ALTA       |
-| RF-06 | A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado | MÉDIA      |
-| RF-07 | A aplicação deve oferecer notificações ao usuário quando o evento estiver próximo                                                                                                                                | MÉDIA      |
-| RF-08 | A aplicação deve separar os eventos por categorias                                                                                                                                                               | MÉDIA      |
-| RF-09 | A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD                                                                                                                                | MÉDIA      |
-| RF-10 | A aplicação deve conter informações de contato da organizadora do evento                                                                                                                                         | BAIXA      |
-| RF-11 | A aplicação deve permitir ao participante que confirme presença no evento                                                                                                                                        | BAIXA      |
-| RF-12 | A aplicação deve apresentar o número de presenças confirmadas nos eventos                                                                                                                                        | BAIXA      |
+| ID    | Descrição                                                                                                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RF-01 | A aplicação deve permitir ao organizador cadastrar uma conta.                                                                                             | ALTA       | 
+| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta.                                                                                          | ALTA       |
+| RF-03 | A aplicação deve possuir uma função de pesquisa de eventos.                                                                                               | ALTA       |
+| RF-04 | A aplicação deve permitir ao usuário que crie seu próprio evento.                                                                                         | ALTA       |
+| RF-05 | A aplicação deve apresentar os dados acerca dos eventos, bem como local de realização, data e horário.                                                    | ALTA       |
+| RF-06 | A aplicação deve apresentar o tipo de mídia do material disponível.                                                                                       | MÉDIA      |
+| RF-07 | A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações | MÉDIA      |
+| RF-08 | A aplicação deve separar os eventos por categorias                                                                                                        | MÉDIA      |
+| RF-09 | A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD                                                                         | MÉDIA      |
+| RF-10 | A aplicação deve permitir ao participante que confirme presença no evento                                                                                 | BAIXA      |
+| RF-11 | A aplicação deve apresentar o número de presenças confirmadas nos eventos                                                                                 | BAIXA      |
 
 
 **Prioridade: Alta / Média / Baixa. 
