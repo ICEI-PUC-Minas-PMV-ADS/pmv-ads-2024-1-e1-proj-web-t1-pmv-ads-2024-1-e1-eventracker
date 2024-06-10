@@ -347,3 +347,7 @@ dialog > button:hover {
     border-radius: 20px;
     text-align: center;
 }
+
+footer {
+    margin-top: 11em;
+}
