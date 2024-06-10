@@ -215,7 +215,7 @@ Pré-requisitos:
      <p> 02)Digitar o endereço do site.</p>
      <p> 03)Visualizar a página "Sobre Nós".</p>
      <p> 04)Clicar no button "Sobre Nós" para ser direcionado na página almejada. </p>
-    <p> 05) Deve-se ler cautelosamente se o texto descrito explica sobre o motivo do projeto criado.</p> e clicar no 
+    <p> 05) Deve-se ler cautelosamente se o texto descrito que explica sobre o motivo do projeto criado.</p> 
     <p> 06) Deve-se testar todos os buttons e avaliar se funcionam corretamente utilizado no computador e no dispositivo móvel e se ao clicar será redirecionado a página desejada.</p>
        
  </td>
@@ -226,6 +226,4 @@ Pré-requisitos:
    </td>   
 </table>
 
-<table>
-    
-</table>
+
