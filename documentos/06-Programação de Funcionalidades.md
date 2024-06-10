@@ -10,7 +10,7 @@
 
 #### Requisito atendido
 
-<b>• RF-12: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
+<b>• RF-07: </b> A aplicação deve apresentar o tipo de mídia do material disponível.
 <br>
 <b>• RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 
@@ -37,7 +37,7 @@ https://alessandropfreitas.github.io/TelaMenu/tela-de-menu.html
 
 #### Responsável
 
-<p>Alessandro Paulista</p>
+<p>Alessandro Paulista e Lucas Ribeiro @ <a>https://github.com/lsrdot</a></p>
 
 <hr>
 
@@ -54,9 +54,9 @@ https://alessandropfreitas.github.io/TelaMenu/tela-de-menu.html
 
 #### Requisito atendido:
 
-<b>•RF-2:</b> A aplicação deve permitir que o usuário faça login na sua conta cadastrada.
+<b>• RF-02:</b> A aplicação deve permitir que o usuário faça login na sua conta cadastrada.
 <br>
-<b>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
+<b>• RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 
 #### Artefatos da funcionalidade:
 <p>- login.html</p>
@@ -94,7 +94,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 <b> •RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.
 <br>
-<b> •RNF-04: </b> A aplicação deve ter bom nível de contraste entre os elementos da tela.
+<b> •RNF-04: </b>A aplicação deve ter bom nível de contraste entre os elementos da tela.
 
 #### Artefatos da funcionalidade:
 
@@ -124,16 +124,18 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 
 <figure>
-    <img src="img/detalhes_eventos.png" alt="page description">
+    <img src="img/home-page.png" alt="page description">
     <figcaption> Figura - 19 Tela Principal</figcaption>
 </figure>
 
 
 #### Requisitos atendidos:
+**RF-05:** A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado
 
-**RF-09:** A aplicação deve separar os eventos por categorias.
 
-**RF-07:** A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado
+**RF-07:** A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações
+
+**RF-08:** A aplicação deve separar os eventos por categorias.
 
 
 #### Artefatos da funcionalidade:
@@ -183,9 +185,9 @@ Author: Lucas Ribeiro @ https://github.com/lsrdot
 
 **RF-04:** A aplicação deve permitir ao organizador que crie seu próprio evento.
 
-**RF-06:** A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.
+**RF-05:** A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.
 
-**RF-11:** A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD
+**RF-09:** A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD
 
 
 #### Artefatos da funcionalidade:
@@ -216,14 +218,14 @@ O usuário deverá abrir um navegador de Internet e informar a seguinte URL: htt
 
 #### Responsável:
 
-André Pedroso @ https://github.com/andrespedroso
+Lucas Ribeiro @ https://github.com/lsrdot e André Pedroso @ https://github.com/andrespedroso
 
 <hr>
 
 
 ### Tela Cadastro
-<p> A tela Cadastro será direcionada após o usuário clicar no  button “ Cadastre-se” que esta no cabeçalho do website. 
- Deste modo, o usuário poderá se Cadastrar preenchendo as informações requisitadas como por exemplo Nome, Endereço de E-mail, criação de senha, ao finalizar o preenchimento dos dados deve-se finalizar clicando no button "Cadastrar".</p>
+<p> A tela Cadastro será direcionada após o usuário clicar no button “Cadastre-se” que esta no cabeçalho do website. 
+ Deste modo, o usuário poderá se Cadastrar preenchendo as informações requisitadas como, por exemplo, Nome, Endereço de E-mail, criação de senha, ao finalizar o preenchimento dos dados deve-se finalizar clicando no button "Cadastrar".</p>
 <p> Foram utilizados elementos da linguagem de marcação do HTML, elementos de estilização CSS e linguagem de programação JavaScript para tornar a aplicação mais dinâmica e interativa no website e a biblioteca bootstrap.</p>
 
 <figure>
@@ -258,7 +260,8 @@ Não se aplica.
 https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/nova-conta/index.html
 
 
-
+#### Responsável:
+Lucas Ribeiro @ https://github.com/lsrdot
 
 
 <hr>
@@ -266,7 +269,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 ### Tela Buscar Eventos 
 
 <figure>
-  <img src="img/tela_buscareventos.png"> <figcaption> Figura 22 - Tela Buscar Eventos</figcaption>
+  <img src="img/searchbar.png"> <figcaption> Figura 22 - Tela Buscar Eventos</figcaption>
 </figure>
 <p> A Tela Buscar Eventos será direcionada após o usuário clicar no button "Buscar Eventos" que encontra-se no cabeçalho do website.
   Desta forma, o usuário conseguirá pesquisar no filtro de pesquisa digitando a palavra almejada. Os elementos digitados no filtro de pesquisa irá mostrar aonde tem a informação na página referida.</p>
@@ -274,7 +277,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
   
 #### Requisito atendido:
 
-<p>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</p>
+<p>RF-03: A aplicação deve possuir uma função de pesquisa de eventos.</p>
 <p>•RNF-02:</b> A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.</p>
 
 #### Artefatos da funcionalidade
@@ -299,7 +302,7 @@ https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads
 
 #### Responsável:
 
-<p> Mauricio</p>
+<p>Maurício</p>
 
 
 
