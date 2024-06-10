@@ -135,9 +135,8 @@ Pré-requisitos:
 </table>
 
    <hr>
-<table>
+
 <table border="1">
-    <col>
   <tr>
     <th>Caso de Teste</th>
     <th>Requisitos associados</th>
@@ -164,4 +163,70 @@ Pré-requisitos:
   <tr>
    </td>   
 </table>
+
 <hr>
+
+<table border="1">
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivos dos Testes</th>
+   <th>Passos</th>
+   <th>Critérios de Êxito</th>  
+   <th>Responsável</th>  
+  </tr>
+   <td>CT-07:Verificar se a página "Detalhes de Eventos" contém informações claras aos usuários.</td>
+    <td><p> RF-06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
+        <p> RF-07:A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado</p>
+        <p> RF:06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
+        <p> RF-11:A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD. </p> 
+        <p> RF-09:A aplicação deve separar os eventos por categorias.</p>
+    </td>
+  <td>• Avaliar se a página "Detalhes de Eventos irá fornecer informações precisas quando o usuário clicar no button "Saiba Mais </td>
+    <td>
+     <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
+     <p>02)Digitar o endereço do site.</p>
+     <p>03)Visualizar a página "Home".</p>
+     <p>04)Clicar no button "Home" para ser direcionado na página almejada. </p>
+    <p>05) Deve-se ler os eventos descritos e clicar no button "Saiba Mais", dessa forma o usuário deverá ser direcionado as informações sobre cada evento descrito.</p>
+    </td>
+    <td>· O button "Saiba Mais" deve direcionar na descrição dos eventos referidos com as informações necessárias ao usuário e na pagina "Home" deve-se ter informações como por exemplo Nome, Data, Acessibilidade para Cadeirantes, Intérprete de Libras Disponíveis e  </td>  
+ <td>• A combinar. (próxima etapa)</td>     
+  <tr>
+   </td>   
+</table>
+
+<table border="1">
+    <col>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivos dos Testes</th>
+   <th>Passos</th>
+   <th>Critérios de Êxito</th>  
+   <th>Responsável</th>  
+  </tr>
+   <td>CT-07:Verificar se a página "Sobre Nós" contém informações explicitando o motivo do projeto e avalisar se os buttons de navegações direcionam nas páginas corretamente  dos usuários.</td>
+    <td>
+        <p> RNF-02A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.</p>
+    </td>
+  <td>• Avaliar se a página "Sobre Nós" explicará o motivo que o web site foi criado e  analisar o redirecionamento de todos os buttons após clicar na página almejada.  </td>
+    <td>
+     <p> 01)Deve-se abrir o web site pelo navegador escolhido.</p>
+     <p> 02)Digitar o endereço do site.</p>
+     <p> 03)Visualizar a página "Sobre Nós".</p>
+     <p> 04)Clicar no button "Sobre Nós" para ser direcionado na página almejada. </p>
+    <p> 05) Deve-se ler cautelosamente se o texto descrito explica sobre o motivo do projeto criado.</p> e clicar no 
+    <p> 06) Deve-se testar todos os buttons e avaliar se funcionam corretamente utilizado no computador e no dispositivo móvel e se ao clicar será redirecionado a página desejada.</p>
+       
+ </td>
+    <td>· A página "Sobre Nós" deve conter informações precisas sobre o motivo que o web site foi desenvolvido e todos os buttons deve redirecionar para outras páginas de navegação.</p> 
+    </td>  
+ <td>• A combinar. (próxima etapa)</td>     
+  <tr>
+   </td>   
+</table>
+
+<table>
+    
+</table>
