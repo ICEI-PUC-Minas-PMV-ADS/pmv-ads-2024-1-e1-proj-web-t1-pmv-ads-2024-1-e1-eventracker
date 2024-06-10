@@ -119,7 +119,7 @@ Pré-requisitos:
    <th>Critérios de Êxito</th>  
    <th>Responsável</th>  
   </tr>
-    <td>CT-05: Verificar  a página de cadastro dos usuários</td>
+    <td>CT-05: Verificar  a possibilidade do usuário criar seu cadastro no web site.</td>
     <td>RF-01: A aplicação deve permitir ao organizador cadastrar uma conta.</td>
      <td> Avaliar se a página Cadastre-se esta em conformidade com o objetivo funcional almejado</td>
    <td>
@@ -176,20 +176,17 @@ Pré-requisitos:
    <th>Critérios de Êxito</th>  
    <th>Responsável</th>  
   </tr>
-   <td>CT-07:Verificar se a página "Detalhes de Eventos" contém informações claras aos usuários.</td>
-    <td><p> RF-06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
-        <p> RF-07:A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado</p>
-        <p> RF:06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
-        <p> RF-11:A aplicação deve informar se o evento possui estrutura acessível e apoio para PCD. </p> 
-        <p> RF-09:A aplicação deve separar os eventos por categorias.</p>
+   <td>CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e responsividade.</td>
+    <td><p> RF-08:A aplicação deve separar os eventos por categorias.</p>
+            horário.</p>
     </td>
-  <td>• Avaliar se a página "Detalhes de Eventos irá fornecer informações precisas quando o usuário clicar no button "Saiba Mais </td>
+  <td>• Avaliar se a página "Buscar Eventos" irá fornecer informações dos eventos divididas por categoria, de maneira precisa aos usuários. </td>
     <td>
      <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
      <p>02)Digitar o endereço do site.</p>
-     <p>03)Visualizar a página "Home".</p>
-     <p>04)Clicar no button "Home" para ser direcionado na página almejada. </p>
-    <p>05) Deve-se ler os eventos descritos e clicar no button "Saiba Mais", dessa forma o usuário deverá ser direcionado as informações sobre cada evento descrito.</p>
+     <p>03)Visualizar a página "Buscar Eventos" no cabeçalho.</p>
+     <p>04)Clicar no button "Buscar Eventos" para ser direcionado na página almejada. </p>
+    <p>05) Deve-se verificar se todos os eventos descritos estão divididos de forma prática e acessível ao usuário.<
     </td>
     <td>· O button "Saiba Mais" deve direcionar na descrição dos eventos referidos com as informações necessárias ao usuário e na pagina "Home" deve-se ter informações como por exemplo Nome, Data, Acessibilidade para Cadeirantes, Intérprete de Libras Disponíveis e  </td>  
  <td>• A combinar. (próxima etapa)</td>     
