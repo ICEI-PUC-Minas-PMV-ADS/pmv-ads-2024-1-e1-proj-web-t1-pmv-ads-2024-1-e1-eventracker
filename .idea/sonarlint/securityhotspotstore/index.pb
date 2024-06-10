@@ -107,3 +107,5 @@ U
 %documentos/04-Projeto de Interface.md,e\1\e1f7991189deaf34b1db220b0a82005676b1803b
 `
 0documentos/05-Template padrão da Aplicação.md,3\2\32bceebcbdad77eb9e2cbeb7343a4f67a9fe4bfb
+\
+,documentos/07-Plano de Testes de Software.md,4\e\4e2a17f309856ff5e92f0ad50b8ed9cfa8996997

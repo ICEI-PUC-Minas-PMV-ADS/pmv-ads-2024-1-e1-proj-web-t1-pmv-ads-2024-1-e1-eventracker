@@ -232,7 +232,7 @@ Lucas Ribeiro @ https://github.com/lsrdot e André Pedroso @ https://github.com/
   <img src="img/pagina_cadastro.png"> <figcaption> Figura 21 - Tela Cadastro</figcaption>
 </figure>
 
-#### Requisito atendido
+#### Requisito atendido q
 
 <p>•RF-01: A aplicação deve permitir ao organizador cadastrar uma conta.</p>
 
