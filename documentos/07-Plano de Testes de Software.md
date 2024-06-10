@@ -86,20 +86,22 @@ Pré-requisitos:
  <td>• A combinar. (próxima etapa)</td>     
   <tr>
    </td>
+   </table>
   
 <hr>
-    
-   <td>CT-04:Verificar o funcionamento do filtro de pesquisa</td>
-    <td>RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
-    <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
+    <table>
+   <td>CT-04:Verificar a possibilidade do usuário Cadastrar seu Evento </td>
+    <td><p>RF-04:A aplicação deve permitir ao usuário que crie seu próprio evento.</p>
+    <p> RF-08 A aplicação deve separar os eventos por categorias.</p>  
+    </td>
+    <td>• Analisar se o web site disponibiliza do usuário Cadastrar seu próprio Evento.</td>
     <td> 
      <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
      <p>02)Digitar o endereço do site.</p>
-     <p>03)Visualizar a página "Home".</p>
-     <p>04)Clicar no button "Buscar Eventos" para ser direcionado na página almejada. </p>
-      <p>05)Digitar no filtro de pesquisa algum elemento específico da página "Buscar Eventos" e verificar se o resultado é exibido na página.</p>
+     <p>03)Visualizar a página "Crie seu Evento, digitar as informações fornecidas nos campos de formulário, selecionar os arquivos pedidos e clicar no button "Criar".</p>
+     <p>04) Deve-se deixar de forma intencional algumas informações sem o devido preenchimento e observar se o usuário será reletado sobre as informações que devem ser digitadas.</p> 
     </td>
-    <td> Os elementos digitados no filtro de pesquisa devem mostrar aonde tem a informação na página referida.</td>  
+    <td> O usuário deve finalizar o Cadastro de seu Evento de forma compreensível..</td>  
  <td>• A combinar. (próxima etapa)</td>     
   <tr>
    </td>   
