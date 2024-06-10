@@ -55,7 +55,7 @@ Pré-requisitos:
     <td> <p>• O web site deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
      <p>· O button "Cadastrar-se" deve direcionar a página almejada.</p>
     </td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• Maurício</td>     
   <tr>
    </td> 
 </table>
@@ -83,7 +83,7 @@ Pré-requisitos:
       <p>05)Digitar no filtro de pesquisa algum elemento específico da página "Buscar Eventos" e verificar se o resultado é exibido na página.</p> 
     </td>
     <td> Os elementos digitados no filtro de pesquisa devem mostrar aonde tem a informação na página referida.</td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• Juliana M.</td>     
   <tr>
    </td>
    </table>
@@ -178,7 +178,7 @@ Pré-requisitos:
   </tr>
    <td>CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e responsividade.</td>
     <td><p> RF-08:A aplicação deve separar os eventos por categorias.</p>
-            horário.</p>
+            
     </td>
   <td>• Avaliar se a página "Buscar Eventos" irá fornecer informações dos eventos divididas por categoria, de maneira precisa aos usuários. </td>
     <td>
@@ -188,14 +188,15 @@ Pré-requisitos:
      <p>04)Clicar no button "Buscar Eventos" para ser direcionado na página almejada. </p>
     <p>05) Deve-se verificar se todos os eventos descritos estão divididos de forma prática e acessível ao usuário.<
     </td>
-    <td>· O button "Saiba Mais" deve direcionar na descrição dos eventos referidos com as informações necessárias ao usuário e na pagina "Home" deve-se ter informações como por exemplo Nome, Data, Acessibilidade para Cadeirantes, Intérprete de Libras Disponíveis e  </td>  
- <td>• A combinar. (próxima etapa)</td>     
+    <td>· A página "Buscar Eventos" deve direcionar de forma simplificada sobre cada evento disponível dividido por categorias e página deve esta responsiva adaptando-se em dispositivos movéis e computadores.
+    </td>  
+ <td>• Juliana M.</td>     
   <tr>
    </td>   
 </table>
 
 <table border="1">
-    <col>
+    
   <tr>
     <th>Caso de Teste</th>
     <th>Requisitos associados</th>
@@ -220,7 +221,7 @@ Pré-requisitos:
  </td>
     <td>· A página "Sobre Nós" deve conter informações precisas sobre o motivo que o web site foi desenvolvido e todos os buttons deve redirecionar para outras páginas de navegação.</p> 
     </td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• Maurício</td>     
   <tr>
    </td>   
 </table>
