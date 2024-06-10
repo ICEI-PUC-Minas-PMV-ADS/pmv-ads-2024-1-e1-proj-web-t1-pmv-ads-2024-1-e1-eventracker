@@ -1,4 +1,3 @@
-(em construção)
 
 # Plano de Testes de Software
 
@@ -206,7 +205,7 @@ Pré-requisitos:
    <th>Critérios de Êxito</th>  
    <th>Responsável</th>  
   </tr>
-   <td>CT-07:Verificar se a página "Sobre Nós" contém informações explicitando o motivo do projeto e avalisar se os buttons de navegações direcionam nas páginas corretamente  dos usuários.</td>
+   <td>CT-08:Verificar se a página "Sobre Nós" contém informações explicitando o motivo do projeto e avalisar se os buttons de navegações direcionam nas páginas corretamente  dos usuários.</td>
     <td>
         <p> RNF-02A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.</p>
     </td>
