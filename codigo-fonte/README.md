@@ -24,7 +24,8 @@ Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organiz
 
 O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Existem diversos servidores web gratuitos que podem ser utilizados, tal como GitHub Pages (GitHub.IO), Vercel, Render, Netlify, Surge.sh, entre outros. Nesse primeiro eixo, recomenda-se inclusive a utilização do GitHub Pages. [Insira o endereço eletrônico público para acessá-lo.] 
 
-https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/home
+
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/TelaMenu/index.html
 
 ## Histórico de versões
 
