@@ -179,7 +179,7 @@ Pré-requisitos:
    <td>CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e responsividade.</td>
     <td><p> RF-08:A aplicação deve separar os eventos por categorias.</p>
             
-    </td>
+   
   <td>• Avaliar se a página "Buscar Eventos" irá fornecer informações dos eventos divididas por categoria, de maneira precisa aos usuários. </td>
     <td>
      <p>01)Deve-se abrir o web site pelo navegador escolhido.</p>
