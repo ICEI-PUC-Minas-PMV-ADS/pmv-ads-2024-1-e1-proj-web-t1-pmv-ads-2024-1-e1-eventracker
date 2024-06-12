@@ -12,3 +12,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 [Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
 
+|Caso de Teste    | CT-03 - Verificar o funcionamento do filtro de pesquisas. |
+|:---|:---|
+| Resultados obtidos |Observa-se que o teste apresentou êxito  ao ser executado pois no momento que o usuário digita  uma palavra-chave ou alguma data sugerida nos eventos em destaque no filtro de pesquisa, o usuário é automaticamente direcionado na palavra pesquisada, tendo um resumo do evento consultado. Dessa forma nota-se que o RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos, foi executado. 
+|Responsável pela execução do caso de Teste | Juliana |
+
