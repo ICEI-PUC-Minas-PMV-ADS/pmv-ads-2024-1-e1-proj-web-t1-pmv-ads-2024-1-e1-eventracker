@@ -39,8 +39,6 @@ Q
 !codigo-fonte/searchbar/index.html,5\4\543417c74fd208bd720d7a111e6ba113ce6acef4
 M
 codigo-fonte/login/login.html,b\b\bb5d4710ae6b6e3bce5bca2bce671f8cadd55922
-Q
-!codigo-fonte/searchbar/styles.css,8\4\844f6a35319974e4de9a213ef460409f43f2bd34
 a
 1codigo-fonte/searchbar/js/bootstrap.bundle.min.js,e\4\e422553c03ec8e80d40e1e8c7db8f1e7a1987e29
 c
@@ -50,19 +48,11 @@ c
 F
 apresentacao/README.md,d\f\df3aa2fb5a791e9ea2d39af3a032aa858010fead
 a
-1codigo-fonte/paginamodelosembootstrap/modelo.html,c\a\ca9e388b4c616febfd560230309135cc437a8840
-`
-0codigo-fonte/paginamodelosembootstrap/modelo.css,a\9\a9b7dadc9a40495869e794d0aef2eb859dfbb592
-a
 1documentos/06-Programação de Funcionalidades.md,f\3\f3e8d10de25f6535fa5fd021b5a39a9af087bd76
 S
 #codigo-fonte/novo-evento/index.html,d\9\d95aed544657f23a11a8edcbe45e4e04e6f5f624
 V
 &codigo-fonte/novo-evento/css/style.css,c\b\cbc1e0e325806dfb9e12d543bfb166f272c9fc23
-^
-.codigo-fonte/detalhe-evento/detalheevento.html,d\9\d99e30c2e2003f436063e1780fb160e3960344f6
-W
-'codigo-fonte/detalhes_ideia/modelo.html,8\7\87f112d718480dc0247a56dc4f824b366acc3df9
 T
 $codigo-fonte/novo-evento/js/index.js,f\e\fec8cba04f0f5c213621381956b7e08080b30d3b
 R
@@ -71,8 +61,6 @@ S
 #codigo-fonte/nova-conta/js/index.js,d\d\dd358ac0d23ce07ec3e787ffeb73c9fa7f2085e8
 V
 &codigo-fonte/searchbar/style/style.css,3\4\34628b92f56819e5cfb1f6f409f152fabed97c24
-W
-'codigo-fonte/TelaMenu/tela-de-menu.html,3\e\3e07fced2747e24fcd0368a2cc94377267fae545
 V
 &codigo-fonte/TelaMenu/tela-do-menu.css,e\3\e346787045d6b71144ccb4ece4d56d6ef36095a0
 P
@@ -85,16 +73,10 @@ O
 codigo-fonte/home/forrozim.html,0\6\06dfeade612e74b59d6090054ec41637295c5949
 O
 codigo-fonte/home/script/app.js,6\7\671ffabe9e24d2e0a617252aefb6c07616a47239
-X
-(codigo-fonte/home/style/novo-evento.html,f\7\f78afa31f49c39c992bfeb9c72b93801f6a14be2
 R
 "codigo-fonte/home/novo-evento.html,f\8\f892eef6439c70cc6d1ad0db32bcd13819be6c31
-_
-/codigo-fonte/template-padrao/template-home.html,c\f\cfa090f6fcd4532b0747e8be98e13d5c4e367686
 U
 %codigo-fonte/nova-conta/css/style.css,4\1\41d9b533bede25a31f1a1717a19a05994e032957
-V
-&codigo-fonte/home/style/notificacao.js,1\9\19f89cc97f84c407e66369777745391555efdd12
 P
  codigo-fonte/home/notificacao.js,f\b\fbfbf83fc7f608858fc12145bc03825d3fb44363
 P

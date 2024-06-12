@@ -1,5 +1,0 @@
-
-…,Web:MouseEventWithoutKeyboardEquivalentCheck"AAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <div> tag.(õê”Şşÿÿÿÿ8ñêÙ©ÿ1
-ä	Web:S6848"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(õê”Şşÿÿÿÿ8ëÙ©ÿ1
-e	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ôÈ¹ì8ëÙ©ÿ1
-e	Web:S6851"IRemove redundant word "image" from the "alt" attribute of your "img" tag.(ÎîÇ€8‘ëÙ©ÿ1
