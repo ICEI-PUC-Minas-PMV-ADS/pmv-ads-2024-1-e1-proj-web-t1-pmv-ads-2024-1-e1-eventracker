@@ -20,11 +20,21 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/3c5664e1-2f58-4115-bb40-5fcec31b52df
 
-<hr>
+<p>·Teste de funcionamento do filtro de pesquisas na página "Buscar Eventos"</p>
 
+<hr>
 
 |Caso de Teste    | CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e a página possui responsividade. 
 |:---|:---|
 | Resultados obtidos |Observa-se que os testes apresentaram êxitos, todos os eventos são organizados e divididos por categorias, datas e horários disponíveis aos usuário no qual possibilita visualizar a divulgação resumida dos eventos. A página "Buscar Eventos" possui responsividade adequando-se em dispositivos móveis e computadores.|
 | Responsável pela execução do caso de Teste | Juliana|
+
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/89aca15a-8a38-426b-b42d-626e916b338c
+
+<p> · Teste de responsividade na página "Buscar Eventos" executado</p>
+
 
