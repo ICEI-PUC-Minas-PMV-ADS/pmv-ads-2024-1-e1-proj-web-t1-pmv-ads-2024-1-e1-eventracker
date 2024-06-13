@@ -63,6 +63,17 @@ function validarFormulario() {
         const acCadeirantes = document.getElementById('acessibilidadeCadeirantes').checked;
         const interprete = document.getElementById('interpreteLibras').checked;
         const audioDescritivo = document.getElementById('audioDescritivo').checked;
+        let aux = dataEvento.value;
+        console.log(aux);
+        console.log(aux.length);
+        const ano = aux.slice(0, 4);
+        console.log(ano);
+        const mes = aux.slice(5, 7)
+        console.log(mes);
+        const dia = aux.slice(8, 11);
+        console.log(dia);
+        aux = `${dia}/${mes}/${ano}`;
+        console.log(aux);
 
         scanner.onload = function (e) {
             const imgParaStr64 = e.target.result;
@@ -70,7 +81,7 @@ function validarFormulario() {
             const dadosCadastrados = {
                 evento: nomeEvento.value,
                 endereco: enderecoEvento.value,
-                data: dataEvento.value,
+                data: aux,
                 h: horario.value,
                 description: descricao.value,
                 img: imgParaStr64,

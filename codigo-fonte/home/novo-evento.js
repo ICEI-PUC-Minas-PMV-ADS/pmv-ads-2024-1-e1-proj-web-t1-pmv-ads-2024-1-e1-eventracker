@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const novoDetalhe = `
             <h1 class="text-center titulo-detalhe">${evento.evento}</h1>
             <div class="d-flex justify-content-center">
-                <img src="${evento.img}" width="400" height="300" alt="novo evento" class="img-fluid rounded shadow" id="img-novoevento">
+                <img src="${evento.img}" width="400" height="300" alt="novo evento" class="img-fluid rounded shadow" id="imgnovoevento">
             </div>
             <div class="container align-content-center align-items-center">
                 <p class="txt-padrao"><span class="info">Data:</span> ${evento.data}</p>
@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="container d-flex justify-content-center align-items-center botao">
                 <a href="#" class="btn btn-primary confirmar-presenca">Confirmar Presença</a>
             </div>
+            
+<!--            <style>-->
+<!--                #imgnovoevento {-->
+<!--                    width: 400px; !important;-->
+<!--                    height: 300px; !important;-->
+<!--                }-->
+<!--            </style>-->
         `;
 
     corpo.insertAdjacentHTML('beforeend', novoDetalhe);
