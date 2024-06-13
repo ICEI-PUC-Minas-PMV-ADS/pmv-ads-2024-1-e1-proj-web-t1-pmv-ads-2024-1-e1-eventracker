@@ -48,11 +48,11 @@ Pré-requisitos:
     <td>CT-02: Verificar o Login de usuários.</td>
     <td>RF-02:A aplicação deve permitir que o usuário faça login em sua conta</td>
     <td> <p>• Certificar se o button "Entrar" da página login esta funcionando corretamente e o button Cadastrar-se direciona o usuário na página Cadastrar.</p></td>
-    <td><p> 01) Deve-se abrir o web site, os campos de formulário e-mail e senha deve ser preechido, dessa forma deve-se analisar ao preencher se aparecerá a mensagem: "Login realizado com Sucesso". </p>
-    <p> 02) Deve-se abrir o web site, preencher apenas o campo de formulário "email" ou apenas a "senha" e outro deverá ficar em branco. Dessa forma, ao clicar no button "Entrar" deve-se visualizar a mensagem: "Os campos de e-mail e senha são obrigatórios" </p>
+    <td><p> 01) Deve-se abrir o website, os campos de formulário e-mail e senha deve ser preechido, dessa forma deve-se analisar ao preencher se aparecerá a mensagem: "Login realizado com Sucesso". </p>
+    <p> 02) Deve-se abrir o website, preencher apenas o campo de formulário "email" ou apenas a "senha" e outro deverá ficar em branco. Dessa forma, ao clicar no button "Entrar" deve-se visualizar a mensagem: "Os campos de e-mail e senha são obrigatórios" </p>
     <p> 03) Deve-se se clicar no button "Cadastrar-se e avaliar se a página será direcionada para a página de Cadastro </p>
      </td>
-    <td> <p>• O web site deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
+    <td> <p>• O website deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
      <p>· O button "Cadastrar-se" deve direcionar a página almejada.</p>
     </td>  
  <td>• Maurício</td>     
