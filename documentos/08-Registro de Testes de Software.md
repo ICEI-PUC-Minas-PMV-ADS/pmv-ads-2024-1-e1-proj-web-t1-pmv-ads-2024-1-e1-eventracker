@@ -14,8 +14,14 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 |Caso de Teste    | CT-03 - Verificar o funcionamento do filtro de pesquisas. |
 |:---|:---|
-| Resultados obtidos |Observa-se que o teste apresentou êxito  ao ser executado pois no momento que o usuário digita  uma palavra-chave ou alguma data sugerida nos eventos em destaque no filtro de pesquisa, o usuário é automaticamente direcionado na palavra pesquisada, tendo um resumo do evento consultado. Dessa forma nota-se que o RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos, foi executado. 
+| Resultados obtidos |Observa-se que o teste apresentou êxito ao ser executado pois no momento que o usuário digita  uma palavra-chave ou alguma data sugerida nos eventos em destaque no filtro de pesquisa, o usuário é automaticamente direcionado na palavra pesquisada, tendo um resumo do evento consultado. Dessa forma nota-se que o RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos, foi executado. 
 |Responsável pela execução do caso de Teste | Juliana |
 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/3c5664e1-2f58-4115-bb40-5fcec31b52df
+
+vi
+|Caso de Teste    |CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e a página possui responsividade.|
+|:---|:---|
+| Resultados obtidos | Observa-se que o teste apresentou êxito, todos os eventos são organizados e divididos por categorias, datas e horários disponíveis aos usuário no qual possibilita visualizar a divulgação resumida dos eventos.    |
+| Responsável pela execução do caso de Teste |Juliana |
