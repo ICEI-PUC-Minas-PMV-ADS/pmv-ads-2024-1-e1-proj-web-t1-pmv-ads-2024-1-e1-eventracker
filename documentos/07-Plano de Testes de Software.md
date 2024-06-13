@@ -176,7 +176,7 @@ Pré-requisitos:
    <th>Critérios de Êxito</th>  
    <th>Responsável</th>  
   </tr>
-   <td>CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e responsividade.</td>
+   <td>CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e a página possui responsividade.</td>
     <td><p> RF-08:A aplicação deve separar os eventos por categorias.</p>
             
    
