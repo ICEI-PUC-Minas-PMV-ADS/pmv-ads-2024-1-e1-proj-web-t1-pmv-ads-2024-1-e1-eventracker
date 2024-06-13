@@ -275,6 +275,9 @@ p.txt-padrao > span.info  {
     margin-top: 20px;
 }
 
-
+#img-novoevento {
+    width: 400px !important;
+    height: 300px !important;
+}
 
 
