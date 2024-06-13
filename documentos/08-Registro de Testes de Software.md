@@ -12,6 +12,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 [Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
 
+ ### Caso de Teste - 03
+
 |Caso de Teste    | CT-03 - Verificar o funcionamento do filtro de pesquisas. |
 |:---|:---|
 | Resultados obtidos |Observa-se que o teste apresentou êxito ao ser executado pois no momento que o usuário digita  uma palavra-chave ou alguma data sugerida nos eventos em destaque no filtro de pesquisa, o usuário é automaticamente direcionado na palavra pesquisada, tendo um resumo do evento consultado. Dessa forma nota-se que o RF-03:A aplicação deve possuir uma função de filtro/pesquisa de eventos, foi executado. |
@@ -25,6 +27,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 
 <hr>
+
+ ### Caso de Teste - 07
 
 |Caso de Teste    | CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e a página possui responsividade. 
 |:---|:---|
