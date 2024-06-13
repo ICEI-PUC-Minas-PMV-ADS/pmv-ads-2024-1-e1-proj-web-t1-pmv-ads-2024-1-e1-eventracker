@@ -215,7 +215,7 @@ O usuário deverá abrir um navegador de Internet e informar a seguinte URL: htt
 
 #### Responsável:
 
-Author: Lucas Ribeiro @ https://github.com/lsrdot
+Author: Lucas Ribeiro @ https://github.com/lsrdot e André Pedroso @ https://github.com/andrespedroso 
 
 <hr>
 
