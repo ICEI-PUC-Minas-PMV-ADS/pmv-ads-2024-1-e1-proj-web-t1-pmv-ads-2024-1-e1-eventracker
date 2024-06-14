@@ -37,7 +37,7 @@ https://alessandropfreitas.github.io/TelaMenu/tela-de-menu.html
 
 #### Responsável
 
-<p>Alessandro Paulista e Lucas Ribeiro @ <a>https://github.com/lsrdot</a></p>
+Alessandro Paulista e Lucas Ribeiro @ https://github.com/lsrdot
 
 <hr>
 
@@ -168,6 +168,54 @@ O usuário deverá abrir um navegador de Internet e informar a seguinte URL: htt
 #### Responsável:
 
 Author: Lucas Ribeiro @ https://github.com/lsrdot
+
+<hr>
+
+
+### Detalhes do Evento:
+
+
+<figure>
+    <img src="img/detalhesevento.png" alt="page description">
+    <figcaption> Figura - 19.1 Saiba mais</figcaption>
+</figure>
+
+
+#### Requisitos atendidos:
+
+**RF-07:** A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações
+
+
+#### Artefatos da funcionalidade:
+
+- forrozim.html
+
+- style.css
+
+- bootstrap.min.css
+
+- bootstrap.min.js
+
+#### Estrutura de Dados:
+
+Não se aplica.
+
+
+#### Instruções de acesso:
+
+Acesso de forma local:
+
+O usuário deverá clonar o repositório localmente e navegar até o diretório em ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/home/ e executar o arquivo index.html em seu navegador de preferência.
+
+Forma de acesso via URL:
+
+O usuário deverá abrir um navegador de Internet e informar a seguinte URL: https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/codigo-fonte/home/index.html
+
+
+
+#### Responsável:
+
+Author: Lucas Ribeiro @ https://github.com/lsrdot e André Pedroso @ https://github.com/andrespedroso 
 
 <hr>
 

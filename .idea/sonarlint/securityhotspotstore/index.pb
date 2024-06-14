@@ -91,3 +91,9 @@ U
 0documentos/05-Template padrão da Aplicação.md,3\2\32bceebcbdad77eb9e2cbeb7343a4f67a9fe4bfb
 \
 ,documentos/07-Plano de Testes de Software.md,4\e\4e2a17f309856ff5e92f0ad50b8ed9cfa8996997
+]
+-codigo-fonte/nova-conta/css/bootstrap.min.css,3\6\3685a8dbf0851d21ceabef1a7a7c1c5aadba73fa
+M
+codigo-fonte/home/afrobr.html,0\0\0045c477feffffd51fc1cb47ea07e5817ca3c1f1
+O
+codigo-fonte/home/museupuc.html,c\9\c9019bec0c801e0677c25e3f13cfe0155b993061
