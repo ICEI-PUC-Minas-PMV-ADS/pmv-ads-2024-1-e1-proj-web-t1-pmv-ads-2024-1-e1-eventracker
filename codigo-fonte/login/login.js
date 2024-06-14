@@ -12,6 +12,7 @@ function login(event) {
         alert("Os campos email e senha são obrigatórios.");
     } else {
         alert("Login realizado com sucesso!");
+        window.location.href = "../home/index.html";
     }
 
     //limpar campos senha e email aqui
