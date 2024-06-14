@@ -73,7 +73,7 @@ Pré-requisitos:
    <th>Responsável</th>  
   </tr>
     <td>CT-03: Verificar o funcionamento do filtro de pesquisa</td>
-    <td>RF-03: A aplicação deve possuir uma função de filtro/pesquisa de eventos.</td>
+    <td>RF-03: A aplicação deve possuir uma função de filtro/pesquisa na página Buscar Eventos.</td>
     <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
     <td>• 
      <p>01)Deve-se abrir o website pelo navegador escolhido.</p>
