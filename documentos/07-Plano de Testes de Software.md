@@ -72,7 +72,7 @@ Pré-requisitos:
    <th>Critérios de Êxito</th>  
    <th>Responsável</th>  
   </tr>
-    <td>CT-03: Verificar o funcionamento do filtro de pesquisa na página Buscar Eventos./td>
+    <td>CT-03: Verificar o funcionamento do filtro de pesquisa na página Buscar Eventos.</td>
     <td>RF-03: A aplicação deve possuir uma função de filtro/pesquisa.</td>
     <td>• Analisar se o filtro de pesquisa está recuperando os dados acrescentados pelo usuário</td>
     <td>• 
