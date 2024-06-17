@@ -60,6 +60,10 @@ function validarFormulario() {
         localStorage.setItem('novaConta', strNovaConta);
 
         console.log('String armazenada no localStorage:', localStorage.getItem('novaConta'));
+        window.location.href = "../home/index.html";
+        alert('Conta cadastrada com sucesso!');
+
+
     }
 }
 

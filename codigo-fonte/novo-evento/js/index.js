@@ -96,7 +96,10 @@ function validarFormulario() {
 
             console.log('Dados salvos no local storage:', dadosCadastrados);
 
+            window.location.href = "../home/index.html";
+
             alert('Evento cadastrado com sucesso!');
+
         };
 
         scanner.readAsDataURL(file);
