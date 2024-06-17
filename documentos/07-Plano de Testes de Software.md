@@ -132,7 +132,7 @@ Pré-requisitos:
       o campo de formulário em branco ou preencheido incorretamente. </p>
    </td>      
      <td> As informações de preenchimento devem estar disponíveis ao usuário e, caso algum campo não seja preenchido, deve-se ter uma mensagem orientada ao usuário para preencher os campos</td>
-     <td> A combinar (próxima etapa) </td>
+     <td> João Victor </td>
 </table>
 
    <hr>
