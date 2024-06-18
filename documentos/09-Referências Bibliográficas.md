@@ -1,5 +1,11 @@
-# Referências Bibliográficas
+# Referências Bibliográficas:
 
+EDÉCIO, Fernando Iepsen.<b>Lógica de Programação e Algoritmos com JavaScript: uma Introdução à Programação de Computadores com Exemplos e Exercícios Para Iniciantes</b>. 2. ed. São Paulo: Novatec Editora,mar,2022.
 
-MANSUR, Rafaela. Eventos no Mineirão representam mais de R$ 1 bilhão na economia de Minas Gerais em 2022. 2023.
-Disponível em <https://g1.globo.com/mg/minas-gerais/noticia/2023/10/29/eventos-no-mineirao-representam-mais-de-r-1-bilhao-na-economia-de-minas-gerais-em-2022.ghtml>. Acesso em: 10/04/2024.
+FRANÇA,R. <b>Para iniciantes:Iniciando o código básicode HTML.</b> [S.l.],2016.Disponível em:
+http://tableless.github.io/iniciantes/manual/html/estruturabasica.html
+
+GUANABARA, G.;<b>VIDEO,C.em. CursodeHTML5.[S.l.]</b>,2013.Disponível em: 
+https://www.cursoemvideo.com/course/curso-de-html5/
+
+SOMMERVILLE, Ian. <b>Engenharia de software</b>. 10 ed. São Paulo: Pearson, 2019.
