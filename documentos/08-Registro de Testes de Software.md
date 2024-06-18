@@ -28,6 +28,25 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <hr>
 
+ ### Caso de Teste - 05
+
+|Caso de Teste    | CT-05: Verificar a possibilidade do usuário criar seu cadastro no website. |
+|:---|:---|
+| Resultados obtidos |Observa-se que o teste apresentou êxito ao ser executado pois ao acessar o site o usuário é apresentado a tela de "Menu" e ao button "Cadastrar" no cabeçalho, ao clicar no button o usuário é levado a tela de cadastro de nova conta onde, ao preencher corretamente os campos indicados com dados compatíveis com os mesmos, consegue criar sua nova conta e é direcionado a página "Home" do site. Notou-se também que, caso o usuário não preencha todos os campos com dados compatíveis, o site apresenta um alerta em cor chamativa que conversa com o usuário e orienta sobre o cadastro. O mesmo ocorre com os campos de confirmação como o "Confirmar senha". A responsividade também foi testada e apresentou resultados positivos|
+| Responsável pela execução do caso de Teste | João Victor|
+
+<p><b> - Teste executado para verificar a possibilidade do usuário criar seu cadastro no website.</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/3c5664e1-2f58-4115-bb40-5fcec31b52df
+
+
+
+
+
+
+
+
  ### Caso de Teste - 07
 
 |Caso de Teste    | CT-07:Verificar se a página "Buscar Eventos" contém informações dos eventos divididas por categorias e a página possui responsividade. 
