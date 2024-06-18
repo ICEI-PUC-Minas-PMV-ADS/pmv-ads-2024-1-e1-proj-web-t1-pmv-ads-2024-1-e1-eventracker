@@ -55,7 +55,7 @@ Pré-requisitos:
     <td> <p>• O website deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
      <p>· O button "Cadastrar-se" deve direcionar a página almejada.</p>
     </td>  
- <td>• Maurício</td>     
+ <td>• A combinar. (próxima etapa)</td>     
   <tr>
    </td> 
 </table>
@@ -160,7 +160,7 @@ Pré-requisitos:
     <p>05) Deve-se ler os eventos descritos e clicar no button "Saiba Mais", dessa forma o usuário deverá ser direcionado as informações sobre cada evento descrito.</p>
     </td>
     <td>· O button "Saiba Mais" deve direcionar na descrição dos eventos referidos com as informações necessárias ao usuário e na página "Home" deve-se ter informações como, por exemplo, Nome, Data, Acessibilidade para Cadeirantes e Intérprete de Libras Disponíveis</td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• Alessandro </td>     
   <tr>
    </td>   
 </table>
