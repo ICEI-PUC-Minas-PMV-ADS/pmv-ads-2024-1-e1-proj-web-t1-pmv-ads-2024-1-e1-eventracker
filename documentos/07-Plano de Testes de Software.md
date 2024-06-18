@@ -125,11 +125,11 @@ Pré-requisitos:
    <td>
        <p>01)Deve-se abrir o website pelo navegador escolhido.</p>
      <p>02)Digitar o endereço do site.</p>
-     <p>03)Visualizar a página "Cadastre-se".</p>
+     <p>03)Visualizar a página "Menu".</p>
      <p>04)Clicar no button "Cadastre-se" no cabeçalho para ser direcionado na página almejada. </p>
      <p>05)Preencher todas as informações do formulário e clicar no button “Cadastrar”</p>
      <p> 06) Não preencher todas as informações pedidas e analisar se será mostrado alguma mensagem informando sobre 
-      o campo de formulário em branco ou preencheido incorretamente. </p>
+      o campo de formulário em branco ou preenchido incorretamente. </p>
    </td>      
      <td> As informações de preenchimento devem estar disponíveis ao usuário e, caso algum campo não seja preenchido, deve-se ter uma mensagem orientada ao usuário para preencher os campos</td>
      <td> João Victor </td>
