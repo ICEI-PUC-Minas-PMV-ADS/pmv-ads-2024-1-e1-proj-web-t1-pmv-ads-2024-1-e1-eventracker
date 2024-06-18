@@ -29,4 +29,6 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 
 ## Hospedagem
 
+Utilizou-se a plataforma GitHub Pages como local de hospedagem do site do projeto, que poderá ser visto na URL:
+
 https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/TelaMenu/index.html
