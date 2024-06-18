@@ -28,6 +28,20 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <hr>
 
+ ### Caso de Teste - 02
+
+|Caso de Teste    | CT-02: Verificar o Login de usuários. |
+|:---|:---|
+| Resultados obtidos|Os testes realizados para verificar a funcionalidade do login, conforme especificado no RF-02, demonstraram que o sistema opera de acordo com os requisitos estabelecidos. Todos os cenários foram executados com sucesso, garantindo que os usuários possam realizar o login de forma eficiente e segura, além de serem direcionados corretamente para a tela do cadastro.|
+| Responsável pela execução do caso de Teste | Alessandro|
+
+<p><b> - Teste executado para verificar se o button "Entrar" da página login esta funcionando corretamente e o button Cadastrar-se direciona o usuário na página Cadastrar.</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/a16c19fb-5058-4f79-be0b-7da347887aab
+
+
+<hr>
 
  ### Caso de Teste - 06
 
