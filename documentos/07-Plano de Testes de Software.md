@@ -55,7 +55,7 @@ Pré-requisitos:
     <td> <p>• O website deve aparecer as mensagens quando for testado todos os formulários e quando um campo formulário for deixado em branco intencionalmente.</p>
      <p>· O button "Cadastrar-se" deve direcionar a página almejada.</p>
     </td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• Alessandro</td>     
   <tr>
    </td> 
 </table>
