@@ -37,12 +37,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <p><b> - Teste executado para verificar a possibilidade do usuário criar seu cadastro no website.</b></p>
 
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/3c5664e1-2f58-4115-bb40-5fcec31b52df
-
-
-
-
+<hr>
 
 
 
