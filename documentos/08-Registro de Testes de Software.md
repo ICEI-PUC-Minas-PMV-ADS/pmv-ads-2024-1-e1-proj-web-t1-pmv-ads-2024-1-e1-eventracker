@@ -12,6 +12,23 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 [Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
 
+ ### Caso de Teste - 02
+
+|Caso de Teste    | CT-02: Verificar o Login de usuários. |
+|:---|:---|
+| Resultados obtidos|Os testes realizados para verificar a funcionalidade do login, conforme especificado no RF-02, demonstraram que o sistema opera de acordo com os requisitos estabelecidos. Todos os cenários foram executados com sucesso, garantindo que os usuários possam realizar o login de forma eficiente e segura, além de serem direcionados corretamente para a tela do cadastro.|
+| Responsável pela execução do caso de Teste | Alessandro|
+
+<p><b> - Teste executado para verificar se o button "Entrar" da página login esta funcionando corretamente e o button Cadastrar-se direciona o usuário na página Cadastrar.</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/a16c19fb-5058-4f79-be0b-7da347887aab
+
+
+<hr>
+
+
+
  ### Caso de Teste - 03
 
 |Caso de Teste    | CT-03 - Verificar o funcionamento do filtro de pesquisas. |
@@ -28,20 +45,38 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <hr>
 
- ### Caso de Teste - 02
 
-|Caso de Teste    | CT-02: Verificar o Login de usuários. |
+ ### Caso de Teste - 05
+
+|Caso de Teste    | CT-05: Verificar a possibilidade do usuário criar seu cadastro no website. |
 |:---|:---|
-| Resultados obtidos|Os testes realizados para verificar a funcionalidade do login, conforme especificado no RF-02, demonstraram que o sistema opera de acordo com os requisitos estabelecidos. Todos os cenários foram executados com sucesso, garantindo que os usuários possam realizar o login de forma eficiente e segura, além de serem direcionados corretamente para a tela do cadastro.|
-| Responsável pela execução do caso de Teste | Alessandro|
+| Resultados obtidos |Observa-se que o teste apresentou êxito ao ser executado pois ao acessar o site o usuário é apresentado a tela de "Menu" e ao button "Cadastrar" no cabeçalho, ao clicar no button o usuário é levado a tela de cadastro de nova conta onde, ao preencher corretamente os campos indicados com dados compatíveis com os mesmos, consegue criar sua nova conta e é direcionado a página "Home" do site. Notou-se também que, caso o usuário não preencha todos os campos com dados compatíveis, o site apresenta um alerta em cor chamativa que conversa com o usuário e orienta sobre o cadastro. O mesmo ocorre com os campos de confirmação como o "Confirmar senha". A responsividade também foi testada e apresentou resultados positivos|
+| Responsável pela execução do caso de Teste | João Victor|
 
-<p><b> - Teste executado para verificar se o button "Entrar" da página login esta funcionando corretamente e o button Cadastrar-se direciona o usuário na página Cadastrar.</b></p>
+<p><b> - Teste executado para verificar a possibilidade do usuário criar seu cadastro no website.</b></p>
 
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/a16c19fb-5058-4f79-be0b-7da347887aab
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/c9ff8a4b-8eb3-444b-9aa9-f3eddfcb7921
+
+
+
+<p><b> - Teste executado para verificar se, caso o usuário não atenda os requisitos do fomulário de nova conta, o sistema irá informa-lo nos campos em que isso se aplicar.</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/a10b4d4b-4174-4d60-9b93-139ca54218f3
+
+
+
+<p><b> - Teste executado para verificar a responsividade da página de cadastro de nova conta.</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/d3f8d10c-eb3f-41e1-b0cc-afa073bdff4d
+
 
 
 <hr>
+
+
 
  ### Caso de Teste - 06
 
@@ -57,19 +92,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 
 <hr>
-
- ### Caso de Teste - 05
-
-|Caso de Teste    | CT-05: Verificar a possibilidade do usuário criar seu cadastro no website. |
-|:---|:---|
-| Resultados obtidos |Observa-se que o teste apresentou êxito ao ser executado pois ao acessar o site o usuário é apresentado a tela de "Menu" e ao button "Cadastrar" no cabeçalho, ao clicar no button o usuário é levado a tela de cadastro de nova conta onde, ao preencher corretamente os campos indicados com dados compatíveis com os mesmos, consegue criar sua nova conta e é direcionado a página "Home" do site. Notou-se também que, caso o usuário não preencha todos os campos com dados compatíveis, o site apresenta um alerta em cor chamativa que conversa com o usuário e orienta sobre o cadastro. O mesmo ocorre com os campos de confirmação como o "Confirmar senha". A responsividade também foi testada e apresentou resultados positivos|
-| Responsável pela execução do caso de Teste | João Victor|
-
-<p><b> - Teste executado para verificar a possibilidade do usuário criar seu cadastro no website.</b></p>
-
-<hr>
-
-
 
 
  ### Caso de Teste - 07
