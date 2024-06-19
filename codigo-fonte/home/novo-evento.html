@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
     <link href="style/modal.css">
+    <link href="style/modal.css" rel="stylesheet">
 
 </head>
 <body>
@@ -83,5 +84,23 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="script/app.js"></script>
 <script src="novo-evento.js"></script>
+<script>
+    document.querySelector('.btn-primary').addEventListener('click', function (event) {
+        event.preventDefault();
+        alert('Presença Confirmada com Sucesso!');
+        document.querySelector('.mensagem-modal').textContent = 'Presença confirmada com sucesso!';
+    });
+
+    // Evento para abrir o modal de notificações
+    document.getElementById('notificacao').addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById('modalNotificacao').showModal();
+    });
+
+    // Evento para fechar o modal de notificações
+    document.getElementById('fechar-dialog').addEventListener('click', function () {
+        document.getElementById('modalNotificacao').close();
+    });
+</script>
 </body>
 </html>
