@@ -7,7 +7,6 @@
   <a href="https://github.com/user-attachments/files/15920128/slide.even.tracker.pdf">Apresentação de Slides - Even Tracker</a>.
 </p>
 
-[Apresentação - Even Tracker.pdf] https://github.com/user-attachments/files/15920128/slide.even.tracker.pdf
 
 
 ## Vídeo de apresentação
