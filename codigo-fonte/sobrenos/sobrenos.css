@@ -222,7 +222,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     list-style: none;
     padding: 0.600rem 1.10rem;
 }
