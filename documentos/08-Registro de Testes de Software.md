@@ -109,8 +109,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 |Caso de Teste    | CT-06 - Verificar a página "Detalhes de Eventos". |
 |:---|:---|
-| Resultados obtidos |Os teste solicitado foi realizado com êxito. Ao clicar no evento selecionado em "Saiba mais", é possível visualizar detalhadamente informações como data, local, horário, comfirmar presença e entre outros detalhes pertinentes.
-|
+| Resultados obtidos |Os teste solicitado foi realizado com êxito. Ao clicar no evento selecionado em "Saiba mais", é possível visualizar detalhadamente informações como data, local, horário, comfirmar presença e entre outros detalhes pertinentes.|
 | Responsável pela execução do caso de Teste | Alessandro|
 
 <p><b> - Teste executado para verificar se página "Detalhes de Eventos" irá fornecer informações precisas quando o usuário clicar no button "Saiba Mais".</b></p>
