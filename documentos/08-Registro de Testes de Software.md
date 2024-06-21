@@ -25,6 +25,10 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/a16c19fb-5058-4f79-be0b-7da347887aab
 
 
+<p><b> - Teste executado para verificar a reponsividade da tela do "Login".</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/ad28aa16-5d22-4f6b-aa78-bd85fae25184
+
 <hr>
 
 
@@ -105,7 +109,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 |Caso de Teste    | CT-06 - Verificar a página "Detalhes de Eventos". |
 |:---|:---|
-| Resultados obtidos |O teste solicitado foi realizado com êxito. Ao clicar no evento selecionado em "Saiba mais", é possível visualizar detalhadamente informações como data, local, horário, entre outros detalhes pertinentes ao evento.|
+| Resultados obtidos |Os teste solicitado foi realizado com êxito. Ao clicar no evento selecionado em "Saiba mais", é possível visualizar detalhadamente informações como data, local, horário, comfirmar presença e entre outros detalhes pertinentes.
+|
 | Responsável pela execução do caso de Teste | Alessandro|
 
 <p><b> - Teste executado para verificar se página "Detalhes de Eventos" irá fornecer informações precisas quando o usuário clicar no button "Saiba Mais".</b></p>
@@ -113,6 +118,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/2f47bdfc-e658-4f56-b259-301f83845947
 
+<p><b> - Teste executado para verificar a reponsividade da tela do "Detalhes de Eventos".</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/74fc7459-de54-4e35-8542-0ed046012564
+
+<p><b> - Teste executado para verificar o alerta no botão de confirmação de presença.</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164437174/750b8d38-c07c-400e-bc5e-029e6c8ae486
 
 <hr>
 
