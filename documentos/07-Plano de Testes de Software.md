@@ -157,7 +157,7 @@ Pré-requisitos:
    <td>CT-06: Verificar se a página "Detalhes de Eventos" contém informações claras aos usuários.</td>
     <td><p> RF-06: A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
         <p> RF-07: A aplicação deve permitir ao participante visualizar informações sobre o evento, como, imagem publicada pelo criador, descrição do evento e suas atrações, nome do criador e se o evento foi cancelado ou adiado</p>
-        <p> RF:06:A aplicação deve apresentar os dados acerca dos eventos, bem como, local de realização, data e horário.</p>
+        <p> RF-09 A aplicação deve emitir um alerta no botão de confirmação de presença.</p>
     </td>
   <td>• Avaliar se a página "Detalhes de Eventos irá fornecer informações precisas quando o usuário clicar no button "Saiba Mais </td>
     <td>
