@@ -11,7 +11,11 @@
 
 ## Vídeo de apresentação
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/32fb2393-e1d2-4937-8142-57c6cb68843f
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/c8860fca-2b3e-437d-b21b-ec76d4591e6b
+
+
+
 
 
 ## Hospedagem
