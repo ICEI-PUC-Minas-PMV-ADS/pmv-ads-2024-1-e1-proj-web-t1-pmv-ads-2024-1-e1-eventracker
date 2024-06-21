@@ -87,10 +87,18 @@ Pré-requisitos:
   <tr>
    </td>
    </table>
-  
-<hr>
-    <table>
-   <td>CT-04: Verificar a possibilidade do usuário Cadastrar seu Evento </td>
+
+   <table border="1">
+    <col>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivos dos Testes</th>
+   <th>Passos</th>
+   <th>Critérios de Êxito</th>  
+   <th>Responsável</th>  
+  </tr>
+    <td>CT-04: Verificar a possibilidade do usuário Cadastrar seu Evento </td>
     <td><p>RF-04: A aplicação deve permitir ao usuário que crie seu próprio evento.</p>
     <p> RF-08 A aplicação deve separar os eventos por categorias.</p>  
     </td>
@@ -102,11 +110,11 @@ Pré-requisitos:
      <p>04) Deve-se deixar de forma intencional algumas informações sem o devido preenchimento e observar se o usuário será reletado sobre as informações que devem ser digitadas.</p> 
     </td>
     <td> O usuário deve finalizar o Cadastro de seu Evento de forma compreensível.</td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• João Victor</td>  
   <tr>
-   </td>   
-</table>
-
+   </td>
+   </table>
+  
 <hr>
 
 <table border="1">

@@ -97,3 +97,19 @@ M
 codigo-fonte/home/afrobr.html,0\0\0045c477feffffd51fc1cb47ea07e5817ca3c1f1
 O
 codigo-fonte/home/museupuc.html,c\9\c9019bec0c801e0677c25e3f13cfe0155b993061
+P
+ codigo-fonte/home/casabaile.html,a\b\ab67ef041ddaae467c0d064d06cc0603561ea561
+O
+codigo-fonte/home/cyberart.html,d\4\d40eb8fa12ba9b3272526e23e13900262b231e76
+P
+ codigo-fonte/home/guanabara.html,4\e\4e9e91a9ccd861f7c38a99bbb854eae22dbcc6d8
+N
+codigo-fonte/home/inhotim.html,4\f\4f46fca3a1889c1e288ec3d57bde209f37aeb4de
+U
+%codigo-fonte/home/mercadocentral.html,b\a\bab37bda583b63c213389ef9aedb7f57fc1705f1
+R
+"codigo-fonte/home/mercadonovo.html,e\7\e7b43916e92cee20082b8aec47dc4fa1a7e28f8e
+O
+codigo-fonte/home/mineirao.html,e\c\ec8353f717e89016e9c4e8b69c6c77d2c4b8e58b
+V
+&codigo-fonte/home/parquemunicipal.html,4\0\40a0ef0a859b6b6390291fdc7c2e9359f77cd354

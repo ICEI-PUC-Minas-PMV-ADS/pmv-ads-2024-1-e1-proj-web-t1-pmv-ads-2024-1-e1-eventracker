@@ -7,7 +7,9 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+    <link href="style/modal.css" rel="stylesheet">
     <style>p .info { font-weight: bold; }</style>
+    <script defer src="notificacao.js"></script>
 </head>
 
 <body>
@@ -43,12 +45,21 @@
                     </li><li class="nav-item mx-2">
                     <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
                 </li>
+                    <div class="modal-notificacao">
+                        <dialog class="borda-arredondada" id="modalNotificacao">
+                            <h2>Notificações</h2>
+                            <p class="mensagem-modal">
+                                Não há notificações no momento.
+                            </p>
+                            <button id="fechar-dialog2">Fechar</button>
+                        </dialog>
+                    </div>
                 </ul>
                 <!--Link Login e Cadastre-se-->
                 <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
                     <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
                     <a href="../nova-conta/index.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
-                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
+                    <a href="#" id="notificacao"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
                 </div>
             </div>
         </div>
@@ -79,7 +90,7 @@
             uma oportunidade única para celebrar a diversidade e reconhecer as contribuições fundamentais da comunidade
             afrodescendente para a riqueza cultural do Brasil. Venha se encantar e se inspirar nesta jornada pela arte e pela
             história afro-brasileira!
-            </div>
+    </div>
     <div class="container d-flex justify-content-center align-items-center botao">
         <a href="#" class="btn btn-primary confirmar-presenca myButton">Confirmar Presença</a>
     </div>
@@ -95,5 +106,20 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="script/app.js"></script>
+<script>
+    document.querySelector('.confirmar-presenca').addEventListener('click', function (event) {
+        event.preventDefault();
+        alert('Presença Confirmada com Sucesso!');
+        document.querySelector('.mensagem-modal').textContent = 'Presença confirmada com sucesso!';
+    });
+
+    document.getElementById('notificacao').addEventListener('click', function () {
+        document.getElementById('modalNotificacao').showModal();
+    });
+
+    document.getElementById('fechar-dialog2').addEventListener('click', function () {
+        document.getElementById('modalNotificacao').close();
+    });
+</script>
 </body>
 </html>

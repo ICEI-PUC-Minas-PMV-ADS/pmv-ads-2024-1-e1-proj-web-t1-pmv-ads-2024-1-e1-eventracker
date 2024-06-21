@@ -46,6 +46,29 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 <hr>
 
 
+ ### Caso de Teste - 04
+
+|Caso de Teste    | CT-04: Verificar a possibilidade do usuário Cadastrar seu Evento. |
+|:---|:---|
+| Resultados obtidos |Observa-se que o teste apresentou êxito ao ser executado pois ao acessar a página de cadastro de evento e preencher corretamente as informações solicitadas no formulário, pode se notar que o sistema notifica o usuario de que o evento foi cadastrado e o mesmo aparece na lista de eventos ao voltar para a página "Home".Notou-se também que o site está validando se todas as informações foram preenchidas e comunica ao usuário caso alguma esteja fora do requerido. A responsividade também foi testada e apresentou resultados positivos|
+| Responsável pela execução do caso de Teste | João Victor|
+
+<p><b> - Teste executado para verificar o funcionamento do cadastro de "Novo Evento".</b></p>
+
+
+<p><b> - Teste executado para verificar o funcionamento da validação dos campos do formulario de "Novo Evento".</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/87983c9c-7547-478f-bd25-437e63099064
+
+
+<p><b> - Teste executado para verificar a responsividade da página de cadastro de novo evento.</b></p>
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/127625133/31d202ba-d52a-4978-8ce5-38610c026932
+
+<hr>
+
  ### Caso de Teste - 05
 
 |Caso de Teste    | CT-05: Verificar a possibilidade do usuário criar seu cadastro no website. |

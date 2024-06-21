@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
     <style>p .info { font-weight: bold; }</style>
+    <link href="style/modal.css" rel="stylesheet">
+    <script defer src="notificacao.js"></script>
 </head>
 
 <body>
@@ -40,15 +42,26 @@
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link fonte-corpo-barra" href="../sobrenos/sobrenos.html">SOBRE NÓS</a>
-                    </li><li class="nav-item mx-2">
-                    <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
-                </li>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fonte-corpo-barra" href="../searchbar/index.html">BUSCAR EVENTOS</a>
+                    </li>
+                    <div class="modal-notificacao">
+                        <dialog class="borda-arredondada" id="modalNotificacao">
+                            <h2>Notificações</h2>
+                            <p class="mensagem-modal">
+                                Não há notificações no momento.
+                            </p>
+                            <button id="fechar-dialog">Fechar</button>
+                        </dialog>
+                    </div>
                 </ul>
                 <!--Link Login e Cadastre-se-->
                 <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
                     <a href="../login/login.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">LOGIN</a>
                     <a href="../nova-conta/index.html" class="fonte-corpo-barra text-decoration-none px-3 py-1 bg-primary rounded-4">CADASTRE-SE</a>
-                    <a href="#"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
+                    <!-- Adicionando id ao link de notificação -->
+                    <a href="#" id="notificacao"><img src="img/bell.svg" alt="notification icon" class="icn-notificacao"></a>
                 </div>
             </div>
         </div>
@@ -81,7 +94,7 @@
             do Baile permitirão uma imersão prática na história e nas perspectivas futuras da arquitetura. Este simpósio promete
             ser uma oportunidade única para aprender, inspirar-se e conectar-se com a vanguarda da arquitetura moderna. Venha
             fazer parte deste evento enriquecedor e celebrar a arquitetura na Casa do Baile!
-            </div>
+    </div>
     <div class="container d-flex justify-content-center align-items-center botao">
         <a href="#" class="btn btn-primary">Confirmar Presença</a>
     </div>
@@ -93,9 +106,23 @@
     </div>
 </footer>
 
-
-
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="script/app.js"></script>
+<script>
+    document.querySelector('.btn-primary').addEventListener('click', function (event) {
+        event.preventDefault();
+        alert('Presença Confirmada com Sucesso!');
+        document.querySelector('.mensagem-modal').textContent = 'Presença confirmada com sucesso!';
+    });
+
+    document.getElementById('notificacao').addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById('modalNotificacao').showModal();
+    });
+
+    document.getElementById('fechar-dialog').addEventListener('click', function () {
+        document.getElementById('modalNotificacao').close();
+    });
+</script>
 </body>
 </html>

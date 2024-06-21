@@ -30,6 +30,22 @@ document.addEventListener("DOMContentLoaded", function() {
 <!--                    height: 300px; !important;-->
 <!--                }-->
 <!--            </style>-->
+<script>
+    document.querySelector('.btn-primary').addEventListener('click', function (event) {
+        event.preventDefault();
+        alert('Presença Confirmada com Sucesso!');
+        document.querySelector('.mensagem-modal').textContent = 'Presença confirmada com sucesso!';
+    });
+
+    document.getElementById('notificacao').addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById('modalNotificacao').showModal();
+    });
+
+    document.getElementById('fechar-dialog').addEventListener('click', function () {
+        document.getElementById('modalNotificacao').close();
+    });
+</script>
         `;
 
     corpo.insertAdjacentHTML('beforeend', novoDetalhe);
