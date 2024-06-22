@@ -182,8 +182,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
                                                                                                                                                                        
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164433651/9f7b4a06-301b-4874-b0d4-91b5395de25d
 
-
-<hr>
 <p><b> - Teste executado sobre a Responsividade da página "Sobre Nós".</b></p>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164433651/ab781da4-5509-452f-9441-783b3202823a
