@@ -12,6 +12,21 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 [Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
 
+ ### Caso de Teste - 01
+
+|Caso de Teste    | CT-01: O website deverá ser responsivo e permitir a visualização em dispositivos diversos de forma satisfatória. |
+|:---|:---|
+| Resultados obtidos|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur imperdiet risus id mattis. Vivamus vitae leo varius, consequat mauris in, dapibus turpis. Donec vitae nunc rhoncus, facilisis lorem vel, maximus diam. Donec sit amet augue lectus. Morbi et ante aliquet, pellentesque ipsum at, eleifend lacus. Nullam dignissim malesuada ligula, et lobortis lectus suscipit eget.|
+| Responsável pela execução do caso de Teste | André|
+
+<p><b> - The quick brown fox jumps over the lazy dog.</b></p>
+
+
+<p><b> - The quick brown fox jumps over the lazy dog.</b></p>
+
+
+<hr>
+
  ### Caso de Teste - 02
 
 |Caso de Teste    | CT-02: Verificar o Login de usuários. |
