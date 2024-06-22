@@ -27,7 +27,7 @@ Pré-requisitos:
     <td>• Garantir a boa usabilidade do conteúdo de uma página, quando o usuário interagir, independentemente do dispositivo tecnológico o website deve ser adaptado.</td>
     <td>• Deve-se abrir o website, testar no computador e no dispositivo móvel. Dessa forma, irá observar se o website está em conformidade e com as funcionalidades adequadas dos aparelhos utilizados.</td>
     <td>• O website deve adaptar-se e garantir boa usuabilidade ao usuário quando utilizado no dispositivo móvel e no computador.</td>  
- <td>• A combinar. (próxima etapa)</td>     
+ <td>• André</td>     
   <tr>
    </td>
    
