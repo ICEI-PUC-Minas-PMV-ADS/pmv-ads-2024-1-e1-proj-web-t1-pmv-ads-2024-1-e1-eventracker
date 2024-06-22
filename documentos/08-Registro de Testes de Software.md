@@ -155,7 +155,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
   <img src="img/pagina_buscareventos.png"> <figcaption> Figura 23 - Tela Buscar Eventos</figcaption>
 </figure>
 
-<hr>
 <p><b> - Teste executado sobre a Responsividade da página "Buscar Eventos".</b></p>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/89aca15a-8a38-426b-b42d-626e916b338c
