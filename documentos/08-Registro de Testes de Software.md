@@ -21,11 +21,15 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 <p><b> - Teste executado para verificar a responsividade da aplicação em um computador.</b></p>
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/0ad50c44-23de-4a54-acfb-e75bba4866fd
 
 <p><b> - Teste executado para verificar a responsividade da aplicação em um smartphone (iPhone SE)</b></p>
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/61f92196-15f6-4a93-ac2f-b7da326a21ab
 
 <p><b> - Teste executado para verificar a responsividade da aplicação em um tablet (iPad Mini)</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/cbc32a65-d806-4d8f-9f8f-f283be86311a
 
 
 <hr>
