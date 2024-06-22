@@ -16,13 +16,16 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 |Caso de Teste    | CT-01: O website deverá ser responsivo e permitir a visualização em dispositivos diversos de forma satisfatória. |
 |:---|:---|
-| Resultados obtidos|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur imperdiet risus id mattis. Vivamus vitae leo varius, consequat mauris in, dapibus turpis. Donec vitae nunc rhoncus, facilisis lorem vel, maximus diam. Donec sit amet augue lectus. Morbi et ante aliquet, pellentesque ipsum at, eleifend lacus. Nullam dignissim malesuada ligula, et lobortis lectus suscipit eget.|
+| Resultados obtidos|Observa-se que o teste apresentou êxito parcialmente ao ser executado. Foram realizados testes numa tela normal de computador e em duas simulações: uma de smartphone, outra de tablet. A aplicação apresenta boa responsividade em praticamente todas as telas, porém houve um problema com a apresentação da tela "Sobre Nós" na simulação de um tablet (iPad Mini). O layout ficou cortado, saindo do padrão das outras telas e a navbar não foi redimensionada a um menu hamburguer. Apesar disso, no restante das telas a aplicação oferece visualização de forma satisfatória.|
 | Responsável pela execução do caso de Teste | André|
 
-<p><b> - The quick brown fox jumps over the lazy dog.</b></p>
+<p><b> - Teste executado para verificar a responsividade da aplicação em um computador.</b></p>
 
 
-<p><b> - The quick brown fox jumps over the lazy dog.</b></p>
+<p><b> - Teste executado para verificar a responsividade da aplicação em um smartphone (iPhone SE)</b></p>
+
+
+<p><b> - Teste executado para verificar a responsividade da aplicação em um tablet (iPad Mini)</b></p>
 
 
 <hr>
