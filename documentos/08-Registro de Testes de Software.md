@@ -81,6 +81,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <p><b> - Teste executado para verificar o funcionamento do cadastro de "Novo Evento".</b></p>
 
+https://vimeo.com/963821360?share=copy
 
 <p><b> - Teste executado para verificar o funcionamento da validação dos campos do formulario de "Novo Evento".</b></p>
 
