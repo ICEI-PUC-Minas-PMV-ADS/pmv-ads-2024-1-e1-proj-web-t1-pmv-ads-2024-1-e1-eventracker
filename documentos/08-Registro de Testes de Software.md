@@ -16,7 +16,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 |Caso de Teste    | CT-01: O website deverá ser responsivo e permitir a visualização em dispositivos diversos de forma satisfatória. |
 |:---|:---|
-| Resultados obtidos|Observa-se que o teste apresentou êxito parcialmente ao ser executado. Foram realizados testes numa tela normal de computador e em duas simulações: uma de smartphone, outra de tablet. A aplicação apresenta boa responsividade em praticamente todas as telas, porém houve um problema com a apresentação da tela "Sobre Nós" na simulação de um tablet (iPad Mini). O layout ficou cortado, saindo do padrão das outras telas e a navbar não foi redimensionada a um menu hamburguer. Apesar disso, no restante das telas a aplicação oferece visualização de forma satisfatória.|
+| Resultados obtidos|Observa-se que o teste apresentou êxito parcialmente ao ser executado. Foram realizados testes numa tela normal de computador e em duas simulações: uma de smartphone, outra de tablet. A aplicação apresenta boa responsividade em praticamente todas as telas, porém houve um problema com a apresentação da tela "Sobre Nós" na simulação do smartphone e do tablet (iPhone SE e iPad Mini). No caso do smartphone, o menu hamburger está cortado em relação ao layout. Para o tablet, o layout ficou cortado, saindo do padrão das outras telas e a navbar não foi redimensionada a um menu hamburguer. Apesar disso, no restante das telas a aplicação oferece visualização de forma satisfatória.|
 | Responsável pela execução do caso de Teste | André|
 
 <p><b> - Teste executado para verificar a responsividade da aplicação em um computador.</b></p>
