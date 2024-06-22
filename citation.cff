@@ -1,0 +1,29 @@
+message: Please cite this software using these metadata.
+title: EVENTRACKER
+authors:
+  - family-names: Santos Pedroso
+    given-names: André
+  - family-names: Paulista Freitas
+    given-names: Alessandro
+  - family-names: Victor Kalil de Almeida Lapa 
+    given-names: João
+  - family-names: Monik Moraes Silva
+    given-names: Juliana
+  - family-names: Siqueira Ribeiro 
+    given-names: Lucas 
+  - family-names: Thales Alves de Azevedo Neto 
+    given-names: Mauricio 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce
+keywords:
+  - Eventos
+  - Planejamento
+  - Show
+  - Divulgação
+  - Encontros
+  - Networking
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker
+version: 1.0.0
+date-released: 2024-06-22
