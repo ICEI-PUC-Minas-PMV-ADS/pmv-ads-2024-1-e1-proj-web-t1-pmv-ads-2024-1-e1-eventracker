@@ -170,3 +170,22 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <hr>
 
+
+### Caso de Teste - 08
+
+|Caso de Teste    | CT-08: Verificar se a página "Sobre Nós" contém informações explicitando o motivo do projeto, analisar se os botões de navegação direcionam corretamente para as páginas dos usuários e verificar se a página possui responsividade.
+|:---|:---|
+| Resultados obtidos |Observa-se que os testes foram bem-sucedidos. A página "Sobre Nós" contém informações claras e detalhadas sobre o motivo do projeto. Os botões de navegação funcionam corretamente, direcionando os usuários para as páginas adequadas. Além disso, a página possui responsividade, adaptando-se corretamente em dispositivos móveis e computadores.|
+| Responsável pela execução do caso de Teste | Maurício|
+
+<p><b> - Teste executado para analisar se a página "Sobre Nós" contém informações claras sobre o motivo do projeto e se os botões de navegação funcionam corretamente.</b></p>
+                                                                                                                                                                       
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164433651/9f7b4a06-301b-4874-b0d4-91b5395de25d
+
+
+<hr>
+<p><b> - Teste executado sobre a Responsividade da página "Sobre Nós".</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164433651/ab781da4-5509-452f-9441-783b3202823a
+
+<hr>
