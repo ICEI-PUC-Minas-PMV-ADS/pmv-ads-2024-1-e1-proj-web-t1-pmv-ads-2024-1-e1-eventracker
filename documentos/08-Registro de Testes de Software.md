@@ -3,14 +3,30 @@
 Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
 <span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/blob/main/documentos/07-Plano%20de%20Testes%20de%20Software.md"> Plano de Testes de Software</a>
 
-Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
+Os resultados dos testes funcionais realizados na aplicação são descritos a seguir.
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+
+ ### Caso de Teste - 01
+
+|Caso de Teste    | CT-01: O website deverá ser responsivo e permitir a visualização em dispositivos diversos de forma satisfatória. |
 |:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+| Resultados obtidos|Observa-se que o teste apresentou êxito parcialmente ao ser executado. Foram realizados testes numa tela normal de computador e em duas simulações: uma de smartphone, outra de tablet. A aplicação apresenta boa responsividade em praticamente todas as telas, porém houve um problema com a apresentação da tela "Sobre Nós" na simulação do smartphone e do tablet (iPhone SE e iPad Mini). No caso do smartphone, o menu hamburger está cortado em relação ao layout. Para o tablet, o layout ficou cortado, saindo do padrão das outras telas e a navbar não foi redimensionada a um menu hamburguer. Apesar disso, no restante das telas a aplicação oferece visualização de forma satisfatória.|
+| Responsável pela execução do caso de Teste | André|
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+<p><b> - Teste executado para verificar a responsividade da aplicação em um computador.</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/0ad50c44-23de-4a54-acfb-e75bba4866fd
+
+<p><b> - Teste executado para verificar a responsividade da aplicação em um smartphone (iPhone SE)</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/61f92196-15f6-4a93-ac2f-b7da326a21ab
+
+<p><b> - Teste executado para verificar a responsividade da aplicação em um tablet (iPad Mini)</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/157080144/cbc32a65-d806-4d8f-9f8f-f283be86311a
+
+
+<hr>
 
  ### Caso de Teste - 02
 
@@ -59,6 +75,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 <p><b> - Teste executado para verificar o funcionamento do cadastro de "Novo Evento".</b></p>
 
+https://vimeo.com/963821360?share=copy
 
 <p><b> - Teste executado para verificar o funcionamento da validação dos campos do formulario de "Novo Evento".</b></p>
 
@@ -140,10 +157,27 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
   <img src="img/pagina_buscareventos.png"> <figcaption> Figura 23 - Tela Buscar Eventos</figcaption>
 </figure>
 
-<hr>
+<br>
 <p><b> - Teste executado sobre a Responsividade da página "Buscar Eventos".</b></p>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/134242381/89aca15a-8a38-426b-b42d-626e916b338c
 
 <hr>
 
+
+### Caso de Teste - 08
+
+|Caso de Teste    | CT-08: Verificar se a página "Sobre Nós" contém informações explicitando o motivo do projeto, analisar se os botões de navegação direcionam corretamente para as páginas dos usuários e verificar se a página possui responsividade.
+|:---|:---|
+| Resultados obtidos |Observa-se que os testes foram bem-sucedidos. A página "Sobre Nós" contém informações claras e detalhadas sobre o motivo do projeto. Os botões de navegação funcionam corretamente, direcionando os usuários para as páginas adequadas. Além disso, a página possui responsividade, adaptando-se corretamente em dispositivos móveis e computadores.|
+| Responsável pela execução do caso de Teste | Maurício|
+
+<p><b> - Teste executado para analisar se a página "Sobre Nós" contém informações claras sobre o motivo do projeto e se os botões de navegação funcionam corretamente.</b></p>
+                                                                                                                                                                       
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164433651/9f7b4a06-301b-4874-b0d4-91b5395de25d
+
+<p><b> - Teste executado sobre a Responsividade da página "Sobre Nós".</b></p>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/assets/164433651/ab781da4-5509-452f-9441-783b3202823a
+
+<hr>
