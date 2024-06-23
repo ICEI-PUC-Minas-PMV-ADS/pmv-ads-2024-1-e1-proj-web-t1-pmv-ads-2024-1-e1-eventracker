@@ -113,3 +113,5 @@ O
 codigo-fonte/home/mineirao.html,e\c\ec8353f717e89016e9c4e8b69c6c77d2c4b8e58b
 V
 &codigo-fonte/home/parquemunicipal.html,4\0\40a0ef0a859b6b6390291fdc7c2e9359f77cd354
+T
+$codigo-fonte/searchbar/css/style.css,6\c\6cf2f4aeb7abb74447b9cab18a95ba4fc90c2642
