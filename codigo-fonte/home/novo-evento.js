@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     ${evento.description}
                 </p>
             </div>
-            <div class="container d-flex justify-content-center align-items-center botao">
-                <a href="#" class="btn btn-primary confirmar-presenca">Confirmar Presença</a>
-            </div>
+<!--            <div class="container d-flex justify-content-center align-items-center botao">-->
+<!--                <a href="#" class="btn btn-primary confirmar-presenca">Confirmar Presença</a>-->
+<!--            </div>-->
             
 <!--            <style>-->
 <!--                #imgnovoevento {-->

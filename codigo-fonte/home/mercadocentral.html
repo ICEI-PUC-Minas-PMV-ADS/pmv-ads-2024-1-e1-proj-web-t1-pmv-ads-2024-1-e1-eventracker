@@ -9,6 +9,24 @@
     <link href="style/style.css" rel="stylesheet">
     <style>p .info { font-weight: bold; }</style>
     <link href="style/modal.css" rel="stylesheet">
+    <style>
+        .info { font-weight: bold; }
+        #map-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+            max-width: 500px;
+        }
+    </style>
+    <script defer src="notificacao.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </head>
 
 <body>
@@ -96,6 +114,10 @@
     <div class="container d-flex justify-content-center align-items-center botao">
         <a href="#" class="btn btn-primary">Confirmar Presença</a>
     </div>
+    <span class="info"><h2>Local do Evento:</h2></span>
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
 </div>
 
 <footer class="text-center text-lg-start footer-color">
@@ -121,5 +143,30 @@
         document.getElementById('modalNotificacao').close();
     });
 </script>
+
+<script>
+    let map;
+
+    async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+        const myLatLng = { lat: -19.92258208310984, lng: -43.94293504110454 }
+
+        map = new Map(document.getElementById("map"), {
+            center: { lat: -19.92258208310984, lng: -43.94293504110454 },
+            zoom: 14,
+        });
+
+        new google.maps.Marker({
+            position: myLatLng,
+            map,
+            title: "Mercado Central",
+        });
+    }
+
+
+    initMap();
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgXtFVJSVVSuNwI25ISkFfjToTQhUn_mI&callback=initMap" async defer></script>
 </body>
 </html>
