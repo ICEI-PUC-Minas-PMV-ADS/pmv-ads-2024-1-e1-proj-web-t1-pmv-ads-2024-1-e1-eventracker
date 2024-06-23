@@ -37,7 +37,13 @@
 </ol>
 
 # Hospedagem
-* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/TelaMenu/index.html
+<p>A aplicação criada no eixo 01 foi focada no aprendizado de HTML/CSS/JS,praticando-se dessa forma o desenvolvimento web Front-End. 
+  <br>
+Utilizou-se a plataforma GitHub Pages como local de hospedagem do site do projeto, no qual pode ser visualizado tanto em servidores como em navegadores web.</p> 
+
+ <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-eventracker/codigo-fonte/TelaMenu/index.html">Clique aqui para acessá-lo.</a>
+
+
 # Código-Fonte
 * <a href="codigo-fonte/README.md">Código Fonte</a>
 
