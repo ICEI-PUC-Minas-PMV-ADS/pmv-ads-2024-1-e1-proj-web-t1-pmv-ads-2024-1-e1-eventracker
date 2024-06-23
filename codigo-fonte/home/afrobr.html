@@ -8,8 +8,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
     <link href="style/modal.css" rel="stylesheet">
-    <style>p .info { font-weight: bold; }</style>
+    <style>
+        .info { font-weight: bold; }
+        #map-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+            max-width: 500px;
+        }
+    </style>
     <script defer src="notificacao.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </head>
 
 <body>
@@ -94,6 +110,10 @@
     <div class="container d-flex justify-content-center align-items-center botao">
         <a href="#" class="btn btn-primary confirmar-presenca myButton">Confirmar Presença</a>
     </div>
+    <span class="info"><h2>Local do Evento:</h2></span>
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
 </div>
 
 <footer class="text-center text-lg-start footer-color">
@@ -101,8 +121,6 @@
         <h3 class="c-text">© 2024 Copyright: <a class="c-link" href="index.html">EvenTracker.com</a></h3>
     </div>
 </footer>
-
-
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="script/app.js"></script>
@@ -121,5 +139,30 @@
         document.getElementById('modalNotificacao').close();
     });
 </script>
+
+<script>
+    let map;
+
+    async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+        const myLatLng = { lat: -19.932001853734327, lng: -43.93730436284491 }
+
+        map = new Map(document.getElementById("map"), {
+            center: { lat: -19.932001853734327, lng: -43.93730436284491 },
+            zoom: 14,
+        });
+
+        new google.maps.Marker({
+            position: myLatLng,
+            map,
+            title: "Exposição - Arte Afro-Brasileira",
+        });
+    }
+
+
+    initMap();
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgXtFVJSVVSuNwI25ISkFfjToTQhUn_mI&callback=initMap" async defer></script>
 </body>
 </html>
